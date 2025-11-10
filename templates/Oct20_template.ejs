@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/add" method="post">
+      <input type="text" placeholder="Enter here..." name="textInput" />
+      <button>Add</button>
+    </form>
+
+    <table border="1">
+      <tr>
+        <th>#</th>
+        <th>
+            <span>Todos</span>
+            <a href="/sort/name?order=desc">🔻</a>
+            <a href="/sort/name?order=asc">🔺</a>
+        </th>
+        <th>
+            <span>Date</span>
+            <a href="/sort/date?order=desc">🔻</a>
+            <a href="/sort/date?order=asc">🔺</a>
+        </th>
+        <th>
+            <span>Check</span>
+            <a href="/sort/isCompleted?order=desc">🔻</a>
+            <a href="/sort/isCompleted?order=asc">🔺</a>
+        </th>
+      </tr>
+
+      <% for (let i = 0; i < todos.length; i++) {%>
+      <tr>
+        <td><%= i+1 %></td>
+        <td>
+          <span style="text-decoration: <%= todos[i].isCompleted ? "line-through" : "none" %>;">
+            <%= todos[i].content %>
+          </span>
+        </td>
+        <td><%= todos[i].date.toLocaleString("en-GB")%></td>
+        <td>
+          <input type="checkbox" id="<%= todos[i].id%>" class="checkbox" <%= todos[i].isCompleted ? 'checked' : '' %>/>
+        </td>
+      </tr>
+      <% } %>
+    </table>
+
+    <script>
+
+        const checkBoxes = document.querySelectorAll(".checkbox");
+        checkBoxes.forEach((checkBox) => {
+            checkBox.addEventListener("change", () => {
+            fetch(`/check/${checkBox.id}`, {
+                redirect: "follow",
+            }).then(() => {
+                window.location.reload();
+            });
+            });
+        });
+    </script>
+  </body>
+</html>

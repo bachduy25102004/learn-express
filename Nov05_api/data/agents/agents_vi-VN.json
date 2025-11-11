@@ -1,0 +1,1883 @@
+[
+    {
+        "uuid": "e370fa57-4757-3604-3648-499e1f642d3f",
+        "displayName": "Gekko",
+        "description": "Gekko - gã trai phố thị L.A. - là người dẫn đầu biệt đội toàn những sinh vật \"lắm chiêu\" và rất thân thiết. Gekko đuổi theo những đồng đội đang mải miết lao tới hất tung tất cả kẻ thù đang ngáng đường, ráng sức tập hợp chúng lại để có thể tiếp tục ra chiêu.",
+        "developerName": "Aggrobot",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "backgroundGradientColors": [
+            "c7f458ff",
+            "d56324ff",
+            "3a2656ff",
+            "3a7233ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/AggroBot/AggroBot_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Wingman",
+                "description": "TRANG BỊ Wingman. BẮN để phóng Wingman ra phía trước tìm kẻ địch. Wingman phát ra xung chấn làm choáng kẻ địch đầu tiên nhìn thấy. BẮN PHỤ khi chỉ tâm ngắm vào khu vực đặt Spike hoặc Spike đã được đặt để Wingman đặt hoặc gỡ Spike. Để đặt Spike, Gekko phải có Spike trong kho đồ. Khi Wingman hết thời gian hiệu lực, cậu sẽ tiêu biến thành một tiểu thể không hoạt động. TƯƠNG TÁC để thu hồi tiểu thể và nhận thêm 1 lượt dùng Wingman sau khoảng thời gian hồi chiêu ngắn.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Dizzy",
+                "description": "TRANG BỊ Dizzy. BẮN để cử Dizzy bay vút thẳng lên không trung. Dizzy vận sức, sau đó phóng ra tia plasma lên những kẻ địch trong tầm nhìn. Kẻ địch trúng tia plasma sẽ bị Mù. Khi Dizzy hết thời gian hiệu lực, cô sẽ tiêu biến thành một tiểu thể không hoạt động. TƯƠNG TÁC để thu hồi tiểu thể và nhận thêm 1 lượt dùng Dizzy sau khoảng thời gian hồi chiêu ngắn.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bãi Mìn Của Mosh",
+                "description": "TRANG BỊ Mosh. BẮN để quăng Mosh như trái lựu đạn. BẮN PHỤ để ném cao. Sau khi đáp đất, Mosh phân tách bản thân ra một khu vực rộng hơn và gây lượng sát thương nhỏ theo thời gian, rồi phát nổ sau khoảng chờ ngắn.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thrash",
+                "description": "TRANG BỊ Thrash. BẮN để kết nối với tâm trí của Thrash và điều khiển nó xuyên qua lãnh địa của kẻ thù. KÍCH HOẠT để lao về phía trước và phát nổ, Giam Cầm mọi kẻ địch trong một phạm vi nhỏ. Khi Thrash hết thời gian hiệu lực, nó sẽ tiêu biến thành một tiểu thể không hoạt động. TƯƠNG TÁC để thu hồi tiểu thể và nhận thêm 1 lượt dùng Thrash sau khoảng thời gian hồi chiêu ngắn. Có thể thu hồi Thrash một lần.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "displayName": "Fade",
+        "description": "Fade - thợ săn tiền thường tới từ Thổ Nhĩ Kỳ, người điều khiển sức mạnh ác mộng để chiếm đoạt những bí mật của kẻ thù. Là hiện thân của sự sợ hãi, cô ấy săn đuổi và khai thác những nỗi sợ sâu thẳm nhất của mục tiêu - trước khi nghiền nát chúng trong bóng tối.",
+        "developerName": "BountyHunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "backgroundGradientColors": [
+            "b1414cff",
+            "5589bdff",
+            "18344cff",
+            "66376cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Bẫy Ác Mộng",
+                "description": "TRANG BỊ 1 nút thắt chứa đầy ác mộng kinh hoàng. BẮN để ném. Nút thắt sẽ rơi xuống sau 1 khoảng thời gian cố định. TÁI SỬ DỤNG để thả sớm. Nút thắt sẽ đứt ra khi va chạm, giam giữ những kẻ địch gần bên. Những kẻ địch bị giam giữ sẽ mất đi Thính Giác và chịu Phân Rã.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Mắt Quỷ",
+                "description": "TRANG BỊ 1 mắt quỷ. BẮN để ném. Mắt quỷ sẽ rơi xuống sau 1 khoảng thời gian cố định. TÁI SỬ DỤNG để thả mắt quỷ sớm. Mắt quỷ sẽ kích hoạt khi va chạm, làm Lộ Diện những kẻ địch trong tầm nhìn của nó và tạo dấu vết kinh hoàng tới vị trí của chúng. Kẻ địch có thể phá hủy mắt quỷ.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Dạ Quỷ",
+                "description": "TRANG BỊ một dạ quỷ. BẮN để giải phóng dạ quỷ về phía trước. GIỮ BẮN để điều khiển hướng di chuyển của dạ quỷ theo tâm ngắm của bạn. Dạ quỷ sẽ đuổi theo kẻ địch hoặc dấu vết kinh hoàng đầu tiên nó nhìn thấy và gây Hạn Chế Tầm Nhìn của kẻ địch khi chạm vào chúng.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Bóng Đêm Bao Trùm",
+                "description": "TRANG BỊ nguồn sức mạnh ác mộng. BẮN để phóng ra một đợt sóng năng lượng ác mộng không thể cản phá. Những kẻ địch bị sóng bắn trúng sẽ bị Đánh Dấu bởi dấu vết kinh hoàng, mất đi Thính Giác và chịu Phân Rã.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "Breach",
+        "description": "Breach, gã Thụy Điển với thân hình đầy máy móc, có thể bắn ra các luồng năng lượng động học mạnh mẽ tới mục tiêu và mở đường xuyên qua lãnh địa của đối phương. Với sát thương đáng kể cùng khả năng gây rối, Breach luôn đảm bảo đồng đội chiếm được thế thượng phong khi giao chiến.",
+        "developerName": "Breach",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "backgroundGradientColors": [
+            "ff9c33ff",
+            "b04621ff",
+            "523a23ff",
+            "44412eff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Điểm Sáng",
+                "description": "TRANG BỊ một đạn Mù. BẮN để phóng một viên đạn siêu tốc xuyên qua tường. Khi phát nổ sẽ làm Mù tất cả người chơi trong phạm vi tầm nhìn của viên đạn.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Địa Chấn",
+                "description": "TRANG BỊ một Đạn Xung Chấn. GIỮ BẮN để tăng khoảng cách. THẢ RA để giải phóng một cơn địa chấn, Làm Choáng tất cả người chơi trong phạm vi ảnh hưởng và trên đường thẳng từ vị trí bắn đến cơn địa chấn.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Dư Chấn",
+                "description": "TRANG BỊ 1 đạn nhiệt hạch. BẮN để phóng 1 viên đạn nổ chậm xuyên qua tường. Khi phát nổ sẽ gây sát thương lớn lên bất cứ ai trong phạm vi ảnh hưởng.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Đại Địa Chấn",
+                "description": "TRANG BỊ một Đầu Đạn Đại Xung Chấn. BẮN để giải phóng một trận động đất qua mọi địa hình trong phạm vi lớn. Cơn địa chấn Làm Choáng và hất tung bất cứ ai trong phạm vi ảnh hưởng.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+        "displayName": "Deadlock",
+        "description": "Đặc Vụ người Na-uy: Deadlock, sử dụng hàng loạt sợi dây nano tân tiến nhằm bảo vệ chiến trường khỏi những đợt công kích nguy hiểm nhất. Chẳng ai có thể thoát khỏi sự truy sát gắt gao, cũng như không thể sống sót trước sự hung dữ ngoan cường của cô ấy.",
+        "developerName": "Cable",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "backgroundGradientColors": [
+            "bcc2ffff",
+            "4d64c4ff",
+            "221c3dff",
+            "22224bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cable/Cable_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "7ec37a1e-4526-77dd-1afd-e2ab3b624085",
+            "milestoneId": "fcca98dc-4a83-2837-9512-f88a0a08fcfd",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-06-27T00:00:00Z",
+            "endDate": "2023-07-25T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Cảm Biến Siêu Thanh",
+                "description": "TRANG BỊ 1 Cảm Biến Siêu Thanh. BẮN để sử dụng. Cảm biến có thể giám sát khu vực và phát hiện kẻ địch gây tiếng động. Nó sẽ gây ra xung chấn tới khu vực đó nếu phát hiện thấy tiếng bước chân, tiếng súng hoặc tiếng ồn. Kỹ năng này cho phép bạn nhặt bẫy dây lên và ĐẶT LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Lưới Chướng Ngại",
+                "description": "TRANG BỊ 1 đĩa phóng Lưới Chướng Ngại. BẮN để ném về phía trước. Khi chạm đất, đĩa sẽ tạo ra rào chắn từ xuất phát điểm và chặn đường di chuyển.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Lưới Trọng Lực",
+                "description": "TRANG BỊ một quả lựu đạn Lưới Trọng Lực. BẮN để ném. BẮN PHỤ để ném cao. Lưới Trọng Lực sẽ phát nổ khi chạm đất, khiến mọi nhân vật nào trong tầm ảnh hưởng phải cúi xuống và di chuyển chậm.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tuyệt Diệt",
+                "description": "TRANG BỊ 1 Máy Bắn Dây Nano Siêu Tốc. Nhấn BẮN để phóng ra một loạt dây nano và trói kẻ địch đầu tiên chạm vào. Kẻ địch bị trói sẽ bị kéo về hướng dây nano phóng ra và sẽ bị hạ gục nếu không được giải thoát. Kén trói bằng dây nano có thể bị phá hủy.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+        "displayName": "Tejo",
+        "description": "Một nhà tư vấn tình báo kỳ cựu từ Colombia, hệ thống đạn đạo tự tìm đường của Tejo gây áp lực buộc kẻ thù phải từ bỏ vị trí, hoặc mạng sống của chúng. Các đợt công kích nhắm mục tiêu của hắn khiến đối thủ mất cân bằng và bị kiểm soát hoàn toàn.",
+        "developerName": "Cashew",
+        "releaseDate": "2025-01-08T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "backgroundGradientColors": [
+            "ffb573ff",
+            "c4611fff",
+            "60291eff",
+            "462821ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+            "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-01-08T22:00:00Z",
+            "endDate": "2025-02-05T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Tên Lửa Tìm Đường",
+                "description": "TRANG BỊ một hệ thống nhắm mục tiêu thực tế ảo (AR). BẮN để chọn tối đa 2 vị trí mục tiêu trên bản đồ. BẮN PHỤ để phóng tên lửa tự động tìm đường đến vị trí mục tiêu, phát nổ liên tục để gây sát thương khi đến nơi.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Gói Hàng Đặc Biệt",
+                "description": "TRANG BỊ 1 lựu đạn bám dính. BẮN để quăng. Lựu đạn sẽ bám dính vào bề mặt đầu tiên chạm vào và phát nổ, Làm Choáng tất cả mục tiêu trúng phải vụ nổ. BẮN PHỤ để quăng lựu đạn với một lần nảy.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Đòn Quyết Định",
+                "description": "TRANG BỊ một bản đồ chiến thuật chọn mục tiêu. BẮN để chọn điểm khởi đầu. BẮN lần nữa để chọn điểm cuối và phát động tấn công, giải phóng một đợt sóng chất nổ gây sát thương cao chạy dọc đường công kích. BẮN PHỤ trong khi chọn mục tiêu trên bản đồ để hủy điểm khởi đầu.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Drone Tàng Hình",
+                "description": "TRANG BỊ một chiếc drone tàng hình. BẮN để ném drone về phía trước, trực tiếp điều khiển hướng di chuyển của nó. BẮN lần nữa để kích hoạt xung nhịp gây Áp Chế và Lộ Diện những kẻ địch trúng phải.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "Raze",
+        "description": "Raze là một hiện tượng đến từ Brasil với cá tính nổi bật và những khẩu súng cực bự. Với lối chơi bùng nổ, cô luôn ép đối phương phải ra khỏi nơi ẩn nấp và dọn sạch đối thủ trong những địa hình chật hẹp với một liều thuốc nổ hạng nặng.",
+        "developerName": "Clay",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Bậc thầy Sát thương Diện rộng"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "backgroundGradientColors": [
+            "feac45ff",
+            "d64f35ff",
+            "2c5942ff",
+            "2b474bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Gói Chất Nổ",
+                "description": "NGAY LẬP TỨC tung ra Gói Chất Nổ bám dính trên bề mặt địa hình. KÍCH HOẠT LẠI kỹ năng sau khi tung Gói Chất Nổ ra để kích nổ, gây sát thương và làm dịch chuyển bất cứ thứ gì trúng phải.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Lựu Đạn Liên Hoàn",
+                "description": "TRANG BỊ 1 quả lựu đạn chùm. BẮN để ném lựu đạn, gây sát thương và tạo ra một loạt các lựu đạn phụ gây thương tích lên bất cứ ai trong tầm ảnh hưởng. BẮN PHỤ để ném cao. Lượt sử dụng Lựu Đạn Liên Hoàn sẽ được làm mới sau mỗi 2 hạ gục.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Robot Bộc Phá",
+                "description": "TRANG BỊ 1 Robot Bộc Phá. BẮN để thả robot về phía trước theo đường thẳng, nảy ra khi chạm tường. Robot Bộc Phá sẽ khóa mục tiêu trong phạm vi hình nón phía trước và bám theo mục tiêu để gây sát thương lớn khi phát nổ.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tên Lửa Hạ Màn",
+                "description": "TRANG BỊ 1 máy phóng lựu. BẮN để phóng 1 quả tên lửa gây sát thương trên diện rộng khi chạm vào bất cứ thứ gì.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "Chamber",
+        "description": "Với vẻ ngoài lịch lãm và trang bị tối tân, chuyên gia vũ khí Chamber đến từ nước Pháp sẽ truy quét đối thủ bằng sự chính xác tuyệt đối. Anh có thể tận dụng kho vũ khí chuyên biệt của mình để giữ vững chiến tuyến, bắn hạ kẻ địch từ xa với phương án dự phòng hoàn hảo dành cho mọi kế hoạch tác chiến.",
+        "developerName": "Deadeye",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "backgroundGradientColors": [
+            "ffce6fff",
+            "7b4d21ff",
+            "372d2bff",
+            "163555ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Điểm Dịch Chuyển",
+                "description": "TRANG BỊ 1 trạm dịch chuyển. BẮN để đặt trạm dịch chuyển trên mặt đất. Khi đang ở trên mặt đất và trong phạm vi hoạt động của trạm, TÁI KÍCH HOẠT để dịch chuyển nhanh tới trạm. Trạm dịch chuyển này có thể được nhặt lên và ĐẶT LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Điểm Đánh Dấu",
+                "description": "TRANG BỊ 1 bẫy để phát hiện kẻ địch. BẮN để đặt trạm dịch chuyển trên mặt đất. Khi kẻ địch tiến vào phạm vi của bẫy, bẫy sẽ đếm ngược và sau đó khiến địa hình xung quanh rơi vào trạng thái bất ổn, tạo ra một vùng Làm Chậm những người chơi bên trong. Bẫy này có thể được nhặt lên và ĐẶT LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Kẻ Săn Đầu Người",
+                "description": "KÍCH HOẠT để trang bị một khẩu súng lục hạng nặng. BẮN PHỤ để ngắm ADS khi trang bị súng lục hạng nặng.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tour De Force",
+                "description": "KÍCH HOẠT để triệu hồi 1 khẩu súng bắn tỉa chuyên biệt siêu mạnh có khả năng hạ gục đối thủ ngay khi bắn trúng phần thân trên. BẮN PHỤ để ngắm ADS. Khi hạ gục kẻ địch sẽ tạo ra một khu vực khiến đối phương ở bên trong bị Làm Chậm.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "KAY/O",
+        "description": "KAY/O là một cỗ máy chiến tranh được chế tạo vì 1 mục đích duy nhất: vô hiệu hóa kẻ thù. Khả năng Áp Chế kỹ năng của kẻ địch khiến chúng không thể phản kháng chắc chắn sẽ mang đến lợi thế lớn cho KAY/O và đồng đội khi giao chiến.",
+        "developerName": "Grenadier",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "backgroundGradientColors": [
+            "4afaffff",
+            "4da6e1ff",
+            "1a1e4bff",
+            "391a61ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "LỰU ĐẠN/nổ",
+                "description": "TRANG BỊ 1 lựu đạn nổ. BẮN để ném. BẮN PHỤ để ném cao. Lựu đạn nổ khi đáp xuống mặt đất sẽ phát nổ nhiều lần, gây sát thương gần như chí mạng ở trung tâm của mỗi vụ nổ.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "LỰU ĐẠN/mù",
+                "description": "TRANG BỊ 1 lựu đạn mù. BẮN để ném tầm cao. BẮN PHỤ để ném lên cao một quả lựu đạn yếu hơn nhưng phát nổ nhanh. Lựu đạn mù sẽ nổ sau một thời gian chờ ngắn, Làm Mù tất cả những ai nhìn thấy nó.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "VÔ/hiệu",
+                "description": "TRANG BỊ 1 lưỡi dao áp chế. BẮN để ném. Lưỡi dao sẽ cắm vào bề mặt đầu tiên chạm phải, sau một khoảng thời gian sẽ phát nổ và Áp Chế tất cả những ai trong tầm ảnh hưởng. Đối thủ có thể phá hủy lưỡi dao này.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "NULL/cmd",
+                "description": "NGAY LẬP TỨC tải đầy năng lượng radianite phân cực để giải phóng các sóng năng lượng trên diện rộng từ KAY/O. Kẻ địch trúng phải sóng năng lượng này sẽ bị Áp Chế trong một thời gian ngắn. Khi tải đầy năng lượng, KAY/O được Cường Hóa Hỏa Lực và có thể được hồi sinh.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "Skye",
+        "description": "Đến từ nước Úc hoang dã, Skye cùng các tinh linh của mình sẽ mở đường đột phá dũng mãnh trong những lãnh địa nguy hiểm. Với dàn tạo vật phong phú có nhiệm vụ quấy rối kẻ địch cùng khả năng hồi máu, cô sẽ luôn mang đến cho đồng đội sự an toàn và cho phép họ thỏa sức chiến đấu ở phong độ cao nhất.",
+        "developerName": "Guide",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "backgroundGradientColors": [
+            "94e789ff",
+            "aa8a49ff",
+            "4f1413ff",
+            "314d48ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Theo Dấu",
+                "description": "TRANG BỊ 1 lưu vật hổ Tasmania. BẮN để giải phóng và điều khiển thú săn mồi. Khi đang điều khiển, BẮN để nhảy về phía trước và phát nổ khi va chạm, gây sát thương lên kẻ địch trực tiếp trúng đòn, đồng thời tỏa ra xung chấn Làm Choáng đối thủ.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Ánh Sáng Dẫn Đường",
+                "description": "TRANG BỊ 1 tinh linh chim ưng. BẮN để phóng nó ra trước. GIỮ BẮN để điều khiển chim ưng theo hướng tâm ngắm. KÍCH HOẠT LẠI khi chim ưng đang bay sẽ biến đổi nó thành một pháo mù. Độ mạnh của pháo mù đạt tối đa sau khi chim ưng đã bay được một khoảng ngắn.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bừng Sức Sống",
+                "description": "TRANG BỊ 1 lưu vật hồi phục. GIỮ BẮN để vận sức, Hồi Máu cho tất cả đồng minh trong phạm vi và ở trong tầm nhìn. Có thể tái sử dụng cho đến khi hết khả năng hồi phục. Skye không thể hồi máu cho bản thân.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tinh Linh Dò Đường",
+                "description": "TRANG BỊ 1 lưu vật Tinh Linh Dò Đường. BẮN để giải phóng 3 Tinh Linh Dò Đường có khả năng truy đuổi 3 kẻ địch gần nhất. Khi trúng vào kẻ địch, Tinh Linh Dò Đường sẽ khiến đối thủ bị Hạn Chế Tầm Nhìn. Kẻ địch có thể phá hủy Tinh Linh Dò Đường.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "Cypher",
+        "description": "Là một chuyên gia môi giới thông tin người Ma-rốc. Cypher có thể theo dõi mọi di chuyển của đối thủ với hệ thống giám sát tinh vi của mình. Mọi bí mật đều sẽ bị phát hiện. Mọi bước đi đều sẽ bị phát giác. Không gì có thể lọt khỏi mắt của Cypher.",
+        "developerName": "Gumshoe",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Thám thính",
+            "Cầm chân Cố thủ"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "backgroundGradientColors": [
+            "db9b75ff",
+            "4268b3ff",
+            "3f3f6cff",
+            "2b527cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Lồng Công Nghệ",
+                "description": "NGAY LẬP TỨC quăng lồng công nghệ ra phía trước Cypher. TÁI KÍCH HOẠT để tạo một vùng chắn tầm nhìn và tạo âm thanh dễ nhận biết khi đối thủ đi ngang qua.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Máy Quay Mật Thám",
+                "description": "TRANG BỊ 1 máy quay do thám. BẮN để đặt máy quay do thám tại vị trí đã nhắm. TÁI SỬ DỤNG kỹ năng này để kiểm soát góc nhìn của máy quay. Khi đang kiểm soát máy quay, BẮN để phóng 1 phi tiêu đánh dấu. Phi tiêu này sẽ làm Lộ Vị Trí của người chơi bị bắn trúng. Kỹ năng này cho phép bạn nhặt bẫy dây lên và ĐẶT LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bẫy Công Nghệ",
+                "description": "TRANG BỊ 1 bẫy dây. BẮN để đặt 1 bẫy dây tàng hình tại vị trí đã nhắm (bẫy dây này có thể bị phá hủy), tạo một đoạn dây căng ngang từ vị trị đặt bẫy đến bức tường đối diện. Đối thủ đi qua bẫy dây sẽ bị Làm Chậm và Lộ Vị Trí sau một thời gian ngắn nếu không kịp phá hủy bẫy dây. Kỹ năng này cho phép bạn nhặt bẫy dây lên và ĐẶT LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Truy Lùng Ký Ức",
+                "description": "NGAY LẬP TỨC sử dụng lên mục tiêu là kẻ địch đã hy sinh, tải xuống thông tin về đội của chúng. Sau một khoảng chờ ngắn, vị trí của tất cả đối thủ còn sống sẽ bị Lộ Diện hai lần.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "Sova",
+        "description": "Sinh ra tại vùng lãnh nguyên lạnh giá của nước Nga, Sova có khả năng tìm kiếm, đánh dấu và tiêu diệt đối thủ một cách hiệu quả và chính xác. Sở hữu cây cung đặc chế và những kỹ năng trinh sát hiểm hóc, con mồi của Sova sẽ chẳng bao giờ có thể trốn thoát. ",
+        "developerName": "Hunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Thám thính",
+            "Sát thương Diện rộng"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "backgroundGradientColors": [
+            "f7c7a5ff",
+            "392931ff",
+            "101c47ff",
+            "082652ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Khởi tranh",
+            "description": "Người Khởi tranh có nhiệm vụ tạo cơ hội cho đồng đội đẩy lùi hàng phòng ngự của đối thủ để đánh chiếm những vị trí quan trọng.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Sốc Điện",
+                "description": "TRANG BỊ 1 cây cung bắn tên điện. BẮN để phóng mũi tên điện gây nổ ra phía trước, sẽ kích nổ khi va chạm và gây sát thương lên tất cả người chơi xung quanh. GIỮ BẮN để tăng tầm bắn của mũi tên. BẮN PHỤ để tăng thêm tối đa 2 lần nảy cho mũi tên.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Tên Do Thám",
+                "description": "TRANG BỊ 1 cây cung bắn tên trinh sát. BẮN để phóng 1 mũi tên trinh sát ra phía trước, kích hoạt khi va chạm và làm Lộ Vị Trí của tất cả đối thủ trong phạm vi tầm nhìn của mũi tên. Đối thủ có thể phá hủy mũi tên này. GIỮ BẮN để tăng tầm bắn của mũi tên. BẮN PHỤ để tăng thêm tối đa 2 lần nảy cho mũi tên. ",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Drone Do Thám",
+                "description": "TRANG BỊ 1 drone cú vọ. BẮN để sử dụng và kiểm soát di chuyển của drone. Khi đang kiểm soát drone, BẮN để phóng 1 phi tiêu đánh dấu. Phi tiêu này sẽ làm Lộ Vị Trí của người chơi bị bắn trúng. Kẻ địch có thể phá hủy Drone Do Thám.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thợ Săn Cuồng Nộ",
+                "description": "TRANG BỊ 1 cây cung với 3 mũi tên năng lượng có tầm bắn xa và khả năng xuyên tường. BẮN để phóng 1 mũi tên năng lượng trên đường thẳng ra phía trước Sova, gây sát thương và làm Lộ Vị Trí của đối thủ trên đường đi của mũi tên. Kỹ năng này có thể TÁI SỬ DỤNG tối đa thêm 2 lần nữa khi đồng hồ đếm của kỹ năng đang kích hoạt.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Xạ thủ thần bí",
+                "description": "Cung đặc chế của Sova có thể bắn các mũi tên có khả năng nảy ra khi chạm vào bề mặt địa hình. Giữ BẮN sẽ tăng sức mạnh của cây cung, tên sẽ phóng ra khi thả. Nhấp chuột phải để thay đổi số lần nảy của tên. Mũi tên có thể nảy khi chạm vào bề mặt địa hình. Giữ chuột trái sẽ tăng tầm bắn của mũi tên. Nhấp chuột phải sẽ thay đổi số lần mũi tên nảy khỏi bề mặt địa hình. Tên sẽ bắn ra khi nhả chuột trái.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "Killjoy",
+        "description": "Một thiên tài từ nước Đức với hàng loạt những sáng chế độc đáo, Killjoy hoàn toàn dễ dàng bảo kê những vị trí quan trọng nhất để thống lĩnh chiến trường. Ngoài việc sở hữu thiết bị có sát thương khủng, kỹ năng làm suy yếu đối thủ từ các robot sẽ giúp cô chặn đứng mọi kẻ địch chỉ trong tích tắc.",
+        "developerName": "Killjoy",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Cầm chân Cố thủ",
+            "Sát thương Diện rộng"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "backgroundGradientColors": [
+            "ffc300ff",
+            "b87b00ff",
+            "413950ff",
+            "614414ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Bom Nano",
+                "description": "TRANG BỊ 1 quả Bom Nano. BẮN để quăng về phía trước. Khi chạm đất, Bom Nano sẽ trở nên tàng hình. BẮN PHỤ để ném cao. KÍCH HOẠT Bom Nano để phát tán các hạt Nano siêu nhỏ có khả năng gây sát thương.  ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Robot Báo Động",
+                "description": "TRANG BỊ 1 Robot Báo Động tàng hình. BẮN để sử dụng robot, có khả năng săn lùng kẻ địch trong phạm vi truy tìm. Khi bắt được mục tiêu, robot sẽ nổ tung và đặt hiệu ứng Suy Yếu lên tất cả kẻ địch trong khu vực. GIỮ TRANG BỊ để gọi robot về.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Trụ Súng",
+                "description": "TRANG BỊ 1 ụ súng. BẮN để đặt 1 ụ súng có khả năng bắn đối thủ trong phạm vi hình nón với góc 100 độ. BẮN PHỤ để đổi hướng ụ súng. GIỮ TRANG BỊ để gọi ụ súng về. ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Cầm Chân",
+                "description": "TRANG BỊ thiết bị Cầm Chân. BẮN để sử dụng thiết bị. Sau một khoảng thời gian chờ dài, thiết bị sẽ Giam Cầm tất cả kẻ địch trong phạm vi. Thiết bị có thể bị phá hủy bởi kẻ địch.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "displayName": "Harbor",
+        "description": "Xuất thân từ vùng bờ biển của Ấn Độ, Harbor nhấn chìm chiến trường bằng thứ công nghệ cổ xưa có khả năng điều khiển nước. Hắn tung ra những ngọn thác hung dữ và những con sóng bạc đầu để bảo hộ cho đồng đội hoặc đè bẹp kẻ thù.",
+        "developerName": "Mage",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "backgroundGradientColors": [
+            "f2d6a3ff",
+            "136c6bff",
+            "11434eff",
+            "0c262cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Kiểm soát",
+            "description": "Người Kiểm soát là bậc thầy trong việc phân tích những địa thế nguy hiểm và tìm con đường tới chiến thắng cho đội mình.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Thủy Khiên",
+                "description": "TRANG BỊ 1 quả cầu thủy khiên. BẮN để ném. BẮN PHỤ để ném cao. Khi chạm đất, tạo ra một lớp khiên nước có thể bị phá hủy và có khả năng chặn đường đạn.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Thác Đổ",
+                "description": "TRANG BỊ 1 con sóng nước. BẮN để phóng con sóng lăn về phía trước xuyên qua tường. TÁI SỬ DỤNG để dừng con sóng. Những người chơi trúng chiêu bị Làm Chậm.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Thủy Triều Dâng Trào",
+                "description": "TRANG BỊ 1 bức tường nước. BẮN để phóng nguồn nước về phía trước dọc mặt đất. GIỮ BẮN để điều khiển nguồn nước theo hướng tâm ngắm, xuyên qua địa hình và tạo ra một bức tường trên đường đi. BẮN PHỤ khi đang điều khiển để ngắt sớm kỹ năng. Những người chơi trúng chiêu bị Làm Chậm.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thủy Nộ",
+                "description": "TRANG BỊ sức mạnh Tạo Vật tối đa. BẮN để triệu hồi 1 suối nước phun trào trên mặt đất. Kẻ địch trong vùng ảnh hưởng sẽ bị những đợt phun trào liên tục nhắm tới. Nếu một đợt phun trào đánh trúng người chơi, họ sẽ bị Làm Choáng.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "efba5359-4016-a1e5-7626-b1ae76895940",
+        "displayName": "Vyse",
+        "description": "Vyse - bậc thầy kim loại, có khả năng sử dụng thép lỏng để cô lập, gài bẫy và khóa vũ khí của kẻ địch. Với chiến lược xảo quyết và kỹ năng kiểm soát tàng hình, cô sẽ khiến mọi kẻ địch phải nếm mùi kinh hãi của chiến trường.",
+        "developerName": "Nox",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "backgroundGradientColors": [
+            "f147ffff",
+            "823697ff",
+            "6153b7ff",
+            "3b3c4aff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Nox/Nox_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "5cf4f9ee-4ace-08c3-ea08-9b98dade41d5",
+            "milestoneId": "bc02cacf-4c50-1e1b-8681-2a9cca6a6c40",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-08-28T21:00:00Z",
+            "endDate": "2024-09-26T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Tường Thép",
+                "description": "TRANG BỊ một mẫu thép lỏng. BẮN để đặt một tường bẫy tàng hình. Khi kẻ địch đi qua, một bức tường không thể bị phá hủy sẽ trồi lên từ mặt đất bên dưới chúng. Bức tường tồn tại trong một thời gian ngắn trước khi biến mất.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Hoa Thép",
+                "description": "TRANG BỊ 1 Hoa Thép. Chọn một bề mặt và BẮN để đặt Hoa Thép tàng hình, hoặc BẮN PHỤ để đặt Hoa Thép xuyên qua bề mặt đó. TÁI KÍCH HOẠT để làm mù tất cả người chơi trong phạm vi đang nhìn vào nó. Kỹ năng này cho phép bạn nhặt Hoa Thép lên và ĐẶT LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bẫy Thép",
+                "description": "TRANG BỊ một bẫy thép lỏng. BẮN để quăng. Khi chạm đất, bẫy sẽ trở nên tàng hình. Khi KÍCH HOẠT, các nhành thép sắc lẹm sẽ mọc ra xung quanh, làm chậm và gây sát thương lên tất cả người chơi đi qua nó.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Vườn Thép Gai",
+                "description": "TRANG BỊ một rễ cây thép lỏng. BẮN để phóng gai thép ra xung quanh, KHÓA VŨ KHÍ của tất cả kẻ địch sau một thoáng chờ.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "Viper",
+        "description": "Là Chuyên Gia Hóa Học người Mỹ, Viper tung ra một loạt các thiết bị hóa học độc hại để kiểm soát chiến trường và bóp nghẹt tầm nhìn của đối thủ. Nếu kẻ địch không bị tiêu diệt bởi chất độc thì cũng mất mạng bởi tâm thuật của cô.",
+        "developerName": "Pandemic",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Bậc thầy Kiểm soát Tầm nhìn"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "backgroundGradientColors": [
+            "89f476ff",
+            "347334ff",
+            "2c4f5eff",
+            "493a7cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Kiểm soát",
+            "description": "Người Kiểm soát là bậc thầy trong việc phân tích những địa thế nguy hiểm và tìm con đường tới chiến thắng cho đội mình.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Cầu Hóa Chất",
+                "description": "TRANG BỊ 1 máy tạo hóa chất. BẮN để quăng thiết bị về phía trước, có thời gian tồn tại đến hết vòng đấu. BẮN PHỤ để ném cao. KÍCH HOẠT LẠI kỹ năng sẽ tiêu hao nhiên liệu và tạo ra 1 quả cầu hóa chất làm Phân Rã kẻ địch đứng bên trong. Kỹ năng này có thể được nhặt lên và ĐẶT LẠI trước khi vòng đấu bắt đầu, và có thể KÍCH HOẠT LẠI nhiều hơn 1 lần trong suốt vòng đấu.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Tường Hóa Chất",
+                "description": "TRANG BỊ 1 thiết bị phóng máy tạo khí độc có khả năng bắn xuyên địa hình. BẮN để đặt 1 hàng dài các máy tạo khí độc. TÁI SỬ DỤNG kỹ năng này để tiêu hao nhiên liệu và tạo ra một bức tường khí độc làm Phân Rã kẻ địch đi qua. Kỹ năng này có thể TÁI SỬ DỤNG nhiều hơn 1 lần.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bẫy Hóa Chất",
+                "description": "TRANG BỊ 1 thiết bị phóng hóa chất. BẮN để phóng 1 ống hóa chất sẽ vỡ khi chạm đất và tạo ra một vùng hoá chất có khả năng gây sát thương và gây hiệu ứng Suy Yếu.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Hang Xà",
+                "description": "TRANG BỊ 1 máy phun hóa chất. BẮN để phun hóa chất ra mọi hướng xung quanh Viper, tạo 1 đám khói có khả năng Hạn Chế Tầm Nhìn của người chơi và Phân Rã máu tối đa của kẻ địch trong phạm vi. GIỮ phím kỹ năng để làm tan khói sớm hơn.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Độc",
+                "description": "Bạn sẽ tự tái tạo và hồi lại độc tố để làm nhiên liệu cho các kỹ năng của mình.  Kẻ địch đi qua Mây Độc, Màn Khói Độc hoặc Hố của Viper sẽ ngay lập tức chịu ít nhất 30 điểm Phân Rã. Cấp độ Phân Rã sẽ tăng dần theo thời gian kẻ địch tiếp xúc với chất độc.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "Phoenix",
+        "description": "Xuất thân từ nước Anh đầy mưa gió, sức mạnh của Phoenix nằm ở lối chiến đấu của hắn, với khả năng thiêu đốt cả chiến trường bằng hỏa mù chói lóa. Phoenix luôn tỏa sáng dù là phối hợp tác chiến cùng đồng đội hay chiến đấu độc lập.",
+        "developerName": "Phoenix",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Độ linh hoạt",
+            "Tự hồi phục"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "backgroundGradientColors": [
+            "f7bf60ff",
+            "ea6d4eff",
+            "262423ff",
+            "363b42ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Tường Lửa",
+                "description": "TRANG BỊ 1 bức tường lửa. BẮN một tia lửa di chuyển theo đường thẳng ra phía trước, xuyên qua địa hình sau đó tạo một bức tường lửa có khả năng chắn tầm nhìn và gây sát thương lên người chơi đi ngang qua. Bức tường lửa sẽ hồi máu thay vì gây sát thương cho Phoenix. GIỮ BẮN để bẻ cong tường lửa sang hướng ngắm hồng tâm.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Cầu Lửa",
+                "description": "TRANG BỊ 1 quả cầu lửa. BẮN để ném 1 quả cầu lửa sẽ kích nổ sau khoảng thời gian nhất định hoặc khi chạm đất, tạo ra một vùng lửa cháy có khả năng gây sát thương lên đối thủ. Vùng lửa cháy sẽ hồi máu thay vì gây sát thương cho Phoenix. BẮN PHỤ để ném cao.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Cầu Choáng",
+                "description": "TRANG BỊ 1 cầu chói sáng, có thể ném ra theo đường vòng cung và sẽ kích nổ sau thời gian ngắn. BẮN để ném xoáy sang trái, khi phát nổ sẽ làm Mù tất cả người chơi nhìn thấy. BẮN PHỤ để ném xoáy sang phải. Cầu Choáng được làm mới một lượt dùng sau mỗi 2 mạng hạ gục.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tái Sinh",
+                "description": "NGAY LẬP TỨC đánh dấu vị trí của Phoenix. Phoenix sẽ được hồi sinh với đầy máu và lượng giáp sở hữu ở thời điểm đánh dấu khi hy sinh hoặc khi đồng hồ đếm hết giờ trong thời gian kỹ năng này được kích hoạt.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Tăng nhiệt",
+                "description": "NỘI TẠI: Hồi Máu cho Phoenix thay vì nhận sát thương khi đứng trong vùng lửa do chính Phoenix tạo ra",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "displayName": "Veto",
+        "description": "Được cường hóa bởi đột biến gien bất khả kháng cự, Veto - người thi hành luật đến từ Senegal - thách thức mọi quy tắc chiến đấu bằng cách vô hiệu hóa toàn bộ sức mạnh và công nghệ của đối thủ. Trên chiến trường của Veto, kỹ năng bắn súng là thứ duy nhất giúp bạn toàn mạng.",
+        "developerName": "Pine",
+        "releaseDate": "2025-10-07T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "backgroundGradientColors": [
+            "1f6178ff",
+            "0e2c41ff",
+            "05e2e9ff",
+            "1a5d65ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pine/Pine_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+            "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-10-07T18:00:00Z",
+            "endDate": "2025-11-04T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Đánh Chặn",
+                "description": "TRANG BỊ Mảnh Đánh Chặn. BẮN để đặt Mảnh Đánh Chặn tại địa điểm chỉ định. Sau khi đặt, TÁI SỬ DỤNG để kích hoạt. Sau khi kích hoạt, mảnh dị thể này sẽ phá hủy mọi tiện ích có thể NẢY khỏi người chơi hoặc bị phá hủy do trúng đạn. Kẻ địch có thể phá hủy Mảnh Đánh Chặn.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Lối Tắt",
+                "description": "TRANG BỊ 1 lốc xoáy. BẮN để đặt lốc xoáy trên mặt đất. Khi ở trong phạm vi và nhìn vào lốc xoáy, KÍCH HOẠT để dịch chuyển đến lốc xoáy. Trong GIAI ĐOẠN MUA ĐỒ, có thể thu hồi lốc xoáy để TRIỂN KHAI LẠI.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tiến Hóa",
+                "description": "NGAY LẬP TỨC biến dị hoàn toàn, được tăng cường hỏa lực, hồi máu và MIỄN NHIỄM với mọi loại bùa hại.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Khóa Cứng",
+                "description": "TRANG BỊ 1 mảnh kết dính từ dị thể của bạn. BẮN để ném. Mảnh kết dính sẽ bung ra khi chạm mặt đất, tạo thành bẫy để giữ chân kẻ địch. Những kẻ địch bị giam giữ sẽ mất đi Thính Giác và chịu Phân Rã. Kẻ địch có thể phá hủy bẫy trước khi kích hoạt.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "Astra",
+        "description": "Astra là một đặc vụ tới từ Ghana, cô sử dụng năng lượng của vũ trụ để định hình trận chiến theo ý muốn của bản thân. Với khả năng điều khiển thể tinh vân và tài năng chiến thuật bao quát, cô ấy luôn đi trước đối thủ của mình 10 bước.",
+        "developerName": "Rift",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "backgroundGradientColors": [
+            "f47dc9ff",
+            "a54498ff",
+            "5210c6ff",
+            "372518ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Kiểm soát",
+            "description": "Người Kiểm soát là bậc thầy trong việc phân tích những địa thế nguy hiểm và tìm con đường tới chiến thắng cho đội mình.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Xung Nhịp Tân Tinh",
+                "description": "Sắp xếp các Ngôi Sao thành Thể Tinh Vân (Phím Chiêu Cuối).\n\nKÍCH HOẠT 1 Ngôi Sao để kích nổ Xung Nhịp Tân Tinh. Xung Nhịp Tân Tinh sẽ tụ trong thoáng chốc trước khi phóng thích, Làm Choáng toàn bộ người chơi trong khu vực ảnh hưởng.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Tinh Vân / Tán Xạ",
+                "description": "Sắp xếp các Ngôi Sao ở Thể Tinh Vân (Phím Chiêu Cuối). \n\nKÍCH HOẠT 1 Ngôi Sao để biến đổi nó thành Tinh Vân (khói).\n\nSỬ DỤNG 1 Ngôi Sao để Tán Xạ, đưa Ngôi Sao đến vị trí mới sau khoảng thời gian trì hoãn.\n\nTán Xạ tạo 1 Tinh Vân giả trong thoáng chốc tại vị trí của Ngôi Sao trước khi đến vị trí mới.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Cầu Trọng Lực",
+                "description": "Sắp xếp các Ngôi Sao ở Thể Tinh Vân (Phím Chiêu Cuối).\n\nKÍCH HOẠT 1 Ngôi Sao để tạo thành Cầu Trọng Lực. Người chơi trong khu vực ảnh hưởng sẽ bị hút về trung tâm Cầu Trọng Lực trước khi cầu phát nổ và khiến cho toàn bộ người chơi mắc kẹt bên trong bị Suy Yếu.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thể Tinh Vân /\nPhân Chia Vũ Trụ",
+                "description": "KÍCH HOẠT để chuyển sang Thể Tinh Vân và bạn có thể đặt những Ngôi Sao bằng nút BẮN. Những Ngôi Sao có thể được tái kích hoạt sau đó để chuyển thành Xung Nhịp Tân Tinh, Tinh Vân hoặc Cầu Trọng Lực.\n\nKhi Phân Chia Vũ Trụ đã tụ đầy, BẮN PHỤ ở Thể Tinh Vân để bắt đầu ngắm bắn, sau đó BẮN để chọn 2 vị trí. Một đường Phân Chia Vũ Trụ không có giới hạn sẽ nối 2 điểm đã chọn lại với nhau. Phân Chia Vũ Trụ có khả năng chặn đạn và âm thanh.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Thể Tinh Vân",
+                "description": "KÍCH HOẠT Chiêu Cuối để chuyển sang Thể Tinh Vân và BẮN để đặt các Ngôi Sao. Nhắm vào những Ngôi Sao với Xung Nhịp Tân Tinh, Tinh Vân hoặc Cầu Trọng Lực để sử dụng những kỹ năng đó.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "Brimstone",
+        "description": "Đến từ Hợp chủng quốc Hoa Kỳ, Brimstone luôn đảm bảo lợi thế cho đồng đội bằng những vũ khí tối tân ngoài quỹ đạo của mình. Những chiêu thức mang lại khả năng hỗ trợ chính xác và đảm bảo an toàn khiến Brimstone xứng đáng là một sĩ quan lục quân vô địch.",
+        "developerName": "Sarge",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Kiểm soát Tầm nhìn",
+            "Sát thương Diện rộng"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "backgroundGradientColors": [
+            "eb953fff",
+            "892c1bff",
+            "211d21ff",
+            "282b38ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Kiểm soát",
+            "description": "Người Kiểm soát là bậc thầy trong việc phân tích những địa thế nguy hiểm và tìm con đường tới chiến thắng cho đội mình.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Cường Hóa Hỏa Lực",
+                "description": "NGAY LẬP TỨC gọi xuống 1 đèn hiệu khuấy động. Khi được đặt xuống, đèn hiệu này sẽ tạo ra 1 khu vực có khả năng Cường Hóa Hỏa Lực và Tăng Tốc Độ cho người chơi trong phạm vi.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Lựu Đạn Lửa",
+                "description": "Brim sử dụng súng phóng lựu để bắn ra một lựu đạn lửa. BẮN để phóng lựu đạn theo hướng chỉ định, khi lựu đạn chạm đất sẽ phát nổ và tạo ra một vùng lửa gây sát thương lên cho bất kỳ ai bước qua.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Bom Hỏa Mù",
+                "description": "TRANG BỊ 1 bản đồ chiến thuật. BẮN để chọn vị trí cho đám khói của Brimstone. BẮN PHỤ để xác nhận và phóng một đám khói có thời gian tồn tại rất lâu với mục đích chắn tầm nhìn trong khu vực chỉ định.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Bão Laser Không Kích",
+                "description": "Brim mở ra bản đồ chiến thuật. BẮN để phóng một chùm tia laser từ quỹ đạo vào vị trí chỉ định, gây sát thương lớn theo thời gian cho tất cả người chơi trong phạm vi ảnh hưởng.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+        "displayName": "Iso",
+        "description": "\"Lính đánh thuê\" người Trung Quốc, Iso rơi vào trạng thái dòng chảy để triệt tiêu đối thủ. Anh tái định hình cấu trúc năng lượng xung quanh thành một lớp bảo vệ chống đạn và vận sức tập trung vào trận đấu tay đôi tiếp theo cho đến khi có người ngã xuống.",
+        "developerName": "Sequoia",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "backgroundGradientColors": [
+            "c4a1ffff",
+            "3d0fd4ff",
+            "20155dff",
+            "ac52ffff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+            "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-10-31T13:00:00Z",
+            "endDate": "2023-11-29T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Xuyên Tâm",
+                "description": "TRANG BỊ 1 tia phân tử. BẮN để phóng tia ra phía trước, áp dụng hiệu ứng Suy Yếu & Áp Chế trong thoáng chốc lên tất cả người chơi trúng chiêu. Tia phân tử có thể đi xuyên qua các vật thể rắn, bao gồm tường.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Giao Kèo Chết Chóc",
+                "description": "TRANG BỊ 1 đấu trường đa chiều. BẮN để ném một cột năng lượng ra giữa chiến trường, kéo và hồi máu cả bạn lẫn kẻ địch đầu tiên trúng phải vào một đấu trường để đấu tay đôi cho đến khi một người ngã xuống.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Truy Kích",
+                "description": "NGAY LẬP TỨC bắt đầu vận tập trung. Khi đã tập trung: nhận khiên hấp thụ 1 luồng sát thương từ bất kỳ nguồn nào, nạp đạn nhanh hơn, và bước vào trạng thái dòng chảy, trong đó mỗi kẻ địch bị bạn tiêu diệt hoặc gây sát thương lên sẽ tạo ra một quả cầu năng lượng. Bắn quả cầu này sẽ làm mới trạng thái dòng chảy và khiên sẵn có, hoặc cho thêm khiên.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Ứng Biến",
+                "description": "TRANG BỊ để triệu hồi năng lượng lăng trụ. NHẤN BẮN để tạo ra một bức tường năng lượng không thể phá hủy phía trước mặt, chặn mọi đường đạn. BẮN PHỤ để tạo ra một chiếc tường phiên bản chậm hơn.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "displayName": "Clove",
+        "description": "Chuyên gia gây rối đến từ Scotland, Clove \"quậy đục nước\" kẻ địch ngay giữa chiến trường nóng bỏng và cả trước cái chết lạnh lẽo. Kẻ bất tử trẻ tuổi luôn khiến kẻ địch phải đau đầu, kể cả khi đã bị vùi sâu xuống lòng đất, cậu ấy vẫn có thể tái sinh chỉ sau chốc lát.",
+        "developerName": "Smonk",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "backgroundGradientColors": [
+            "f17cadff",
+            "062261ff",
+            "c347c7ff",
+            "f1db6fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Kiểm soát",
+            "description": "Người Kiểm soát là bậc thầy trong việc phân tích những địa thế nguy hiểm và tìm con đường tới chiến thắng cho đội mình.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+            "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-03-25T13:00:00Z",
+            "endDate": "2024-04-24T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Hấp Thụ Sinh Lực",
+                "description": "KÍCH HOẠT để hấp thụ sinh lực của một kẻ địch đã hi sinh khi bị Clove gây sát thương hoặc hạ gục, được tăng tốc và nhận máu tạm thời.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Bịp Bợm",
+                "description": "TRANG BỊ 1 tầm nhìn của chiến trường. BẮN để chọn vị trí hạ xuống cho đám mây của Clove. BẮN PHỤ để xác nhận và phóng một đám mây để chắn tầm nhìn trong khu vực được chọn. Clove có thể sử dụng kỹ năng này sau khi hy sinh.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Bất Diệt",
+                "description": "Sau khi hi sinh, KÍCH HOẠT để hồi sinh. Sau khi hồi sinh, Clove phải có 1 mạng hạ gục hoặc có hỗ trợ sát thương trong một khoảng thời gian nhất định, nếu không sẽ hi sinh. TÁI KÍCH HOẠT để hủy sớm.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Nhúng Chàm",
+                "description": "TRANG BỊ 1 mảnh tinh hoa bất tử. BẮN để ném mảnh tinh hoa, khi chạm đất nó sẽ phát nổ thành từng mảnh nhỏ sau khoảng thời gian chờ ngắn và tạm thời làm Phân Rã mọi mục tiêu bên trong.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "displayName": "Neon",
+        "description": "Neon, một Đặc Vụ người Phillipines với kỹ năng phóng về phía trước với tốc độ chóng mặt, bắn ra các chùm bức xạ điện sinh học nhanh như chính cách cơ thể cô ấy tạo ra nó. Cô luôn xông lên trước để tìm kẻ thù khi chúng chưa kịp trở tay, để rồi hạ gục chúng trong chớp mắt.",
+        "developerName": "Sprinter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "backgroundGradientColors": [
+            "ba89ffff",
+            "6241ccff",
+            "38328eff",
+            "2c4799ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sprinter/Sprinter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Gài Số Tiến",
+                "description": "NGAY LẬP TỨC chuyển vận sức mạnh của Neon để Tăng Tốc Độ. Sau khi đã tụ đầy, BẮN PHỤ để kích hoạt một luồng trượt điện. Lượt sử dụng luồng trượt điện sẽ được làm mới sau mỗi 2 hạ gục. Nhiên liệu được nạp lại khi có mạng hạ gục. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Tia Chớp Nảy",
+                "description": "NGAY LẬP TỨC ném ra 1 tia năng lượng có thể nảy 1 lần. Mỗi lần tia này va chạm với bề mặt sẽ truyền điện xuống mặt đất và phát ra xung chấn để Làm Choáng đối thủ.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Năng Lượng Cao Thế",
+                "description": "BẮN ra 2 dòng năng lượng tiến về phía trước trên mặt đất, kéo dài thêm 1 khoảng ngắn hoặc dừng lại khi chạm vào 1 bề mặt. Dòng năng lượng này sẽ dựng thành các bức tường tĩnh điện làm chắn tầm nhìn.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Quá Tải",
+                "description": "Giải phóng sức mạnh và tốc độ tối đa của Neon trong một thời gian ngắn, hồi đầy nhiên liệu và cho một lượt sử dụng luồng trượt điện. BẮN để tụ sức mạnh thành 1 tia sét chết người với độ chính xác khi di chuyển cao. Mạng hạ gục sẽ làm mới thời gian tác dụng của hiệu ứng. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "Yoru",
+        "description": "Đến từ Nhật Bản, Yoru có khả năng xé toang thực tại để xâm nhập vào hàng ngũ của địch mà không bị phát hiện. Với kỹ năng vừa đánh lừa vừa tấn công kẻ địch, con mồi của Yoru sẽ chẳng bao giờ biết được mình bị ai hạ gục.",
+        "developerName": "Stealth",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "backgroundGradientColors": [
+            "66a8ffff",
+            "3b37a7ff",
+            "261e4fff",
+            "101042ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Đánh Lạc Hướng",
+                "description": "TRANG BỊ một vọng âm sẽ biến đổi thành hình ảnh sao chép của Yoru khi được kích hoạt. BẮN để lập tức kích hoạt hình ảnh sao chép và phóng nó về phía trước. BẮN PHỤ để đặt một vọng âm bất động. SỬ DỤNG để biến đổi một vọng âm bất động thành hình ảnh sao chép và phóng nó về phía trước.  Hình ảnh sao chép sẽ phát nổ và phát sáng làm Mù khi bị kẻ địch phá hủy.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Điểm Mù",
+                "description": "TRANG BỊ để xé toạc một mảnh vỡ không gian bất định từ thực tại. BẮN để ném mảnh vỡ không gian, kích hoạt ánh sáng chói lóa sẽ tích tụ khi va chạm vào bề mặt cứng.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Cổng Không Gian",
+                "description": "TRANG BỊ một kết nối không gian, BẮN để phóng kết nối ra phía trước. BẮN PHỤ để đặt một kết nối cố định. KÍCH HOẠT để dịch chuyển tức thời tới vị trí kết nối. SỬ DỤNG để kích hoạt dịch chuyển giả. CỔNG KHÔNG GIAN được làm mới một lượt dùng sau mỗi 2 mạng hạ gục.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Dịch Chuyển Không Gian",
+                "description": "TRANG BỊ để đeo một mặt nạ có khả năng nhìn xuyên qua chiều không gian. BẮN để dịch chuyển vào chiều không gian của Yoru, không thể bị kẻ thù ở bên ngoài nhìn thấy hay tác động. TÁI KÍCH HOẠT để thoát khỏi chiều không gian của Yoru sớm.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "df1cb487-4902-002e-5c17-d28e83e78588",
+        "displayName": "Waylay",
+        "description": "Waylay - radiant với sức mạnh lăng kính tới từ Thái Lan - có khả năng biến thành ánh sáng để lao quanh chiến trường, tấn công mục tiêu bằng những mảnh vỡ ánh sáng trước khi bay trở lại nơi an toàn chỉ trong chớp mắt.",
+        "developerName": "Terra",
+        "releaseDate": "2025-03-04T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "backgroundGradientColors": [
+            "affb9bff",
+            "ac53acff",
+            "5b477eff",
+            "298786ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Terra/Terra_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "df1cb487-4902-002e-5c17-d28e83e78588",
+            "milestoneId": "e74c294c-4b69-4fa4-2b50-31ae6e93f242",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-03-05T22:00:00Z",
+            "endDate": "2025-04-02T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Khúc Xạ",
+                "description": "NGAY LẬP TỨC tạo ra một ngọn hải đăng trên mặt đất. TÁI KÍCH HOẠT để tốc biến về ngọn hải đăng dưới dạng hạt ánh sáng tinh khiết. Bạn trở nên bất khả xâm phạm khi dịch chuyển. Khúc Xạ được làm mới một lượt dùng sau mỗi 2 mạng hạ gục.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Bão Hòa",
+                "description": "NGAY LẬP TỨC phóng ra một chùm sáng phát nổ khi tiếp xúc với mặt đất, Cản Trở những người chơi xung quanh với hiệu ứng siêu làm chậm chuyển động và vũ khí của họ.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Tốc Độ Ánh Sáng",
+                "description": "TRANG BỊ để chuẩn bị tăng tốc. BẮN để lướt về phía trước 2 lần. BẮN PHỤ để lướt 1 lần. Chỉ lần lướt đầu tiên có thể đưa bạn lên cao.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Đích Đến Cuối Cùng",
+                "description": "TRANG BỊ để tập trung sức mạnh lăng kính của bạn. BẮN để tạo ra một hình ảnh phản chiếu của chính bạn, chiếu ra một luồng sáng. Sau một thời gian chờ ngắn, bạn được tăng mạnh tốc độ di chuyển và chùm tia sẽ lan rộng ra, Cản Trở những người chơi khác trong khu vực.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "Sage",
+        "description": "Đến từ Trung Quốc, Sage luôn đảm bảo cho mình và đồng đội được an toàn ở bất cứ nơi đâu cô đến. Với khả năng hồi sinh đồng đội đã ngã xuống và đẩy lùi những cuộc tấn công dữ dội, cô là hậu phương vững chắc cho đồng đội trong những trận giao tranh khốc liệt.",
+        "developerName": "Thorne",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Hồi phục",
+            "Câu giờ"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "backgroundGradientColors": [
+            "7bfedeff",
+            "41819aff",
+            "102d23ff",
+            "226071ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Hộ vệ",
+            "description": "Hộ vệ là những chuyên gia phòng thủ, những người có thể cầm chân đối thủ trên diện rộng và canh gác bên sườn cho đồng đội cả trong vòng đấu tấn công cũng như phòng thủ.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Băng Cầu Rạn Vỡ",
+                "description": "TRANG BỊ 1 ngọc làm chậm. BẮN để quăng 1 ngọc làm chậm ra phía trước, sẽ phát nổ khi chạm đất và tạo ra một khu vực khiến đối phương trong phạm vi bị Làm Chậm và bị giảm tốc độ lướt.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Cầu Hồi Phục",
+                "description": "TRANG BỊ 1 ngọc hồi phục. BẮN để chọn đồng minh bị thương trong hồng tâm và kích hoạt Hồi Phục Theo Thời Gian lên đồng minh đó. BẮN PHỤ để kích hoạt Hồi Phục Theo Thời Gian lên bản thân khi Sage bị thương.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Tường Băng Bảo Hộ",
+                "description": "TRANG BỊ 1 cầu bảo hộ. BẮN để tạo 1 bức tường kiên cố sau vài giây. BẮN PHỤ để đổi hướng nhắm mục tiêu.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Hồi Sinh",
+                "description": "TRANG BỊ 1 kỹ năng hồi sinh. BẮN để chọn đồng minh đã hy sinh trong hồng tâm để bắt đầu quá trình hồi sinh đồng minh đó. Sau một khoảng thời gian luyện kỹ năng ngắn, đồng đội sẽ hồi sinh với đầy máu.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "Reyna",
+        "description": "Được tôi luyện ngay giữa trái tim của Mexico, Reyna luôn áp đảo trong các giao tranh đơn lẻ và trở nên mạnh mẽ hơn với mỗi đối thủ bị cô hạ gục. Sức mạnh của cô chỉ bị giới hạn bởi kỹ năng cá nhân, cũng là điều khiến cô bị lệ thuộc khá nhiều vào phong độ thi đấu của người chơi. ",
+        "developerName": "Vampire",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Né tránh",
+            "Tự hồi phục"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "backgroundGradientColors": [
+            "e46e77ff",
+            "c44d9fff",
+            "2f2664ff",
+            "2f203fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Nuốt chửng",
+                "description": "Tụ Linh: Kẻ địch bị hạ gục bởi Reyna, hoặc đã nhận sát thương từ Reyna trong vòng 3 giây trước khi bị tiêu diệt sẽ để lại một Linh Ngọc trong 3 giây.\n\nNuốt Chửng: LẬP TỨC hấp thụ một linh ngọc ở gần để Hồi Máu siêu tốc. Nếu NỮ HOÀNG đang kích hoạt, kỹ năng này sẽ được tự động thi triển và không hấp thụ Linh Ngọc.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Vô ảnh",
+                "description": "LẬP TỨC hấp thụ một Linh Ngọc ở gần để trở nên Phi Vật Chất trong một thời gian ngắn. Nếu NỮ HOÀNG đang kích hoạt, sẽ đồng thời trở nên Vô Hình.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Ánh Nhìn Hư Không",
+                "description": "TRANG BỊ 1 mắt hư không, có thể bị phá hủy. KÍCH HOẠT để sử dụng mắt hư không ở khoảng cách ngắn phía trước. Kẻ địch sẽ bị hạn chế tầm nhìn khi nhìn vào nó.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Nữ Hoàng",
+                "description": "LẬP TỨC vào trạng thái điên cuồng, nhận Cường Hóa Hỏa lực tăng nhanh tốc độ bắn, đổi súng và thay đạn. Nhận lượt dùng vô hạn các kỹ năng Tụ Linh.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "Omen",
+        "description": "Tựa như bóng ma của ký ức, Omen săn lùng trong bóng tối. Khả năng khống chế tầm nhìn và dịch chuyển tức thời của hắn khiến mọi đối thủ phải hoang mang tột độ vì có thể bị tấn công bất cứ lúc nào từ bất cứ nơi đâu.",
+        "developerName": "Wraith",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Di chuyển",
+            "Kiểm soát Tầm nhìn"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "backgroundGradientColors": [
+            "2fdddeff",
+            "4f53afff",
+            "344673ff",
+            "193b3dff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Kiểm soát",
+            "description": "Người Kiểm soát là bậc thầy trong việc phân tích những địa thế nguy hiểm và tìm con đường tới chiến thắng cho đội mình.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Ảo Mộng",
+                "description": "TRANG BỊ một ngọc hỏa mù.  BẮN để phóng ra phía trước, làm Giảm Tầm Nhìn và Khả Năng Nghe của người chơi bị trúng phải trong thời gian ngắn. Ngọc này có thể xuyên qua tường.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Bóng Tối Bao Trùm",
+                "description": "TRANG BỊ một ngọc bóng tối, du hành vào thế giới đa chiều để đặt và nhắm mục tiêu các viên ngọc. DÙNG phím kỹ năng để quăng ngọc bóng tối tới địa điểm đánh dấu, tạo một thể cầu bóng tối có thời gian tồn tại rất lâu để chắn tầm nhìn. GIỮ BẮN trong khi nhắm mục tiêu để di chuyển điểm đánh dấu ra xa. GIỮ BẮN PHỤ trong khi nhắm mục tiêu để di chuyển điểm đánh dấu lại gần. NẠP ĐẠN để bật/tắt nhắm mục tiêu thường.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Biến Ảnh",
+                "description": "TRANG BỊ kỹ năng biến ảnh để hiển thị tầm phạm vi. BẮN để bắt đầu thời gian vận kỹ năng ngắn, sau đó dịch chuyển tức thời tới vị trí đã đánh dấu.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tan Vào Hư Vô",
+                "description": "TRANG BỊ 1 bản đồ chiến thuật. BẮN để dịch chuyển tức thời tới vị trí chỉ định. Trong khi dịch chuyển tức thời, Omen sẽ biến thành một cái Bóng và có thể bị đối thủ tiêu diệt để loại bỏ quá trình dịch chuyển tức thời. TRANG BỊ chiêu cuối để Omen hủy dịch chuyển tức thời.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "Jett",
+        "description": "Đến từ Hàn Quốc, với phong cách chiến đấu nhanh nhẹn và huyền ảo, Jett có thể thực hiện những pha tấn công liều lĩnh đến bất ngờ. Thoắt ẩn thoắt hiện trong các cuộc giao tranh, cô ra đòn chặn đứng đối thủ trước khi chúng kịp hiểu chuyện gì xảy ra.",
+        "developerName": "Wushu",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Né tránh",
+            "Di chuyển"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "backgroundGradientColors": [
+            "90e3fdff",
+            "557f8cff",
+            "2b4e7cff",
+            "1e3344ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Đối đầu",
+            "description": "Đối đầu là vai trò của người chơi đủ khả năng tự lực cánh sinh, có kỹ năng để hạ gục nhiều đối thủ và luôn lao lên chiến đấu trước.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Tùy Phong",
+                "description": "Jett bật nhảy NGAY LẬP TỨC lên không trung.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Thuận Phong",
+                "description": "KÍCH HOẠT để hình thành 1 cơn gió mạnh có thể sử dụng trong một khoảng thời gian giới hạn. TÁI SỬ DỤNG cơn gió để phóng Jett về hướng đang di chuyển. Nếu Jett đang đứng yên, cô ấy sẽ phóng về phía trước. Lượt sử dụng Thuận Phong sẽ được làm mới sau mỗi 2 hạ gục.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Vân Nộ",
+                "description": "NGAY LẬP TỨC phóng ra 1 cầu tinh vân khi va chạm vào bề mặt bất kỳ sẽ bung ra và biến thành đám khói chắn tầm nhìn. GIỮ phím kỹ năng để di chuyển đám khói về hướng ngắm hồng tâm.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Bạo Vũ Cuồng Phong",
+                "description": "TRANG BỊ 1 bộ dao găm ném xa có độ chuẩn xác cao. BẮN để ném 1 dao găm và hồi đầy lượt dùng mỗi khi hạ gục đối thủ. BẮN PHỤ để ném toàn bộ dao găm còn lại tới mục tiêu nhưng sẽ không hồi đầy lượt dùng nếu hạ gục đối thủ.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Lướt",
+                "description": "Giữ nút nhảy trong khi đang rơi sẽ giúp cho Jett lướt trên không.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    }
+]

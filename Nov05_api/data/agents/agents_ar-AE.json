@@ -1,0 +1,1883 @@
+[
+    {
+        "uuid": "e370fa57-4757-3604-3648-499e1f642d3f",
+        "displayName": "غيكو",
+        "description": "جاء غيكو من لوس أنجلوس، وهو يتزعم عصبة من المخلوقات الفوضوية التي تجمع بينها روابط وثيقة. وينطلق رفاقه إلى الأمام لتفريق الأعداء وفتح الطريق، ويمضي غيكو خلفهم لجمعهم وإعادة الكرّة.",
+        "developerName": "Aggrobot",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "backgroundGradientColors": [
+            "c7f458ff",
+            "d56324ff",
+            "3a2656ff",
+            "3a7233ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/AggroBot/AggroBot_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "وينغمان",
+                "description": "تجهّز بـ وينغمان. أطلق لإرسال وينغمان إلى الأمام بحثًا عن الأعداء. يطلق وينغمان صدمة ارتجاجية باتجاه أول عدو يراه. استخدم الإطلاق البديل عند استهداف موقع سبايك أو السبايك المزروعة لجعل وينغمان يعطل السبايك أو يزرعها. للزرع، يجب أن يكون غيكو حائزًا على السبايك في مخزونه. عند انتهاء وقت وينغمان، يعود إلى هيئة الكريّة النائمة. تفاعل لاستعادة الكريّة واكسب شحنة وينغمان أخرى بعد فترة تبريد قصيرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "ديزي",
+                "description": "تجهّز بـ ديزي. أطلق لإرسال ديزي محلّقة إلى الأمام في الهواء. تشحن ديزي نفسها ثم تطلق دفقات من البلازما على الأعداء في خط الرؤية. يقع الأعداء المصابون بدفقات البلازما تحت تأثير العمى. عند انتهاء وقت ديزي، تعود إلى هيئة الكريّة النائمة. تفاعل لاستعادة الكريّة واكسب شحنة ديزي أخرى بعد فترة تبريد قصيرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "جحيم موش",
+                "description": "تجهّز بـ موش. أطلق لرمي موش على شكل قنبلة يدوية. استخدم الإطلاق البديل للإلقاء المقوس. عند هبوطه، تتولد نسخ جديدة عن موش في منطقة واسعة تُلحق قدرًا طفيفًا من الضرر بمرور الوقت، ثم تنفجر النسخ بعد فترة قصيرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "ثراش",
+                "description": "تجهّز بـ ثراش. أطلق للارتباط بعقل ثراش وقم بتوجيهها عبر أرض العدو. قم بالتفعيل للاندفاع إلى الأمام والانفجار، مع احتجاز أي لاعب ضمن نطاق محدود. عند انتهاء وقت ثراش، تعود إلى هيئة الكريّة النائمة. تفاعل لاستعادة الكريّة واكسب شحنة ثراش أخرى بعد فترة تبريد قصيرة. يمكن استعادة ثراش مرة وحيدة.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "displayName": "فايد",
+        "description": "تطلق فايد، صيادة الجوائز التركية، عنان قوة الكابوس الخالصة لانتزاع أسرار الأعداء. وبفضل انسجامها مع الرعب ذاته، تطارد الأهداف وتكشف عن أسوأ مخاوفهم، قبل سحقهم في الظلام.",
+        "developerName": "BountyHunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "backgroundGradientColors": [
+            "b1414cff",
+            "5589bdff",
+            "18344cff",
+            "66376cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "تقييد",
+                "description": "تجهّز بعقدة من الخوف الخالص. أطلق لرميها. تسقط العقدة على الأرض بعد فترة معينة. أعد الاستخدام لإسقاط العقدة قبل الأوان. تتمزق العقدة لدى الاصطدام، فتثبّت الأعداء المجاورين في أماكنهم. يصاب الأعداء المثبّتون بتأثيري الصمم وتدهور الصحة.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الشبح",
+                "description": "تجهّز بمراقب شبح. أطلق لرميه. يسقط المراقِب على الأرض بعد فترة معينة. أعد الاستخدام لإسقاط المراقِب قبل الأوان. يندفع المراقِب عند الاصطدام، فيكشف الأعداء ضمن خط رؤيته ويكوّن آثار رعب تؤدي إليهم. يستطيع الأعداء تدمير المراقِب.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "المتصيّد",
+                "description": "تجهّز بمتصيّد. أطلق لإرسال المتصيّد إلى الأمام. تابع الضغط على زر الإطلاق لتوجيه المتصيّد باتجاه مؤشر تصويب سلاحك. سيلاحق المتصيّد أول عدو أو أثر رعب يرصده، وسيصاب العدو بتأثير قصر النظر عند الاصطدام به.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "حلول الليل",
+                "description": "تجهّز بقوة الكابوس ذاته. أطلق لتحرير موجة من طاقة الكابوس غير القابلة للصد. يتم وسم الأعداء العالقين في الموجة بآثار الرعب، كما يصابون بتأثيري الصمم وتدهور الصحة.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "بريتش",
+        "description": "يطلق بريتش، الرجل نصف الآلي القادم من السويد، دفقات من الطاقة الحركية القوية والموجهة لكي يخلي الطريق بكل شراسة في منطقة الأعداء. كم الضرر والتشويش الذي يسببه يضمن ألا يكون القتال عادلًا أبدًا.",
+        "developerName": "Breach",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "backgroundGradientColors": [
+            "ff9c33ff",
+            "b04621ff",
+            "523a23ff",
+            "44412eff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "نقطة الوميض",
+                "description": "تجهّز بشحنة مسببة للعمى. أطلق الشحنة لتحرير دفقة سريعة المفعول عبر الجدار. تنفجر الشحنة لتصيب جميع اللاعبين الذين ينظرون إليها بتأثير العمى.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الصدع المزلزل",
+                "description": "تجهّز بمفجر زلزالي. تابع الضغط على زر الإطلاق لزيادة المسافة. حرر الزر لتطلق الزلزال الذي يسبب الارتجاج لجميع اللاعبين المتواجدين في نطاقه وفي خط يصل إلى المنطقة.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الصدمة الارتدادية",
+                "description": "تجهّز بشحنة اندماجية. أطلق الشحنة لتحرر دفقة بطيئة المفعول عبر الجدار. تلحق الشحنة ضررًا كبيرًا لكل من يتواجد في نطاقها.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الرعد الهادر",
+                "description": "تجهّز بشحنة مزلزلة. أطلق لترسل موجة زلزالية متعاقبة عبر جميع التضاريس في منطقة واسعة. تسبب الموجة الزلزالية الارتجاج وتطيح بجميع المتعرضين لها إلى الخلف.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+        "displayName": "ديدلوك",
+        "description": "تنشر العميلة النرويجية ديدلوك مجموعة من أسلاك النانو المتطورة لتأمين ميدان المعركة حتى من أكثر الهجمات فتكًا. ولا أحد يفلت من مراقبتها اليقظة، ولا ينجو أحد من ضراوتها التي لا تلين.",
+        "developerName": "Cable",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "backgroundGradientColors": [
+            "bcc2ffff",
+            "4d64c4ff",
+            "221c3dff",
+            "22224bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cable/Cable_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "7ec37a1e-4526-77dd-1afd-e2ab3b624085",
+            "milestoneId": "fcca98dc-4a83-2837-9512-f88a0a08fcfd",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-06-27T00:00:00Z",
+            "endDate": "2023-07-25T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "لاقط الصوت",
+                "description": "تجهز بلاقط صوت. أطلق لنشره. يرصد اللاقط أصوات الأعداء في منطقة معينة. يصيب تلك المنطقة بصدمة ارتجاجية إذا رصدَ صوت خطوات أقدام أو نيران أسلحة أو ضوضاء عالية بما يكفي. يمكن التقاط هذه القدرة لإعادة تثبيتها مرة أخرى.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "شبكة الحاجز",
+                "description": "تجهّز بقرص شبكة حاجز. أطلق لرميه للأمام. عند ارتطامه بالأرض، يولّد القرص حواجز من الموضع الأصلي تعيق حركة العملاء.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "شبكة الجاذبية",
+                "description": "تجهّز بقنبلة شبكة الجاذبية. أطلق لرميها. استخدم الإطلاق البديل للإلقاء المقوس. تنفجر شبكة الجاذبية عند ارتطامها بالأرض، مما يجبر أي شخصيات موجودة في نطاقها على الانحناء والتحرك ببطء.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الإبادة",
+                "description": "تجهّز بمُسرّع أسلاك نانو. أطلق لتحرير موجة من أسلاك النانو التي تحتجز أول عدو تلامسه. يتم سحب العدو المحتجز على طول مسار أسلاك النانو ويموت ما لم يتم تحريره. شرنقة أسلاك النانو قابلة للتدمير.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+        "displayName": "تيهو",
+        "description": "تيهو مستشار استخبارات مخضرم من كولومبيا، يستخدم نظام التوجيه الباليستي للضغط على العدو كي يتخلى عن مواقعه، وإلا فالموت مصيره. كما تبقي ضرباته الموجهة الخصومَ في حالة من عدم التوازن وتحت سيطرته.",
+        "developerName": "Cashew",
+        "releaseDate": "2025-01-08T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "backgroundGradientColors": [
+            "ffb573ff",
+            "c4611fff",
+            "60291eff",
+            "462821ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+            "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-01-08T22:00:00Z",
+            "endDate": "2025-02-05T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "الوابل الموجّه",
+                "description": "تجهّز بنظام استهداف بنمط الواقع المعزز. أطلق لاختيار موقعين مستهدفين على الخريطة كحد أقصى. اضغط على زر الإطلاق البديل لإطلاق الصواريخ التي تتجه بصورة مستقلة إلى المواقع المستهدفة، وتنفجر بشكل متكرر لإلحاق الضرر عند وصولها.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "طرد خاص",
+                "description": "تجهّز بقنبلة لاصقة. أطلق لرميها. تلتصق القنبلة بأول سطح تصطدم به وتنفجر، مما يؤدي إلى ارتجاج أي هدف يقع في نطاق الانفجار. اضغط على زر الإطلاق البديل لرمي القنبلة بارتداد واحد بدلاً عما سبق.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "المعركة الفاصلة",
+                "description": "تجهّز بخريطة استهداف ضربات تكتيكية. أطلق لتحديد موقع انطلاق الضربة. أطلق مرة أخرى لتحديد نقطة الهدف ثم ابدأ الهجوم، مما يؤدي إلى إطلاق موجة من انفجارات الضرر الفتاك على طول مسار الضربة. استخدم الإطلاق البديل أثناء الاستهداف على الخريطة لإلغاء مصدر الضربة.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الدرون الشبحية",
+                "description": "تجهّز بدرون شبحية. أطلق لرمي الدرون إلى الأمام وسيطر على حركتها مباشرة. أطلق مرة أخرى لتفعيل نبضة تقمع وتكشف الأعداء المصابين.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "رايز",
+        "description": "أتت رايز بحيوية متفجرة من البرازيل مع تميزها بشخصية قوية وأسلحة كبيرة. أسلوب لعبها المائل إلى ضرب الأعداء عن قرب يجعلها تتفوق في إجبار الأعداء المتحصنين على الخروج من مكامنهم وكذلك في تطهير المساحات الضيقة باستخدام كميات كبيرة من المفرقعات.",
+        "developerName": "Clay",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "متخصص ضرر منطقة."
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "backgroundGradientColors": [
+            "feac45ff",
+            "d64f35ff",
+            "2c5942ff",
+            "2b474bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "العبوة الناسفة",
+                "description": "تقوم على الفور بإلقاء عبوة ناسفة تلتصق بالأسطح. أعد استخدام القدرة بعد النشر لتفجير العبوة مما يلحق الضرر بأي جسم تصيبه كما يتم تحريكه من مكانه.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "القنابل اللونية",
+                "description": "تجهز بقنبلة عنقودية. أطلق لرمي القنبلة، حيث تلحق الضرر وتكوّن قنابل فرعية صغيرة تلحق كل منها الضرر بكل من يتواجد في نطاقها. استخدم الإطلاق البديل للإلقاء المقوس. تتم إعادة ضبط شحنة القنابل اللونية بعد كل عمليتي قتل.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الروبوت المتفجر",
+                "description": "تجهّز بروبوت متفجر. يؤدي الإطلاق إلى رمي روبوت يتحرك في خط مستقيم على الأرض ويرتد عن الجدران. يستهدف الروبوت المتفجر أي عدو متواجد في خط سيره المستقيم ويطارده، حيث ينفجر محدثًا ضررًا كبيرًا إن وصل إليه.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "قاذفة الصواريخ",
+                "description": "تجهز بقاذفة صواريخ. أطلق لإرسال صاروخ يلحق قدرًا كبيرًا من الضرر المحيطي عند اصطدامه بأي شيء.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "تشامبر",
+        "description": "مع ملابسه الأنيقة وأسلحته الجاهزة، يطرد مصمم الأسلحة الفرنسي تشامبر المعتدين بدقة فتاكة. وهو يستغل ترسانة أسلحته المخصصة للتمسك بالمواقع واقتناص الأعداء من على بُعد، مع خطة طوارئ مصممة لكل ظرف.",
+        "developerName": "Deadeye",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "backgroundGradientColors": [
+            "ffce6fff",
+            "7b4d21ff",
+            "372d2bff",
+            "163555ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "الموعد",
+                "description": "تجهز بمرساة انتقال سريع. أطلق لوضعها على الأرض. أثناء وجودك على الأرض وضمن نطاق المرساة، أعد تفعيل القدرة للانتقال السريع إلى المرساة. يمكن التقاط المرساة لإعادة وضعها.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "السمة المميزة",
+                "description": "تجهز بفخ يمسح المنطقة بحثًا عن الأعداء. أطلق لوضعه على الأرض. عند دخول عدو مرئي ضمن النطاق، يبدأ العد التنازلي للفخ ثم يزعزع الأرض من حوله، وينشئ بذلك حقل تثبيت يبطئ اللاعبين الموجودين بداخله. يمكن التقاط الفخ لإعادة نصبه.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "صياد الرؤوس",
+                "description": "فعّل القدرة لتجهيز مسدس ثقيل. استخدم الإطلاق البديل مع المسدس المجهز للتصويب بالمنظار.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "ضربة معلم",
+                "description": "فعّل القدرة لاستدعاء بندقية قناص مخصصة وقوية التاثير، حيث تكون قادرة على قتل الأعداء بأي إصابة مباشرة للقسم العلوي من الجسم. استخدم الإطلاق البديل للتصويب بالمنظار. يؤدي قتل أحد الأعداء إلى تكوين حقل تثبيت يبطئ اللاعبين الموجودين ضمنه.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "كاي/أو",
+        "description": "كاي/أو هو آلة حربية مصممة لغرض واحد هو القضاء على الراديانتس. تتكفل قوة قَمع الأعداء لديه بتفكيك قدرة خصومه على المقاومة بالقتال، مما يؤمن له ولحلفائه الأفضلية الحاسمة.",
+        "developerName": "Grenadier",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "backgroundGradientColors": [
+            "4afaffff",
+            "4da6e1ff",
+            "1a1e4bff",
+            "391a61ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "الشظـ/ـية",
+                "description": "تجهز بشظية متفجرة. أطلق لرميها. استخدم الإطلاق البديل للإلقاء المقوس. تنغرز الشظية في الأرض وتنفجر عدة مرات، ملحقة ضررًا يكاد يكون مميتًا في مركز كل انفجار.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "فلاش/درايف",
+                "description": "تجهز بقنبلة ضوئية. أطلق لرميها مع رفع ذراعك. استخدم الإطلاق البديل مع تخفيض ذراعك لإلقاء رمية أقل قوة تنفجر بسرعة. تنفجر القنبلة الضوئية بعد انتهاء فتيل قصير، مسببة العمى لكل من يقع في خط الرؤية.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "نقطة/الصفر",
+                "description": "تجهز بسكين قَمع. أطلق لرميها. تنغرز السكين في أول سطح تصيبه، وبعد فترة تقمع كل من هو موجود في نطاق الانفجار. يستطيع الأعداء تدمير هذه السكين.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "أمر/الإلغاء",
+                "description": "احصل على شحنة زائدة فورية من طاقة الراديانايت المستقطبة التي تنبض من كاي/أو ضمن نطاق ضخم. يتعرض الأعداء المصابون بالنبضات لتأثير القَمع لفترة قصيرة. في طور الشحن الزائد، يكسب كاي/أو محفز قتال ويمكنه استعادة توازنه في حال سقوطه.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "سكاي",
+        "description": "تتولى سكاي، القادمة من أستراليا، بصحبة أصدقائها من الحيوانات فتح الطريق أمام الفريق في أراضي العدو. مع تكفل كائناتها بإعاقة مخططات العدو، وتمتعها بالقدرة على معالجة الآخرين، يبدو أي فريق أقوى وأكثر أمنًا بوجود سكاي في صفوفه.",
+        "developerName": "Guide",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "backgroundGradientColors": [
+            "94e789ff",
+            "aa8a49ff",
+            "4f1413ff",
+            "314d48ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "فاتح الطريق",
+                "description": "تجهّز بحلية نمر تسمانيّ. أطلق لتحرير الحيوان المفترس والسيطرة عليه. أثناء التحكم به، أطلق للقفز نحو الأمام، حيث ينفجر لإحداث صدمة ارتجاجية لدى الارتطام وإلحاق الضرر بالأعداء الذين يصيبهم مباشرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الضوء المرشد",
+                "description": "تجهّز بحلية صقر. أطلق لإرسالها نحو الأمام. تابع الضغط على الإطلاق لتحريك الصقر باتجاه مؤشر التصويب لديك. أعد الاستخدام أثناء طيران الصقر لتحويله إلى قنبلة ضوئية. يبلغ التأثير الضوئي أعلى درجات قوته بعد فترة قصيرة أثناء تحليق الصقر.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "تجدد النمو",
+                "description": "تجهّز بحلية علاج. تابع الضغط على زر الإطلاق لتوجيه القدرة وعلاج الحلفاء ضمن النطاق ومدى الرؤية. يمكن إعادة استخدامها إلى أن يتم استنزاف كمية علاجها. لا تستطيع سكاي علاج نفسها.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الملاحقون",
+                "description": "تجهّز بحلية ملاحق. أطلق لإرسال ثلاثة ملاحقين يطاردون أقرب ثلاثة من الأعداء. عندما يبلغ أحد الملاحقين هدفه، يصيبه بتأثير ضعف البصر. يستطيع الأعداء تدمير الملاحقين.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "سايفر",
+        "description": "يعتبر سمسار المعلومات المغربي المعروف باسم سايفر شبكة مراقبة في رجل واحد قادر على رصد كل تحركات الأعداء. لا يخفى عليه أي سر. ولا تنطلي عليه أي حيلة. سايفر يقظ دائمًا.",
+        "developerName": "Gumshoe",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "رصد",
+            "إغلاق دفاعي"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "backgroundGradientColors": [
+            "db9b75ff",
+            "4268b3ff",
+            "3f3f6cff",
+            "2b527cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "المصيدة الإلكترونية",
+                "description": "ارمِ بشكل فوري المصيدة الإلكترونية أمام سايفر. قم بالتفعيل لإنشاء نطاق يحجب الرؤية ويصدر إشارة صوتية عندما يمر الأعداء عبره.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "كاميرا التجسس",
+                "description": "تجهّز بكاميرا تجسس. أطلق لوضع كاميرا التجسس في الموقع المستهدف. أعد استخدام هذه القدرة للتحكم برؤية الكاميرا. خلال فترة التحكم بالكاميرا، اضغط على زر الإطلاق لإطلاق سهم واسم. سيؤدي هذا السهم إلى كشف موقع أي لاعب يصيبه. يمكن التقاط هذه القدرة لإعادة تثبيتها مرة أخرى.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "سلك التفجير",
+                "description": "تجهّز بسلك تفجير. أطلق كي تثبّت سلك تفجير خفيًا قابلًا للتدمير في الموقع المنشود، مما ينشئ خطًا يمتد بين موقع التثبيت والجدار المقابل له. يتم إبطاء لاعبي العدو الذين يعبرون السلك وكشف موقعهم بعد فترة وجيزة إن لم ينجحوا في تدمير السلك في الوقت المناسب. يمكن التقاط هذه القدرة لإعادة تثبيتها مرة أخرى.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "السرقة العصبية",
+                "description": "استخدم هذه القدرة بشكل فوري على جثة عدو مستهدف لتنزيل المعلومات الخاصة بفريقه.  بعد فترة قصيرة، يتم الكشف عن مواقع جميع لاعبي العدو الأحياء مرتين.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "سوفا",
+        "description": "مع ولادته من رحم الشتاء الأزلي المخيم على سهول التندرا في روسيا، يقوم سوفا بالبحث وتقفي الأثر والقضاء على الأعداء بكفاءة ودقة فائقتين. قوسه المصنوع خصيصًا من أجله وقدراته الاستطلاعية المدهشة يضمنان أنك تستطيع الهرب، ولكن لن يمكنك أبدًا الاختباء منه.",
+        "developerName": "Hunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "رصد",
+            "ضرر منطقة"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "backgroundGradientColors": [
+            "f7c7a5ff",
+            "392931ff",
+            "101c47ff",
+            "082652ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "مبادر",
+            "description": "يواجه المبادرون الأركان بتسهيل دخول فرقهم إلى المناطق المتنازع عليها وطرد المدافعين منها.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "السهم الصاعق",
+                "description": "تجهّز بقوسٍ يطلق سهمًا صاعقًا. أطلق لكي ترمي السهم المتفجر إلى الأمام حتى ينفجر عند الارتطام ويلحق الضرر باللاعبين المتواجدين في الجوار. تابع الضغط على زر الإطلاق لتطيل مدى السهم. استخدم الإطلاق البديل كي تضيف إمكانية ارتداد ذلك السهم مرتين كحد أقصى.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "سهم الاستطلاع",
+                "description": "تجهّز بقوس مع سهم استطلاع. أطلق لإرسال سهم استطلاع إلى الأمام، حيث يتم تفعيله عند الارتطام كاشفًا مواقع الأعداء المحيطين الواقعين ضمن خط رؤية السهم. يستطيع الأعداء تدمير هذا السهم. تابع الضغط على زر الإطلاق لتطيل مدى السهم. استخدم الإطلاق البديل كي تضيف إمكانية ارتداد ذلك السهم مرتين كحد أقصى. ",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "درون البومة",
+                "description": "تجهّز بدرون البومة. أطلق لنشر الدرون والتحكم في حركتها. أطلق أثناء التحكم في حركة الدرون لكي ترمي سهمًا واسمًا. سيؤدي هذا السهم إلى كشف موقع أي لاعب يصيبه. يستطيع الأعداء تدمير درون البومة.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "غضب الصياد",
+                "description": "تجهّز بقوس وثلاثة أسهم طاقة بعيدة المدى قادرة على اختراق الجدران. أطلق لتحرير سهم طاقة في خط مستقيم أمام سوفا، مما يلحق الضرر ويكشف موقع الأعداء المتواجدين على الخط. يمكن إعادة استخدام هذه القدرة حتى مرتين إضافيتين أثناء استمرار عمل مؤقت القدرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "قناص محنك",
+                "description": "قوس سوفا المخصص قادر على إطلاق سهامه وجعلها ترتد عن التضاريس. متابعة الضغط على زر الإطلاق يشحن طاقة القوس ويتم إطلاق السهم عند تحرير الزر. اضغط الإطلاق البديل لتغيير عدد مرات الارتداد. سهامك قادرة على الارتداد عن التضاريس. متابعة الضغط على زر الماوس الأيسر يزيد من مدى السهم. الضغط على الزر الأيمن يمكن من التبديل بين عدد مرات الارتداد عن التضاريس من خلال الضغط على الزر الأيمن. يتم إطلاق السهم عند تحرير زر الماوس الأيسر.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "كيلجوي",
+        "description": "تؤمّن كيلجوي، العبقرية الألمانية، البقع الحساسة في ميدان القتال دون جهد يُذكر بفضل ترسانة اختراعاتها. وإذا لم يتكفل الضرر الناجم عن الأدوات بقتل أعدائها، فإن المثبط الذي توفره روبوتاتها سيدمرهم بلا أدنى شك.",
+        "developerName": "Killjoy",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "إغلاق دفاعي",
+            "ضرر منطقة"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "backgroundGradientColors": [
+            "ffc300ff",
+            "b87b00ff",
+            "413950ff",
+            "614414ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "سرب نانو",
+                "description": "تجهّز بقنبلة سرب النانو. أطلق لرمي القنبلة. عند ارتطامها، تدخل قنبلة سرب النانو في طور التخفي. استخدم الإطلاق البديل للإلقاء المقوس. قم بتفعيل سرب النانو لنشر سرب مدمر من روبوتات النانو.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "روبوت الإنذار",
+                "description": "تجهّز بروبوت إنذار خفي. أطلق لنشر روبوت يقوم بمطاردة الأعداء المتواجدين في مداه. ينفجر الروبوت بعد الوصول إلى هدفه ليلحق تأثير الهشاشة بالأعداء في المنطقة. استمر في الضغط على التجهيز لاستدعاء الروبوت بعد نشره.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "المدفع",
+                "description": "تجهز بمدفع رشاش. أطلق لنشر مدفع رشاش يطلق النار على الأعداء ضمن مخروط بزاوية 100. استخدم الإطلاق البديل لتبديل اتجاه المدفع الرشاش. تابع الضغط على زر التجهز لسحب المدفع الرشاش المنصوب. ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "أداة التثبيت",
+                "description": "تجهّز بأداة التثبيت. أطلق لنشر الأداة. بعد فترة استعداد طويلة، تقوم الأداة باحتجاز جميع الأعداء المتواجدين ضمن نطاقها. بوسع الأعداء تدمير الأداة.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "displayName": "هاربور",
+        "description": "مع قدومه من سواحل الهند، يقتحم هاربور ميدان القتال حاملًا تحفة تقنية قديمة يهيمن بفضلها على القوى المائية. ويطلق تيارات مائية جامحة وأمواجًا ساحقة لتدريع حلفائه أو إغراق من يعترضون طريقه.",
+        "developerName": "Mage",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "backgroundGradientColors": [
+            "f2d6a3ff",
+            "136c6bff",
+            "11434eff",
+            "0c262cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "متحكم",
+            "description": "المتحكمون يجيدون تقسيم المناطق الخطرة لتوزيع فرقهم بشكل يضمن تحقيق النجاح.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "خليج",
+                "description": "تجهّز بكرة من الماء للتدريع. أطلق لرميها. استخدم الإطلاق البديل للإلقاء المقوس. عند ارتطامها بالأرض، يتولد درع مائي قابل للتدمير يصد الطلقات.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الشلال",
+                "description": "تجهّز بموجة مائية. أطلق لإرسال الموجة إلى الأمام وعبر الجدران. أعد الاستخدام لإيقاف الموجة. يتم إبطاء اللاعبين المصابين.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "المد العالي",
+                "description": "تجهّز بجدار مائي. أطلق لإرسال الماء إلى الأمام. تابع الضغط على زر الإطلاق لتوجيه الماء باتجاه مؤشر تصويبك، حيث يمر الماء عبر التضاريس ويتولّد جدار في مسار الماء. استخدم الإطلاق البديل أثناء التوجيه لإيقاف الماء مبكرًا. يتم إبطاء اللاعبين المصابين.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "تصفية الحساب",
+                "description": "تجهّز بكامل قوة تحفتك. أطلق لاستحضار حوض ساخن على الأرضية. يتم استهداف لاعبي العدو في الأرجاء بهجمات الحوض الساخن المتتابعة. يصاب اللاعبون ضمن مدى الهجوم بتأثير الارتجاج.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "efba5359-4016-a1e5-7626-b1ae76895940",
+        "displayName": "فايس",
+        "description": "تطلق خبيرة المعادن فايس المعدن السائل لعزل الأعداء والإيقاع بهم وتجريدهم من أسلحتهم. بفضل ذكائها الحاد وقدرتها على التلاعب، تجعل جميع خصومها يخشون ساحة المعركة نفسها.",
+        "developerName": "Nox",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "backgroundGradientColors": [
+            "f147ffff",
+            "823697ff",
+            "6153b7ff",
+            "3b3c4aff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Nox/Nox_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "5cf4f9ee-4ace-08c3-ea08-9b98dade41d5",
+            "milestoneId": "bc02cacf-4c50-1e1b-8681-2a9cca6a6c40",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-08-28T21:00:00Z",
+            "endDate": "2024-09-26T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "المقص",
+                "description": "تجهّز بخيوطٍ من المعدن السائل. أطلق لنصب فخ جداري مخفي. عندما يعبر العدو، ينبثق جدارٌ غير قابلٍ للتدمير من الأرض خلفه. يبقى الجدار قائماً لفترة وجيزة قبل أن يتلاشى.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الوردة الكهربائية",
+                "description": "تجهّز بوردة كهربائية. استهدف سطحًا وأطلق لوضع وردة كهربائية مخفية عليه، أو استخدم الإطلاق البديل لزرع الوردة الكهربائية ضمن السطح. أعد الاستخدام لإصابة كل اللاعبين الذين ينظرون إليها بتأثير العمى. يمكن التقاط هذه القدرة لإعادة تثبيتها مرة أخرى.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الأشواك الحادة",
+                "description": "تجهّز بعشٍ من المعدن السائل. أطلق لرميه. عند الهبوط، يصبح العش غير مرئي. عند التفعيل، يمتد ليصبح عشًا كبيرًا من الأشواك الحادة التي تبطئ وتلحق الضرر بجميع اللاعبين الذين يمرون من خلالها.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الحديقة الفولاذية",
+                "description": "تجهّز بأشواكٍ من المعدن السائل. أطلق لإرسال المعدن على شكل سيل من الأشواك المعدنية، مما يعطل الأسلحة الأساسية لدى الأعداء بعد فترة وجيزة.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "فايبر",
+        "description": "تنشر الكيميائية الأمريكية المعروفة باسم فايبر مجموعة من الأجهزة الكيميائية السامة للتحكم بميدان القتال وخنق قدرة العدو على الرؤية. وتتكفل أساليب خداعها البارعة بقتل فريستها إن لم تنجح سمومها في تحقيق ذلك.",
+        "developerName": "Pandemic",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "متخصص تحكم في الرؤية"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "backgroundGradientColors": [
+            "89f476ff",
+            "347334ff",
+            "2c4f5eff",
+            "493a7cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "متحكم",
+            "description": "المتحكمون يجيدون تقسيم المناطق الخطرة لتوزيع فرقهم بشكل يضمن تحقيق النجاح.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "السحابة السامة",
+                "description": "تجهّز بقدرة نافث غاز. أطلق لرمي النافث القادر على البقاء طيلة الجولة. استخدم الإطلاق البديل للإلقاء المقوس. أعد استخدام القدرة لإنشاء سحابة من الغاز السام تصيب الخصوم داخلها بتأثير التدهور مع استهلاك الوقود. يمكن التقاط هذه القدرة لإعادة نشرها مرة أخرى قبل بدء الجولة ويمكن إعادة استخدامها أكثر من مرة واحدة على مدار الجولة.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الجدار السام",
+                "description": "تجهّز بقاذفة نافثات الغاز التي تخترق التضاريس. أطلق القاذفة لنشر خط طويل من نافثات الغاز. أعد استخدام القدرة لإنشاء جدار مرتفع من الغاز السام يصيب الخصوم الذين يعبرونه بتأثير التدهور مع استهلاك الوقود. يمكن إعادة استخدام هذه القدرة أكثر من مرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "لدغة الأفعى",
+                "description": "تجهّز بقاذفة كيميائية. أطلق لترسل عبوة تتهشم عند اصطدامها بالأرض لتنشئ منطقة كيميائية طويلة الأمد تسبب الضرر وتأثير الهشاشة.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "جحر الأفعى",
+                "description": "تجهّز ببخاخ كيميائي. أطلق لنشر سحابة كيميائية في جميع الاتجاهات حول فايبر، مما يكوّن سحابة واسعة النطاق تصيب اللاعبين بتأثير قصر النظر وتدهور صحة الأعداء داخل النطاق. تابع الضغط على زر القدرة لتشتيت السحابة مبكرًا.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "سام",
+                "description": "تولّد وتجدّد تدريجيًا المادة السامة التي تغذي قدراتك.  عندما يمر الأعداء عبر السحابة السامة أو الجدار السام أو جحر الأفعى لدى فايبر، يخضعون لتأثير فوري من التدهور مقداره 30 على الأقل. ويرتفع مستوى التدهور لديهم كلما زادت فترة اتصالهم بالقدرة.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "فينيكس",
+        "description": "تظهر قوة النجم التي يتمتع بها فينيكس القادم من المملكة المتحدة جلية في أسلوبه القتالي، حيث يشعل ميدان القتال بتألقه ووميضه. وسواء كانت لديه رفقة أم لا فهو يندفع نحو القتال دائمًا دون انتظار أحد.",
+        "developerName": "Phoenix",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "مرونة",
+            "اكتفاء ذاتي"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "backgroundGradientColors": [
+            "f7bf60ff",
+            "ea6d4eff",
+            "262423ff",
+            "363b42ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "اللهيب",
+                "description": "تجهّز بجدار ناري. أطلق لتنشئ خطًا من اللهب المتحرك إلى الأمام بحيث يمر عبر الخريطة فيخلق جدارًا ناريًا يحجب الرؤية ويلحق الضرر باللاعبين الذين يمرون عبره. يعالج الجدار الناري فينيكس بدلًا من إلحاق الضرر به. تابع الضغط على الإطلاق لثني الجدار في اتجاه مؤشر التصويب.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "اليد الساخنة",
+                "description": "تجهز بكرة نارية. أطلق لترمي كرة نارية تنفجر بعد فترة زمنية محددة أو عند الارتطام بالأرض لتشعل نارًا تظل ملتهبة في المنطقة المحيطة وتسبب الضرر للأعداء. تعالج المنطقة الملتهبة فينيكس بدلًا من إلحاق الضرر به. استخدم الإطلاق البديل للإلقاء المقوس.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الكرة المقوسة",
+                "description": "تجهز بكرة متوهجة تطير في مسار منحنٍ وتنفجر بعد رميها بفترة وجيزة. أطلق لتسبب انحناء الكرة المتوهجة إلى اليسار حتى تنفجر وتسبب العمى لأي لاعب تقع الكرة في مرمى بصره. استخدم الإطلاق البديل لتسبب انحناء الكرة المتوهجة إلى اليمين. تقوم الكرة المقوسة بإعادة ضبط الشحنة بعد كل عمليتي قتل.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "العودة إلى الخلف",
+                "description": "ضع وسمًا بشكل فوري على موقع فينيكس. أثناء تفعيل هذه القدرة، سيؤدي الموت أو السماح للوقت بالنفاد إلى إنهاء هذه القدرة وإعادة فينيكس إلى هذا الموقع بصحته الكاملة ومقدار الدروع الذي كان لديه عند إلقاء القدرة.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "تحتدم",
+                "description": "عالج فينيكس بشكل كامن بدلًا من تلقي الضرر بعد الوقوف ضمن نار فينيكس الشخصية",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "displayName": "فيتو",
+        "description": "مع تعزيزه بطفرته الجينية الفائقة، يتحدى الشرطي السنغالي فيتو قواعد الاشتباك عبر إبطال مفعول قدرات خصومه وتقنياتهم. في معارك فيتو، مهاراتك في استخدام الأسلحة هي الضمان الوحيد للنجاة.",
+        "developerName": "Pine",
+        "releaseDate": "2025-10-07T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "backgroundGradientColors": [
+            "1f6178ff",
+            "0e2c41ff",
+            "05e2e9ff",
+            "1a5d65ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pine/Pine_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+            "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-10-07T18:00:00Z",
+            "endDate": "2025-11-04T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "جهاز الاعتراض",
+                "description": "تجهّز بجهاز الاعتراض. أطلق لوضع جهاز الاعتراض في الموضع المحدد. بعد وضعه، أعد الاستخدام لتفعيله. عند التفعيل، سيدمّر أي معدات قابلة للارتداد عن اللاعب و\\أو  قابلة للتدمير بإطلاق النار عليها. يستطيع الأعداء تدمير جهاز الاعتراض.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الصدع العرضي",
+                "description": "تجهّز بدوّامة. أطلق لوضعها على الأرض. عند الوجود ضمن النطاق والنظر إلى الدوّامة، قم بالتفعيل لتنفيذ الانتقال السريع إليها. خلال مرحلة الشراء، يمكن استرجاع الدوّامة لإعادة نشرها.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "التطور",
+                "description": "تبدأ بالتحوّل الكامل فورًا، فتحصل على محفز قتالي وتجديد للحياة، وتصبح منيعًا ضد جميع تأثيرات الإضعاف.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "القبضة المحكمة",
+                "description": "تجهّز بشظية لزجة ناتجة عن عملية تحوّلك. أطلق لرميها. تنتشر الشظية عند ارتطامها بالأرض لتُنشئ فخًا يثبت الأعداء في مكانهم. يصاب الأعداء المثبّتون بتأثيري الصمم وتدهور الصحة. يستطيع الأعداء تدمير الفخ قبل تفعيله.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "أسترا",
+        "description": "تسخّر العميلة الغانية أسترا الطاقات الكونية لإعادة تشكيل معالم ميادين القتال وفقًا لرغباتها الشخصية. ومع تحكمها الكامل بهيئتها الفضائية، وموهبتها في الرؤية الاستراتيجية المعمقة، تسبق خطوة خصومها التالية على الدوام بسنوات ضوئية.",
+        "developerName": "Rift",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "backgroundGradientColors": [
+            "f47dc9ff",
+            "a54498ff",
+            "5210c6ff",
+            "372518ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "متحكم",
+            "description": "المتحكمون يجيدون تقسيم المناطق الخطرة لتوزيع فرقهم بشكل يضمن تحقيق النجاح.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "النبضة النجمية",
+                "description": "ازرع النجوم في الهيئة الفضائية (مفتاح القدرة الخارقة)\n\nقم بتفعيل نجمة لتفجير نبضة نجمية. تشحن النبضة النجمية لفترة قصيرة ثم تضرب، فتصيب بصدمة ارتجاجية جميع اللاعبين في نطاقها.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "السديم  / تبديد",
+                "description": "ازرع النجوم في الهيئة الفضائية (مفتاح القدرة الخارقة). \n\nقم بتفعيل نجمة لتحويلها إلى سديم (دخان).\n\nاستخدم نجمة لتبديده، مما يعيد النجمة لوضعها في بقعة جديدة بعد فترة.\n\nتشكّل قدرة التبديد سديمًا مزيفًا لفترة قصيرة في موقع النجمة قبل عودتها.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "بئر الجاذبية",
+                "description": "ازرع النجوم في الهيئة الفضائية (مفتاح القدرة الخارقة).\n\nقم بتفعيل نجمة لتشكيل بئر جاذبية. يتم سحب اللاعبين المتواجدين في النطاق باتجاه المركز قبل انفجاره، مما يجعل جميع اللاعبين عالقين ضمن الهشاشة.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الهيئة الفضائية /\r\nالفجوة الكونية",
+                "description": "قم بالتفعيل للدخول في الهيئة الفضائية حيث يمكنك زرع النجوم باستخدام زر الإطلاق. يمكن إعادة تفعيل النجوم لاحقًا، مما يحولها إلى نبضة نجمية أو سديم أو بئر جاذبية.\n\nعند شحن الفجوة الكونية، استخدم الإطلاق البديل في الهيئة الفضائية للبدء في تصويبها، ثم زر الإطلاق لاختيار بقعتين. تربط فجوة كونية لا نهائية بين النقطتين اللتين اخترتهما. تحجب الفجوة الكونية الرصاص والأصوات.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "الهيئة الفضائية",
+                "description": "قم بتفعيل القدرة الخارقة للدخول في الهيئة الفضائية واضغط على زر الإطلاق الأساسي لزرع النجوم. استهدف النجوم بقدرات النبضة النجمية أو السديم أو بئر الجاذبية لديك لاستخدام تلك القدرات.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "بريمستون",
+        "description": "مع انضمامه من الولايات المتحدة الأمريكية، يمتلك بريمستون ترسانة مدارية تضمن امتلاك فريقه الأفضلية على الدوام. وتتكفل قدرته على إيصال معدات دعمه بدقة وأمان في جعله القائد الميداني الذي لا يوجد نظير له.",
+        "developerName": "Sarge",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "تحكم في الرؤية",
+            "ضرر منطقة"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "backgroundGradientColors": [
+            "eb953fff",
+            "892c1bff",
+            "211d21ff",
+            "282b38ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "متحكم",
+            "description": "المتحكمون يجيدون تقسيم المناطق الخطرة لتوزيع فرقهم بشكل يضمن تحقيق النجاح.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "المحفز اللاسلكي",
+                "description": "ارمِ محفزًا لاسلكيًا على الفور. عند هبوطه على الأرض، ينشئ حقلًا يمنح اللاعبين محفز قتال وتعزيز سرعة.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "القنبلة الحارقة",
+                "description": "تجهّز بقاذفة قنابل حارقة. أطلق قنبلة يدوية تنفجر عندما تصل إلى الأرض وتتوقف عن الحركة لتخلق منطقة نارية طويلة الأمد تسبب الضرر للاعبين المتواجدين في نطاقها.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "دخان السماء",
+                "description": "تجهز بخريطة تكتيكية. أطلق لتحديد المناطق التي ستهبط فيها سحب بريمستون الدخانية. استخدم الإطلاق البديل للتأكيد وإطلاق سحب دخان طويلة الأمد تحجب الرؤية في المنطقة المستهدفة.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الضربة المدارية",
+                "description": "تجهّز بخريطة تكتيكية. أطلق لنشر ليزر مداري طويل الأمد على المنطقة المستهدفة لتلحق ضررًا كبيرًا مع مرور الوقت باللاعبين المتواجدين في تلك المنطقة.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+        "displayName": "آيسو",
+        "description": "يدخل اختصاصي المهام الصعبة المأجور الصيني آيسو في حالة تركيز خاص لتقويض أركان الخصوم. ومن خلال تحويل الطاقة المحيطة إلى حماية مضادة للرصاص، يتقدم بتركيز ليخوض مبارزته التالية حتى الموت.",
+        "developerName": "Sequoia",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "backgroundGradientColors": [
+            "c4a1ffff",
+            "3d0fd4ff",
+            "20155dff",
+            "ac52ffff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+            "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-10-31T13:00:00Z",
+            "endDate": "2023-11-29T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "التقويض",
+                "description": "تجهّز بصاعقة جزيئية. أطلق لرميها للأمام، مع تطبيق تأثيري هشاشة وقمع قصيري المدة على جميع اللاعبين الذين تلمسهم. يمكن أن تمر الصاعقة عبر الأجسام الصلبة، بما في ذلك الجدران.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "مبارزة العالم الموازي",
+                "description": "تجهّز بحلبة تنتمي لعالم موازٍ. أطلق لإلقاء عمود من الطاقة عبر ساحة المعركة، مما يؤدي إلى علاجك أنت وأول عدو مصاب وسحبكما إلى الحلبة للمبارزة حتى الموت.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الإطلاق المزدوج",
+                "description": "ابدأ فورًا في شحن مؤقت التركيز لديك. بمجرد اكتمال الشحن، تكسب درعًا يمتص جرعة واحدة من الضرر من أي مصدر، وتعيد التلقيم بسرعة أكبر، وتدخل في طور تركيز تتولد خلاله كرة طاقة عند قتل الأعداء أو إلحاق الضرر بهم. يؤدي الإطلاق على هذه الكرة إلى تجديد طور التركيز لديك ودرعك الحالي، أو إلى منحك درعًا آخر.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "إجراء احتياطي",
+                "description": "تجهّز لتجميع الطاقة الموشورية. أطلق لدفع جدار طاقة غير قابل للتدمير إلى الأمام يتولى صد الرصاص. استخدم الإطلاق البديل للدفع بنسخة أبطأ من الجدار.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "displayName": "كلوف",
+        "description": "تُلحق كلوف الاسكتلندية المشاكسة الأذى بالأعداء سواء فى حرارة القتال أو برودة الموت. وتُبقي المخلوقة الأزلية الشابة الأعداء في حيرة من أمرهم حتى عند موتها الذي لا يطول سوى برهة في المعتاد.",
+        "developerName": "Smonk",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "backgroundGradientColors": [
+            "f17cadff",
+            "062261ff",
+            "c347c7ff",
+            "f1db6fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "متحكم",
+            "description": "المتحكمون يجيدون تقسيم المناطق الخطرة لتوزيع فرقهم بشكل يضمن تحقيق النجاح.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+            "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-03-25T13:00:00Z",
+            "endDate": "2024-04-24T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "جرعة منعشة",
+                "description": "قم بتفعيل القدرة وامتص القوة من أحد الأعداء الذين سقطوا بعد أن تعرضوا للضرر أو القتل على يد كلوف، مما يكسبك تسارعًا وصحةً مؤقتة.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الحيلة",
+                "description": "تجهّز بنظرة على ساحة المعركة. أطلق لتحديد أماكن استقرار سُحُب كلوف. استخدم الإطلاق البديل للتأكيد، مما يؤدي إلى إطلاق السحب لحجب الرؤية في الأماكن المختارة. تستطيع كلوف استخدام هذه القدرة بعد الموت.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "مراوغة الموت",
+                "description": "بعد الموت، قم بالتفعيل للعودة إلى الحياة. بعد العودة إلى الحياة، يجب أن تحقق كلوف عملية قتل أو مساعدة في إلحاق الضرر ضمن فترة معينة كي تتجنب الموت. أعد التفعيل للإلغاء مبكرًا.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "تطفّل",
+                "description": "تجهّز بجزء من جوهر الخلود. أطلق لرمي الجزء الذي ينفجر بعد فترة وجيزة من ارتطامه بالأرض ويوقع جميع الأهداف الواقعة في نطاقه مؤقتًا تحت تأثير التدهور.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "displayName": "نيون",
+        "description": "تندفع العميلة الفلبينية نيون إلى الأمام بسرعة مذهلة، وتفرغ دفقات من أشعة الكهرباء الحيوية بسرعة توليد جسمها لها. وتسبق الجميع للإيقاع بالأعداء في غفلة من أمرهم، ثم تضربهم بسرعة تفوق سرعة البرق.",
+        "developerName": "Sprinter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "backgroundGradientColors": [
+            "ba89ffff",
+            "6241ccff",
+            "38328eff",
+            "2c4799ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sprinter/Sprinter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "معدات السرعة",
+                "description": "وجّه قوة نيون فوريًا لزيادة السرعة. عند الشحن، اضغط على زر الإطلاق البديل لتفعيل اندفاع انزلاق كهربائي. تتم إعادة ضبط شحنة الانزلاق بعد كل عمليتي قتل. تتم إعادة شحن الوقود عند القتل. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "صاعقة المرحّل",
+                "description": "ارمِ بشكل فوري صاعقة طاقة ترتد مرة واحدة. عند إصابة كل سطح، تكهرب الصاعقة الأرض تحتها بصدمة ارتجاجية.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "المسلك السريع",
+                "description": "أطلق خطي طاقة اثنين إلى الأمام على الأرض، حيث يتسع نطاقهما لمسافة قصيرة أو حتى يصيبان أحد السطوح. ينتصب الخطان على شكل جدارين من الكهرباء الساكنة التي تحجب الرؤية.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "السرعة المفرطة",
+                "description": "أطلق عنان كامل قوة وسرعة نيون لفترة قصيرة، لتستعيد كامل وقودها وشحنة انزلاق. اضغط على زر الإطلاق لتحويل القوة إلى شعاع برق فتاك يتمتع بدقة حركة عالية. تعيد عمليات القتل ضبط مدة التأثير. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "يورو",
+        "description": "يُحدث يورو المتحدر من اليابان ثقوبًا في نسيج عالم الواقع ذاته ليتسلل وراء خطوط العدو متخفيًا. ومع اعتماده على ذات القدر من المكر والهجوم، يستطيع النيل من كل هدف قبل أن يدرك ما حلّ به.",
+        "developerName": "Stealth",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "backgroundGradientColors": [
+            "66a8ffff",
+            "3b37a7ff",
+            "261e4fff",
+            "101042ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "النسخة المزيفة",
+                "description": "تجهّز بصدى يتحول إلى نسخة طبق الأصل عن يورو عند التفعيل. أطلق لتفعيل النسخة المطابقة فوريًا وإرسالها إلى الأمام. استخدم الإطلاق البديل لزرع صدى غير مفعل. استخدم لتحويل صدى غير مفعل إلى نسخة طبق الأصل وإرسالها إلى الأمام.  تنفجر النسخ المطابقة متسببة بوميض يعمي البصر عند تدميرها على يد الأعداء.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "النقطة العمياء",
+                "description": "تجهّز لانتزاع جزء بُعدي غير مستقر من نسيج الواقع. أطلق لرمي الجزء وتفعيل قدرة ضوئية تسبب العمى بعد فترة قصيرة من ارتطامها بسطح صلب.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الاقتحام",
+                "description": "تجهّز بـ وصلة أخدود أطلق لإرسال الوصلة إلى الأمام. استخدم الإطلاق البديل لزرع وصلة ثابتة. قم بالتفعيل للانتقال السريع إلى موقع الوصلة. اضغط على زر الاستخدام لتفعيل انتقال سريع مزيف. تعيد قدرة الاقتحام شحنةً بعد كل عمليتي قتل.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الصدع البُعدي",
+                "description": "تجهّز بقناع يمكنه الرؤية بين الأبعاد. أطلق للانجراف داخل بُعد يورو، حيث تصبح غير متأثر أو مرئي من طرف الأعداء من الخارج. أعد التفعيل للخروج من بُعد يورو مبكرًا.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "df1cb487-4902-002e-5c17-d28e83e78588",
+        "displayName": "وايلاي",
+        "description": "تتحول وايلاي التايلاندية المشعة الموشورية إلى ضوء حقيقي مع انطلاقها كالسهم عبر ساحة المعركة لتضرب أهدافها عبر شظايا الضوء قبل أن تعود إلى بر الأمان، وكل ذلك بلمح البصر.",
+        "developerName": "Terra",
+        "releaseDate": "2025-03-04T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "backgroundGradientColors": [
+            "affb9bff",
+            "ac53acff",
+            "5b477eff",
+            "298786ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Terra/Terra_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "df1cb487-4902-002e-5c17-d28e83e78588",
+            "milestoneId": "e74c294c-4b69-4fa4-2b50-31ae6e93f242",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-03-05T22:00:00Z",
+            "endDate": "2025-04-02T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "انكسار الضوء",
+                "description": "أنشئ مصدر ضوء على الأرض فوريًا. أعد التفعيل للعودة بسرعة إلى مصدر الضوء على هيئة جزيء من الضوء النقي. تكون منيعًا أثناء انتقالك. تعيد قدرة انكسار الضوء شحنةً واحدةً بعد كل عمليتي قتل.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الإشباع البصري",
+                "description": "قم بإلقاء عناقيد ضوئية فوريًا تنفجر عند ملامستها للأرض، مما يؤدي إلى عرقلة اللاعبين في الجوار بفعل تأثير إبطاء قوي لحركتهم وأسلحتهم.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "سرعة الضوء",
+                "description": "تجهّز بالقدرة للاستعداد للاندفاع السريع. أطلق للاندفاع إلى الأمام مرتين. استخدم الإطلاق البديل للاندفاع مرة واحدة. وحدها اندفاعتك الأولى تستطيع رفعك إلى الأعلى.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "تلاقي الدروب",
+                "description": "تجهّز لاستجماع قوّتك الموشورية. أطلق لإنشاء صورة طيفية عنك تلقي شعاعًا من الضوء. بعد فترة قصيرة، تكسبُ معزز سرعة قوي التأثير ويتوسع الشعاع، مما يؤدي إلى عرقلة اللاعبين الآخرين في المنطقة.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "سايج",
+        "description": "توفر سايج، الحامية الصينية القوية، الأمان لنفسها ولأعضاء فريقها حيثما حلت. قدرتها على إنعاش الأصدقاء المسقطين وصد الهجمات العنيفة تجعل منها واحة من الأمان في قلب ميدان القتال المشتعل.",
+        "developerName": "Thorne",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "تعافي",
+            "مماطلة"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "backgroundGradientColors": [
+            "7bfedeff",
+            "41819aff",
+            "102d23ff",
+            "226071ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "حارس",
+            "description": "الحراس خبراء دفاعيون قادرون على تأمين المناطق ومراقبة الأجنحة في جولات الدفاع والهجوم على حد سواء.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "بلورة الإبطاء",
+                "description": "تجهّز بكرة إبطاء. أطلق لترمي كرة إبطاء إلى الأمام تنفجر عند هبوطها على الأرض وتنشئ مجالًا مستمرًا يتسبب في إبطاء اللاعبين الموجودين بداخله وتقليص سرعة اندفاعهم.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "البلورة الشافية",
+                "description": "تجهّز بكرة علاج. أطلقها في اتجاه مؤشر التصويب فوق حليف مصاب لتطبيق مفعول العلاج مع مرور الوقت عليه. استخدم الإطلاق البديل في حال تعرض سايج للإصابة لتفعيل العلاج الذاتي مع مرور الوقت.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "بلورة الحاجز",
+                "description": "تجهّز ببلورة الحاجز. إطلاقها ينشر جدارًا يصبح محصنًا بعد بضعة ثواني. الإطلاق البديل يدير المستهدف حول نفسه.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الإحياء",
+                "description": "تجهّز بقدرة الإحياء. أطلق بعد وضع مؤشر التصويب على حليف مقتول لتبدأ في إحيائه. بعد فترة وجيزة سيعود الحليف إلى الحياة مع صحة كاملة.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "ريينا",
+        "description": "مع نشوئها في قلب المكسيك، تهيمن ريينا على القتال الفردي، حيث تتفجر قدراتها مع كل عملية قتل تحرزها. ولا يفوق قدراتها سوى مهارتها الفطرية، مما يجعلها مقاتلة تعتمد بشدة على الأداء. ",
+        "developerName": "Vampire",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "مراوغة",
+            "اكتفاء ذاتي"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "backgroundGradientColors": [
+            "e46e77ff",
+            "c44d9fff",
+            "2f2664ff",
+            "2f203fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "الافتراس",
+                "description": "حصد الأرواح: يؤدي قتل الأعداء على يد ريينا أو موتهم خلال 3 ثوانٍ من تلقي الضرر على يدها إلى ترك كرات روح وراءهم تدوم لمدة 3 ثوان.\n\nالافتراس: استهلك بصورة فورية كرة روح قريبة كي تحصل على علاج سريع. إن كانت قدرة الإمبراطورة مُفعّلة، يتم إلقاء هذه المهارة تلقائيًا من دون استهلاك كرة الروح.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الانعزال",
+                "description": "استهلك بشكل فوري كرة روح قريبة كي تصبح غير قابل للمس لفترة وجيزة. إن كانت قدرة الإمبراطورة مفعلة، ستصبح أيضًا غير مرئي.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "النظرة الماكرة",
+                "description": "تجهّز بعين أثيرية قابلة للتدمير. قم بالتفعيل لإلقاء العين لمسافة قصيرة أمامك. تصيب العين جميع من ينظرون إليها من الأعداء بضعف النظر.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "الإمبراطورة",
+                "description": "ادخل فورًا في نوبة جنون، مما يكسبك محفز قتال يزيد سرعة إطلاق النار والتجهز وإعادة التلقيم على نحو كبير. اكسب عددًا لا ينتهي من قدرات حصد الأرواح.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "أومن",
+        "description": "يتربص شبح الذكريات أومن بفرائسه في جنح الظلام. حيث يعمي الأعداء ويتنقل بسرعة عبر الميدان لينشر الهلع بين أعدائه الذين يهرولون في الأنحاء محاولين اكتشاف مكان ضربته التالية.",
+        "developerName": "Wraith",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "قدرة حركة",
+            "تحكم في الرؤية"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "backgroundGradientColors": [
+            "2fdddeff",
+            "4f53afff",
+            "344673ff",
+            "193b3dff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "متحكم",
+            "description": "المتحكمون يجيدون تقسيم المناطق الخطرة لتوزيع فرقهم بشكل يضمن تحقيق النجاح.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "بارانويا",
+                "description": "تجهّز ببلورة إعماء.  أطلق لرميها إلى الأمام، حيث تصيب كل من تلمسهم من اللاعبين بتأثير قصر النظر والصمم. يمكن لهذه القذيفة المرور عبر الجدران.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الغطاء المظلم",
+                "description": "تجهّز بكرة ظلية لتدخل في نطاق منفصل عن الواقع لوضع وتوجيه الكرات. اضغط على زر القدرة لرمي البلورة الطيفية على البقعة المستهدفة، مما يكوّن قبة طيفية تحجب الرؤية وتدوم لفترة طويلة. تابع الضغط على زر الإطلاق أثناء التوجيه لتحريك المؤشر إلى مسافة أبعد. تابع الضغط على زر الإطلاق البديل أثناء التوجيه لتحريك المؤشر إلى مسافة أقرب. اضغط على زر إعادة التلقيم لتفعيل/تعطيل عرض الاستهداف العادي.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "السير عبر الظلال",
+                "description": "تجهّز بقدرة السير عبر الظلال وراقب مؤشر مداها. أطلق لتبدأ عملية توجيه قصيرة ثم انتقل بسرعة إلى الموقع الموسوم.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "من طيات الظلام",
+                "description": "تجهّز بخريطة تكتيكية. أطلق لتبدأ الانتقال السريع إلى الموقع المنشود. أثناء الانتقال السريع، يظهر أومن كظل يمكن للأعداء تدميره مما يلغي عملية الانتقال السريع، أو اضغط التجهيز لكي يلغي أومن عملية الانتقال السريع.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "جيت",
+        "description": "مع تمثيلها لبلدها الأصلي كوريا الجنوبية، تتمتع جيت بأسلوب قتالي رشيق شديد المراوغة يتيح لها القيام بمخاطرات لا يجرؤ أحد غيرها عليها. وهي تحقق السيطرة الكاملة في كل مناوشة وتسحق الأعداء حتى قبل أن يدركوا ما أصابهم.",
+        "developerName": "Wushu",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "مراوغة",
+            "قدرة حركة"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "backgroundGradientColors": [
+            "90e3fdff",
+            "557f8cff",
+            "2b4e7cff",
+            "1e3344ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "مبارز",
+            "description": "المبارزون هم قتلة يعتمدون على أنفسهم وتتوقع منهم فرقهم تنفيذ عمليات قتل كبرى والسعي إلى الالتحام دائمًا بفضل ما يتمتعون به من قدرات ومهارات.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "التيار الصاعد",
+                "description": "اندفاع فوري لجيت في الهواء.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "الرياح الدافعة",
+                "description": "قم بالتفعيل لتحضير عصفة رياح لفترة محدودة. أعد استخدام الرياح لدفع جيت في الاتجاه الذي تتحرك فيه. إن كانت جيت تقف ساكنة فسوف تندفع إلى الأمام. تتم إعادة ضبط شحنة الرياح الدافعة بعد كل عمليتي قتل.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "الانفجار السحابي",
+                "description": "قم بالإلقاء الفوري لمقذوف يتمدد متحولًا إلى سحابة حاجبة للرؤية عند الارتطام بأي سطح. استمر في الضغط على مفتاح القدرة لكي تزحزح الدخان في اتجاه مؤشر تصويبك.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "عاصفة النصال",
+                "description": "تجهز بمجموعة من سكاكين الرمي المتميزة بدقة تصويب عالية. أطلق لرمي سكين واحدة مع إعادة شحن السكاكين عند تحقيق عملية قتل. استخدم الإطلاق البديل لرمي كل الخناجر المتبقية دون إعادة الشحن عند تحقيق عملية قتل.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "تحليق",
+                "description": "الاستمرار في الضغط على زر القفز أثناء السقوط يمكنك من التحليق في الهواء.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    }
+]

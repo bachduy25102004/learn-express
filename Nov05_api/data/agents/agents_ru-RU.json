@@ -1,0 +1,1883 @@
+[
+    {
+        "uuid": "e370fa57-4757-3604-3648-499e1f642d3f",
+        "displayName": "Gekko",
+        "description": "Gekko из Лос-Анджелеса заправляет дружной командой безбашенных существ. Его верные зверята смело бросаются в драку, разнося врагов в пух и прах. А когда Gekko подбирает питомцев с поля боя, можно перевести дух и повторить!",
+        "developerName": "Aggrobot",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "backgroundGradientColors": [
+            "c7f458ff",
+            "d56324ff",
+            "3a2656ff",
+            "3a7233ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/AggroBot/AggroBot_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Бегун",
+                "description": "Выбирает Бегуна. Нажмите кнопку ОГОНЬ, чтобы отправить Бегуна вперед искать противников. Бегун высвобождает энергию в сторону первого увиденного врага, совершая оглушающий взрыв. Нажмите АЛЬТ. ОГОНЬ, нацелившись на точку установки Spike или на установленный Spike, чтобы Бегун установил или обезвредил его. Spike должен быть в инвентаре Gekko, чтобы Бегун мог его установить. Когда энергия заканчивается, Бегун превращается в шарик и бездействует. Взаимодействуйте с шариком, чтобы забрать его, и спустя короткое время Бегун получит новый заряд энергии.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Клякса",
+                "description": "Выбирает Кляксу. Нажмите кнопку ОГОНЬ, чтобы запустить Кляксу высоко в воздух и послать ее вперед. Клякса запускает взрывающиеся сгустки плазмы в сторону противников в зоне видимости. Плазма ослепляет врагов, попавших в зону действия. Когда энергия заканчивается, Клякса превращается в шарик и бездействует. Взаимодействуйте с шариком, чтобы забрать его, и спустя короткое время Клякса получит новый заряд энергии.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Тыдыщ",
+                "description": "Выбирает Тыдыща. Нажмите ОГОНЬ, чтобы бросить Тыдыща, как гранату. Нажмите АЛЬТ. ОГОНЬ для броска снизу. Коснувшись поверхности, Тыдыщ разделяется, покрывая большую площадь, которая наносит немного урона с течением времени, и после небольшой задержки взрывается.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Бабах",
+                "description": "Выбирает Бабах. Нажмите кнопку ОГОНЬ, чтобы установить мысленную связь с Бабах и управлять ее передвижением по вражеской территории. Нажмите кнопку АКТИВАЦИИ, чтобы Бабах сделала рывок вперед и устроила взрыв, задержала врагов на небольшом расстоянии от себя. Когда энергия заканчивается, Бабах превращается в шарик и бездействует. Взаимодействуйте с шариком, чтобы забрать его, и спустя короткое время Бабах получит новый заряд энергии. Повторный заряд Бабах можно использовать только один раз.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "displayName": "Fade",
+        "description": "Турчанка Fade, охотница за головами, связала свою жизнь с Кошмаром и научилась читать врагов как открытые книги с помощью силы этого существа. Впустив в свое сердце кромешную тьму, она получила способность раскрывать чужие страхи и сводить жертву с ума.",
+        "developerName": "BountyHunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "backgroundGradientColors": [
+            "b1414cff",
+            "5589bdff",
+            "18344cff",
+            "66376cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Захват",
+                "description": "Выбирает сгусток страха. Нажмите кнопку ОГОНЬ для броска. Через некоторое время сгусток опустится на землю. Используйте умение повторно, чтобы он опустился сразу. При столкновении с целью сгусток взрывается, удерживая ближайших противников, лишая их слуха и нанося им периодический урон.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Призрак",
+                "description": "Выбирает призрака-дозорного. Нажмите кнопку ОГОНЬ для броска. Через некоторое время призрак опустится на землю. Используйте умение повторно, чтобы он опустился сразу. При столкновении с целью призрак нападает, показывая местоположение противников в зоне видимости и прокладывая ведущий к ним след ужаса. Враги могут уничтожить призрака-дозорного.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Хищник",
+                "description": "Выбирает хищника. Нажмите кнопку ОГОНЬ, чтобы послать хищника вперед. Удерживайте кнопку ОГОНЬ, чтобы хищник двигался в направлении вашего прицела. Хищник будет следовать за первым увиденным противником или идти по первому увиденному следу ужаса, ограничивая обзор пойманных врагов.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Тьма",
+                "description": "Выбирает силу Кошмара. Нажмите кнопку ОГОНЬ, чтобы создать волну неудержимой энергии Кошмара. Эта энергия лишает противников слуха и наносит им периодический урон, а также прокладывает к ним след ужаса.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "Breach",
+        "description": "Использующий бионические усиления швед Breach полагается на мощные направленные взрывы, чтобы расчистить путь от агентов противника. Разрушительная сила его умений позволяет получить решающее преимущество в любом бою.",
+        "developerName": "Breach",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "backgroundGradientColors": [
+            "ff9c33ff",
+            "b04621ff",
+            "523a23ff",
+            "44412eff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Ослепляющий заряд",
+                "description": "Выбирает ослепляющий заряд. Нажмите кнопку ОГОНЬ, чтобы запустить его через стену. Заряд взрывается и ослепляет всех смотрящих в его сторону игроков.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Трещина",
+                "description": "Выбирает сейсмический заряд. Удерживайте кнопку ОГОНЬ, чтобы увеличить дальность разлома. Отпустите, чтобы создать разлом, оглушающий всех игроков в зоне поражения.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Пробивной удар",
+                "description": "Выбирает взрывной заряд. Нажмите кнопку ОГОНЬ, чтобы запустить заряд через стену и создать взрыв на другой стороне. Взрыв наносит серьезный урон всем, кто попадает в зону поражения.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Раскат грома",
+                "description": "Выбирает сейсмическую волну. Нажмите кнопку ОГОНЬ, чтобы запустить цепочку взрывов в обширной области перед собой. Эти взрывы оглушают и подбрасывают в воздух всех на своем пути.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+        "displayName": "Deadlock",
+        "description": "Уроженка Норвегии Deadlock известна своим упорством и суровостью. Она контролирует ситуацию на поле боя с помощью наноустройств, и никто не может ускользнуть от ее зоркого взгляда.",
+        "developerName": "Cable",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "backgroundGradientColors": [
+            "bcc2ffff",
+            "4d64c4ff",
+            "221c3dff",
+            "22224bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cable/Cable_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "7ec37a1e-4526-77dd-1afd-e2ab3b624085",
+            "milestoneId": "fcca98dc-4a83-2837-9512-f88a0a08fcfd",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-06-27T00:00:00Z",
+            "endDate": "2023-07-25T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Звуковой сенсор",
+                "description": "Выбирает звуковой сенсор. Нажмите ОГОНЬ, чтобы разместить его. Сенсор оглушает всех противников в области действия, если обнаруживает издаваемые ими звуки – например, шаги или стрельбу. Сенсор можно подобрать и разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Барьерная сеть",
+                "description": "Выбирает диск с барьерной сетью. Нажмите кнопку ОГОНЬ, чтобы бросить диск вперед. После приземления диск создает барьеры, через которые агенты не могут пройти.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Гравинет",
+                "description": "Выбирает гранату \"Гравинет\". Нажмите ОГОНЬ для обычного броска. Нажмите АЛЬТ. ОГОНЬ для броска снизу. Столкнувшись с поверхностью, граната создает гравитационное поле, внутри которого все персонажи приседают, и их скорость передвижения снижается.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Аннигиляция",
+                "description": "Выбирает нанопроводниковый ускоритель. Нажмите ОГОНЬ, чтобы выпустить нанопроводники и захватить первого противника, с которым они столкнутся. Кокон с захваченным агентом перемещается по нанопроводникам. Если его не разрушить, противник умрет.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+        "displayName": "Tejo",
+        "description": "Tejo – бывалый разведчик-эксперт из Колумбии. Используемая им система наведения огня вынуждает врагов сдавать позиции – или прощаться с жизнью. Его прицельные ракетные удары застигают противника врасплох и заставляют пластаться по земле.",
+        "developerName": "Cashew",
+        "releaseDate": "2025-01-08T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "backgroundGradientColors": [
+            "ffb573ff",
+            "c4611fff",
+            "60291eff",
+            "462821ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+            "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-01-08T22:00:00Z",
+            "endDate": "2025-02-05T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Управляемый залп",
+                "description": "Выбирает систему прицеливания на базе дополненной реальности. Нажмите кнопку ОГОНЬ, чтобы выбрать до двух мест на карте. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы запустить снаряды, которые ищут цели в автономном режиме, несколько раз взрываясь и нанося урон по их достижении.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Спецпоставка",
+                "description": "Выбирает липкую гранату. Нажмите кнопку ОГОНЬ, чтобы запустить ее. Как только граната касается какой-либо поверхности, она прилипает и взрывается, оглушая все цели, задетые взрывом. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы запустить гранату с одним отскоком.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Армагеддон",
+                "description": "Выбирает карту целей для тактического удара. Нажмите кнопку ОГОНЬ, чтобы указать точку запуска. Нажмите кнопку ОГОНЬ еще раз, чтобы указать точку поражения и инициировать атаку, запустив цепь смертоносных взрывов по маршруту удара. При нажатии кнопки АЛЬТ. ОГОНЬ в режиме карты целей точка запуска сбрасывается.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Стелс-дрон",
+                "description": "Выбирает стелс-дрон. Нажмите кнопку ОГОНЬ, чтобы отправить дрон вперед, взяв на себя управление его перемещениями. Нажмите кнопку ОГОНЬ еще раз, чтобы активировать пульсацию, которая подавляет и обнаруживает пораженных ею врагов.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "Raze",
+        "description": "Raze – мастер взрывного дела из Бразилии, обладательница сильного характера и еще более мощных пушек. Она способна легко справиться с засевшими в обороне противниками или зачистить небольшое помещение. Громко и без лишних церемоний.",
+        "developerName": "Clay",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Мастер урона по области"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "backgroundGradientColors": [
+            "feac45ff",
+            "d64f35ff",
+            "2c5942ff",
+            "2b474bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Взрывной ранец",
+                "description": "Мгновенно бросает взрывной ранец, прикрепляющийся к поверхностям. Используйте умение повторно, чтобы взорвать ранец, нанося урон и отталкивая находящихся рядом агентов.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Кассетная граната",
+                "description": "Выбирает кассетную гранату. Нажмите кнопку ОГОНЬ, чтобы бросить гранату, которая взрывается, наносит урон и выпускает гранаты поменьше, наносящие урон любому агенту в радиусе поражения. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы сделать бросок снизу. Каждые два убийства восстанавливают заряд \"Кассетной гранаты\".",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Бомботрон",
+                "description": "Выбирает \"Бомботрон\". Нажмите кнопку ОГОНЬ, чтобы выпустить его. \"Бомботрон\" двигается по прямой и отскакивает от стен. При обнаружении цели \"Бомботрон\" мчится к ней по прямой и взрывается, нанося большой урон при столкновении.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Гасим свечи!",
+                "description": "Выбирает ракетомет. Нажмите кнопку ОГОНЬ, чтобы выпустить ракету, наносящую огромный урон по большой области при контакте.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "Chamber",
+        "description": "Одет с иголочки и вооружен до зубов. Chamber, французский конструктор оружия, уничтожает врагов с поразительной точностью. Уникальные умения этого стража позволяют эффективно защищаться, нейтрализовать врагов издалека и продумывать любой план до мельчайших подробностей.",
+        "developerName": "Deadeye",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "backgroundGradientColors": [
+            "ffce6fff",
+            "7b4d21ff",
+            "372d2bff",
+            "163555ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Рандеву",
+                "description": "Выбирает телепорт-якорь. Нажмите кнопку ОГОНЬ, чтобы разместить его на земле. Находясь на земле в зоне действия якоря, нажмите кнопку умения повторно, чтобы телепортироваться к нему. Якорь можно подобрать и разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Коронный прием",
+                "description": "Выбирает ловушку. Нажмите ОГОНЬ, чтобы разместить ее на земле. Когда рядом оказывается противник, ловушка срабатывает после короткой задержки и дестабилизирует небольшую область, в которой игроки замедляются. Ловушку можно подобрать и разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Охотник за головами",
+                "description": "Нажмите кнопку умения, чтобы выбрать тяжелый пистолет. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы прицелиться из этого пистолета.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Демонстрация силы",
+                "description": "Нажмите кнопку умения, чтобы выбрать особо мощную снайперскую винтовку, из которой можно убить врага любым прямым попаданием в верхнюю часть тела. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы прицелиться. На месте гибели противника возникает поле, замедляющее игроков, которые находятся в нем.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "KAY/O",
+        "description": "KAY/O – боевая машина, созданная лишь для одной цели: истребить радиантов. Его способность подавлять умения врага существенно ослабляет команду противника и обеспечивает преимущество союзникам.",
+        "developerName": "Grenadier",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "backgroundGradientColors": [
+            "4afaffff",
+            "4da6e1ff",
+            "1a1e4bff",
+            "391a61ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "ФРАГ/мент",
+                "description": "Выбирает взрывоопасный фрагмент. Нажмите кнопку ОГОНЬ для броска или АЛЬТ. ОГОНЬ для броска снизу. После приземления фрагмента происходит серия взрывов, каждый из которых наносит практически смертельный урон врагам, находящимся в самом центре.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "СВЕТ/овая граната",
+                "description": "Выбирает ослепляющую гранату. Нажмите кнопку ОГОНЬ, чтобы бросить ее навесом. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы сделать бросок снизу менее мощной гранатой, которая быстро сдетонирует. Граната взрывается после небольшой задержки, ослепляя всех в зоне видимости.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "ЭПИ/центр",
+                "description": "Выбирает подавляющий клинок. Нажмите кнопку ОГОНЬ для броска. Клинок взрывается в том месте, куда приземляется, и подавляет всех в радиусе взрыва. Враги могут уничтожить клинок.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "NULL/cmd",
+                "description": "Мгновенно заряжается энергией поляризованного радианита, которая вызывает мощное излучение там, где находится KAY/O. Излучение ненадолго подавляет врагов, попавших в зону действия. На заряженного KAY/O действует эффект боевого стимулятора, и он может восстановиться при получении смертельного урона.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "Skye",
+        "description": "Австралийка Skye и ее звериная стая прокладывают путь по враждебной территории. Ее создания затрудняют продвижение врага, а сама Skye может лечить союзников. С ней команда будет в безопасности и станет сильнее, чем когда-либо.",
+        "developerName": "Guide",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "backgroundGradientColors": [
+            "94e789ff",
+            "aa8a49ff",
+            "4f1413ff",
+            "314d48ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Следопыт",
+                "description": "Выбирает фигурку тасманского волка. Нажмите кнопку ОГОНЬ, чтобы вызвать хищника и управлять им. Нажмите ОГОНЬ, чтобы животное сделало рывок вперед, вызвало оглушающий взрыв при столкновении и нанесло урон пораженным врагам.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Путеводный свет",
+                "description": "Выбирает фигурку ястреба. Нажмите кнопку ОГОНЬ, чтобы послать ястреба вперед. Удерживайте кнопку ОГОНЬ, чтобы ястреб летел в направлении вашего прицела. Во время полета птицы используйте умение снова, чтобы ястреб превратился в ослепляющую вспышку. Вспышка набирает полную силу вскоре после начала полета ястреба.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Новая поросль",
+                "description": "Выбирает исцеляющую фигурку. Удерживайте кнопку ОГОНЬ, чтобы лечить союзников в зоне видимости и действия. Можно использовать снова, пока весь запас лечения не израсходуется. Skye не может лечить себя.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Ищейки",
+                "description": "Выбирает фигурку ищеек. Нажмите кнопку ОГОНЬ, чтобы вызвать троих ищеек, которые выслеживают ближайших противников. Ищейка ограничивает обзор у найденной цели. Враги могут уничтожить ищеек.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "Cypher",
+        "description": "Торговец информацией из Марокко Cypher может самостоятельно создать целую информационную сеть для отслеживания действий противника. Под неусыпным взором Cypher все тайное становится явным.",
+        "developerName": "Gumshoe",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Обнаружение",
+            "Защитная блокировка"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "backgroundGradientColors": [
+            "db9b75ff",
+            "4268b3ff",
+            "3f3f6cff",
+            "2b527cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Киберклетка",
+                "description": "Мгновенно бросает клетку перед Cypher. Активируйте ее, чтобы ограничить обзор противников. Клетка издает особый звук, когда через нее проходят противники.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Камера",
+                "description": "Выбирает шпионскую камеру. Нажмите кнопку ОГОНЬ, чтобы поместить камеру на выбранном месте. Используйте умение снова, чтобы управлять камерой. Во время управления камерой нажмите кнопку ОГОНЬ, чтобы выстрелить отслеживающим дротиком. При попадании в игрока дротик показывает его местоположение. Камеру можно подобрать и разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Растяжка",
+                "description": "Выбирает растяжку. Нажмите кнопку ОГОНЬ, чтобы установить в выбранном месте незаметную растяжку, соединяемую с противоположной стеной. Растяжка через некоторое время замедляет и показывает местоположение попавших в нее противников, если ее не успели уничтожить. Растяжку можно подобрать и разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Нейрокража",
+                "description": "При использовании на мертвом противнике вы мгновенно получаете информацию о вражеской команде. Через некоторое время будет дважды показано местоположение всех живых соперников.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "Sova",
+        "description": "Рожденный в вечной мерзлоте российского заполярья, Sova выслеживает и уничтожает противников с холодной расчетливостью и эффективностью. Этот первоклассный разведчик, экипированный особым луком, найдет вас, где бы вы ни прятались. ",
+        "developerName": "Hunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Обнаружение",
+            "Урон по области"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "backgroundGradientColors": [
+            "f7c7a5ff",
+            "392931ff",
+            "101c47ff",
+            "082652ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Зачинщик",
+            "description": "Зачинщики отрабатывают опасные углы, проводя таким образом подготовку для захвата территории командой и оттесняя обороняющихся.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Шоковая стрела",
+                "description": "Выбирает шоковую стрелу. Нажмите кнопку ОГОНЬ, чтобы выпустить стрелу, летящую по прямой. При столкновении она срабатывает, нанося урон игрокам поблизости. Удерживайте кнопку ОГОНЬ для увеличения дальности выстрела. При нажатии кнопки АЛЬТ. ОГОНЬ стрела отскакивает от стен до двух раз.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Разведстрела",
+                "description": "Выбирает разведстрелу. Нажмите кнопку ОГОНЬ, чтобы выпустить стрелу, летящую по прямой. При столкновении она активируется, показывая местоположение противников в зоне видимости. Враги могут уничтожить стрелу. Удерживайте кнопку ОГОНЬ для увеличения дальности выстрела. При нажатии кнопки АЛЬТ. ОГОНЬ стрела отскакивает от стен до двух раз. ",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Дрон-сова",
+                "description": "Выбирает дрон-сову. Нажмите кнопку ОГОНЬ, чтобы выпустить управляемый дрон. Управляя дроном, нажмите кнопку ОГОНЬ, чтобы выстрелить помечающим дротиком. При попадании в игрока дротик показывает его местоположение. Враги могут уничтожить дрон-сову.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Гнев охотника",
+                "description": "Выбирает три стрелы с дальнобойными, пробивающими стены импульсами. Нажмите кнопку ОГОНЬ, чтобы выпустить импульс по прямой перед агентом, нанося урон и показывая местоположение всех раненых врагов. Умение можно использовать еще два раза, пока активен таймер.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Несравненный стрелок",
+                "description": "Модифицированный лук агента Sova может пускать стрелы, отскакивающие от препятствий. При удерживании кнопки стрельбы лук накапливает заряд и совершает выстрел, если ее отпустить. Нажатием кнопки альтернативного режима стрельбы можно выбрать количество рикошетов. Стрелы отскакивают от препятствий. Чем дольше удерживается кнопка стрельбы, тем более пологой будет траектория полета стрелы. Количество рикошетов можно выбрать нажатием правой кнопки мыши. Стрела вылетит, если отпустить левую кнопку мыши.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "Killjoy",
+        "description": "Гений из Германии Killjoy с легкостью защищает территорию на поле боя с помощью своего арсенала изобретений. И если противники все же уцелеют, то эффекты ослабления помогут Killjoy добить их.",
+        "developerName": "Killjoy",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Защитная блокировка",
+            "Урон по области"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "backgroundGradientColors": [
+            "ffc300ff",
+            "b87b00ff",
+            "413950ff",
+            "614414ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Нанорой",
+                "description": "Выбирает гранату \"Улей\". Нажмите кнопку ОГОНЬ, чтобы бросить гранату. После приземления граната маскируется. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы сделать бросок снизу. Активируйте \"Улей\", чтобы выпустить рой наносящих урон наноботов.  ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Тревогобот",
+                "description": "Выбирает замаскированного бота-паука. Нажмите кнопку ОГОНЬ, чтобы выпустить бота, который атакует противников, оказавшихся в его радиусе действия. Достигнув цели, бот взрывается и делает противников в области взрыва уязвимыми. Удерживайте кнопку умения, чтобы отозвать бота.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "ТУРЕЛЬ",
+                "description": "Выбирает турель. Нажмите кнопку ОГОНЬ, чтобы установить турель, которая автоматически отслеживает противников в 100-градусном секторе. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы изменить направление турели. Удерживайте кнопку умения, чтобы отозвать турель. ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Блокировка",
+                "description": "Выбирает генератор поля блокировки. Нажмите кнопку ОГОНЬ, чтобы установить генератор. Задерживает всех противников, находящихся в радиусе действия. Противники могут вывести генератор из строя.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "displayName": "Harbor",
+        "description": "Агент Harbor с индийского побережья обрушивает бурю на поле боя, используя древнюю технологию управления водой. Он повелевает бурлящими потоками и сокрушительными волнами, чтобы защитить союзников или разгромить противников.",
+        "developerName": "Mage",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "backgroundGradientColors": [
+            "f2d6a3ff",
+            "136c6bff",
+            "11434eff",
+            "0c262cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Специалист",
+            "description": "Специалисты по контролю мастерски справляются с угрозами на местности, чтобы обеспечить команде победу.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Залив",
+                "description": "Выбирает защитную водяную сферу. Нажмите ОГОНЬ для обычного броска или АЛЬТ. ОГОНЬ для броска снизу. Столкнувшись с землей, сфера создает разрушаемый водяной щит, блокирующий пули.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Каскад",
+                "description": "Выбирает волну, проходящую сквозь стены. Нажмите кнопку ОГОНЬ, чтобы отправить волну вперед. Используйте умение повторно, чтобы остановить дальнейшее движение волны. Игроки, которых коснулась вода, замедляются.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Гребень волны",
+                "description": "Выбирает водяную стену. Нажмите кнопку ОГОНЬ, чтобы отправить вперед по земле мощный поток воды. Удерживайте кнопку ОГОНЬ, чтобы перемещать поток в направлении прицела и создать стену вдоль этой траектории. Нажмите кнопку АЛЬТ. ОГОНЬ во время создания траектории, чтобы остановить поток. Игроки, которых коснулась вода, замедляются.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Расчет направления",
+                "description": "Выбирает силу артефакта. Нажмите кнопку ОГОНЬ, чтобы создать на земле гейзерное озеро. В зоне действия умения вражеские игроки оказываются под прицелом гейзерных ударов. Такой удар оглушает цель.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "efba5359-4016-a1e5-7626-b1ae76895940",
+        "displayName": "Vyse",
+        "description": "Vyse умеет управлять жидким металлом, запирая, пленяя и обезоруживая врагов с его помощью. Хитростью и мастерством она вынудит любого, кто встанет на ее пути, бояться самого поля боя.",
+        "developerName": "Nox",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "backgroundGradientColors": [
+            "f147ffff",
+            "823697ff",
+            "6153b7ff",
+            "3b3c4aff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Nox/Nox_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "5cf4f9ee-4ace-08c3-ea08-9b98dade41d5",
+            "milestoneId": "bc02cacf-4c50-1e1b-8681-2a9cca6a6c40",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-08-28T21:00:00Z",
+            "endDate": "2024-09-26T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Замуровка",
+                "description": "Выбирает струйки жидкого металла. Нажмите кнопку ОГОНЬ, чтобы разместить скрытую стену-ловушку. Когда через нее переступает противник, позади него из земли вырастает неразрушимая стена. Она существует некоторое время, после чего распадается.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Дуговая роза",
+                "description": "Выбирает дуговую розу. Выберите целью поверхность и нажмите кнопку ОГОНЬ, чтобы разместить на ней скрытую дуговую розу. Нажмите кнопку АЛЬТ. ОГОНЬ для размещения сквозь поверхность. Используйте умение повторно, чтобы ослепить всех игроков, обращенных к ней лицом. Розу можно подобрать и разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Острая лоза",
+                "description": "Выбирает клубок из жидкого металла. Нажмите кнопку ОГОНЬ, чтобы выпустить его. Коснувшись земли, он становится невидимым. При активации он распускается, становясь скопищем острых лоз, которые замедляют всех игроков, передвигающихся в этой области, а также наносят им урон.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Стальной сад",
+                "description": "Выбирает сплетение из жидкого металла. Нажмите кнопку ОГОНЬ, чтобы выпустить созданный вами металл в виде потока металлических шипов, который после некоторой задержки ЗАКЛИНИВАЕТ основное оружие противников.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "Viper",
+        "description": "Химик из США Viper устанавливает контроль над полем боя с помощью источающих токсичный газ устройств и ограничивает обзор противникам. А тех, кого ей не удастся отравить, она непременно перехитрит.",
+        "developerName": "Pandemic",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Мастер контроля обзора"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "backgroundGradientColors": [
+            "89f476ff",
+            "347334ff",
+            "2c4f5eff",
+            "493a7cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Специалист",
+            "description": "Специалисты по контролю мастерски справляются с угрозами на местности, чтобы обеспечить команде победу.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Ядовитое облако",
+                "description": "Выбирает распылитель газа. Нажмите кнопку ОГОНЬ, чтобы выбросить распылитель, который остается на месте до конца раунда. Нажмите АЛЬТ. ОГОНЬ для броска снизу. Примените умение повторно, чтобы выпустить из распылителя облако ядовитого дыма, которое наносит периодический урон врагам, расходуя топливо. Можно подобрать и разместить заново перед началом раунда, а также использовать больше одного раза за раунд.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Токсичная завеса",
+                "description": "Выбирает распылители газа, проникающие сквозь препятствия. Нажмите кнопку ОГОНЬ, чтобы выстрелить длинной очередью распылителей. При повторном использовании распылители образуют стену ядовитого дыма, расходуя топливо. Враги, пересекающие стену, получают периодический урон. Умение можно применять больше одного раза.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Змеиный укус",
+                "description": "Выбирает капсулу с кислотой. Нажмите кнопку ОГОНЬ, чтобы запустить капсулу, которая разбивается при падении, оставляя после себя лужу кислоты. Попавшие в кислоту противники получают урон и становятся уязвимыми.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Гнездо гадюки",
+                "description": "Выбирает распылитель химикатов. Нажмите кнопку ОГОНЬ, чтобы распылить вокруг Viper облако химикатов, ограничивая обзор находящихся в нем игроков и нанося им периодический урон. Удерживайте кнопку умения, чтобы остановить распыление.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Токсичность",
+                "description": "Вы постепенно накапливаете и восполняете запас токсина, расходуемый на умения.  Враги, которые попадают в зону действия \"Ядовитого облака\", \"Токсичной завесы\" или \"Гнезда гадюки\", мгновенно получают как минимум 30 ед. урона. Чем дольше враги находятся в зоне действия этих умений, тем больший урон они получают.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "Phoenix",
+        "description": "Представитель Великобритании Phoenix демонстрирует звездную силу во всех аспектах своего боевого стиля: он сражается красиво и ярко, всегда навязывает противнику свои условия и отважно устремляется в бой даже без поддержки.",
+        "developerName": "Phoenix",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Гибкость",
+            "Самообеспечение"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "backgroundGradientColors": [
+            "f7bf60ff",
+            "ea6d4eff",
+            "262423ff",
+            "363b42ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Пекло",
+                "description": "Выбирает огненную стену. Нажмите ОГОНЬ, чтобы выпустить пламя, перемещающееся вперед по карте и образующее стену огня. Она заслоняет обзор и наносит урон проходящим через нее игрокам. Огненная стена не наносит урон Phoenix, а лечит его. Удерживайте кнопку ОГОНЬ, чтобы изогнуть стену в сторону прицела.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Горячие руки",
+                "description": "Выбирает огненный шар. Нажмите ОГОНЬ, чтобы бросить огненный шар. После задержки или при падении на землю шар взрывается и создает охваченную огнем область, которая наносит урон противникам. Огненная область не наносит урон Phoenix, а лечит его. Нажмите АЛЬТ. ОГОНЬ для броска снизу.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Крученая подача",
+                "description": "Выбирает ослепляющую сферу, летящую по дуге и взрывающуюся вскоре после броска. При взрыве сфера ослепляет всех игроков, смотревших на нее в момент взрыва. Нажмите кнопку ОГОНЬ, чтобы направить дугу сферы влево, и кнопку АЛЬТ. ОГОНЬ, чтобы направить дугу сферы вправо. Заряд \"Крученой подачи\" восстанавливается после каждых двух убийств.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Возврат",
+                "description": "Мгновенно помечает текущую позицию Phoenix. Если время действия умения истекает или если Phoenix погибает, пока оно действует, то он воскресает в точке, где начал применять умение, с полным запасом здоровья и тем же показателем брони, который был у него на момент применения умения.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Нагрев",
+                "description": "После нахождения в своем огне здоровье Phoenix восстанавливается.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "displayName": "Veto",
+        "description": "Veto, заступник из Сенегала, усилен мощной мутацией ДНК. Он меняет правила ведения боя, нейтрализуя силы и технику врага. Сражаясь с Veto, можно полагаться только на оружие.",
+        "developerName": "Pine",
+        "releaseDate": "2025-10-07T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "backgroundGradientColors": [
+            "1f6178ff",
+            "0e2c41ff",
+            "05e2e9ff",
+            "1a5d65ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pine/Pine_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+            "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-10-07T18:00:00Z",
+            "endDate": "2025-11-04T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Перехватчик",
+                "description": "Выбирает перехватчик. Нажмите ОГОНЬ, чтобы разместить перехватчик в выбранной точке. При повторном применении умения перехватчик активируется. После активации он уничтожает любое устройство, которое отскочило бы от агента и/или могло бы быть уничтожено выстрелами. Враги могут уничтожить перехватчик.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Связка",
+                "description": "Выбирает вихрь. Нажмите ОГОНЬ, чтобы разместить его на земле. Находясь в области действия и смотря на вихрь, нажмите кнопку умения, чтобы переместиться к нему. Во время фазы покупок вихрь можно вернуть, чтобы разместить заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Эволюция",
+                "description": "Мгновенно начинает мутировать, получая эффект боевого стимулятора и невосприимчивость ко всем отрицательным эффектам, а также восстанавливая здоровье.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Удушение",
+                "description": "Выбирает вязкий мутировавший сгусток. Нажмите ОГОНЬ, чтобы бросить его. При столкновении с поверхностью сгусток преобразуется в ловушку, которая удерживает врагов. Также она лишает их слуха и наносит им периодический урон. Враги могут уничтожить ловушку до активации.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "Astra",
+        "description": "Astra, агент из Ганы, управляет пространством и временем и способна изменять поле битвы. Полный контроль над астральной формой и талант стратегического предвидения позволяют ей опережать врага на целую вечность.",
+        "developerName": "Rift",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "backgroundGradientColors": [
+            "f47dc9ff",
+            "a54498ff",
+            "5210c6ff",
+            "372518ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Специалист",
+            "description": "Специалисты по контролю мастерски справляются с угрозами на местности, чтобы обеспечить команде победу.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Взрыв сверхновой",
+                "description": "Разместите звезды в Астральной форме (нажмите кнопку абсолютного умения). \nАктивируйте звезду, чтобы вызвать взрыв сверхновой. Умение быстро заряжается и оглушает всех игроков в зоне действия.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Туманность / Рассеивание",
+                "description": "Разместите звезды в Астральной форме (нажмите кнопку абсолютного умения). \nАктивируйте звезду, чтобы преобразовать ее в туманность (газо-пылевое облако).\nВыберите звезду, чтобы рассеять ее. Звезда исчезает, и через некоторое время ее можно разместить в другом месте.\nПеред исчезновением звезда ненадолго создает ложную туманность.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Гравитационный колодец",
+                "description": "Разместите звезды в Астральной форме (нажмите кнопку абсолютного умения).\nАктивируйте звезду, чтобы создать гравитационный колодец. Игроки в области действия умения притягиваются к центру, после чего колодец взрывается, делая игроков внутри уязвимыми.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Астральная форма/\nПространственный разлом",
+                "description": "Нажмите кнопку умения, чтобы войти в Астральную форму и разместить звезды с помощью кнопки ОГОНЬ. Затем звезды можно активировать, чтобы применить умения \"Взрыв сверхновой\", \"Туманность\" или \"Гравитационный колодец\".\nКогда \"Пространственный разлом\" заряжен, используйте кнопку АЛЬТ. ОГОНЬ в Астральной форме, чтобы начать прицеливание, а затем кнопку ОГОНЬ для выбора двух точек. Бесконечный \"Пространственный разлом\" проходит через две выбранные точки. Он блокирует пули и звуки.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Астральная форма",
+                "description": "Активируйте абсолютное умение, чтобы войти в Астральную форму, и разместите звезды с помощью кнопки ОСНОВНОГО РЕЖИМА СТРЕЛЬБЫ. К звездам можно применять умения \"Взрыв сверхновой\", \"Туманность\" и \"Гравитационный колодец\".",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "Brimstone",
+        "description": "Уроженец США Brimstone обеспечивает своей команде преимущество перед противником благодаря орбитальной технике. Возможность удаленно оказывать помощь там, где это требуется, делает его несравненным боевым командиром.",
+        "developerName": "Sarge",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Контроль обзора",
+            "Урон по области"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "backgroundGradientColors": [
+            "eb953fff",
+            "892c1bff",
+            "211d21ff",
+            "282b38ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Специалист",
+            "description": "Специалисты по контролю мастерски справляются с угрозами на местности, чтобы обеспечить команде победу.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Маячок-стимулятор",
+                "description": "Мгновенно бросает себе под ноги маячок-стимулятор. После приземления маячка ближайшие игроки получают боевой стимулятор и повышенную скорость передвижения.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Зажигательная граната",
+                "description": "Выбирает зажигательный гранатомет. Нажмите кнопку ОГОНЬ, чтобы запустить гранату, которая падает и взрывается после остановки, образуя горящую область, в которой все игроки получают урон.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Небесный дым",
+                "description": "Выбирает тактическую карту. Нажмите кнопку ОГОНЬ, чтобы указать на карте места для установки дымовых завес. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы установить несколько дымовых завес продолжительного действия, закрывающих обзор в указанной области.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Орбитальный удар",
+                "description": "Выбирает тактическую карту. Нажмите кнопку ОГОНЬ, чтобы запустить орбитальный удар, наносящий высокий периодический урон игрокам, находящимся в выбранной зоне.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+        "displayName": "Iso",
+        "description": "Китайский агент Iso – опытный боец, способный устранить любую цель. Он преобразовывает окружающую энергию в пуленепробиваемые щиты и уверенно вступает в отчаянные бои один на один.",
+        "developerName": "Sequoia",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "backgroundGradientColors": [
+            "c4a1ffff",
+            "3d0fd4ff",
+            "20155dff",
+            "ac52ffff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+            "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-10-31T13:00:00Z",
+            "endDate": "2023-11-29T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Дестабилизация",
+                "description": "Выбирает молекулярную энергию. Нажмите ОГОНЬ, чтобы метнуть ее, подавив и сделав уязвимыми игроков, которых она коснется. Энергия проходит сквозь стены и другие твердые объекты.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Контракт на убийство",
+                "description": "Выбирает межпространственную арену. Нажмите ОГОНЬ, чтобы выпустить поток энергии. Первый противник, которого коснется поток, и Iso восполняют здоровье и перемещаются на арену, покинуть которую можно только после убийства оппонента.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Контрольный выстрел",
+                "description": "Мгновенно инициирует фокусирование. Когда фокусирование завершено, агент получает щит, поглощающий одну порцию урона любого происхождения, перезаряжает оружие быстрее и входит в состояние потока, а противники, убитые при его участии, начинают оставлять энергетические сферы. Выстрелив в такую сферу, агент перезапускает состояние потока, а также имеющийся щит – либо получает его заново.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Особая ситуация",
+                "description": "Нажмите кнопку умения, чтобы собрать призматическую энергию. Нажмите ОГОНЬ, чтобы отправить вперед неразрушаемую энергетическую стену, блокирующую пули. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы стена двигалась медленнее.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "displayName": "Clove",
+        "description": "Clove, родом из Шотландии, умеет навредить противникам и в пылу боя, и во хладе смерти. Врагам остается только гадать, когда же агент восстанет из могилы, – а это может случиться в любой момент.",
+        "developerName": "Smonk",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "backgroundGradientColors": [
+            "f17cadff",
+            "062261ff",
+            "c347c7ff",
+            "f1db6fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Специалист",
+            "description": "Специалисты по контролю мастерски справляются с угрозами на местности, чтобы обеспечить команде победу.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+            "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-03-25T13:00:00Z",
+            "endDate": "2024-04-24T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Подпитка",
+                "description": "Нажмите кнопку умения, чтобы поглотить жизненную силу павшего противника, которого Clove удалось убить (или нанести урон). Это дает повышение скорости и временную прибавку к здоровью.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Уловка",
+                "description": "Выбирает обзор поля боя. Нажмите кнопку ОГОНЬ, чтобы указать места на карте для облаков Clove. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы запустить несколько облаков, застилающих обзор в выбранной области. Clove может использовать это умение после смерти.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Рано помирать",
+                "description": "Нажмите кнопку умения для воскрешения. После воскрешения Clove нужно убить противника (или помочь убить его, нанеся урон) в пределах определенного времени, иначе наступит смерть. Нажмите кнопку умения повторно, чтобы отменить использование.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Вмешательство",
+                "description": "Выбирает фрагмент эссенции бессмертия. Нажмите кнопку ОГОНЬ, чтобы бросить его. Коснувшись земли, он разрывается и временно наносит периодический урон всем целям в зоне поражения.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "displayName": "Neon",
+        "description": "Филиппинка Neon способна невероятно быстро передвигаться благодаря биоэлектрическим импульсам, которые генерирует ее тело. Это позволяет ей заставать врагов врасплох и расправляться с ними быстрее молнии.",
+        "developerName": "Sprinter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "backgroundGradientColors": [
+            "ba89ffff",
+            "6241ccff",
+            "38328eff",
+            "2c4799ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sprinter/Sprinter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Повышенная скорость",
+                "description": "Мгновенно накапливает заряд для повышения скорости. Находясь в заряженном состоянии, нажмите кнопку АЛЬТ. ОГОНЬ, чтобы проскользить. Заряд скольжения восстанавливается после каждых двух убийств. Топливо восполняется после убийства. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Прыгающий снаряд",
+                "description": "Мгновенно бросает энергетический снаряд, который отскакивает от поверхности один раз. Когда снаряд касается поверхности, земля под ним электризуется, и происходит оглушающий взрыв.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Защитный туннель",
+                "description": "Нажмите кнопку ОГОНЬ, чтобы запустить вперед по земле две параллельных линии подачи энергии. Линии простираются на небольшое расстояние или до ближайшей поверхности, после чего образуют два энергетических барьера, которые блокируют обзор.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "На полную мощь",
+                "description": "В течение короткого времени Neon использует всю свою энергию и скорость, восполняя запас топлива и получая заряд скольжения. Нажмите кнопку ОГОНЬ, чтобы преобразовать энергию в смертоносный электрический луч высокой точности. Убийства обновляют длительность эффекта. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "Yoru",
+        "description": "Уроженец Японии Yoru способен создавать разрывы в самой реальности, чтобы незаметно пробираться на вражескую территорию. Сила и хитрость позволяют ему заставать врагов врасплох – они даже не успеют понять, откуда пришла смерть.",
+        "developerName": "Stealth",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "backgroundGradientColors": [
+            "66a8ffff",
+            "3b37a7ff",
+            "261e4fff",
+            "101042ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Приманка",
+                "description": "Выбирает эхо, которое при активации превращается в зеркальное отражение Yoru. Нажмите кнопку ОГОНЬ, чтобы немедленно активировать отражение и послать его вперед, или АЛЬТ. ОГОНЬ, чтобы разместить неактивное эхо. Чтобы превратить неактивное эхо в зеркальное отражение и послать его вперед, нажмите кнопку ИСПОЛЬЗОВАТЬ. Зеркальные отражения, уничтоженные врагами, взрываются и превращаются в ослепляющую вспышку.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Ошеломление",
+                "description": "Нажмите кнопку умения, чтобы вырвать из реальности нестабильный фрагмент. Нажмите кнопку ОГОНЬ, чтобы бросить фрагмент. При столкновении фрагмента с твердой поверхностью возникает ослепляющая вспышка.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Незваный гость",
+                "description": "Выбирает нить портала. Нажмите кнопку ОГОНЬ, чтобы послать портал вперед, или АЛЬТ. ОГОНЬ, чтобы разместить неподвижную нить. Телепортируйтесь по нити с помощью кнопки умения. Чтобы имитировать телепорт, нажмите кнопку ИСПОЛЬЗОВАТЬ. Заряд \"Незваного гостя\" восстанавливается после каждых двух убийств.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Пространственный\nдрифт",
+                "description": "Выбирает маску, которая позволяет смотреть сквозь измерения. Нажмите кнопку ОГОНЬ, чтобы переместиться в измерение, в котором Yoru неуязвим и невидим для врагов. Нажмите кнопку умения повторно, чтобы вернуться.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "df1cb487-4902-002e-5c17-d28e83e78588",
+        "displayName": "Waylay",
+        "description": "Сияющая Waylay из Таиланда превращается в сам свет, молниеносно перемещаясь по полю боя. Она поражает цели осколками света, а затем стремительно возвращается в безопасное место – и все это в мгновение ока.",
+        "developerName": "Terra",
+        "releaseDate": "2025-03-04T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "backgroundGradientColors": [
+            "affb9bff",
+            "ac53acff",
+            "5b477eff",
+            "298786ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Terra/Terra_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "df1cb487-4902-002e-5c17-d28e83e78588",
+            "milestoneId": "e74c294c-4b69-4fa4-2b50-31ae6e93f242",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-03-05T22:00:00Z",
+            "endDate": "2025-04-02T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Рефракция",
+                "description": "Мгновенно создает на полу световой маячок. Нажмите кнопку умения повторно, чтобы перенестись к маячку в виде частицы света. Во время перемещения вы неуязвимы. Заряд \"Рефракции\" восстанавливается после каждых двух убийств.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Световое загрязнение",
+                "description": "Мгновенно бросает световой сгусток, который взрывается при контакте с землей и сдерживает ближайших игроков, заметно снижая их скорость использования оружия и передвижения.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Скорость света",
+                "description": "Нажмите кнопку умения, чтобы приготовиться к ускорению. Нажмите кнопку ОГОНЬ, чтобы дважды совершить рывок вперед. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы сделать один рывок. Переместиться вверх можно только во время первого рывка.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Схождение",
+                "description": "Нажмите кнопку умения, чтобы сфокусировать призматическую энергию. Нажмите кнопку ОГОНЬ, чтобы создать свою проекцию, которая излучает световой пучок. После небольшой задержки вы получаете мощный прирост скорости, а пучок расширяется, сдерживая других игроков в области поражения.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "Sage",
+        "description": "Защитница Китая Sage обеспечивает безопасность команды в бою. Благодаря возможности воскрешать союзников и сдерживать натиск врага она создает оазис покоя на жутком поле боя.",
+        "developerName": "Thorne",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Восстановление",
+            "Задержка"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "backgroundGradientColors": [
+            "7bfedeff",
+            "41819aff",
+            "102d23ff",
+            "226071ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Страж",
+            "description": "Стражи – эксперты по обороне, способные обеспечить прикрытие участков на поле боя и флангов как в защите, так и в нападении.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Сфера замедления",
+                "description": "Выбирает замедляющую сферу. Нажмите кнопку ОГОНЬ, чтобы бросить замедляющую сферу вперед. После падения сфера создает поле, которое замедляет игроков и снижает скорость их рывков.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Сфера лечения",
+                "description": "Выбирает сферу здоровья. При наведении на раненого союзника и нажатии кнопки ОГОНЬ активирует постепенное лечение. Если Sage ранена, то нажатие кнопки АЛЬТ. ОГОНЬ активирует постепенное самолечение.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Сфера барьера",
+                "description": "Выбирает сферу барьера. Нажмите кнопку ОГОНЬ, чтобы создать стену, которая затвердеет через несколько секунд. Нажмите кнопку АЛЬТ. ОГОНЬ, чтобы повернуть стену перед установкой.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Воскрешение",
+                "description": "Выбирает воскрешающее умение. Наведите прицел на погибшего союзника и нажмите кнопку ОГОНЬ, чтобы начать воскрешение. После небольшой задержки цель вернется к жизни с полным запасом здоровья.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "Reyna",
+        "description": "Выросшая в самом сердце Мексики Reyna способна одолеть любого в бою один на один, и убийства придают ей сил. Ее мощь ограничена лишь мастерством и в значительной степени зависит от успехов в бою. ",
+        "developerName": "Vampire",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Уклонение",
+            "Самообеспечение"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "backgroundGradientColors": [
+            "e46e77ff",
+            "c44d9fff",
+            "2f2664ff",
+            "2f203fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Поглощение",
+                "description": "Сбор душ: когда Reyna убивает противника или когда противник умирает в течение 3 секунд после получения урона от нее, на 3 секунды появляется сфера души.\n\nПоглощение: мгновенно поглощает находящуюся поблизости сферу души и быстро восполняет здоровье. Используется автоматически и не поглощает сферу во время действия абсолютного умения.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Изгнание",
+                "description": "Мгновенно поглощает находящуюся поблизости сферу души, что дает неуязвимость на 2 секунды. Во время действия умения \"Императрица\" также дает невидимость.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Злобный взгляд",
+                "description": "Выбирает призрачный глаз. При активации бросает глаз на близкое расстояние. Глаз ограничивает обзор всех противников, которые посмотрят на него. Глаз можно уничтожить.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Императрица",
+                "description": "Мгновенно впадает в бешенство и получает боевой стимулятор, повышающий скорость стрельбы и обращения с оружием. Дает бесконечное количество зарядов \"Сбора душ\".",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "Omen",
+        "description": "Призрак из прошлого Omen наносит удары из тени. Он способен ослеплять врагов и незаметно перемещаться по полю боя, вселяя страх в сердца противников, тщетно пытающихся предугадать, откуда он нападет вновь.",
+        "developerName": "Wraith",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Подвижность",
+            "Контроль обзора"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "backgroundGradientColors": [
+            "2fdddeff",
+            "4f53afff",
+            "344673ff",
+            "193b3dff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Специалист",
+            "description": "Специалисты по контролю мастерски справляются с угрозами на местности, чтобы обеспечить команде победу.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Паранойя",
+                "description": "Выбирает ослепляющую сферу. Нажмите кнопку ОГОНЬ, чтобы бросить ее вперед и ненадолго ограничить обзор и слух игроков, которых она коснется. Эта сфера может проходить сквозь стены.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Темный покров",
+                "description": "Выбирает теневую сферу и переходит в иную реальность, чтобы установить сферы. Нажмите кнопку умения, чтобы бросить теневую сферу, которая расширяется в выбранной точке, ограничивая обзор. Чтобы увеличить дальность броска сферы, удерживайте кнопку ОГОНЬ. Чтобы уменьшить дальность броска, удерживайте кнопку АЛЬТ. ОГОНЬ. Нажмите кнопку ПЕРЕЗАРЯДКИ, чтобы переключиться на обычный режим прицеливания.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Скрытый шаг",
+                "description": "Выбирает умение \"Скрытый шаг\" и показывает дальность его действия. Нажмите кнопку ОГОНЬ, чтобы после небольшой задержки телепортировать агента к выбранному месту. Противники услышат звук телепортации только от точки отправления.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Из тени",
+                "description": "Выбирает тактическую карту. Нажмите кнопку ОГОНЬ, чтобы начать телепортацию к выбранному месту. Во время телепортации Omen предстает в образе тени, которая может быть уничтожена врагом для отмены телепортации. Omen также может отменить телепортацию нажатием кнопки умения.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "Jett",
+        "description": "Представляющая Южную Корею Jett быстра и неуловима и может позволить себе рисковать чаще других. В любой стычке она заходит с флангов и быстро уничтожает растерявшегося противника.",
+        "developerName": "Wushu",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Уклонение",
+            "Подвижность"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "backgroundGradientColors": [
+            "90e3fdff",
+            "557f8cff",
+            "2b4e7cff",
+            "1e3344ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Дуэлянт",
+            "description": "Дуэлянты – самодостаточные убийцы, от которых товарищи по команде ожидают высокой результативности и агрессивной игры. Добиться в этом успеха им позволяют их умения и навыки.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Подъем",
+                "description": "Jett мгновенно взлетает в воздух.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Попутный ветер",
+                "description": "Вызывает кратковременный порыв ветра. Используйте умение повторно, чтобы Jett совершила быстрый рывок в направлении движения. Если Jett стоит на месте, то она делает рывок вперед. Каждые два убийства восстанавливают заряд \"Попутного ветра\".",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Вихрь",
+                "description": "Мгновенно бросает снаряд, превращающийся в ненадолго закрывающее обзор облако при столкновении с поверхностью. Удерживайте кнопку умения, чтобы менять направление движения дыма с помощью прицела.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Буря клинков",
+                "description": "Вооружается набором кинжалов, которые всегда летят точно в цель. Нажмите кнопку ОГОНЬ, чтобы бросить один кинжал. При убийстве все кинжалы возвращаются. Нажав кнопку АЛЬТ. ОГОНЬ, вы бросите все кинжалы сразу, но они не вернутся при убийстве.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Смещение",
+                "description": "Зажав кнопку прыжка во время падения, можно медленно планировать вниз.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    }
+]

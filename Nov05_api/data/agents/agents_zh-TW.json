@@ -1,0 +1,1883 @@
+[
+    {
+        "uuid": "e370fa57-4757-3604-3648-499e1f642d3f",
+        "displayName": "蓋克",
+        "description": "洛杉磯人蓋克帶領了一群親密無間的小怪物。他的好夥伴總是一馬當先，打亂敵人陣腳，等蓋克追上後再重整隊伍，再次出擊。",
+        "developerName": "Aggrobot",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "backgroundGradientColors": [
+            "c7f458ff",
+            "d56324ff",
+            "3a2656ff",
+            "3a7233ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/AggroBot/AggroBot_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "震翼鳥人",
+                "description": "裝備鳥人。點擊「攻擊」即可向前放出鳥人搜敵。鳥人會炸出震波暈眩第一位看見的敵人。瞄準據點或輻能核心時點擊「輔助攻擊」，即可讓鳥人安裝或拆除輻能核心。蓋克的物品欄中必須有輻能核心才能安裝。鳥人的時間一到就會回復成休眠的球體。點擊「互動」即可回收球體，經過短暫的冷卻時間後便可獲得另一次鳥人充能。",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "頭暈目眩",
+                "description": "裝備眩眩。點擊「攻擊」即可讓眩眩向前飛。眩眩蓄力後對視野內的敵人發射電漿砲，被電漿砲擊中的敵人會遭到「致盲」。眩眩的時間一到就會回復成休眠的球體。點擊「互動」即可回收球體，經過短暫的冷卻時間後便可獲得另一次眩眩充能。",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "爆爆領域",
+                "description": "裝備爆爆。點擊「攻擊」即可將爆爆當成手榴彈投出。點按「輔助攻擊」可低手拋出。爆爆落地後會在大範圍內複製增生，持續造成少量傷害，並在短暫延遲後爆炸。",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "鯊無赦",
+                "description": "裝備鯊鯊。點擊「攻擊」即可與其心智連結，操控她穿越敵軍陣地。按下「啟動」可使鯊鯊向前衝並爆炸，「拘束」小範圍內所有敵人。鯊鯊的時間一到就會回復成休眠的球體。點擊「互動」即可回收球體，經過短暫的冷卻時間後便可獲得另一次鯊鯊充能。鯊鯊只能回收一次。",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "displayName": "菲德",
+        "description": "來自土耳其的賞金獵人菲德能釋放純粹的惡夢能量來攫取敵人的祕密。她是恐懼的化身，能追獵目標，揭開他們最深層的恐懼，然後用黑暗將其摧毀殆盡。",
+        "developerName": "BountyHunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "backgroundGradientColors": [
+            "b1414cff",
+            "5589bdff",
+            "18344cff",
+            "66376cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "咒縛夢魘",
+                "description": "裝備充滿純粹恐懼的球體，點擊「攻擊」即可拋出。球體會在經過一定時間後落下，「重施技能」即可使球體提早落下。球體會在接觸時破裂，束縛附近的敵人，被束縛的目標會遭到「致聾和侵蝕」。",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "惡夢幽魂",
+                "description": "裝備一個偵察幽魂，點擊「攻擊」即可拋出。幽魂會在經過一定時間後落下，「重施技能」即可使幽魂提早落下。幽魂會在接觸時爆炸，「揭露」視野範圍內的敵人，並製造出通往目標的恐懼軌跡。敵軍可破壞此幽魂。",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "潛行夢魔",
+                "description": "裝備一個夢魔，點擊「攻擊」，即可向前放出夢魔。長按「攻擊」能操控夢魔，依照十字準星的方向轉彎。夢魔會追蹤第一位目擊的敵人或恐懼軌跡，並在觸碰到敵方時「限制其視野」。",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "夜幕降臨",
+                "description": "裝備惡夢之力，點擊「攻擊」即可釋放一波勢不可擋的惡夢能量，遭到波及的敵人會被「致聾和侵蝕」，並會產生恐懼軌跡。",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "叛奇",
+        "description": "瑞典生化人叛奇，能發射強大且精準的雷射震擊，通過火力壓制開闢前往敵區的道路。能夠阻斷敵方，又能造成傷害的他，絕對是確保敵我雙方實力懸殊的不二人選。",
+        "developerName": "Breach",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "backgroundGradientColors": [
+            "ff9c33ff",
+            "b04621ff",
+            "523a23ff",
+            "44412eff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "致盲閃光",
+                "description": "裝備一顆「致盲彈」。點擊「攻擊」發射彈體，穿牆後在另一面快速爆炸。爆炸後將「致盲」所有未移開視線的玩家。",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "震動斷層",
+                "description": "裝備一道撼地雷射。長按「攻擊」可增加攻擊距離。放開「攻擊」，將引發地震，「暈眩」範圍內以及發射路徑上的所有玩家。",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "餘震打擊",
+                "description": "裝備一枚核融彈。點擊「攻擊」發射彈體，穿牆後在另一面緩速爆炸。在範圍內的所有人將受到重度傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "撼地轟雷",
+                "description": "裝備一顆撼地彈。點擊「攻擊」，釋放可穿透所有地形的大範圍連鎖地震。範圍內所有人將受到暈眩且遭到擊飛。",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+        "displayName": "蒂羅",
+        "description": "挪威籍特務蒂羅佈下大量尖端科技奈米線守住陣地，就連最致命的攻擊也難越雷池一步。在她的警戒下，誰都逃不過她的法眼。她對敵人從不手下留情，遇上她絕對九死而無一生。",
+        "developerName": "Cable",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "backgroundGradientColors": [
+            "bcc2ffff",
+            "4d64c4ff",
+            "221c3dff",
+            "22224bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cable/Cable_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "7ec37a1e-4526-77dd-1afd-e2ab3b624085",
+            "milestoneId": "fcca98dc-4a83-2837-9512-f88a0a08fcfd",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-06-27T00:00:00Z",
+            "endDate": "2023-07-25T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "聲波感測器",
+                "description": "裝備一個聲波偵測器。點擊「攻擊」部署。感測器會偵測範圍內敵人發出的聲音，只要偵測到腳步聲、槍聲或是明顯聲響，就會暈眩範圍內的敵人。可撿起偵測器，然後「重新部署」。",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "天羅地網",
+                "description": "裝備一個天羅地網圓盤。點擊「攻擊」向前投出。圓盤落地時會在原點到落點之間生成屏障，阻隔角色移動。",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "重力網",
+                "description": "裝備一枚重力網手榴彈。點擊「攻擊」即可投出。點擊「輔助攻擊」可低手拋出。重力網一落地就會引爆，迫使所有被網住的角色蹲下並緩速。",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "在繭難逃",
+                "description": "裝備一個奈米線加速器。點擊「攻擊」射出大量奈米線，捕捉第一位碰到的敵人。敵人被困住後會沿著奈米線路徑被拖行，如不設法脫困就會死亡。奈米繭可被破壞。",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+        "displayName": "戴侯",
+        "description": "「戴侯」是來自哥倫比亞的資深情報顧問，他的彈道導引系統能迫使敵人放棄陣地……甚或賠上性命。他的精確打擊能讓對手陷入混亂，臣服於他的掌控之下。",
+        "developerName": "Cashew",
+        "releaseDate": "2025-01-08T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "backgroundGradientColors": [
+            "ffb573ff",
+            "c4611fff",
+            "60291eff",
+            "462821ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+            "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-01-08T22:00:00Z",
+            "endDate": "2025-02-05T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "導引轟炸",
+                "description": "裝備一個AR瞄準系統。點擊「攻擊」在地圖上選擇最多兩個目標地點。點擊「輔助攻擊」發射自動導向飛彈，飛彈會射到目標地點然後多次引爆造成傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "限時快遞",
+                "description": "裝備一顆黏性手榴彈。點擊「攻擊」發射。手榴彈會吸附在第一個碰到的表面上並爆炸，對爆炸範圍內的所有目標造成暈眩效果。點擊「輔助攻擊」則可發射能彈跳一次的手榴彈。",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "末日審判",
+                "description": "裝備一個鎖定戰術打擊地點的地圖。點擊「攻擊」選擇攻擊的起始點。再次點擊「攻擊」設定終點並發動攻擊，沿著打擊路徑造成一波致命爆炸傷害。使用地圖鎖定地點時，點擊「輔助攻擊」取消攻擊起始點。",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "匿蹤無人機",
+                "description": "裝備一架匿蹤無人機。點擊「攻擊」向前拋出無人機，直接控制它移動。再次點擊「攻擊」觸發能量波，被擊中的敵人會遭到抑制並揭露行蹤。",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "芮茲",
+        "description": "來自巴西的芮茲經常使用巨型槍械展現她大剌剌的個性。她擅長用驚天一「砰」，逼出躲在壕溝的埋伏，掃除狹窄空間的敵人，這就是她的暴力破壞風。",
+        "developerName": "Clay",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "範圍傷害專家"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "backgroundGradientColors": [
+            "feac45ff",
+            "d64f35ff",
+            "2c5942ff",
+            "2b474bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "爆破包",
+                "description": "立即丟出一個會黏在表面的爆破包。部署完成後「重施技能」來引爆，對擊中的東西造成位移及傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "漆彩榴彈",
+                "description": "裝備一枚破片手榴彈。點擊「攻擊」來丟出手榴彈造成傷害，並且射出對範圍內所有目標造成傷害的破片。點擊「輔助攻擊」則可低手拋出。每擊殺兩名敵人可重置漆彩榴彈充能數。",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "爆破機器人",
+                "description": "裝備一個爆破機器人。點擊「攻擊」來啟動機器人，機器人會在地面沿著直線行進，撞到牆壁會反彈。爆破機器人會鎖定出現在其前方扇形區域的敵人，並朝目標直衝，若成功追上敵人則會爆炸造成大量傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "掃興火炮",
+                "description": "裝備一台火箭發射器。點擊「攻擊」發射一枚火箭炮，火箭炮會在擊中區域造成大範圍傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "錢博爾",
+        "description": "錢博爾是來自法國的武器設計師，他一身時尚、滿載武力，用致命的精準武器把侵略者一一驅逐。他的特製武器可以守住戰線，從遠處一一消滅敵人，即便作戰出了亂子，他也能優雅應變，臨危不亂。",
+        "developerName": "Deadeye",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "backgroundGradientColors": [
+            "ffce6fff",
+            "7b4d21ff",
+            "372d2bff",
+            "163555ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "法式轉移",
+                "description": "裝備一個傳送錨點，點擊「攻擊」可放置在地上，錢博爾在地面上且在錨點範圍內時，「重施技能」可瞬間移動到錨點位置。可撿起錨點，然後「重新部署」。",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "慢行特區",
+                "description": "裝備一個可偵測敵人的陷阱，點擊「攻擊」可放置在地上，非隱形的敵人進入範圍時，該陷阱倒數後會使周圍空間進入不穩定的狀態，創造一個可維持一段時間的力場，「緩速」範圍內的敵人。可撿起陷阱，然後「重新部署」。",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "獵頭手槍",
+                "description": "按下「啟動」可裝備一把重火力手槍。持槍時點擊「輔助攻擊」可開始瞄準射擊。",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "浪漫狙殺",
+                "description": "按下「啟動」可取出一把強大的特製狙擊槍，直接命中上身即可擊殺敵人。點擊「輔助攻擊」即可進入開鏡瞄準模式。擊殺敵人後會創造一個可維持一段時間的力場，「緩速」範圍內的敵人。",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "KAY/O",
+        "description": "KAY/O是一台戰爭機器，其唯一目的是消滅所有輻能者。他可以抑制對手的能力，讓敵人無力還擊，為自身陣營取得絕大優勢。",
+        "developerName": "Grenadier",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "backgroundGradientColors": [
+            "4afaffff",
+            "4da6e1ff",
+            "1a1e4bff",
+            "391a61ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "碎片/絕殺",
+                "description": "裝備一個炸彈碎片。點擊「攻擊」即可拋出，點擊「輔助攻擊」則可低手拋出。附著在地面上後會連續爆炸多次，每次都會在爆炸中心造成幾乎致命性的傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "閃光/驅動",
+                "description": "裝備一個閃光彈，點擊「攻擊」即可高手拋出。點擊「輔助攻擊」則改為低手拋出，爆炸更迅速而威力較弱。引信快速燃盡後爆炸，致盲所有視野內的玩家。",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "歸零/零點",
+                "description": "裝備一把抑制刃。點擊「攻擊」即可拋出，附著在第一個擊中的物體表面上，進行發動，並抑制所有在爆炸範圍內的玩家。敵軍可破壞這把刀。",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "無效/指令",
+                "description": "立刻運轉超載，產生大量極化輻能，並釋放大範圍能量波，被能量波擊中的敵人會暫時遭受抑制。運轉超載時，KAY/O會獲得「激發戰意」增益，停機後可重新啟動。",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "絲凱",
+        "description": "絲凱來自澳洲，她與她的野獸同伴會勇闖敵區為我方開路。除了能召喚生物妨礙敵軍，她還能治療隊友，因此只要有絲凱在側，肯定能展現隊伍的最強實力，避開凶險局面。",
+        "developerName": "Guide",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "backgroundGradientColors": [
+            "94e789ff",
+            "aa8a49ff",
+            "4f1413ff",
+            "314d48ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "開路狼鋒",
+                "description": "裝備一個袋狼雕飾。點擊「攻擊」，即可放出猛獸並控制其行動。控制時，點擊「攻擊」可命令其朝前方撲擊，命中時炸出震波暈眩並傷害直接命中的敵軍。",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "引導之鷹",
+                "description": "裝備一個飛鷹雕飾。點擊「攻擊」，即可向前放出飛鷹。長按「攻擊」，可讓飛鷹隨著畫面上十字準星的方向轉彎。在飛行時「重施技能」，可將飛鷹化為一道閃光致盲敵人。飛鷹飛行一小段時間後，閃光就會達到最大效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "萌芽重生",
+                "description": "裝備一個治療雕飾。長按「攻擊」即可開始施法，「治療」範圍和視野內的友軍，在治療能量條用完前可重複施放。絲凱無法治療自己。",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "追獵精靈",
+                "description": "裝備一個追獵精靈雕飾。點擊「攻擊」，即可放出三隻精靈，追獵三名距離最近的敵軍。精靈觸及目標時會使其視野受到限制。敵軍可破壞追獵精靈。",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "瑟符",
+        "description": "瑟符是摩洛哥的情報販子，隻身一人便是頂尖情報中心，窺探著敵人的一舉一動。沒有機密是安全的，沒有計謀可以逃過他的法眼。瑟符永遠監視著你。",
+        "developerName": "Gumshoe",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "偵查",
+            "防禦性封鎖"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "backgroundGradientColors": [
+            "db9b75ff",
+            "4268b3ff",
+            "3f3f6cff",
+            "2b527cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "網戰牢籠",
+                "description": "立刻將網戰牢籠拋到瑟符面前。按下「啟動」，可製造出一塊當敵軍通過會發出聲音提示的區域，同時能阻擋視野。",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "監控攝影機",
+                "description": "裝備一個針孔攝影機。點擊「攻擊」，即可將攝影機安裝至指定地點。「重新使用」此技能，可遙控並監視攝影畫面。遙控攝影機時，點擊「攻擊」可射出記號飛鏢，被射中的玩家將被揭露行蹤。可撿起攝影機，然後「重新部署」。",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "陷阱絆索",
+                "description": "裝備一條陷阱絆索。點擊「攻擊」，在指定地點放置可破壞的隱形絆索，在該位置與對向牆壁之間拉出一條線。觸發絆索的敵軍若未及時摧毀該裝置，經過一小段時間後，將遭到「緩速、暴露行蹤」。可撿起絆索「重新部署」。",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "神經駭客",
+                "description": "立刻對瞄準的敵軍遺體使用此技能，可下載敵隊的資訊。短暫延遲之後，所有尚存敵軍的行蹤會「暴露」兩次。",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "蘇法",
+        "description": "蘇法出生於俄羅斯的永凍冰原，他靠著快捷而精準的身手，緊追在後、曝光敵蹤、將目標無情殲滅。他手持改造弓，結合出色的偵察能力，讓你逃得了一時，躲不過一世。 ",
+        "developerName": "Hunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "偵查",
+            "範圍傷害"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "backgroundGradientColors": [
+            "f7c7a5ff",
+            "392931ff",
+            "101c47ff",
+            "082652ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "先鋒",
+            "description": "先鋒能從不同角度切入且擊退守備方，替隊伍在詭譎多變的戰場中製造優勢。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "震波箭",
+                "description": "裝備一把弓，配有震波箭。點擊「攻擊」，即可向前射出這支爆破箭，觸物後的爆炸將傷害附近玩家。長按「攻擊」可增加射程。點擊「輔助攻擊」，可使箭矢彈射最多兩次。",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "偵察箭",
+                "description": "裝備一把弓，配有偵察箭。點擊「攻擊」，即可向前射出偵察箭，觸物後將直接啟動，處於偵測範圍內的敵軍將被揭露行蹤，敵軍可破壞此箭。長按「攻擊」可增加射程。點擊「輔助攻擊」，可使箭矢彈射最多兩次。 ",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "夜梟無人機",
+                "description": "裝備一台夜梟無人機。點擊「攻擊」即可讓無人機升空並開始遙控。飛行時點擊「攻擊」，可發射記號飛鏢，被射中的玩家將被揭露行蹤。敵軍可破壞夜梟無人機。",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "獵者之怒",
+                "description": "裝備一把弓，配有三發可穿牆的遠距離爆擊光束。點擊「攻擊」，即可在蘇法身前發射一直線的爆擊光束，對擊中的敵軍造成傷害並「揭露」其行蹤。技能啟用期間，還能再「重新施放」最多兩次。",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "奇異神射手",
+                "description": "蘇法的改造弓能射出多種特製箭矢，還能依地勢建物使箭矢反彈。長按「攻擊」不放可蓄力，放開即可射出箭矢。使用「輔助攻擊」來調整彈跳的次數，你的箭矢會隨著地勢建物反彈。長按左鍵可以增加射程。點擊右鍵，即可選擇在地勢建物上反彈的次數。放開左鍵就能放箭。",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "愷宙",
+        "description": "愷宙是位來自德國的天才，她擅長使用自己發明的多種武器，好整以暇地守住戰場上的重要點位，使敵人無法越雷池一步。這些武器就算沒把敵人立即擊倒，也足以靠著附加的減益效果使他們舉步維艱。",
+        "developerName": "Killjoy",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "防禦性封鎖",
+            "範圍傷害"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "backgroundGradientColors": [
+            "ffc300ff",
+            "b87b00ff",
+            "413950ff",
+            "614414ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "奈米機器蟲",
+                "description": "裝備一枚奈米機器蟲手榴彈。點擊「攻擊」即可拋出手榴彈，奈米機器蟲會在著地之後進入隱形狀態，點擊「輔助攻擊」則可低手拋出。按下「啟動」即可部署一群會造成敵人傷害的奈米機器蟲。  ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "電偵追擊號",
+                "description": "裝備一個隱形的警報機器人。點擊「攻擊」，即可部署一個機器人，來自動追擊進入偵測範圍內的敵人；追到目標後機器人會引爆，並對範圍內的敵人附加衰弱效果。長按「裝備」，即可召回已部署的機器人。",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "重火力砲塔",
+                "description": "裝備一座砲塔。點擊「攻擊」，即可部署該砲塔，對100度扇形範圍內的敵人開火。點擊「輔助攻擊」，則可調整砲塔方向。長按「裝備」即可召回已部署的砲塔。 ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "全面封鎖",
+                "description": "裝備一件封鎖裝置。點擊「攻擊」即可部署該裝置，在長時間暖機之後，裝置會拘束所有半徑範圍內的敵人。敵人可以摧毀此裝置。",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "displayName": "哈泊",
+        "description": "哈泊來自印度沿岸地區，他操縱著古代科技，支配水的力量，如潮水般洶湧衝上戰場。他會放出水沫四濺的湍流和勢不可擋的浪潮，給予友軍護盾，並狠狠擊潰敵軍。",
+        "developerName": "Mage",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "backgroundGradientColors": [
+            "f2d6a3ff",
+            "136c6bff",
+            "11434eff",
+            "0c262cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "控場者",
+            "description": "控場者擅長分割地帶，阻隔危險，替隊伍作好迎接勝利的準備。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "防彈海灣",
+                "description": "裝備一個防彈水球。點擊「攻擊」即可投出。點擊「輔助攻擊」可低手拋出。水球接觸到地面時，會生成一道可破壞的水製護盾，可以擋下子彈。",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "無畏浪潮",
+                "description": "裝備一道湧浪。點擊「攻擊」即可向前送出湧浪，可穿過牆體。「重施技能」可停止湧浪。被擊中的玩家會被「緩速」。",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "上古水牆",
+                "description": "裝備一道水牆。點擊「攻擊」即可沿著地面向前送出水流。長按「攻擊」，可讓水牆隨著畫面上十字準星的方向轉彎，穿過地形，沿著水流生成水牆。操縱水流方向時按下「輔助攻擊」可以提早停止水流。被擊中的玩家會被「緩速」。",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "湧泉審判",
+                "description": "裝備古文物的全部力量。點擊「攻擊」即可在地面上召喚一個間歇泉池，在範圍內的敵方玩家會受到間歇泉連續攻擊，被擊中的玩家會受到「暈眩」。",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "efba5359-4016-a1e5-7626-b1ae76895940",
+        "displayName": "薇絲",
+        "description": "善於謀略與操縱金屬的薇絲能釋放液態金屬來隔絕、誘捕敵軍，甚至卸除其武裝。工於心計的她能輕易操控對手心智，讓戰場成為恐懼的代名詞。",
+        "developerName": "Nox",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "backgroundGradientColors": [
+            "f147ffff",
+            "823697ff",
+            "6153b7ff",
+            "3b3c4aff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Nox/Nox_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "5cf4f9ee-4ace-08c3-ea08-9b98dade41d5",
+            "milestoneId": "bc02cacf-4c50-1e1b-8681-2a9cca6a6c40",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-08-28T21:00:00Z",
+            "endDate": "2024-09-26T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "斷路鐵牆",
+                "description": "裝備液態金屬絲線，點擊「攻擊」即可在牆面放置陷阱。敵方經過時觸發，其身後會升起一道無法破壞的金屬牆。金屬牆會在持續一段時間後消失。",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "弧光薔薇",
+                "description": "裝備一朵弧光薔薇。瞄準一面牆，點擊「攻擊」放置一朵隱密的弧光薔薇，或是點擊「輔助攻擊」將其放置在牆面另一側。重施技能即可致盲所有看著該牆面的玩家。可撿起弧光薔薇，然後「重新部署」。",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "荊棘鐵網",
+                "description": "裝備一張液態金屬網，點擊「攻擊」發射。落地後，金屬網會隱形。啟動時會擴張成大範圍的荊棘鐵網，對穿過該區域的玩家造成緩速與傷害效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "叢棘盛開",
+                "description": "裝備一叢液態金屬荊棘，點擊「攻擊」即可從自身位置發出一道金屬荊棘洪流，在短暫延遲後干擾敵方主要武器。",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "薇蝮",
+        "description": "薇蝮是名美國化學家，她的特長是部署五花八門的劇毒化武，掌控戰局的同時，還能妨礙敵人視野。即使毒藥沒能殺死對手，她的心理戰術也會虐死人。",
+        "developerName": "Pandemic",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "視野控制專家"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "backgroundGradientColors": [
+            "89f476ff",
+            "347334ff",
+            "2c4f5eff",
+            "493a7cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "控場者",
+            "description": "控場者擅長分割地帶，阻隔危險，替隊伍作好迎接勝利的準備。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "腐蝕毒霧",
+                "description": "裝備一瓶瓦斯彈罐。點擊「攻擊」即可丟出，該回合中此彈罐不會消失。點擊「輔助攻擊」，則可低手拋出。「重施技能」可以製造一團毒霧，對毒霧中的對手造成「侵蝕」效果，須消耗自身的燃料存量。回合開始前，此技能可以撿起並「重新部署」，該回合中可多次「重新施放」。\r\n",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "毒雲瘴壁",
+                "description": "裝備可穿透地形物的瓦斯彈罐發射器。點擊「攻擊」即可部署一直線的瓦斯彈罐。「重施技能」須消耗自身的燃料存量，可製造一道高聳的毒氣瘴壁，對穿越的對手造成「侵蝕」效果。此技能可多次「重新施放」。",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "蛇咬毒液",
+                "description": "裝備一個化武發射器。點擊「攻擊」即可發射一個觸地後立刻碎裂的化武罐，形成一個受到化合物汙染、持續揮發毒性的區域，身處其中時會感到衰弱。",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "蝮蛇領域",
+                "description": "裝備一個化武噴霧器。點擊「攻擊」，即可在薇蝮身周噴出霧狀化武，製造一片大型毒霧雲，可「限制玩家視野」，並「毒蝕」範圍內敵人的生命值。長按「技能」可提早解除毒霧雲。",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "毒素燃料",
+                "description": "你會逐量生產並補充毒素燃料，可用來發動技能。敵人穿越薇蝮的腐蝕毒霧、毒雲瘴壁或蝮蛇領域時，會立刻遭到毒蝕，至少會受到30傷害；接觸時間越久，「毒蝕傷害」會越重。",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "菲尼克斯",
+        "description": "菲尼克斯來自英國，他的星辰之力融會於其戰鬥風格中，發出的烈焰足以讓星火燎原。不管有沒有後援，他都能衝鋒陷陣，獨自撂倒敵人。",
+        "developerName": "Phoenix",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "靈敏",
+            "獨當一面"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "backgroundGradientColors": [
+            "f7bf60ff",
+            "ea6d4eff",
+            "262423ff",
+            "363b42ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "燃焰之牆",
+                "description": "裝備一堵火焰牆。點擊「攻擊」，即可召喚一排向前推進的火焰，穿過地形，形成一面阻擋視野的火牆，對逕行穿越的玩家造成傷害。火牆不會對菲尼克斯造成傷害，而是會治療他。長按「攻擊」，可讓牆體隨著畫面上十字準星的方向轉彎。",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "赤手烈焰",
+                "description": "裝備一個火球。點擊「攻擊」可丟出，在觸地或者經過固定時間後，將製造出一持續燃燒的區域，對敵軍造成傷害。該區域不會對菲尼克斯造成傷害，而是會治療他。點擊「輔助攻擊」可低手拋出。",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "閃光曲球",
+                "description": "裝備一顆可轉彎的閃光能量球，投擲出去短暫滯空後爆炸。點擊「攻擊」，可讓能量球向左轉，爆炸後產生的閃光可以「致盲」所有未移開視線的玩家。點擊「輔助攻擊」，則可讓能量球向右轉。每擊殺兩名敵人，閃光曲球即可重置1次充能。",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "再來一局",
+                "description": "立刻標記菲尼克斯的目前位置。此技能發動時，不論陣亡或技能倒數完畢，皆能使菲尼克斯在指定位置滿血復活，並回復施放技能時的裝甲數值。",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "浴火鳳凰",
+                "description": "菲尼克斯身處自己施放的火焰後，將被動獲得「治療」，而非受到傷害。",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "displayName": "維托",
+        "description": "維托是來自塞內加爾的執法者，身上帶有無可遏抑的DNA突變，也因此獲得能力強化。他能使對手的能力和科技武器變成毫無作用，完全視戰鬥規則為無物。與維托交戰時，槍法是你唯一的依靠。",
+        "developerName": "Pine",
+        "releaseDate": "2025-10-07T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "backgroundGradientColors": [
+            "1f6178ff",
+            "0e2c41ff",
+            "05e2e9ff",
+            "1a5d65ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pine/Pine_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+            "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-10-07T18:00:00Z",
+            "endDate": "2025-11-04T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "攔截器",
+                "description": "裝備攔截器。點擊「攻擊」可將攔截器放置於指定地點。放置後，「重施技能」即可啟用。啟用後，它會摧毀任何會從玩家身上反彈和/或可被槍火摧毀的戰略工具。敵軍可破壞攔截器。",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "穿越之徑",
+                "description": "裝備一道漩渦，點擊「攻擊」可放置在地上，當你進入範圍並看著漩渦，「啟動」即可傳送至漩渦的位置。選購階段可以回收漩渦以重新部署。",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "終極突變",
+                "description": "立即開始完全突變，獲得「激發戰意」增益、生命回復，並「免疫」所有類型的減益效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "鎖喉",
+                "description": "裝備你突變而來的黏性碎片，點擊「攻擊」即可拋出。該碎片碰撞到地面時即刻部署，創造出能束縛敵軍的陷阱；被束縛的目標會遭到「致聾」和「侵蝕」。敵軍可在陷阱啟動前將之摧毀。",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "亞星卓",
+        "description": "亞星卓來自非洲迦納，她能駕馭宇宙之力，「隨星所欲」重塑戰場形勢。她完全掌控了星體型態的力量，且擁有洞見觀瞻的戰略能力，因此總是能遙遙領先對手。",
+        "developerName": "Rift",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "backgroundGradientColors": [
+            "f47dc9ff",
+            "a54498ff",
+            "5210c6ff",
+            "372518ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "控場者",
+            "description": "控場者擅長分割地帶，阻隔危險，替隊伍作好迎接勝利的準備。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "新星震盪",
+                "description": "以星體型態（大絕鍵）放置星辰。\r\n\r\n按下「啟動」，可引爆星辰化作新星震盪，短暫延遲後會發動攻擊，「暈眩」範圍內所有玩家。",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "迷濛星雲／星解變裂",
+                "description": "以星體型態（大絕鍵）放置星辰。 \r\n\r\n按下「啟動」可使星辰化作迷濛星雲 (煙霧)。\r\n\r\n在星辰上按下「使用」造成星解變裂來收回星辰，短暫延遲後可將該星辰放在不同位置。\r\n\r\n在收回星辰之前，星解變裂會在該位置短暫形成一個假的迷濛星雲。\r\n\r\n",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "引力黑洞",
+                "description": "以星體型態（大絕鍵）放置星辰。\r\n\r\n按下「啟動」，可使星辰化作引力黑洞，將範圍內的玩家拉向中心，隨後爆炸，使所有仍困在其中的玩家衰弱。",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "星體型態／無垠星幕",
+                "description": "按下「啟動」可進入星體型態，使用「攻擊」來放置星辰；之後可重新啟動星辰，化作新星震盪、迷濛星雲或引力黑洞。\r\n\r\n無垠星幕充能完成時，以星體型態使用「輔助攻擊」開始瞄準，接著使用「攻擊」來選擇兩個位置，並在兩點之間製造一個無限延伸的無垠星幕，可阻擋所有子彈與聲音傳遞。",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "星體型態",
+                "description": "「啟動」大絕可進入星體型態，使用「主要攻擊」來放置星辰。使用新星震盪、迷濛星雲或引力黑洞指定星辰，即可施放技能。",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "布史東",
+        "description": "來自美國的布史東擁有強大的衛星武器，讓他的隊伍永遠處於優勢。他能投放戰略工具支援前線，包準「恰到好處」且萬無一失，讓他成為地表最強指揮官。",
+        "developerName": "Sarge",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "視野控制",
+            "範圍傷害"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "backgroundGradientColors": [
+            "eb953fff",
+            "892c1bff",
+            "211d21ff",
+            "282b38ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "控場者",
+            "description": "控場者擅長分割地帶，阻隔危險，替隊伍作好迎接勝利的準備。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "激勵信號",
+                "description": "立刻將一個激勵信號拋到面前，觸地時會製造一個力場，賦予範圍內的玩家「激發戰意」增益與「速度加成」。",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "灼人燃彈",
+                "description": "裝備一個燃燒榴彈發射器。點擊「攻擊」即可發射一枚燃燒彈，在地面停止滾動後爆炸，製造一個持續燃燒的區域，對其中玩家造成傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "垂天煙幕",
+                "description": "裝備一個戰術地圖。點擊「攻擊」，可指定煙幕發射的地點。點擊「輔助攻擊」進行確認，在指定區域發射一大片煙幕，可阻擋視野且久不退散。",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "衛星空襲",
+                "description": "裝備一個戰術地圖。點擊「攻擊」，即可向指定地點發射衛星空襲雷射，對範圍內的玩家造成重度持續傷害。",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+        "displayName": "離索",
+        "description": "中國傭兵離索進入殺戮心流狀態，重組周圍環境的能量化作防彈護盾，專心致志地邁向下一次生死對決。",
+        "developerName": "Sequoia",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "backgroundGradientColors": [
+            "c4a1ffff",
+            "3d0fd4ff",
+            "20155dff",
+            "ac52ffff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+            "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-10-31T13:00:00Z",
+            "endDate": "2023-11-29T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "削減",
+                "description": "點擊「裝備」裝備一枚分子螺旋彈，點擊「攻擊」即可向前拋擲，所有被觸及的玩家會暫時進入「衰弱」及「抑制」狀態。此彈體可貫穿牆壁等堅硬物體。",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "決滅",
+                "description": "裝備一個次元空間，點擊「攻擊」即可擲出一道貫穿戰場的能量束，治療第一位命中的對手與自身，並拉進空間內進行生死對決。",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "雙源",
+                "description": "立即開始凝神專注。專注完成後，獲得能吸收一次任何傷害的護盾，填彈速度變快，並進入殺戮心流狀態，此時對手被你擊殺、或受到你的傷害陣亡後會產生能量球。射擊此能量球即可重置殺戮心流狀態以及現有的護盾，或是產生新的護盾。",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "應變",
+                "description": "點擊「裝備」即可凝聚稜光能量，接著點擊「攻擊」即可向前送出一道無法破壞的能量牆，阻擋子彈。點擊「輔助攻擊」送出一道速度較慢的牆。",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "displayName": "珂樂芙",
+        "description": "蘇格蘭裔搗蛋鬼珂樂芙遊走於戰鬥的激情和死亡的冷酷之間，總讓敵人捉摸不定。這位永生不朽的年輕人最愛將敵人耍得團團轉，即便身中數槍倒下，也可能隨時復活、就像沒事一樣。",
+        "developerName": "Smonk",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "backgroundGradientColors": [
+            "f17cadff",
+            "062261ff",
+            "c347c7ff",
+            "f1db6fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "控場者",
+            "description": "控場者擅長分割地帶，阻隔危險，替隊伍作好迎接勝利的準備。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+            "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-03-25T13:00:00Z",
+            "endDate": "2024-04-24T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "精魂再生",
+                "description": "按下「啟動」可吸收珂樂芙擊殺或助攻之陣亡對手的生命能量，獲得加速與暫時生命。",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "瑰詭煙雲",
+                "description": "裝備一個戰場的鳥瞰圖。點擊「攻擊」，可指定放置煙幕的地點。點擊「輔助攻擊」進行確認，在指定區域產生一大片煙幕，阻擋視野。珂樂芙可在陣亡後施放此技能。",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "續命開關",
+                "description": "陣亡後，按下「啟動」即可復活。復活之後，珂樂芙必須在一定時間內造成擊殺或助攻，否則便會再次陣亡。重施技能可提前取消技能效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "驚奇干涉",
+                "description": "裝備一塊永生精粹碎片。點擊「攻擊」即可向前拋擲，碎片落地隔一小段時間後爆發，對範圍內所有目標造成暫時「侵蝕」效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "displayName": "妮虹",
+        "description": "妮虹是來自菲律賓的特務，她的身體能產生帶有輻能的生物電流，讓她能一邊高速衝刺一邊釋放電擊。她擅長趁虛而入，然後以迅雷不及掩耳的速度擊倒敵人。",
+        "developerName": "Sprinter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "backgroundGradientColors": [
+            "ba89ffff",
+            "6241ccff",
+            "38328eff",
+            "2c4799ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sprinter/Sprinter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "極速快檔",
+                "description": "立刻運用妮虹的能力提升速度。充能完成時，點擊「輔助攻擊」可發動帶電衝刺滑行。每擊殺兩名敵人可重置滑行充能數。擊殺時可補充燃料。 ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "閃電傳導",
+                "description": "立刻射出一道可反彈一次的能量閃電。閃電觸物時會漏電至下方地面，造成震波「暈眩」敵人。",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "加速電牆",
+                "description": "朝前方地面「發射」兩條能量標線，行進短距離或觸物後停止，標線會升起靜電牆，阻擋視野。",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "電能超載",
+                "description": "短時間內解放妮虹的全力和全速，補滿燃料及回復一次滑行充能。點擊「攻擊」，即可轉化體內能量，射出移動射擊準確度高的致命電光。擊殺可重置效果持續時間。 ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "夜戮",
+        "description": "日本人夜戮可以撕裂現實世界的空間，潛入敵軍陣線而不被察覺。他同時運用欺敵和進攻策略先發制人，讓目標措手不及。",
+        "developerName": "Stealth",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "backgroundGradientColors": [
+            "66a8ffff",
+            "3b37a7ff",
+            "261e4fff",
+            "101042ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "聲東擊西",
+                "description": "裝備一發分身彈，啟動時可變成夜戮的分身。點擊「攻擊」可立刻啟動並向前送出分身。點擊「輔助攻擊」可在原地放置未啟動的分身彈。按下「使用」可將未啟動的分身彈變成分身並向前送出。分身遭到敵人摧毀時會爆炸，放出「致盲」閃光。",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "攻其不備",
+                "description": "點擊「裝備」，即可從現實時空撕下不穩定的次元碎片。點擊「攻擊」丟出碎片，當其碰撞靜態物體時，會反彈並發出閃光。",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "不請自來",
+                "description": "裝備裂隙繫鏈。點擊「攻擊」即可射出繫鏈。點擊「輔助攻擊」即可在原地放置繫鏈。按下「啟動」即可傳送到繫鏈的位置。按下「使用」即可觸發假傳送。每擊殺兩名敵人，不請自來即可重置1次充能。",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "次元飄移",
+                "description": "裝備一副可看到不同次元的面具。點擊「攻擊」即可進入夜戮的次元，不會被外面的敵人影響或看見。「重施技能」可提早離開夜戮的次元。",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "df1cb487-4902-002e-5c17-d28e83e78588",
+        "displayName": "維蕾",
+        "description": "泰國的多彩光輝維蕾化身為光本身，在戰場上穿梭，透過光芒碎片擊倒目標後又迅速閃回安全之處，一切都發生在眨眼之間。",
+        "developerName": "Terra",
+        "releaseDate": "2025-03-04T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "backgroundGradientColors": [
+            "affb9bff",
+            "ac53acff",
+            "5b477eff",
+            "298786ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Terra/Terra_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "df1cb487-4902-002e-5c17-d28e83e78588",
+            "milestoneId": "e74c294c-4b69-4fa4-2b50-31ae6e93f242",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-03-05T22:00:00Z",
+            "endDate": "2025-04-02T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "折射",
+                "description": "立即在地面上生成一道光束。重施技能可化為光點，快速回到光束位置。移動期間會進入無敵狀態。每擊殺兩名敵人，折射即可重置1次充能。",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "浸染",
+                "description": "立刻丟出一枚聚合光彈，在接觸地面後爆炸，阻礙附近的玩家，大幅減緩其移動速度與武器射速。",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "光速",
+                "description": "裝備以準備加速。點擊「攻擊」向前衝刺兩次，點擊「輔助攻擊」衝刺一次。只有第一次衝刺時會向上躍起。",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "聚合之道",
+                "description": "點擊「裝備」開始凝聚稜彩之力，點擊「攻擊」即可生成一個會發射光束的自身幻象。短暫延遲後，自身獲得強力速度加成，且光束範圍會隨之擴展，對範圍內的其他玩家造成阻礙效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "聖祈",
+        "description": "來自中國的聖祈，是宛如銅牆鐵壁一般的存在，無論身在何處，除了自保之外，也能確保隊伍的安全。她可以復活不支倒地的友軍，並擊退來犯的敵軍，可說在槍林彈雨的煉獄中，建造一座令人安心的庇護所。",
+        "developerName": "Thorne",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "恢復",
+            "牽制"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "backgroundGradientColors": [
+            "7bfedeff",
+            "41819aff",
+            "102d23ff",
+            "226071ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "守衛",
+            "description": "守衛顧名思義就是守備專家。無論是攻擊或守備回合，都能夠為隊伍封鎖區域以及掩護側翼。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "緩速靈球",
+                "description": "裝備一顆緩速靈球。點擊「攻擊」，將緩速靈球往前丟，觸地時立即引爆，製造一個持續力場，減緩範圍內玩家的移動和衝刺速度。",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "治癒靈球",
+                "description": "裝備一顆治癒靈球。以十字準星瞄準負傷友軍，點擊「攻擊」，發射治癒靈球，就能對其產生「持續治療」效果。當聖祈負傷時，點擊「輔助攻擊」，就能對自身發動「持續治療」效果。",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "屏障靈球",
+                "description": "裝備一顆屏障靈球。點擊「攻擊」可豎立一道牆壁，牆體在數秒後會加固硬化。點擊「輔助攻擊」則可旋轉牆體方向。",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "起死回生",
+                "description": "裝備一項復活技能。以十字準星瞄準陣亡友軍，點擊「攻擊」就能使其復活。短暫詠唱後，友軍即可滿血復活。",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "蕾娜",
+        "description": "在墨西哥中心經過歷練的蕾娜，單打獨鬥的能力超強，每擊殺一名敵軍，都可以獲得所向無敵的增益效果。她是否能主宰戰場，除了取決於技巧熟練度，也仰賴賽局上的表現。 ",
+        "developerName": "Vampire",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "閃避",
+            "獨當一面"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "backgroundGradientColors": [
+            "e46e77ff",
+            "c44d9fff",
+            "2f2664ff",
+            "2f203fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "生靈吞噬",
+                "description": "靈魂收割：被蕾娜擊殺或被蕾娜傷害後3秒內陣亡的敵人，會留下一個維持3秒鐘的魂體。\n\n生靈吞噬：立即消耗一個附近的魂體，快速回復生命。若已在女皇狀態下，此技能會自動施放並且不消耗魂體。",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "銷魂解形",
+                "description": "立即消耗一個附近的魂體，並使自己短時間內進入「無形狀態」。若已在女皇狀態下，則同時變得「隱形」。",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "邪媚凝視",
+                "description": "裝備一個可破壞的異界之眼。「啟動」後可投擲至前方不遠處，看見此眼的敵軍視野會受到限制。",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "無上女皇",
+                "description": "立即進入狂暴模式，獲得激發戰意，大幅提升射擊、裝備及填彈速度，並獲得無限靈魂收割能力。",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "歐門",
+        "description": "歐門是個記憶中的魅影，在暗影裡巡獵。他能蒙蔽敵人雙眼、在地圖上神出鬼沒，使詭譎的氣氛籠罩全域，而他的敵人永遠在心慌意亂之中，試圖猜測他接下來會在哪裡現身。",
+        "developerName": "Wraith",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "機動",
+            "視野控制"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "backgroundGradientColors": [
+            "2fdddeff",
+            "4f53afff",
+            "344673ff",
+            "193b3dff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "控場者",
+            "description": "控場者擅長分割地帶，阻隔危險，替隊伍作好迎接勝利的準備。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "夢魘侵襲",
+                "description": "裝備一個致盲彈。點擊「攻擊」，即可向前拋擲，暫時使被觸及的所有玩家「視野受限並喪失聽覺」。此彈體可貫穿牆壁。",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "黑影籠罩",
+                "description": "裝備一顆暗影球，並進入戰慄境界來指定施放地點。按下「技能」，將暗影球丟至標記地點，製造出一個暗影穹頂，可阻擋視野且久不退散。瞄準時長按「攻擊」可將標記移動至遠處；長按「輔助技能」則能將標記移動至近處。按下「填彈」可切換為一般瞄準視角。",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "瞬步鬼影",
+                "description": "裝備一項「瞬步鬼影」技能，可預視其傳送距離。點擊「攻擊」即開始詠唱，隨後可傳送至標記地點。",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "闇夜襲擊",
+                "description": "裝備一個戰術地圖。點擊「攻擊」，即可傳送至指定地點。詠唱技能時，歐門會以「暗影型態」在指定地點浮現，附近敵軍可將其摧毀來中止傳送。再按「裝備」則可讓歐門自行取消傳送。",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "婕提",
+        "description": "身為南韓代表，婕提身手矯捷，能使出他人所不能的精妙險招。交戰時她能把所有人耍得團團轉，以迅雷不及掩耳的速度秒殺敵人。",
+        "developerName": "Wushu",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "閃避",
+            "機動"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "backgroundGradientColors": [
+            "90e3fdff",
+            "557f8cff",
+            "2b4e7cff",
+            "1e3344ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "決鬥者",
+            "description": "決鬥者是獨當一面的殺手，隊伍皆仰賴其高超技巧，尋找開戰的契機、殲滅敵方。",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "乘風飛躍",
+                "description": "立刻讓婕提朝高空中風湧躍起。",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "順風式",
+                "description": "按下「啟動」可暫時準備一陣強風，「重施技能」可讓婕提朝移動的方向快速衝刺，若婕提立定不動，則會向前衝刺。每擊殺兩位敵人可重置順風式充能數。",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "穿雲衝刺",
+                "description": "立刻丟出一枚彈體，觸物時會擴散成一朵雲霧，可暫時阻擋視野。長按「技能」能讓雲霧轉彎，使其移動至十字準星所指的方向。",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "暴風旋刃",
+                "description": "裝備一組高準度的飛刀。點擊「攻擊」即可射出一把飛刀，擊殺敵軍即可重填。點擊「輔助攻擊」，則可射出剩下的所有飛刀，但擊殺後不會重填。",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "飄風身法",
+                "description": "落地時按住跳躍按鈕，就可以在空中滑翔。",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    }
+]

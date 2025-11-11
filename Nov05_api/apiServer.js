@@ -4,40 +4,19 @@ const express = require("express");
 
 const app = express();
 const PORT = 1234;
-
-const fs = require("fs");
-
+const agentsRouter = require("./routes/agents");
+const mapsRouter = require('./routes/maps')
 // const en_US = [USAgents];
 // const zh_TW = [CNAgents];
 // const vi_VN = [VNAgents];
-const langData = [
-  {
-    lang: "en-US",
-    data: {
-      agents: USAgents,
-    },
-  },
-  {
-    lang: "zh-TW",
-    data: {
-      agents: CNAgents,
-    },
-  },
-  {
-    lang: "vi-VN",
-    data: {
-      agents: VNAgents,
-    },
-  },
-];
 
 // const required_API_KEY = "secrethehe";
 // app.use((req, res, next) => {
 //   console.log(req.headers);
-  
+
 //   const APIKey = req.headers['valorant-api-key'];
 //   console.log(APIKey);
-  
+
 //   if (!APIKey) {
 //     res.status(401).json("Who r u??");
 //   }
@@ -51,15 +30,13 @@ const langData = [
 
 function languageSelect(req, res, next) {
   const { lang } = req.query;
-  if (!lang) {
-    req.data = langData[0].data;
-  } else {
-    for (let i = 0; i < langData.length; i++) {
-      if (lang === langData[i].lang) {
-        req.data = langData[i].data;
-      }
-    }
-  }
+  // if (!lang) {
+  //   req.selectedLanguage = "en-US";
+  // } else {
+  //   req.selectedLanguage = lang;
+  // }
+
+  req.selectedLanguage = lang ?? "en-US";
   next();
 }
 
@@ -83,16 +60,17 @@ app.use(languageSelect);
 //   })
 // );
 
-app.set("view engine", "ejs");
-app.set("views", "./templates");
+// app.set("view engine", "ejs");
+// app.set("views", "./templates");
 
 // app.get("/api/v1/agents", (req, res) => {
-  
+
 // });
 
-app.get("/api/v1/agents/:agent", (req, res) => {
-  
-});
+app.use("/api/v1", agentsRouter);
+app.use('/api/v1', mapsRouter);
+
+// app.get("/api/v1/agents/:agent", (req, res) => {});
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port http://localhost:${PORT}`);

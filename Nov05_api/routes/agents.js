@@ -2,23 +2,55 @@
 // const router = express.Router();
 const Router = require("express").Router;
 const router = Router();
+const fs = require("fs");
 
-const USFilePath = fs.readFileSync("./agents/agents_en-US.json", "utf8");
-const USAgents = JSON.parse(USFilePath).data;
-const CNFilePath = fs.readFileSync("./agents/agents_zh-TW.json", "utf8");
-const CNAgents = JSON.parse(CNFilePath).data;
-const VNFilePath = fs.readFileSync("./agents/agents_vi-VN.json", "utf8");
-const VNAgents = JSON.parse(VNFilePath).data;
+const langOpts = 'ar-AE / de-DE / en-US / es-ES / es-MX / fr-FR / id-ID / it-IT / ja-JP / ko-KR / pl-PL / pt-BR / ru-RU / th-TH / tr-TR / vi-VN / zh-CN / zh-TW';
+const langs = langOpts.split(' / ');
+const langData = {};
+
+for ( const lang of langs ) {
+  const fileContent = fs.readFileSync(`./data/agents/agents_${lang}.json`, 'utf8');
+  // console.log('>file:', fileContent);
+  
+  const data = JSON.parse(fileContent);
+  // console.log('>data: ', data);
+  
+  // langData = {...langData, lang: data};
+  langData[lang] = data;
+}
+// console.log(langData);
+
+// const USFilePath = fs.readFileSync("./data/agents/agents_en-US.json", "utf8");
+// const USAgents = JSON.parse(USFilePath).data;
+// const TWFilePath = fs.readFileSync("./agents/agents_zh-TW.json", "utf8");
+// const TWAgents = JSON.parse(TWFilePath).data;
+// const VNFilePath = fs.readFileSync("./agents/agents_vi-VN.json", "utf8");
+// const VNAgents = JSON.parse(VNFilePath).data;
+
+
+
+// const langData = {
+//   "en-US": USAgents,
+//   "zh-TW": TWAgents,
+//   "vi-VN": VNAgents,
+// };
 
 router.route("/agents").get((req, res) => {
+  const agentsData = langData[req.selectedLanguage];
+  if (!agentsData) {
+    return res.status(404).send("Invalid language!!");
+  }
   const { role } = req.query;
-  const agents = req.data.agents;
+
+  //   const agents = req.agents;
   console.log(role);
 
   if (!role) {
-    return res.json(agents);
+    return res.json(agentsData);
   }
-
+  const filteredData = agentsData.filter(
+    (agent) => agent.role.displayName.toLowerCase() === role.toLowerCase()
+  );
   // const roleAgent = agents.filter((agent) => {
   //   return agent.role.displayName.toLowerCase() === role.toLowerCase();
   // });
@@ -28,27 +60,30 @@ router.route("/agents").get((req, res) => {
   // }
   // console.log(roleAgent);
   // return res.json(roleAgent);
-  return res.json(
-    req.data.agents.filter(
-      (agent) => agent.role.displayName.toLowerCase() === role.toLowerCase()
-    )
-  );
+
+  return res.json(filteredData);
 });
 
-router.route("/agents/:agent").get((req, res) => {
+router.get("/agents/:agent", (req, res) => {
+  const agentsData = langData[req.selectedLanguage];
+
+  if (!agentsData) {
+    return res.status(404).send("Invalid language!!");
+  }
+  
   const { agent } = req.params;
   // const { lang } = req.query;
   // console.log(uuid);
   // console.log(agents);
 
-  for (let i = 0; i < req.data.agents.length; i++) {
+  for (let i = 0; i < agentsData.length; i++) {
     // console.log(req.data.agents[i].uuid);
 
     if (
-      req.data.agents[i].uuid === agent ||
-      req.data.agents[i].displayName.toLowerCase() === agent.toLowerCase()
+      agentsData[i].uuid === agent ||
+      agentsData[i].displayName.toLowerCase() === agent.toLowerCase()
     ) {
-      return res.json(req.data.agents[i]);
+      return res.json(agentsData[i]);
     }
   }
 
@@ -59,3 +94,5 @@ router.route("/agents/:agent").get((req, res) => {
   // }
   // }
 });
+
+module.exports = router;

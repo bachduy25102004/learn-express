@@ -1,0 +1,1883 @@
+[
+    {
+        "uuid": "e370fa57-4757-3604-3648-499e1f642d3f",
+        "displayName": "Gekko",
+        "description": "Gekko the Angeleno memimpin pasukan kompak yang terdiri dari makhluk-mahkluk berbahaya. Usai pasukannya bergerak maju dan menyingkirkan musuh, Gekko mengejar dan mengambil mereka kembali lalu beranjak lagi.",
+        "developerName": "Aggrobot",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "backgroundGradientColors": [
+            "c7f458ff",
+            "d56324ff",
+            "3a2656ff",
+            "3a7233ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/AggroBot/AggroBot_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Wingman",
+                "description": "EQUIP Wingman. Tekan FIRE untuk mengirim Wingman mencari musuh. Wingman melepaskan ledakan berutilitas Concussive ke musuh pertama yang dilihatnya. Tekan ALT FIRE agar Wingman menjinakkan atau menempatkan Spike. Untuk menempatkan, Gekko harus memiliki Spike. Saat Wingman menghilang, dia kembali ke globule yang tidak aktif. INTERAKSIKAN untuk mengambil globule dan memperoleh charge Wingman lagi setelah cooldown.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Dizzy",
+                "description": "EQUIP Dizzy. Tekan FIRE untuk mengirim Dizzy melesat ke udara. Dizzy memperoleh charge dan melepaskan ledakan plasma ke musuh yang ada di garis pandang. Musuh yang tersentuh oleh plasmanya akan terkena utilitas Blind. Saat Dizzy menghilang, dia kembali ke globule yang tidak aktif. INTERAKSIKAN untuk mengambil globule dan memperoleh charge Dizzy lagi setelah cooldown.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Mosh Pit",
+                "description": "EQUIP Mosh. Tekan FIRE untuk melempar Mosh seperti granat. Tekan ALT FIRE untuk melempar tinggi. Setelah mendarat, Mosh memperbanyak dirinya di area yang luas, menghasilkan sedikit damage berkelanjutan yang kemudian meledak.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thrash",
+                "description": "EQUIP Thrash. Tekan FIRE untuk terhubung dengan pikiran Thrash dan mengarahkannya ke wilayah musuh. AKTIFKAN untuk menerjang ke depan dan menghasilkan ledakan, serta menahan pemain dalam radius kecil. Saat Thrash menghilang, dia kembali ke globule yang tidak aktif. INTERAKSIKAN untuk mengambil globule dan memperoleh charge Thrash lagi setelah cooldown. Thrash bisa diambil kembali satu kali.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "displayName": "Fade",
+        "description": "Pemburu bayaran asal Turki, Fade, menggunakan mimpi buruk yang nyata sebagai kekuatannya untuk merebut rahasia musuh. Dia memburu target dan menyingkap ketakutan terdalam dari musuhnya-sebelum mereka dihancurkan di dalam kegelapan.",
+        "developerName": "BountyHunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "backgroundGradientColors": [
+            "b1414cff",
+            "5589bdff",
+            "18344cff",
+            "66376cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Seize",
+                "description": "EQUIP segenggam bola yang berisikan rasa takut. Tekan FIRE untuk melempar. Bola akan jatuh sesuai waktu yang ditetapkan. GUNAKAN LAGI untuk menjatuhkan benda tersebut sesuai perintah. Bola akan pecah saat membentur tanah, lalu menahan musuh yang ada di sekitar untuk tetap di tempatnya. Musuh yang ditahan akan terkena utilitas Deafen dan Decay.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Haunt",
+                "description": "EQUIP pengintai yang memata-matai musuh. Tekan FIRE untuk melempar. Pengintai akan jatuh sesuai waktu yang ditetapkan. GUNAKAN LAGI untuk menjatuhkan benda tersebut sesuai perintah. Pengintai menyerang saat membentur tanah, mengungkap keberadaan musuh yang ada di dalam garis pandangnya dan menciptakan Terror Trail pada mereka. Musuh bisa menghancurkan pengintai ini.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Prowler",
+                "description": "EQUIP pemburu musuh. Tekan FIRE untuk melempar pemburu ke depan. Tekan HOLD FIRE untuk mengarahkan benda tersebut ke arah crosshair. Pemburu akan mengejar musuh atau Terror Trail pertama yang dilihatnya, lalu memberikan utilitas Nearsight pada musuh yang dikenainya.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Nightfall",
+                "description": "EQUIP kekuatan mimpi buruk. Tekan FIRE untuk melepaskan gelombang energi mimpi buruk yang sangat kuat. Musuh yang tertangkap di dalam gelombang akan Ditandai oleh Terror Trail, lalu terkena utilitas Deafen dan Decay.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "Breach",
+        "description": "Breach, bionik dari Swedia ini menembakkan ledakan kuat untuk mengosongkan jalan menembus wilayah musuh. Damage dan gangguan yang dia timbulkan memastikan pertarungan tidak pernah adil.",
+        "developerName": "Breach",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "backgroundGradientColors": [
+            "ff9c33ff",
+            "b04621ff",
+            "523a23ff",
+            "44412eff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Flashpoint",
+                "description": "EQUIP charge dengan utilitas Blind. Tekan FIRE untuk melakukan charge dan mempersiapkan ledakan cepat menembus dinding. Charge terdetonasi untuk memberikan utilitas Blind pada semua pemain yang melihatnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Fault Line",
+                "description": "EQUIP Ledakan Seismik. Tekan HOLD FIRE untuk menambah jarak. LEPAS untuk memulai gempa, terapkan Concuss pada semua pemain dalam zonanya dan dalam jalur menuju zona tersebut.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Aftershock",
+                "description": "EQUIP charge fusi. Tekan FIRE untuk melakukan charge dan mempersiapkan ledakan lambat menembus dinding. Ledakan memberikan damage besar pada semua yang berada di area tersebut.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Rolling Thunder",
+                "description": "EQUIP Charge Seismik. Tekan FIRE untuk mengirimkan gempa beruntun melalui semua medan dalam zona besar. Gempa akan menerapkan utilitas Concuss dan menjatuhkan semua yang terperangkap di dalamnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+        "displayName": "Deadlock",
+        "description": "Detektif Norwegia, Deadlock, mengerahkan nanowire mutakhir untuk mengamankan battlefield dari serangan yang paling mematikan sekalipun. Tidak ada yang bisa lolos dari pengawasan ketatnya, ataupun bertahan dari kebengisannya.",
+        "developerName": "Cable",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "backgroundGradientColors": [
+            "bcc2ffff",
+            "4d64c4ff",
+            "221c3dff",
+            "22224bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cable/Cable_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "7ec37a1e-4526-77dd-1afd-e2ab3b624085",
+            "milestoneId": "fcca98dc-4a83-2837-9512-f88a0a08fcfd",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-06-27T00:00:00Z",
+            "endDate": "2023-07-25T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Sonic Sensor",
+                "description": "EQUIP Sonic Sensor. Tekan FIRE untuk mengerahkan benda tersebut. Sensor memantau area untuk mendeteksi musuh yang mengeluarkan suara. Area itu akan terkena utilitas Concuss jika langkah kaki, tembakan senjata, atau suara bising terdeteksi. Ability ini bisa diambil untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Barrier Mesh (E)",
+                "description": "EQUIP cakram Barrier Mesh. Tekan FIRE untuk melempar ke depan. Saat mendarat, cakram menghasilkan penghalang yang membentang dari titik asal. Penghalang tersebut memblokir pergerakan agen.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "GravNet",
+                "description": "EQUIP granat GravNet. Tekan FIRE untuk melempar. Tekan ALT FIRE untuk melempar tinggi. GravNet meledak saat mendarat, memaksa agen mana pun yang terjebak di dalamnya untuk merunduk dan bergerak perlahan.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Annihilation",
+                "description": "EQUIP Nanowire Accelerator. Tekan FIRE untuk melepaskan gelombang nanowire yang menangkap musuh pertama yang bersinggungan. Musuh yang terlilit ditarik sepanjang jalur nanowire dan akan mati, kecuali mereka dibebaskan. Lilitan nanowire dapat dihancurkan.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+        "displayName": "Tejo",
+        "description": "Seorang konsultan intelijen veteran dari Kolombia, Tejo, bersama sistem pemandu balistiknya menekan musuh untuk menyerahkan wilayah mereka—atau nyawa mereka. Serangannya yang terarah terus membuat lawannya kocar-kacir dan berada di bawah kendalinya.",
+        "developerName": "Cashew",
+        "releaseDate": "2025-01-08T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "backgroundGradientColors": [
+            "ffb573ff",
+            "c4611fff",
+            "60291eff",
+            "462821ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+            "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-01-08T22:00:00Z",
+            "endDate": "2025-02-05T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Guided Salvo",
+                "description": "EQUIP sistem penarget dengan bantuan AR. Tekan FIRE untuk memilih hingga dua lokasi target di map. Tekan ALT FIRE untuk meluncurkan misil yang bergerak sendiri ke lokasi target, meledak berulang kali dan menimbulkan damage saat mendarat.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Special Delivery",
+                "description": "EQUIP granat lengket. Tekan FIRE untuk meluncurkan. Granat akan menempel pada permukaan pertama yang terkena kontak. Granat itu kemudian meledak dan menerapkan utilitas Concuss pada target yang terjebak dalam ledakan. Tekan ALT FIRE untuk meluncurkan granat dengan satu pantulan.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Armageddon",
+                "description": "EQUIP map taktis yang menarget serangan. Tekan FIRE untuk memilih titik awal serangan. Tekan FIRE lagi untuk menetapkan titik akhir dan meluncurkan serangan, melepaskan gelombang ledakan mematikan di sepanjang jalur serangan. Tekan ALT FIRE selama penargetan map untuk membatalkan titik awal.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Stealth Drone",
+                "description": "EQUIP stealth drone. Tekan FIRE untuk melempar drone ke depan, dan kendalikan gerakannya secara langsung. Tekan FIRE lagi untuk memicu denyutan yang menerapkan utilitas Suppress dan mengungkap musuh yang terkena.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "Raze",
+        "description": "Raze, si eksplosif dari Brasil ini membawa kepribadian yang mencolok serta senjata besarnya. Dengan playstyle-nya yang brutal, Raze unggul dalam menyapu musuh yang berdiam dan mengosongkan ruang sempit dengan ledakan besar.",
+        "developerName": "Clay",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Ahli Damage Area"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "backgroundGradientColors": [
+            "feac45ff",
+            "d64f35ff",
+            "2c5942ff",
+            "2b474bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Blast Pack",
+                "description": "SEKETIKA melempar Blast Pack yang menempel ke permukaan. GUNAKAN LAGI ability ini setelah dipakai untuk mendetonasi, memberi damage, dan menggerakkan semua yang dikenai.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Paint Shells",
+                "description": "EQUIP granat klaster. Tekan FIRE untuk melempar granat yang menghasilkan damage dan sub-amunisi, masing-masing memberikan damage pada siapa pun yang ada dalam jangkauan. Kemudian, tekan ALT FIRE untuk melempar tinggi. Charge Paint Shells direset tiap dua kill.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Boom Bot",
+                "description": "EQUIP Boom bot. Tekan FIRE untuk mengaktifkan bot, serta menggerakkannya dalam garis lurus di tanah dan memantul di dinding. Bagian runcing Boom Bot akan mengunci dan mengejar musuh mana pun, lalu menghasilkan damage besar jika mengenai mereka.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Showstopper",
+                "description": "EQUIP pelontar roket. Tekan FIRE untuk meluncurkan roket yang menghasilkan damage area masif saat bersentuhan dengan apa pun.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "Chamber",
+        "description": "Berpakaian rapi dan bersenjata lengkap, Chamber, yang juga merupakan desainer senjata dari Prancis, menghalau penyerang dengan presisi yang mematikan. Dia memanfaatkan persenjataan kustomnya untuk mempertahankan barisan dan menembak musuh dari jauh, dengan kontingensi yang tersusun untuk tiap rencana.",
+        "developerName": "Deadeye",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "backgroundGradientColors": [
+            "ffce6fff",
+            "7b4d21ff",
+            "372d2bff",
+            "163555ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Rendezvous",
+                "description": "EQUIP penanda teleportasi. Tekan FIRE untuk menempatkannya di darat. Saat berada di darat dan dalam jangkauan penanda, AKTIFKAN KEMBALI untuk berteleportasi dengan cepat ke penanda itu. Penanda bisa diambil untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Trademark",
+                "description": "EQUIP jebakan yang dapat mendeteksi musuh. Tekan FIRE untuk menempatkannya di darat. Ketika musuh yang terdeteksi masuk ke dalam jangkauan, jebakan akan menghitung mundur lalu membuat medan di sekitar mereka tidak stabil. Medan tahan lama ini memberikan utilitas Slow pada pemain yang terperangkap di dalamnya. Jebakan bisa diambil untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Headhunter",
+                "description": "AKTIFKAN untuk equip pistol heavy. Tekan ALT FIRE untuk membidik dengan pistol tersebut.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Tour De Force",
+                "description": "AKTIFKAN untuk menggunakan sniper rifle kustom yang kuat, yang akan membunuh musuh dengan tembakan langsung ke tubuh bagian atas. Tekan ALT FIRE untuk membidik. Membunuh musuh akan menciptakan medan tahan lama yang menerapkan utilitas Slow pada pemain yang terperangkap di dalamnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "KAY/O",
+        "description": "KAY/O adalah mesin perang yang dibuat untuk melumpuhkan para radiant. Kekuatannya dalam memberi utilitas Suppress pada ability musuh dapat mencegah mereka untuk melawan balik. Ini memberikan keunggulan besar bagi dirinya dan sekutunya.",
+        "developerName": "Grenadier",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "backgroundGradientColors": [
+            "4afaffff",
+            "4da6e1ff",
+            "1a1e4bff",
+            "391a61ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "FRAG/ment",
+                "description": "EQUIP fragmen peledak. Tekan FIRE untuk melempar. Tekan ALT FIRE untuk melempar tinggi. Fragmen ini menancap ke tanah dan meledak beberapa kali, menghasilkan damage yang nyaris mematikan di bagian tengah tiap ledakan.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "FLASH/drive",
+                "description": "EQUIP granat flash. Tekan FIRE untuk melempar ke atas. Tekan ALT FIRE untuk melempar tinggi granat versi lemah yang meledak lebih cepat. Granat flash meledak setelah beberapa saat, memberikan utilitas Blind pada siapa pun yang melihatnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "ZERO/point",
+                "description": "EQUIP pisau surpression. Tekan FIRE untuk melempar. Pisau menancap ke permukaan pertama yang disentuhnya, lalu mengumpulkan tenaga dan memberikan utilitas Suppress pada siapa pun yang ada di dalam radius ledakannya. Musuh bisa menghancurkan pedang ini.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "NULL/cmd",
+                "description": "SEKETIKA mengeluarkan energi radianite yang meluap bertahap dari tubuh KAY/O dalam radius yang masif. Musuh yang terkena gelombang ini menerima utilitas Suppress dalam waktu singkat. Saat energinya melampaui batas, KAY/O mendapatkan utilitas Combat Stim yang akan menstabilkan energinya kembali jika dia terbunuh.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "Skye",
+        "description": "Berasal dari Australia, Skye dan kawanannya yang buas berjalan menyusuri wilayah-wilayah berbahaya. Dia mampu memberikan heal, sementara makhluk ciptaannya dapat menghambat gerak musuh. Ini menjadikan dirinya adalah tempat paling aman dan kuat bagi para anggota timnya.",
+        "developerName": "Guide",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "backgroundGradientColors": [
+            "94e789ff",
+            "aa8a49ff",
+            "4f1413ff",
+            "314d48ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Pembuka Jalan",
+                "description": "EQUIP hiasan harimau Tasmania. Tekan FIRE untuk mengeluarkan dan mengendalikan predator ini. Saat memegang kendali, tekan FIRE untuk melompat maju, menghasilkan ledakan Concuss saat terbentur dan melukai musuh yang terkena langsung.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Guiding Light",
+                "description": "EQUIP hiasan elang. Tekan FIRE untuk menerbangkannya ke depan. Tekan HOLD FIRE untuk memandu elang ke arah crosshair. GUNAKAN LAGI saat elang terbang untuk mengubahnya menjadi kilat. Kilat mencapai potensi maksimum setelah durasi singkat selama elang terbang.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Regrowth",
+                "description": "EQUIP hiasan untuk heal. Tekan HOLD FIRE untuk channeling, Heal sekutu dalam jangkauan dan garis pandang. Bisa digunakan lagi sampai cadangan heal habis. Skye tidak bisa heal dirinya sendiri.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Seekers",
+                "description": "EQUIP hiasan Seeker. Tekan FIRE untuk mengeluarkan tiga Seeker untuk melacak tiga musuh terdekat. Jika mencapai targetnya, Seeker menerapkan Nearsight pada mereka. Musuh bisa menghancurkan Seeker.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "Cypher",
+        "description": "Seorang perantara informasi dari Maroko, Cypher, adalah jaringan pengintai yang dioperasikan satu orang yang mengawasi tiap gerakan musuh. Tidak ada rahasia yang aman. Tidak ada manuver yang tidak terlihat. Cypher selalu mengawasi.",
+        "developerName": "Gumshoe",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Deteksi",
+            "Lockdown Defensif"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "backgroundGradientColors": [
+            "db9b75ff",
+            "4268b3ff",
+            "3f3f6cff",
+            "2b527cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Cyber Cage",
+                "description": "SEKETIKA melempar cyber cage ke depan Cypher. AKTIFKAN untuk membuat zona yang menghalangi pandangan dan memainkan sinyal audio saat musuh melewatinya.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Spycam",
+                "description": "EQUIP spycam. Tekan FIRE untuk menempatkan spycam di lokasi target. GUNAKAN LAGI ability ini untuk mengendalikan tampilan kamera. Saat mengendalikan kamera, tekan FIRE untuk menembakkan penanda. Penanda ini akan mengungkap lokasi pemain mana pun yang dikenainya berkat utilitas Reveal. Ability ini bisa diambil untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Trapwire",
+                "description": "EQUIP trapwire. Tekan FIRE untuk menempatkan trapwire yang bisa dihancurkan dan tersembunyi di lokasi target. Trapwire juga menghasilkan bentangan garis di antara lokasi penempatan dan dinding di seberangnya. Pemain musuh yang melewati trapwire akan terkena efek Slow dan Reveal setelah beberapa saat jika mereka tidak menghancurkan benda tersebut tepat waktu. Ability ini bisa diambil untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Neural Theft",
+                "description": "SEKETIKA digunakan pada musuh yang mati dan ditarget untuk mendapatkan informasi tentang tim mereka.  Setelah beberapa saat, lokasi semua pemain musuh yang hidup akan terdeteksi dua kali karena utilitas Reveal.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "Sova",
+        "description": "Terlahir di teritori tundra Rusia yang diselimuti musim dingin abadi, Sova dapat melacak, menemukan, dan menghabisi musuh dengan efisiensi serta akurasi yang dahsyat. Busur khusus dan ability pengintaiannya yang sangat kuat, dapat memastikan bahwa musuh bisa lari tetapi tidak bisa sembunyi. ",
+        "developerName": "Hunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Deteksi",
+            "Damage Area"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "backgroundGradientColors": [
+            "f7c7a5ff",
+            "392931ff",
+            "101c47ff",
+            "082652ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiator mengancam sudut dengan mengatur tim memasuki medan yang diperebutkan dan mendorong mundur defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Shock Bolt",
+                "description": "EQUIP busur dan shock bolt. Tekan FIRE untuk mengirim ledakan petir yang terdetonasi saat menabrak, ledakan tersebut memberikan damage pada pemain di sekitar. Tekan HOLD FIRE untuk memperluas jangkauan proyektil dan ALT FIRE untuk menambahkan maksimal dua pantulan pada anak panah ini.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Recon Bolt",
+                "description": "EQUIP busur dan recon bolt. Tekan FIRE untuk menembakkan bolt ke depan, yang akan aktif saat menabrak dan mengungkap lokasi musuh selama di garis pandang bolt. Musuh bisa menghancurkan bolt ini. Tekan HOLD FIRE untuk menambahkan maksimal dua pantulan pada anak panah ini.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Owl Drone",
+                "description": "EQUIP owl drone. Tekan FIRE untuk mengerahkan dan mengendalikan drone. Saat dikendalikan, tekan FIRE untuk menembakkan panah penanda. Panah ini memiliki utilitas Reveal sehingga akan mendeteksi lokasi pemain mana pun yang dikenainya. Musuh bisa menghancurkan Owl Drone.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Hunter's Fury",
+                "description": "EQUIP busur dan tiga ledakan jarak jauh yang energinya dapat menembus dinding. Tekan FIRE untuk melepas garis yang memuat ledakan energi dari depan Sova. Garis tersebut menghasilkan damage dan mendeteksi lokasi musuh yang ada di dalamnya. Ability ini bisa DIGUNAKAN LAGI sampai dua kali lagi selama timer ability aktif.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Marksman yang Luar Biasa",
+                "description": "Busur milik Sova ini bisa menembakkan dan memantulkan anak panah dari tanah. Menahan tembakan akan mengisi daya busur, lalu bolt dilepaskan sesudahnya. Tekan ALT FIRE untuk mengganti jumlah pantulan. Anak panah bisa memantul dari tanah. Menahan klik kiri akan meningkatkan jangkauan, sedangkan klik kanan Toggle menentukan jumlah pantulan dari tanah sesuai yang diinginkan. Anak panah dilepas saat klik kiri dilepaskan.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "Killjoy",
+        "description": "Sang genius dari Jerman, Killjoy, dengan mudah mengamankan posisi penting di battlefield dengan segudang penemuannya. Jika damage yang dihasilkan temuannya tidak menghentikan musuh, debuff robot-robotnya akan mengatasinya.",
+        "developerName": "Killjoy",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Lockdown Defensif",
+            "Damage Area"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "backgroundGradientColors": [
+            "ffc300ff",
+            "b87b00ff",
+            "413950ff",
+            "614414ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Nanoswarm",
+                "description": "EQUIP granat Nanoswarm. Tekan FIRE untuk melempar granat. Saat mendarat, Nanoswarm jadi tersembunyi dari musuh. Tekan ALT FIRE untuk melempar tinggi. AKTIFKAN Nanoswarm untuk mengerahkan kerumunan nanobot penghasil damage.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Alarmbot",
+                "description": "EQUIP Alarmbot tersembunyi. Tekan FIRE untuk mengerahkan bot yang memburu musuh di dalam area jangkauan. Setelah target dipilih, bot meledak dan menerapkan utilitas Vulnerable pada musuh di area tersebut. Tekan TAHAN GUNAKAN untuk memanggil kembali bot yang dikerahkan.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Turret",
+                "description": "EQUIP Turret. Tekan FIRE untuk mengerahkan turret yang dapat menembak musuh dalam sudut 100 derajat. Tekan ALT FIRE untuk mengganti arah turret. Tekan TAHAN GUNAKAN untuk memanggil kembali turet yang dikerahkan.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Lockdown",
+                "description": "EQUIP perangkat Lockdown. Tekan FIRE untuk mengerahkan perangkat. Setelah dikerahkan, perangkat akan menerapkan utilitas Detain sehingga musuh yang ada di dalam radius terperangkap. Perangkat bisa dihancurkan oleh musuh.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "displayName": "Harbor",
+        "description": "Berasal dari pesisir India, Harbor menyerbu battlefield menggunakan teknologi kuno yang dapat mengendalikan air. Dia mengeluarkan arus deras berbuih dan ombak mematikan untuk melindungi sekutu, atau menghancurkan siapa pun yang menentangnya.",
+        "developerName": "Mage",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "backgroundGradientColors": [
+            "f2d6a3ff",
+            "136c6bff",
+            "11434eff",
+            "0c262cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controller",
+            "description": "Controller adalah ahli pembagian wilayah berbahaya untuk mempersiapkan keberhasilan tim.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Cove",
+                "description": "EQUIP bola air pelindung. Tekan FIRE untuk melempar. Tekan ALT FIRE untuk melempar tinggi. Setelah membentur daratan, bola tersebut akan menghasilkan shield air yang menghalangi peluru. Shield dapat dihancurkan.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Cascade",
+                "description": "EQUIP gelombang air. Tekan FIRE untuk mengirim gelombang yang menggulung ke depan dan melewati dinding. GUNAKAN LAGI untuk menghentikan gelombang. Pemain yang menyentuh gelombang akan terkena utilitas Slow.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "High Tide",
+                "description": "EQUIP dinding air. Tekan FIRE untuk melempar dan mendaratkan air ke depan. Tekan HOLD FIRE untuk mengendalikan air ke arah crosshair, lalu biarkan air mencapai jarak maksimumnya dan memunculkan dinding di sepanjang jalurnya. Tekan ALT FIRE sambil membungkuk untuk menghentikan air lebih awal. Pemain yang menyentuh dinding ini akan terkena utilitas Slow.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Reckoning",
+                "description": "EQUIP kekuatan penuh dari Artefak. Tekan FIRE untuk memanggil genangan geiser di daratan. Musuh yang berada di area tersebut menjadi target dari rentetan serangan geiser. Pemain yang menerima serangan ini akan terkena utilitas Concuss.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "efba5359-4016-a1e5-7626-b1ae76895940",
+        "displayName": "Vyse",
+        "description": "Mastermind metalik Vyse mengeluarkan logam cair untuk mengisolasi, menjebak, dan melucuti senjata musuh-musuhnya. Dengan kelicikan dan manipulasi, dia memaksa semua yang menentangnya untuk takut memasuki battlefield.",
+        "developerName": "Nox",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "backgroundGradientColors": [
+            "f147ffff",
+            "823697ff",
+            "6153b7ff",
+            "3b3c4aff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Nox/Nox_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "5cf4f9ee-4ace-08c3-ea08-9b98dade41d5",
+            "milestoneId": "bc02cacf-4c50-1e1b-8681-2a9cca6a6c40",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-08-28T21:00:00Z",
+            "endDate": "2024-09-26T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Shear",
+                "description": "EQUIP filamen dari logam cair. Tekan FIRE untuk menempatkan perangkap dinding tersembunyi. Saat musuh melintas, dinding yang tidak bisa hancur tersebut akan muncul dari dalam tanah di belakang mereka. Dinding ini bertahan selama beberapa saat sebelum menghilang.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Arc Rose",
+                "description": "EQUIP Arc Rose. Targetkan permukaan dan tekan FIRE untuk menempatkan Arc Rose yang sudah disembunyikan, atau tekan ALT FIRE untuk menempatkan Arc Rose melewatinya. GUNAKAN LAGI untuk membuat silau semua pemain yang melihatnya. Ability ini bisa diambil untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Razorvine",
+                "description": "EQUIP sarang dari logam cair. Tekan FIRE untuk meluncurkan. Saat mendarat, sarang menjadi tidak terlihat. Saat DIAKTIFKAN, ini akan menyebar menjadi sarang razorvine besar. Sarang tersebut menerapkan utilitas slow dan damage pada semua pemain yang melewatinya.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Steel Garden",
+                "description": "EQUIP semak belukar dari logam cair. Tekan FIRE untuk mengeluarkan logam yang menyembur dari Vyse sebagai semburan duri logam. Kemudian, JAMMING senjata utama musuh setelah windup singkat.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "Viper",
+        "description": "Seorang Ahli Kimia dari Amerika, Viper, mengerahkan sejumlah perangkat kimia beracun untuk mengendalikan battlefield dan menghalangi pandangan musuh. Jika racun tidak membunuh musuhnya, permainan pikirannya pasti menghabisi mereka.",
+        "developerName": "Pandemic",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Ahli Kendali Pandang"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "backgroundGradientColors": [
+            "89f476ff",
+            "347334ff",
+            "2c4f5eff",
+            "493a7cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controller",
+            "description": "Controller adalah ahli pembagian wilayah berbahaya untuk mempersiapkan keberhasilan tim.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Poison Cloud",
+                "description": "EQUIP pemancar gas. Tekan FIRE untuk melempar pemancar yang terus ada sepanjang ronde. Tekan ALT FIRE untuk melempar tinggi. GUNAKAN LAGI ability ini untuk menciptakan awan gas beracun yang menerapkan Decay pada lawan di dalamnya dengan mengorbankan bahan bakar. Ability ini bisa diambil untuk DI-REDEPLOY sebelum ronde dimulai dan bisa DIGUNAKAN LAGI lebih dari satu kali sepanjang ronde.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Toxic Screen",
+                "description": "EQUIP pelontar pemancar gas yang menembus tanah. Tekan FIRE untuk mengerahkan sebaris panjang pemancar gas. GUNAKAN LAGI ability ini untuk menciptakan dinding tinggi gas beracun yang menerapkan utilitas Decay pada lawan yang melewatinya dengan mengorbankan bahan bakar. Ability ini bisa DIGUNAKAN LAGI lebih dari sekali.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Snake Bite",
+                "description": "EQUIP pelontar zat kimia. Tekan FIRE untuk melontarkan tabung yang hancur saat membentur lantai. Tabung menghasilkan zona kimia tahan lama yang memberikan damage dan utilitas Vulnerable.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Viper's Pit",
+                "description": "EQUIP penyemprot zat kimia. Tekan FIRE untuk menyemprotkan awan zat kimia ke segala arah di sekitar Viper, yang memberi utilitas Nearsight pada pemain dan utilitas Decay pada health musuh. Tekan TAHAN pada tombol ability untuk menyebarkan awan lebih awal.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Beracun",
+                "description": "Kamu secara bertahap menghasilkan dan menambah racun yang menunjang ability.  Musuh yang melewati Poison Cloud, Toxic Screen, atau Viper's Pit milik Viper akan langsung terkena setidaknya 30 utilitas Decay. Level utilitas ini meningkat seiring lamanya sentuhan mereka.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "Phoenix",
+        "description": "Berasal dari Britania Raya, kilau daya tarik Phoenix terlihat dalam gaya bertarungnya, menyulut battlefield dengan kilat dan api. Saat sendiri maupun dibantu rekannya, dia akan memasuki pertarungan sesuka hatinya.",
+        "developerName": "Phoenix",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Fleksibilitas",
+            "Mandiri"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "backgroundGradientColors": [
+            "f7bf60ff",
+            "ea6d4eff",
+            "262423ff",
+            "363b42ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Blaze",
+                "description": "EQUIP dinding api. Tekan FIRE untuk membuat garis api yang bergerak maju. Garis api ini menembus bangunan dan menciptakan dinding api yang menghalangi pandangan, juga memberikan damage pada pemain yang melewatinya. Dinding api akan memberi heal, bukan damage, ke Phoenix. Tekan HOLD FIRE untuk membelokkan dinding sesuai arah crosshair.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Hot Hands",
+                "description": "EQUIP fireball. Tekan FIRE untuk melempar fireball yang meledak setelah beberapa waktu atau saat membentur tanah. Fireball menciptakan zona api yang memberi damage pada musuh dan menghasilkan heal pada Phoenix. Tekan ALT FIRE untuk melempar tinggi fireball.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Curveball",
+                "description": "EQUIP flare orb berjalur lengkung yang meledak sesaat setelah dilempar. Tekan FIRE untuk melengkungkan flare orb ke kiri, meledakkannya, dan menerapkan utilitas Blind ke pemain mana pun yang melihat orb. Tekan ALT FIRE untuk melengkungkan flare orb ke kanan. Curveball mereset charge tiap dua kill.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Run it back",
+                "description": "SEKETIKA menempatkan penanda di lokasi Phoenix. Saat ability ini aktif, mati atau membiarkan timer berakhir akan mengakhiri ability tersebut dan membawa Phoenix kembali ke lokasi ini. Phoenix kembali dengan health penuh dan sejumlah armor yang dimilikinya saat ability digunakan.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Heating Up",
+                "description": "SECARA PASIF Heal Phoenix, bukan menerima damage setelah berdiri di dalam apinya sendiri",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "displayName": "Veto",
+        "description": "Diperkuat mutasi DNA yang tak terbendung, enforcer asal Senegal Veto menabrak aturan tempur dengan melumpuhkan kekuatan dan teknologi lawannya. Di medan tempur Veto, tembakan adalah satu-satunya peganganmu.",
+        "developerName": "Pine",
+        "releaseDate": "2025-10-07T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "backgroundGradientColors": [
+            "1f6178ff",
+            "0e2c41ff",
+            "05e2e9ff",
+            "1a5d65ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pine/Pine_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+            "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-10-07T18:00:00Z",
+            "endDate": "2025-11-04T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Interceptor",
+                "description": "EQUIP Interceptor. TEKAN FIRE untuk menempatkan Interceptor di lokasi yang diproyeksikan. Setelah ditempatkan, GUNAKAN LAGI untuk mengaktifkan. Setelah aktif, Interceptor akan menghancurkan semua utility yang akan MEMANTUL dari pemain dan/atau hancur sendiri oleh tembakan. Musuh bisa menghancurkan Interceptor.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Crosscut",
+                "description": "EQUIP vortex. TEKAN FIRE untuk menempatkan di darat. Saat dalam jangkauan dan melihat vortex, AKTIFKAN untuk berteleportasi ke vortex. Selama BUY PHASE, vortex bisa diambil kembali untuk DIKERAHKAN LAGI.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Evolution",
+                "description": "SEKETIKA mulai bermutasi sepenuhnya, mendapatkan combat stim, regenerasi, dan menjadi KEBAL terhadap segala bentuk debuff.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Chokehold",
+                "description": "EQUIP fragmen kental dari mutasimu. TEKAN FIRE untuk melempar. Fragmen ini akan aktif saat mengenai tanah, menciptakan perangkap untuk menahan musuh di tempat. Musuh yang tertahan akan terkena efek Deafen dan Decay. Musuh bisa menghancurkan perangkap sebelum diaktifkan.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "Astra",
+        "description": "Agen asal Ghana, Astra, memberdayakan kekuatan semesta untuk mereka ulang battlefield sesuka hatinya. Dengan kendali penuh atas wujud astralnya dan bakat meramal strategisnya, dia akan selalu unggul dari musuhnya.",
+        "developerName": "Rift",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "backgroundGradientColors": [
+            "f47dc9ff",
+            "a54498ff",
+            "5210c6ff",
+            "372518ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controller",
+            "description": "Controller adalah ahli pembagian wilayah berbahaya untuk mempersiapkan keberhasilan tim.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Nova Pulse",
+                "description": "Tempatkan Star dalam Astral Form (Tombol Ultima)\n\nAKTIFKAN satu Star untuk meledakkan Nova Pulse. Nova Pulse membutuhkan charge sejenak sebelum menyerang. Ability ini memberikan utilitas Concuss pada semua pemain di area tersebut.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Nebula/Dissipate",
+                "description": "Tempatkan Star dalam Astral Form (Tombol Ultima). \nAKTIFKAN satu Star untuk mengubahnya menjadi Nebula (asap). PAKAI satu Star untuk melenyapkannya (dengan utilitas Dissipate) dan mengembalikannya agar bisa ditempatkan di lokasi baru setelah beberapa saat. Utilitas Dissipate akan membentuk Nebula palsu sejenak di lokasi Star sebelum benda tersebut kembali.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Gravity Well",
+                "description": "Tempatkan Star dalam Astral Form (Tombol Ultima).\n\nAKTIFKAN satu Star untuk membentuk Gravity Well. Pemain di area tersebut tersedot ke pusatnya sebelum liang meledak. Semua pemain yang masih terjebak di dalamnya terkena utilitas Vulnerable.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Astral Form/Cosmic Divide",
+                "description": "AKTIFKAN untuk memasuki Astral Form yang memungkinkanmu menempatkan Star dengan menekan FIRE. Star bisa diaktifkan ulang kemudian dan diubah menjadi Nova Pulse, Nebula, atau Gravity Well. Saat Cosmic Divide di-charge, gunakan ALT FIRE dalam Astral Form untuk mulai membidiknya, lalu FIRE untuk memilih dua lokasi. Cosmic Divide menghubungkan dua titik yang kamu pilih dengan leluasa, lalu menangkis peluru dan suara.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Astral Form",
+                "description": "AKTIFKAN Ultima untuk memasuki Astral Form. Tekan PRIMARY FIRE untuk menempatkan Star. Bidik Star dengan Nova Pulse, Nebula, atau Gravity Well-mu untuk menggunakan berbagai ability tersebut.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "Brimstone",
+        "description": "Bergabung dari AS, persenjataan orbital Brimstone memastikan squad-nya selalu di posisi menguntungkan. Kemampuannya dalam mendaratkan bantuan secara presisi dan aman menjadikannya seorang komandan tempur tidak tertandingi.",
+        "developerName": "Sarge",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Kendali Pandang",
+            "Damage Area"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "backgroundGradientColors": [
+            "eb953fff",
+            "892c1bff",
+            "211d21ff",
+            "282b38ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controller",
+            "description": "Controller adalah ahli pembagian wilayah berbahaya untuk mempersiapkan keberhasilan tim.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Stim Beacon",
+                "description": "Lempar suar stim dalam SEKETIKA. Saat mendarat, suar stim akan menghasilkan area yang memberikan utilitas Combat Stim dan Speed Boost pada pemain.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Incendiary",
+                "description": "EQUIP pelontar granat yang membakar. Tekan FIRE untuk meluncurkan granat yang terdetonasi saat mencapai lantai. Granat tersebut menghasilkan zona kimia yang memberi damage pada pemain di dalam zona.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Sky Smoke",
+                "description": "EQUIP map taktis. Tekan FIRE untuk menentukan lokasi untuk mendaratkan awan asap, dan ALT FIRE untuk mengonfirmasi serta meluncurkan awan asap yang tahan lama. Awan tersebut menghalangi pandangan di area yang telah ditentukan.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Orbital Strike",
+                "description": "EQUIP map taktis. Tekan FIRE untuk meluncurkan laser Orbital Strike tahan lama di lokasi yang telah ditentukan. Laser itu menghasilkan damage tinggi seiring waktu pada pemain yang berada di area tersebut.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+        "displayName": "Iso",
+        "description": "Eksekutor bayaran terpercaya asal Cina, Iso, memasuki kondisi fokus untuk memberantas lawan. Dengan merombak energi sekitar menjadi proteksi antipeluru, dia fokus maju ke duel selanjutnya hingga titik darah penghabisan.",
+        "developerName": "Sequoia",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "backgroundGradientColors": [
+            "c4a1ffff",
+            "3d0fd4ff",
+            "20155dff",
+            "ac52ffff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+            "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-10-31T13:00:00Z",
+            "endDate": "2023-11-29T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Undercut",
+                "description": "EQUIP petir molekuler. Tekan FIRE untuk melemparnya ke depan, sesaat menerapkan Vulnerable & Suppress pada semua pemain yang tersentuh. Petir dapat menembus benda padat, termasuk dinding.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Kill Contract",
+                "description": "EQUIP arena antardimensi. Tekan FIRE untuk melemparkan selajur energi ke seluruh medan tempur, memberi heal dan menarikmu serta musuh pertama yang terkena ke dalam arena untuk berduel sampai titik darah penghabisan.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Double Tap",
+                "description": "SEKETIKA mulai menyalurkan fokusmu. Setelah fokus: mendapatkan shield yang menyerap satu instans damage dari sumber mana pun, reload lebih cepat, dan memasuki kondisi fokus agar musuh yang tumbang karena kamu kill atau beri damage memunculkan orb energi. Jika ditembak, orb ini akan memperbarui status fokusmu dan shield yang ada, atau memberikan satu shield lagi.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Contingency",
+                "description": "EQUIP untuk merakit energi prismatik. Tekan FIRE untuk mendorong dinding energi yang tak bisa hancur untuk menghalangi peluru. Tekan ALT FIRE untuk mendorong tembok yang lebih lambat.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "displayName": "Clove",
+        "description": "Pembuat onar dari Skotlandia, Clove, membawa masalah bagi musuh di tengah panasnya pertempuran dan dinginnya kematian. Manusia abadi ini membuat musuhnya bertanya-tanya, bahkan soal kebangkitan setelah mati. Kembalinya dia ke dunia hanya tinggal menunggu waktu.",
+        "developerName": "Smonk",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "backgroundGradientColors": [
+            "f17cadff",
+            "062261ff",
+            "c347c7ff",
+            "f1db6fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controller",
+            "description": "Controller adalah ahli pembagian wilayah berbahaya untuk mempersiapkan keberhasilan tim.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+            "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-03-25T13:00:00Z",
+            "endDate": "2024-04-24T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Pick-me-up",
+                "description": "AKTIFKAN untuk menyerap kekuatan musuh yang tumbang karena terkena damage atau kill dari Clove. Kekuatan ini memberikan haste dan health sementara.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Ruse",
+                "description": "EQUIP tampilan battlefield. Tekan FIRE untuk mengatur lokasi pendaratan awan. Tekan ALT FIRE untuk mengonfirmasi dan meluncurkan awan. Awan ini dapat menghalangi pandangan lawan di area yang dipilih. Clove bisa menggunakan ability ini setelah mati.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Not Dead Yet",
+                "description": "Setelah mati, AKTIFKAN ability ini agar bisa hidup kembali. Setelah hidup kembali, Clove harus mendapatkan kill atau assist dengan damage dalam waktu yang ditentukan, atau dia akan mati. AKTIFKAN LAGI untuk membatalkan lebih awal.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Meddle",
+                "description": "EQUIP fragmen dari esensi keabadian. Tekan FIRE untuk melempar fragmen yang meledak setelah beberapa saat mendarat di lantai. Kemudian akan memberi efek Decay sementara pada semua target yang terperangkap di dalamnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "displayName": "Neon",
+        "description": "Agen dari Filipina, Neon, melesat maju dengan kecepatan yang mencengangkan, menyemburkan pancaran bioelektrik secepat tubuhnya menghasilkannya. Dia berlari untuk mengejutkan musuh, lalu menyerang mereka lebih cepat dari kilat.",
+        "developerName": "Sprinter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "backgroundGradientColors": [
+            "ba89ffff",
+            "6241ccff",
+            "38328eff",
+            "2c4799ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sprinter/Sprinter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "High Gear",
+                "description": "LANGSUNG menyalurkan kekuatan Neon untuk Meningkatkan Kecepatan. Saat charge penuh, tekan ALT FIRE untuk memicu luncuran listrik. Charge luncuran direset tiap dua kill. Fuel di-recharge saat kill. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Relay Bolt",
+                "description": "SEKETIKA melempar energy bolt yang memantul satu kali. Saat mengenai permukaan, bolt menyetrum tanah yang dikenainya dan meledak sehingga menghasilkan utilitas Concussive.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Fast Lane",
+                "description": "Tekan FIRE untuk menembakkan dua garis energi di atas tanah. Garis membentang dalam jarak yang pendek atau sampai mengenai permukaan saja. Garis ini berubah menjadi dinding listrik statis yang menghalangi pandangan musuh.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Overdrive",
+                "description": "Melepaskan tenaga dan kecepatan penuh Neon selama beberapa saat, mendapatkan lagi semua fuel dan charge luncurannya. Tekan FIRE untuk menyalurkan kekuatan itu ke cahaya kilat yang mematikan dengan akurasi gerakan tinggi. Kill mereset durasi efek. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "Yoru",
+        "description": "Agen asal Jepang, Yoru, melubangi realitas untuk menyusup ke wilayah musuh tanpa terlihat. Dengan bermodal tipuan dan agresi yang seimbang, dia menghabisi tiap target sebelum mereka sadar ke mana harus melihat.",
+        "developerName": "Stealth",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "backgroundGradientColors": [
+            "66a8ffff",
+            "3b37a7ff",
+            "261e4fff",
+            "101042ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Fakeout",
+                "description": "EQUIP bunyi gema yang berubah menjadi bayangan Yoru saat ini diaktifkan. Tekan FIRE untuk mengaktifkan bayangan dan mengirimnya ke depan. Tekan ALT FIRE untuk me-nonaktifkan gema. Tekan PAKAI untuk mengubah gema nonaktif menjadi bayangan dan mengirimnya ke depan.  Bayangan akan meledak, menghasilkan flash, dan memberikan utilitas Blind ketika dihancurkan oleh musuh.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Blindside",
+                "description": "EQUIP ini untuk mengambil fragmen dimensi yang tidak stabil dari dunia nyata. Tekan FIRE untuk melempar fragmen yang akan mengaktifkan kilat. Kilat terpicu saat bersentuhan dengan permukaan keras.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Gatecrash",
+                "description": "EQUIP rift tether Tekan FIRE untuk mengirim tether ke depan. Tekan ALT FIRE untuk menempatkan tether stasioner. AKTIFKAN untuk berteleportasi ke lokasi tether. GUNAKAN untuk memicu teleportasi palsu. GATECRASH mereset charge tiap dua kill.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Dimensional Drift",
+                "description": "EQUIP topeng yang bisa membuka penglihatan antar dimensi. Tekan FIRE untuk menjelajah dimensi Yoru yang tidak bisa dipengaruhi atau dilihat musuh dari luar. AKTIFKAN LAGI jika ingin keluar dari dimensi Yoru lebih awal.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "df1cb487-4902-002e-5c17-d28e83e78588",
+        "displayName": "Waylay",
+        "description": "Waylay, agen Thailand yang berpijar prismatik, berubah menjadi cahaya saat ia melesat melintasi medan tempur. Ia menyerang targetnya melalui secercah cahaya dan langsung mengamankan diri dalam sekejap mata.",
+        "developerName": "Terra",
+        "releaseDate": "2025-03-04T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "backgroundGradientColors": [
+            "affb9bff",
+            "ac53acff",
+            "5b477eff",
+            "298786ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Terra/Terra_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "df1cb487-4902-002e-5c17-d28e83e78588",
+            "milestoneId": "e74c294c-4b69-4fa4-2b50-31ae6e93f242",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-03-05T22:00:00Z",
+            "endDate": "2025-04-02T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Refract",
+                "description": "SEKETIKA menciptakan suar cahaya di lantai. AKTIFKAN ULANG untuk kembali ke suarmu sebagai setitik cahaya murni. Kamu kebal saat bergerak. Refract mereset charge tiap dua kill.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Saturate",
+                "description": "SEKETIKA melemparkan sekumpulan cahaya yang meledak saat menyentuh tanah. Cahaya lalu menerapkan Hinder ke pemain di sekitar, memperlambat gerakan dan senjata mereka secara drastis.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Lightspeed",
+                "description": "EQUIP untuk bergerak secepat kilat. Tekan FIRE untuk dash ke depan dua kali. Tekan ALT FIRE untuk dash sekali. Hanya dash pertama yang bisa membawamu ke atas.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Convergent Paths",
+                "description": "EQUIP untuk memfokuskan kekuatan prismatikmu. Tekan FIRE untuk menciptakan bayangan dirimu sendiri yang kemudian memancarkan cahaya. Setelah beberapa saat, kecepatanmu meningkat tajam dan cahaya meluas, menyebabkan pemain lain di area itu terkena Hinder.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "Sage",
+        "description": "Layaknya benteng pertahanan dari Cina, Sage memberikan rasa aman bagi dirinya dan timnya di mana pun dia berada. Bisa membangkitkan sekutu yang gugur dan menahan serangan sengit, dia menjadi sumber ketenangan di tengah kacaunya battlefield.",
+        "developerName": "Thorne",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Pemulihan",
+            "Menghadang"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "backgroundGradientColors": [
+            "7bfedeff",
+            "41819aff",
+            "102d23ff",
+            "226071ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Sentinel",
+            "description": "Sentinel adalah ahli pertahanan yang bisa mengunci area dan mengawasi sisi sayap, baik di ronde attacker dan defender.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Slow Orb",
+                "description": "EQUIP slowing orb. Tekan FIRE untuk melempar slowing orb ke depan yang meledak saat mendarat. Orb menghasilkan area tahan lama yang memberikan utilitas Slow dan mengurangi kecepatan dash pemain yang terperangkap di dalamnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Healing Orb",
+                "description": "EQUIP healing orb. Tekan FIRE dengan menggunakan crosshair-mu pada sekutu yang terkena damage untuk mengaktifkan Heal-Over-Time pada mereka. Tekan ALT FIRE saat Sage terkena damage untuk mengaktifkan Heal-Over-Time untuk dirinya sendiri.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Barrier orb",
+                "description": "EQUIP barrier orb. Tekan FIRE untuk menghasilkan dinding pelindung setelah beberapa detik. Tekan ALT FIRE untuk memutar penarget.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Resurrection",
+                "description": "EQUIP ability ini untuk menghidupkan sekutu. Tekan FIRE untuk menggunakan crosshair pada sekutu yang mati agar mereka hidup kembali. Setelah penyaluran singkat, sekutu akan hidup kembali dengan health yang penuh.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "Reyna",
+        "description": "Ditempa di jantung Meksiko, Reyna mendominasi single combat dan menjadi makin kuat seiring tiap kill yang berhasil diraih. Kepiawaiannya hanya terhambat keahlian mentahnya, membuatnya sangat bergantung pada performa. ",
+        "developerName": "Vampire",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Pengelakan",
+            "Mandiri"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "backgroundGradientColors": [
+            "e46e77ff",
+            "c44d9fff",
+            "2f2664ff",
+            "2f203fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Devour",
+                "description": "Soul Harvest: Musuh yang dibunuh oleh Reyna atau mati dalam 3 detik setelah menerima damage dari Reyna, meninggalkan Soul Orb yang bertahan 3 detik. Devour: SEKETIKA mengonsumsi soul orb terdekat untuk mendapatkan Heal dengan cepat. Jika EMPRESS aktif, kemampuan ini digunakan secara otomatis dan Soul Orb tidak dikonsumsi.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Dismiss",
+                "description": "SEKETIKA mengonsumsi Soul Orb yang ada di sekitar dan membuat Reyna jadi tidak berwujud selama beberapa saat. Jika EMPRESS aktif, dia sekaligus akan tidak terlihat.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Leer",
+                "description": "EQUIP bola halus berbentuk mata yang bisa dihancurkan. AKTIFKAN untuk mengeluarkan bola tersebut dalam jarak pendek ke arah depan. Bola tersebut akan menerapkan utilitas Nearsight ke semua musuh.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Empress",
+                "description": "SEKETIKA memasuki kondisi frenzy, lalu mendapatkan utilitas Combat Stim yang mempercepat tembakan, penggunaan, dan reload secara signifikan. Dapatkan charge tanpa batas untuk ability Soul Harvest. Saat musuh mati karena Reyna, atau mati dalam 3 detik setelah menerima damage dari Reyna, durasinya diperbarui.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "Omen",
+        "description": "Sesosok hantu dalam pikiran, Omen berburu dalam bayangan. Dia memberikan utilitas Blind pada musuh, berteleportasi melintasi battlefield, lalu membiarkan paranoia menghantui saat musuh berusaha menerka di mana dia akan menyerang berikutnya.",
+        "developerName": "Wraith",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Mobilitas",
+            "Kendali Pandang"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "backgroundGradientColors": [
+            "2fdddeff",
+            "4f53afff",
+            "344673ff",
+            "193b3dff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Controller",
+            "description": "Controller adalah ahli pembagian wilayah berbahaya untuk mempersiapkan keberhasilan tim.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Paranoia",
+                "description": "EQUIP blinding orb. Tekan FIRE untuk melemparnya ke depan guna memberikan utilitas Nearsight dan Deafen pada semua pemain yang terkena. Proyektil ini bisa menembus dinding.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Dark Cover",
+                "description": "EQUIP shadow orb, masuki dunia transisi untuk menempatkan dan menarget orb. TEKAN tombol ability untuk melempar shadow orb ke lokasi yang ditandai, orb ini menciptakan area bayangan tahan lama yang menghalangi pandangan. Tekan HOLD FIRE untuk menjauhkan penanda, dan HOLD ALT FIRE untuk mendekatkan penanda. TEKAN RELOAD untuk beralih ke tampilan penargetan normal.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Shrouded Step",
+                "description": "EQUIP ability Shrouded Step dan lihat indikator jangkauannya. Tekan FIRE untuk memulai channeling singkat, lalu teleportasi ke lokasi yang ditandai.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "From the Shadows",
+                "description": "EQUIP minimap. Tekan FIRE untuk teleportasi ke lokasi terpilih. Saat teleportasi, Omen muncul sebagai Shade yang bisa dihancurkan oleh musuh untuk membatalkan teleportasinya. Omen juga bisa membatalkan teleportasi lewat tombol TEKAN GUNAKAN.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "Jett",
+        "description": "Mewakili negara asalnya, Korea Selatan, gaya bertarung Jett yang gesit dan banyak menghindar memungkinkannya mengambil risiko yang tidak bisa dilakukan orang lain. Dia berpindah secepat kilat saat bertarung, menebas musuh sebelum mereka menyadari apa yang terjadi.",
+        "developerName": "Wushu",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Pengelakan",
+            "Mobilitas"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "backgroundGradientColors": [
+            "90e3fdff",
+            "557f8cff",
+            "2b4e7cff",
+            "1e3344ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duelist",
+            "description": "Duelist adalah pembunuh mandiri dengan kemampuan dan keahlian yang diandalkan oleh tim untuk menghasilkan angka pembunuhan tinggi dan melakukan serangan pertama.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Updraft",
+                "description": "SEKETIKA melempar Jett tinggi ke udara.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Tailwind",
+                "description": "AKTIFKAN untuk menyiapkan embusan angin selama beberapa saat. GUNAKAN LAGI angin untuk melempar Jett ke arah dia bergerak. Jika Jett berdiri diam, dia akan terlempar ke depan. Charge Tailwind direset tiap dua kill.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Cloudburst",
+                "description": "SEKETIKA melempar proyektil yang membesar menjadi awan. Awan tersebut sekilas menghalangi pandangan saat membentur permukaan. Tekan TAHAN pada tombol ability untuk membelokkan asap ke arah crosshair.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Blade Storm",
+                "description": "EQUIP satu set pisau lempar dengan akurasi tinggi. Tekan FIRE untuk melempar satu pisau, dan recharge pisau saat melakukan kill. Tekan ALT FIRE untuk melempar sisa belati, tetapi tidak recharge saat melakukan kill.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Drift",
+                "description": "Menahan tombol lompat saat Jett jatuh akan mengurangi kecepatan luncurnya.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    }
+]

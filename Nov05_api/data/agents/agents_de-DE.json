@@ -1,0 +1,1883 @@
+[
+    {
+        "uuid": "e370fa57-4757-3604-3648-499e1f642d3f",
+        "displayName": "Gekko",
+        "description": "Gekko der Angeleno führt eine eingeschworene Truppe verrückter Kreaturen. Seine Freunde springen voran und vertreiben Gegner, während Gekko ihnen folgt, um sie einzusammeln und von vorne anzufangen.",
+        "developerName": "Aggrobot",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "backgroundGradientColors": [
+            "c7f458ff",
+            "d56324ff",
+            "3a2656ff",
+            "3a7233ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/AggroBot/AggroBot_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Wingman",
+                "description": "RÜSTE Wingman AUS. FEUERE, um Wingman loszuschicken. Wingman entfesselt eine erschütternde Explosion gegen den ersten erkannten Gegner. ALT. FEUERMODUS auf ein Spike-Areal oder einen platzierten Spike, damit Wingman den Spike entschärft oder platziert. Zum Platzieren muss Gekko der Spiketräger sein. Wenn Wingman abläuft, wird er zu einer ruhenden Kugel. INTERAGIERE, um die Kugel einzusammeln und nach einer Abklingzeit einen weiteren Wingman zu erhalten.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Dizzy",
+                "description": "RÜSTE Dizzy AUS. FEUERE, um Dizzy vorwärts durch die Luft zu schicken. Dizzy fliegt vorwärts und feuert dann Plasmaschüsse auf Gegner in Sichtweite. Von ihrem Plasma getroffene Gegner werden geblendet. Wenn Dizzy abläuft, wird sie zu einer ruhenden Kugel. INTERAGIERE, um die Kugel einzusammeln und nach einer kurzen Abklingzeit eine weitere Dizzy zu erhalten.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Mosh-Pit",
+                "description": "RÜSTE Mosh AUS. FEUERE, um Mosh wie eine Granate zu werfen. ALT. FEUERMODUS für einen Unterhandwurf. Nach der Landung verteilt sich Mosh über einen großen Bereich, der geringen Schaden über Zeit verursacht, und explodiert nach einer kurzen Verzögerung.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thrash",
+                "description": "RÜSTE Thrash AUS. FEUERE, um dich mit Thrashs Geist zu verbinden und sie durch feindliches Gebiet zu lenken. AKTIVIERE, um nach vorne zu springen und zu explodieren, um Spieler in einem kleinen Bereich zu hindern. Wenn Thrash abläuft, wird sie zu einer ruhenden Kugel. INTERAGIERE, um die Kugel aufzuheben und nach einer kurzen Abklingzeit eine weitere Thrash zu erhalten. Thrash kann einmal aufgesammelt werden.",
+                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "displayName": "Fade",
+        "description": "Die türkische Kopfgeldjägerin Fade entlockt Gegnern mit der Macht der Albträume ihre Geheimnisse. Sie arbeitet mit dem Schrecken selbst zusammen, jagt ihre Ziele und enthüllt deren Ängste – bevor sie sie in der Dunkelheit zermalmt.",
+        "developerName": "BountyHunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "backgroundGradientColors": [
+            "b1414cff",
+            "5589bdff",
+            "18344cff",
+            "66376cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/BountyHunter/BountyHunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Ergreifen",
+                "description": "LEGE einen Knoten purer Furcht AN. FEUERE, um zu werfen. Der Knoten fällt nach einer festgelegten Zeit zu Boden. VERWENDE die Fähigkeit ERNEUT, um den Knoten vorzeitig auf den Boden fallen zu lassen. Der Knoten explodiert beim Aufprall und hält Gegner in der Nähe fest. Festgehaltenen Gegnern werden Taubheit und Verfall zugefügt.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Nachtalb",
+                "description": "RÜSTE einen Nachtalb AUS. FEUERE, um zu werfen. Der Nachtalb fällt nach einer festgelegten Zeit zu Boden. VERWENDE die Fähigkeit ERNEUT, um den Nachtalb vorzeitig auf den Boden fallen zu lassen. Der Nachtalb schlägt beim Aufprall um sich, enthüllt Gegner in seiner Sichtlinie und erschafft Furchtfährten zu ihnen. Gegner können den Nachtalb zerstören.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Nachtschatten",
+                "description": "RÜSTE einen Nachtschatten AUS. FEUERE, um den Nachtschatten auszusenden. HALTE FEUERN, um den Nachtschatten in Richtung deines Fadenkreuzes zu steuern. Der Nachtschatten jagt dem ersten erblickten Gegner oder der ersten Furchtfährte nach und schränkt die Sicht des Gegners ein, wenn er ihn erreicht.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Einbruch der Nacht",
+                "description": "RÜSTE die Macht des Albtraums AUS. FEUERE, um eine Welle unaufhaltbarer Albtraumenergie zu entfesseln. Von der Welle ergriffene Gegner werden von Furchtfährten markiert und sie erleiden Taubheit und Verfall.",
+                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "displayName": "Breach",
+        "description": "Der bionisch augmentierte Schwede Breach verursacht gezielt mächtige, kinetische Explosionen, die ohne Rücksicht auf Verluste den Weg frei räumen. Der Schaden und die Massenkontrolle stellen sicher, dass kein Kampf je fair ist.",
+        "developerName": "Breach",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "backgroundGradientColors": [
+            "ff9c33ff",
+            "b04621ff",
+            "523a23ff",
+            "44412eff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Breach/Breach_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Blitzladung",
+                "description": "RÜSTE eine Blendladung AUS. FEUERE eine Ladung, um eine schnelle Explosion durch eine Wand zu schicken. Die Ladung detoniert und blendet alle Spieler, die sie sehen.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Verwerfungslinie",
+                "description": "RÜSTE eine seismische Druckwelle AUS. HALTE FEUERN, um die Distanz zu erhöhen. LOSLASSEN, um das Beben zu entfesseln, das alle Spieler im Wirkbereich in einer Linie betäubt.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Nachbeben",
+                "description": "RÜSTE eine Fusionsladung AUS. SPRENGE die Ladung, um eine langsame Explosion durch eine Wand zu schicken. Diese fügt allen getroffenen Spielern schweren Schaden zu.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Thors Hammer",
+                "description": "RÜSTE eine seismische Ladung AUS. FEUERE, um ein großflächiges Beben durch sämtliches Terrain zu schicken. Das Beben betäubt alle getroffenen Spieler und schleudert sie in die Luft.",
+                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235",
+        "displayName": "Deadlock",
+        "description": "Die norwegische Elitesoldatin Deadlock bedient sich verschiedener High-Tech-Nanodrahtgeräte, um das Schlachtfeld vor den tödlichsten Angriffen zu schützen. Nichts und niemand entgeht ihren Argusaugen und ihre Entschlossenheit hat noch jeden Gegner zur Strecke gebracht.",
+        "developerName": "Cable",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "backgroundGradientColors": [
+            "bcc2ffff",
+            "4d64c4ff",
+            "221c3dff",
+            "22224bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cable/Cable_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "7ec37a1e-4526-77dd-1afd-e2ab3b624085",
+            "milestoneId": "fcca98dc-4a83-2837-9512-f88a0a08fcfd",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-06-27T00:00:00Z",
+            "endDate": "2023-07-25T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Geräuschsensor",
+                "description": "RÜSTE einen Geräuschsensor AUS. FEUERE, um den Sensor aufzustellen. Der Sensor überwacht einen Bereich auf Gegner, die Geräusche machen. Er macht Gegner im Bereich kampfunfähig, wenn er Schritte, Waffenfeuer oder signifikante Geräusche erkennt. Du kannst diese Fähigkeit aufheben, um sie ERNEUT EINZUSETZEN.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Gitterbarriere",
+                "description": "RÜSTE eine Gitterbarrierenscheibe AUS. FEUERE, um sie nach vorne zu werfen. Bei der Landung erzeugt die Scheibe vom Ursprungspunkt aus Barrieren, die Charakterbewegungen blockieren.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "GravNet",
+                "description": "RÜSTE eine GravNet-Granate AUS. FEUERE, um sie zu werfen. ALT. FEUERMODUS für einen Unterhandwurf. Die GravNet-Granate detoniert beim Landen und zwingt alle Charaktere in Reichweite dazu, sich zu ducken und langsam zu bewegen.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Annihilation",
+                "description": "RÜSTE einen Nanodrahtbeschleuniger AUS. FEUERE, um einen Impuls aus Nanodrähten auszulösen, der den ersten Gegner, der ihn berührt, einfängt. Der gefangene Gegner wird entlang eines Nanodraht-Pfades gezogen und stirbt, es sei denn, er wird befreit. Der Nanodraht-Kokon ist zerstörbar.",
+                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+        "displayName": "Tejo",
+        "description": "Tejo ist ein kolumbianischer Aufklärungsveteran und besitzt ein ballistisches Leitsystem, mit dem er Gegner dazu zwingt, ihre Stellung aufzugeben … oder sie mit ihrem Leben zu verteidigen. Seine zielgenauen Angriffe bringen Gegner ständig aus dem Konzept und lassen sie nicht zur Ruhe kommen.",
+        "developerName": "Cashew",
+        "releaseDate": "2025-01-08T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "backgroundGradientColors": [
+            "ffb573ff",
+            "c4611fff",
+            "60291eff",
+            "462821ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Cashew/Cashew_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+            "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-01-08T22:00:00Z",
+            "endDate": "2025-02-05T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Gelenkte Salve",
+                "description": "RÜSTE ein AR-Zielsystem AUS. FEUERE, um bis zu zwei Ziele auf der Karte auszuwählen. Feuere die Raketen mit ALT. FEUERMODUS ab. Die Raketen fliegen automatisch zum Zielgebiet und fügen bei der Ankunft mit wiederholten Explosionen Schaden zu.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Sonderzustellung",
+                "description": "RÜSTE eine Haftgranate AUS. FEUERE, um zu werfen. Die Granate bleibt an Oberflächen haften und explodiert. Die Explosion betäubt Ziele im Explosionsradius. Wirf die Granate mit ALT. FEUERMODUS, damit sie einmal abprallt.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Der Jüngste Tag",
+                "description": "RÜSTE eine Anvisierungskarte für taktischen Beschuss AUS. FEUERE, um den Ausgangspunkt des Beschusses zu bestimmen. FEUERE erneut, um den Endpunkt zu bestimmen und den Angriff zu starten. Der Angriff verursacht viele Explosionen entlang des Angriffspfads, die tödlichen Schaden verursachen. Mit ALT. FEUERMODUS während des Zielens auf der Karte brichst du die Ausgangspunktauswahl ab.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Tarndrohne",
+                "description": "RÜSTE eine Tarndrohne AUS. FEUERE, um die Drohne vorwärts zuwerfen. Die Drohne steuerst du daraufhin direkt. FEUERE erneut, um einen Impuls auszulösen, der getroffene Gegner unterdrückt und aufdeckt.",
+                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "f94c3b30-42be-e959-889c-5aa313dba261",
+        "displayName": "Raze",
+        "description": "Die explosive Raze bringt eine laute Persönlichkeit und dicke Knarren aus Brasilien mit. Durch ihre brachiale Spielweise ist sie besonders gut darin, Gegner aufzuscheuchen und beengte Räume mit einer großzügigen Portion „Bumm“ zu säubern.",
+        "developerName": "Clay",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Bereichsschadensspezialist"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "backgroundGradientColors": [
+            "feac45ff",
+            "d64f35ff",
+            "2c5942ff",
+            "2b474bff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Clay/Clay_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Sprengstoffpack",
+                "description": "Wirf SOFORT ein Sprengstoffpaket, das an Oberflächen haftet. REAKTIVIERE die Fähigkeit nach dem Einsatz, um eine Explosion auszulösen. Alle getroffenen Gegner erleiden Schaden und werden weggeschleudert.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Farbbomben",
+                "description": "RÜSTE eine Clustergranate AUS. FEUERE, um die Granate zu werfen. Sie verursacht Schaden und erzeugt Streumunition, die jedem in ihrem Umkreis Schaden zufügt. ALT. FEUERMODUS für einen Unterhandwurf. Die Farbbombenaufladung setzt sich alle zwei Kills zurück.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Boom-Bot",
+                "description": "RÜSTE einen Boom-Bot AUS. FEUERE, um den Bot auszulösen. Dadurch bewegt er sich in einer geraden Linie über den Boden und prallt von Wänden ab. Der Boom-Bot hängt sich an alle Gegner vor ihm und jagt sie. Beim Aufprall explodiert er und verursacht schweren Schaden.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Volles Rohr",
+                "description": "Einen Raketenwerfer AUSRÜSTEN. FEUERE eine Rakete ab, die schweren Flächenschaden verursacht, wenn sie etwas trifft.",
+                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "displayName": "Chamber",
+        "description": "Gut gekleidet und bewaffnet vertreibt der französische Waffendesigner Chamber Angreifer mit tödlicher Präzision. Mit seinem individuellen Arsenal behält er alles im Blick, schaltet Gegner aus der Ferne aus und hat für jeden Plan einen Plan B.",
+        "developerName": "Deadeye",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "backgroundGradientColors": [
+            "ffce6fff",
+            "7b4d21ff",
+            "372d2bff",
+            "163555ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Rendezvous",
+                "description": "RÜSTE einen Teleporterausgang AUS. FEUERE, um ihn auf dem Boden zu platzieren. Während du dich auf dem Boden und in Reichweite des Ausgangs befindest, kannst du REAKTIVIEREN, um dich schnell zum Ausgang zu teleportieren. Du kannst den Ausgang aufheben, um ihn ERNEUT EINZUSETZEN.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Markenzeichen",
+                "description": "RÜSTE eine Falle AUS, die nach Gegnern scannt. FEUERE, um sie auf dem Boden zu platzieren. Wenn ein sichtbarer Gegner in ihre Reichweite kommt, beginnt die Falle herunterzuzählen und destabilisiert dann das Terrain um sich herum, wodurch ein temporäres Feld erzeugt wird, das Spieler in ihm verlangsamt. Du kannst die Falle aufheben, um sie ERNEUT EINZUSETZEN.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Kopfjäger",
+                "description": "AKTIVIERE, um eine schwere Pistole anzulegen. ALT. FEUERMODUS mit angelegter Pistole, um über Visier zu zielen.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Glanzleistung",
+                "description": "AKTIVIEREN, um ein mächtiges Präzisionsgewehr herbeizurufen, das Gegner bei einem direkten Treffer des Oberkörpers sofort tötet. ALT. FEUERMODUS, um über Visier zu zielen. Wenn du einen Gegner tötest, wird ein temporäres Feld erzeugt, das Spieler verlangsamt.",
+                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "displayName": "KAY/O",
+        "description": "KAY/O ist eine Kriegsmaschine mit nur einem Zweck:  die Neutralisierung von Radiants. Er kann gegnerische Fähigkeiten unterdrücken, womit er Gegenangriffe effektiv verhindert und sich und seinen Verbündeten so den entscheidenden Vorteil verschafft.",
+        "developerName": "Grenadier",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "backgroundGradientColors": [
+            "4afaffff",
+            "4da6e1ff",
+            "1a1e4bff",
+            "391a61ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Grenadier/Grenadier_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "FRAG/ment",
+                "description": "RÜSTE ein Sprengfragment AUS. FEUERE, um zu werfen. ALT. FEUERMODUS zum Fallenlassen. Das Fragment bleibt am Boden haften und explodiert mehrfach. Bei jeder Explosion wird im Zentrum beinahe tödlicher Schaden verursacht.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "BLEND/granate",
+                "description": "RÜSTE eine Blendgranate AUS. FEUERE, um einen Überhandwurf auszuführen. ALT. FEUERMODUS, um mit einem Unterhandwurf eine schwächere, schnell explodierende Version zu werfen. Die Blendgranate explodiert mit geringer Verzögerung und blendet alle in Sichtweite.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "NULL/punkt",
+                "description": "RÜSTE eine Unterdrückungsklinge AUS. FEUERE, um zu werfen. Die Klinge bleibt an der getroffenen Oberfläche stecken, lädt auf und unterdrückt alle im Explosionsradius. Gegner können diese Klinge zerstören.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "NULL/cmd",
+                "description": "ÜBERLADE sofort mit polarisierter Radianit-Energie, die in einem riesigen Radius aus KAY/O hervorbricht. Von den Impulsen getroffene Gegner werden kurzzeitig unterdrückt. KAY/O erhält Kampf-Stim, solange er überladen ist, und kann restabilisiert werden, wenn er am Boden ist.",
+                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "displayName": "Skye",
+        "description": "Die Australierin Skye und ihr Rudel bahnen einen Weg durch gegnerisches Gebiet für das Team. Ihre Geschöpfe behindern den Gegner und durch ihre Heilkräfte kann ihrem Team nichts zustoßen, solange es an ihrer Seite ist.",
+        "developerName": "Guide",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "backgroundGradientColors": [
+            "94e789ff",
+            "aa8a49ff",
+            "4f1413ff",
+            "314d48ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Guide/Guide_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Bahnbrecher",
+                "description": "RÜSTE einen „Tasmanischer Wolf“-Anhänger AUS. FEUERE, um das Raubtier zu entsenden und es zu steuern. FEUERE, um nach vorne zu springen. Löse eine erschütternde Explosion beim Aufprall aus und füge direkt getroffenen Gegnern Schaden zu.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Polarstern",
+                "description": "RÜSTE einen „Falken“-Anhänger AUS. FEUERE, um den Falken auszusenden. HALTE FEUERN gedrückt, um den Falken in Richtung deines Fadenkreuzes zu lenken. VERWENDE die Fähigkeit ERNEUT, während der Falke fliegt, um Gegner zu blenden. Die Blendung erreicht ihre maximale Wirkung nach einer kurzen Dauer während des Flugs des Falken.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Gedeihen",
+                "description": "RÜSTE einen „Heilung“-Anhänger AUS. HALTE FEUERN gedrückt, um zu kanalisieren und Verbündete in Sicht- und Reichweite zu heilen. Kann mehrfach verwendet werden, bis Skyes Heilungsleiste erschöpft ist. Skye kann sich nicht selbst heilen.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Rudel",
+                "description": "RÜSTE einen „Rudel“-Anhänger AUS. FEUERE, um drei Sucher auf die drei nahegelegensten Gegner zu hetzen. Wenn ein Sucher sein Ziel findet, wird dessen Sicht eingeschränkt. Gegner können das Rudel zerstören.",
+                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "displayName": "Cypher",
+        "description": "Der marokkanische Informationshändler Cypher ist ein Ein-Mann-Überwachungskommando, das die Bewegungen des Gegners genau im Blick behält. Kein Geheimnis ist sicher. Kein Manöver bleibt unbeobachtet. Cypher entgeht nichts.",
+        "developerName": "Gumshoe",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Entdeckung",
+            "Defensive Abriegelung"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "backgroundGradientColors": [
+            "db9b75ff",
+            "4268b3ff",
+            "3f3f6cff",
+            "2b527cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Gumshoe/Gumshoe_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Cyberkäfig",
+                "description": "Wirf den Cyberkäfig SOFORT vor Cypher. AKTIVIERE, um eine Zone zu erschaffen, die Gegnern die Sicht nimmt und ein Audiosignal abspielt, wenn sie hindurchlaufen.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Spionagekamera",
+                "description": "LEGE eine Spionagekamera AN. FEUERE, um die Spionagekamera am Zielort zu platzieren. REAKTIVIERE diese Fähigkeit, um den Blickwinkel der Kamera zu steuern. FEUERE beim Steuern der Kamera, um einen Ortungspfeil zu verschießen. Dieser Pfeil deckt die Position des getroffenen Spielers auf. Du kannst diese Fähigkeit aufheben, um sie ERNEUT EINZUSETZEN.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Fallendraht",
+                "description": "RÜSTE einen Fallendraht AUS. FEUERE, um einen zerstörbaren und verdeckten Fallendraht am Zielort zu platzieren, der einen Draht zwischen dem Zielort und der gegenüberliegenden Mauer spannt. Gegnerische Spieler, die durch den Fallendraht laufen, werden nach kurzer Zeit verlangsamt und aufgedeckt, wenn sie das Gerät nicht rechtzeitig zerstören. Du kannst diese Fähigkeit aufheben, um sie ERNEUT EINZUSETZEN.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Neuronaler Diebstahl",
+                "description": "Setze diese Fähigkeit SOFORT bei einem toten Gegner ein, um Informationen zu allen lebenden Gegnern herunterzuladen. Nach einer Verzögerung wird die Position aller lebenden Gegner zweimal aufgezeigt.",
+                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "displayName": "Sova",
+        "description": "Sova stammt aus dem ewigen Winter der russischen Tundra und verfolgt, findet und eliminiert Gegner mit gnadenloser Effizienz und Präzision. Sein Spezialbogen und seine unglaublichen Späherfähigkeiten sorgen dafür, dass du zwar fliehen, aber nicht entkommen kannst. ",
+        "developerName": "Hunter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Entdeckung",
+            "Bereichsschaden"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "backgroundGradientColors": [
+            "f7c7a5ff",
+            "392931ff",
+            "101c47ff",
+            "082652ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Hunter/Hunter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
+            "displayName": "Initiator",
+            "description": "Initiatoren eröffnen neue Perspektiven und ermöglichen ihrem Team, umkämpftes Gelände zu betreten und die Verteidiger zu verdrängen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Schockschuss",
+                "description": "LEGE einen Bogen mit einem Schockschuss AN. FEUERE, um einen explodierenden Schuss abzugeben, der beim Aufprall hochgeht und Spielern in der Nähe Schaden zufügt. HALTE FEUERN gedrückt, um die Reichweite des Projektils zu erhöhen. ALT. FEUERMODUS, damit der Schuss bis zu zweimal abprallt.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Aufklärungsgeschoss",
+                "description": "RÜSTE einen Bogen mit einem Aufklärungsgeschoss AUS. FEUERE, um das Aufklärungsgeschoss abzuschießen. Er wird beim Aufprall aktiviert und deckt die Position von Gegnern in der Nähe auf, die sich im Sichtfeld des Pfeils befinden. Gegner können dieses Projektil zerstören. HALTE FEUERN gedrückt, um die Reichweite des Projektils zu erhöhen. ALT. FEUERMODUS, damit der Schuss bis zu zweimal abprallt. ",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Eulendrohne",
+                "description": "RÜSTE eine Eulendrohne AUS. FEUERE, um die Drohne einzusetzen und sie zu steuern. FEUERE, während du die Drohne steuerst, um einen Ortungspfeil zu verschießen. Dieser Pfeil deckt die Position des getroffenen Spielers auf. Gegner können die Eulendrohne zerstören.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Zorn des Jägers",
+                "description": "RÜSTE einen Bogen mit drei Energiestößen AUS, die eine große Reichweite haben und Mauern durchdringen. FEUERE, um einen Energiestoß in einer Linie vor Sova zu entfesseln, der Schaden verursacht und die Position von getroffenen Gegnern aufdeckt. Diese Fähigkeit kann bis zu zweimal REAKTIVIERT werden, solange der Timer der Fähigkeit nicht abgelaufen ist.",
+                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Außergewöhnlicher Schütze",
+                "description": "Sovas Spezialbogen feuert Pfeile ab, die vom Terrain abprallen. Durch Halten wird der Bogen aufgeladen und der abgefeuerte Pfeil verstärkt. Drücke ALT. FEUERMODUS, um die Anzahl der Abpraller zu ändern. Deine Pfeile können vom Terrain abprallen. Halte die linke Maustaste gedrückt, um die Flugbahn zu verändern und die Reichweite der Pfeile zu erhöhen. Mit der rechten Maustaste stellst du ein, wie oft die Pfeile vom Terrain abprallen sollen. Der Pfeil wird abgeschossen, sobald du die linke Maustaste loslässt.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+        "displayName": "Killjoy",
+        "description": "Das deutsche Genie Killjoy sichert mühelos Schlüsselpositionen auf dem Schlachtfeld mit ihrem Arsenal von Erfindungen. Wenn der Schaden die Gegner nicht ausschaltet, geben ihnen die von den Robotern verteilten Schwächungen den Rest.",
+        "developerName": "Killjoy",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Defensive Abriegelung",
+            "Bereichsschaden"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "backgroundGradientColors": [
+            "ffc300ff",
+            "b87b00ff",
+            "413950ff",
+            "614414ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Killjoy/Killjoy_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Nanoschwarm",
+                "description": "RÜSTE eine Nanoschwarm-Granate AUS. FEUERE, um die Granate zu werfen. Nach dem Landen tarnt sich der Nanoschwarm. ALT. FEUERMODUS, um die Granate eine kurze Distanz zu werfen. AKTIVIERE den Nanoschwarm, um einen Schaden verursachenden Schwarm Nanoroboter freizulassen.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Alarmbot",
+                "description": "RÜSTE einen verdeckten Alarmbot AUS. FEUERE, um einen Roboter aufzustellen, der Gegner jagt, die in Reichweite kommen. Wenn er sein Ziel erreicht, explodiert der Roboter und belegt nahe Gegner mit „Verwundbar“. HALTE AUSRÜSTEN, um den aufgestellten Roboter zurückzurufen.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Geschützturm",
+                "description": "RÜSTE einen Geschützturm AUS. FEUERE, um einen Geschützturm aufzustellen, der in einem 100-Grad-Kegel auf Gegner schießt. ALT. FEUERMODUS, um Geschützturmrichtung zu ändern. HALTE AUSRÜSTEN GEDRÜCKT, um den aufgestellten Geschützturm zurückzurufen. ",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Abriegelung",
+                "description": "RÜSTE das Abriegelungsfeld AUS. FEUERE, um das Feld aufzustellen. Nach einer langen Ladephase werden alle Spieler in Reichweite gehindert. Das Feld kann zerstört werden.",
+                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "displayName": "Harbor",
+        "description": "Harbor stürmt von Indiens Küsten mit uralter Technologie auf das Feld und beherrscht das Wasser. Er entfesselt Stromschnellen und Sturmfluten, mit denen er seine Verbündeten schützt oder seine Gegner auf Abstand hält.",
+        "developerName": "Mage",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "backgroundGradientColors": [
+            "f2d6a3ff",
+            "136c6bff",
+            "11434eff",
+            "0c262cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Mage/Mage_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Taktiker",
+            "description": "Taktiker analysieren das Schlachtfeld und finden so für ihr Team den besten Weg zum Ziel.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Bucht",
+                "description": "RÜSTE eine schützende Wasserkugel AUS. FEUERE, um sie zu werfen. ALT. FEUERMODUS für einen Unterhandwurf. Bei Bodenkontakt wird ein zerstörbarer Wasserschild erschaffen, der Kugeln abfängt.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Wasserfall",
+                "description": "RÜSTE eine Welle AUS. FEUERE, um die Welle durch Wände loszuschicken. ERNEUT VERWENDEN, um die Welle anzuhalten. Getroffene Spieler werden verlangsamt.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Flut",
+                "description": "RÜSTE eine Wasserwand AUS. FEUERE, um das Wasser auszusenden. HALTE FEUERN gedrückt, um das Wasser in Richtung deines Fadenkreuzes zu lenken und eine Wasserwand zu erschaffen. ALT. FEUERMODUS beim Lenken, um das Wasser frühzeitig zu stoppen. Getroffene Spieler werden verlangsamt.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Gissung",
+                "description": "RÜSTE die volle Macht deines Artefaktes AUS. FEUERE, um ein Geysir-Becken auf dem Boden zu erschaffen. Gegnerische Spieler im Becken werden von mehreren Geysir-Strahlen getroffen. Getroffene Spieler werden betäubt.",
+                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "efba5359-4016-a1e5-7626-b1ae76895940",
+        "displayName": "Vyse",
+        "description": "Das metallmanipulierende Genie Vyse entfesselt flüssiges Metall, um damit ihre Gegner zu isolieren, festzusetzen und zu entwaffnen. Wer sich ihr widersetzt, wird das Schlachtfeld selbst fürchten, wenn sie mit ihren fiesen Tricks und Manipulationen anrückt.",
+        "developerName": "Nox",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "backgroundGradientColors": [
+            "f147ffff",
+            "823697ff",
+            "6153b7ff",
+            "3b3c4aff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Nox/Nox_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "5cf4f9ee-4ace-08c3-ea08-9b98dade41d5",
+            "milestoneId": "bc02cacf-4c50-1e1b-8681-2a9cca6a6c40",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-08-28T21:00:00Z",
+            "endDate": "2024-09-26T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Scheren",
+                "description": "RÜSTE Filamente aus flüssigem Metall AUS. FEUERE, um versteckte Mauerfallen zu platzieren. Laufen Gegner daran vorbei, schießt eine unzerstörbare Mauer hinter ihnen aus dem Boden. Die Mauer bleibt kurze Zeit bestehen und verpufft dann.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Bogenrose",
+                "description": "RÜSTE eine Bogenrose AUS. Ziele auf eine Oberfläche und FEUERE, um eine getarnte Bogenrose zu platzieren, oder nutze den ALT. FEUERMODUS zum Platzieren der Bogenrose. REAKTIVIEREN, um alle Spieler zu blenden, die in die Richtung blicken. Du kannst diese Fähigkeit aufheben, um sie ERNEUT EINZUSETZEN.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Rasiermesserranken",
+                "description": "RÜSTE ein Nest aus flüssigem Metall AUS. FEUERE, um das Nest zu werfen. Bei der Landung wird das Nest unsichtbar. Bei der AKTIVIERUNG breitet es sich zu einem großen Nest mit rasiermesserscharfen Ranken aus, die Spieler verlangsamen sich und nehmen Schaden, wenn sie sich hindurchbewegen.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Stahlgarten",
+                "description": "RÜSTE ein Dornengestrüpp aus flüssigem Metall AUS. FEUERE, um das Metall in Form von Metalldornen aus dir herausstoßen zu lassen. Nach einer kurzen Aufladezeit werden die Primärwaffen von Gegnern mit LADEHEMMUNGEN belegt.",
+                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "707eab51-4836-f488-046a-cda6bf494859",
+        "displayName": "Viper",
+        "description": "Die US-amerikanische Chemikerin Viper setzt eine Reihe von Geräten mit giftigen Chemikalien ein, um die Kontrolle über das Schlachtfeld zu behalten und dem Gegner die Sicht zu nehmen. Falls das Gift ihre Beute nicht zur Strecke bringt, erledigen ihre Psychospielchen das Übrige.",
+        "developerName": "Pandemic",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Sichtkontrollspezialist"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "backgroundGradientColors": [
+            "89f476ff",
+            "347334ff",
+            "2c4f5eff",
+            "493a7cff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pandemic/Pandemic_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Taktiker",
+            "description": "Taktiker analysieren das Schlachtfeld und finden so für ihr Team den besten Weg zum Ziel.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Giftwolke",
+                "description": "RÜSTE einen Gaskanister AUS. FEUERE, um den Kanister auf den Boden zu werfen, wo er die ganze Runde über liegen bleibt. ALT. FEUERMODUS für einen Unterhandwurf. REAKTIVIERE die Fähigkeit, um mit Treibstoff eine Giftgaswolke zu erschaffen. Gegner in der Wolke werden mit „Verfall“ belegt. Du kannst diese Fähigkeit ERNEUT EINSETZEN, bevor die Runde beginnt, und sie kann während der Runde mehr als einmal REAKTIVIERT werden.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Toxinschirm",
+                "description": "RÜSTE einen Gasventilwerfer AUS, das Terrain durchdringt. FEUERE, um eine lange Linie aus Gasventilen zu platzieren. REAKTIVIERE die Fähigkeit, um mit Treibstoff eine hohe Wand aus Giftgas zu erschaffen. Gegner, die die Wolke durchqueren, werden mit „Verfall“ belegt. Du kannst diese Fähigkeit mehrmals REAKTIVIEREN.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Kontamination",
+                "description": "RÜSTE einen Chemikalienwerfer AUS. FEUERE, um einen Kanister abzuschießen, der beim Aufprall auf dem Boden zerspringt und eine temporäre Chemikalienpfütze hinterlässt, die Schaden zufügt und mit „Verwundbar“ belegt.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Schlangengrube",
+                "description": "RÜSTE einen Chemikalienzerstäuber AUS. FEUERE, um eine Chemikalienwolke rund um Viper herum zu versprühen. Diese Wolke schränkt die Sichtweite aller Spieler ein und lässt das Leben von Gegnern in ihr sinken. HALTE die Fähigkeiten-Taste, um die Wolke frühzeitig freizusetzen.",
+                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Toxisch",
+                "description": "Das Toxin, das als Treibstoff für deine Fähigkeiten dient, füllt sich mit der Zeit wieder auf.  Gegner, die Vipers Giftwolke, Toxinschirm oder Schlangengrube durchqueren, werden sofort mit mindestens 30 Verfall belegt. Ihre Verfallstufe steigt, je länger sie damit in Kontakt bleiben.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "displayName": "Phoenix",
+        "description": "Phoenix stammt aus Großbritannien und seine Starqualitäten kommen auch in seinen Kampffähigkeiten zur Geltung. Ob mit oder ohne Verstärkung - der Kampf beginnt, wenn er es sagt.",
+        "developerName": "Phoenix",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Flexibilität",
+            "Selbstheilung"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "backgroundGradientColors": [
+            "f7bf60ff",
+            "ea6d4eff",
+            "262423ff",
+            "363b42ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Flammenwand",
+                "description": "RÜSTE eine Flammenwand AUS. FEUERE, um eine Flammenspur zu erschaffen, die sich nach vorn bewegt, sich durch die Welt bewegt und eine Wand aus Feuer erschafft. Diese Flammenwand blockiert die Sicht und fügt Spielern, die durch sie hindurchlaufen, Schaden zu. Die Feuerwand heilt Phoenix und fügt ihm keinen Schaden zu. HALTE FEUERN gedrückt, um die Wand in Richtung deines Fadenkreuzes zu biegen.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Heiße Hände",
+                "description": "RÜSTE einen Feuerball AUS. FEUERE, um einen Feuerball zu schleudern, der nach einer festgelegten Zeit oder beim Aufprall auf dem Boden explodiert und einen temporären Flammenteppich hinterlässt, der Gegnern Schaden zufügt. Die Feuerzone heilt Phoenix und fügt ihm keinen Schaden zu. ALT. FEUERMODUS für einen Unterhandwurf.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Fieser Wurf",
+                "description": "RÜSTE eine Fackelkugel AUS, die eine bogenförmige Flugbahn hat und kurz nach dem Schleudern explodiert. FEUERE, um die Fackelkugel in einem Bogen nach links zu schleudern. Wenn sie explodiert, blendet sie jeden Spieler, der die Explosion gesehen hat. ALT. FEUERMODUS, um die Fackelkugel in einem Bogen nach rechts zu schleudern. „Fieser Wurf“ lädt eine Aufladung nach zwei Kills auf.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Revanche",
+                "description": "Platziere SOFORT eine Markierung an Phoenix’ Position. Diese Fähigkeit wird beendet, wenn Phoenix stirbt oder der Timer abläuft. Sobald die Fähigkeit endet, wird Phoenix mit voller Gesundheit und der Rüstungsmenge, die er beim Wirken der Fähigkeit hatte, an die markierte Position zurückgebracht.",
+                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Aufheizen",
+                "description": "Phoenix heilt sich PASSIV und erleidet keinen Schaden, wenn er in seinem eigenen Feuer steht.",
+                "displayIcon": null
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "displayName": "Veto",
+        "description": "Seine unglaublichen DNA-Mutationen versetzen den senegalesischen Vollstrecker Veto in die Lage, alle Kräfte und Technologien seiner Gegner zu neutralisieren und so die Situation auf dem Schlachtfeld grundlegend umzuwälzen. Auf Vetos Schlachtfeld kannst du dich nur auf deine Waffe verlassen.",
+        "developerName": "Pine",
+        "releaseDate": "2025-10-07T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "backgroundGradientColors": [
+            "1f6178ff",
+            "0e2c41ff",
+            "05e2e9ff",
+            "1a5d65ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Pine/Pine_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+            "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-10-07T18:00:00Z",
+            "endDate": "2025-11-04T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Abfänger",
+                "description": "RÜSTE den Abfänger AUS. FEUERE, um den Abfänger am gewählten Zielort zu platzieren. VERWENDE ihn nach dem Platzieren ERNEUT, um ihn zu aktivieren. Sobald er aktiv ist, zerstört er jegliche Unterstützung, die an einem Spieler ABPRALLEN würde und/oder durch Beschuss zerstört würde. Gegner können den Abfänger zerstören.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Kreuzhieb",
+                "description": "RÜSTE einen Strudel AUS. FEUERE, um ihn auf dem Boden zu platzieren. Solange du in Reichweite bist und den Strudel ansiehst, AKTIVIERE die Fähigkeit erneut um dich zum Strudel zu teleportieren. In der KAUFPHASE kann der Strudel zurückgeholt und NEU AUFGESTELLT werden.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Evolution",
+                "description": "Beginnt SOFORT die vollständige Mutation, bekommt eine Kampfstimulation, Regeneration und wird IMMUN gegen alle Debuffs.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Schwitzkasten",
+                "description": "RÜSTE ein zähflüssiges Fragment deiner Mutation AUS. FEUERE, um es zu werfen. Das Fragment wird beim Einschlag auf dem Boden eingesetzt und bildet eine Falle, die Gegner an Ort und Stelle festhält. Festgehaltenen Gegnern werden Taubheit und Verfall zugefügt. Gegner können die Falle zerstören, bevor sie aktiviert wird.",
+                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "displayName": "Astra",
+        "description": "Die ghanaische Agentin Astra nutzt die Energien des Kosmos, um das Schlachtfeld nach ihren Vorlieben zu verändern. Durch ihre Astralform und ihr Talent für strategische Weitsicht ist sie dem nächsten Zug ihrer Gegner immer Äonen voraus.",
+        "developerName": "Rift",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "backgroundGradientColors": [
+            "f47dc9ff",
+            "a54498ff",
+            "5210c6ff",
+            "372518ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Rift/Rift_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Taktiker",
+            "description": "Taktiker analysieren das Schlachtfeld und finden so für ihr Team den besten Weg zum Ziel.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Nova-Impuls",
+                "description": "Platziere Sterne in Astraler Form (Ult-Taste).\n\nAKTIVIERE einen Stern, um einen Nova-Impuls auszusenden. Der Impuls lädt kurz auf und betäubt dann alle Gegner im Wirkungsbereich.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Sternnebel/Zerstreuen",
+                "description": "Platziere Sterne in Astraler Form (Ult-Taste). \n\nAKTIVIERE einen Stern, um ihn in einen Sternnebel zu verwandeln (Rauch).\nNUTZE einen Stern, um ihn zu zerstreuen und ihn nach kurzer Abklingzeit an einem neuen Ort zu platzieren.\n„Zerstreuen“ verursacht dort, wo der Stern war, einen kurzlebigen fingierten Sternnebel.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Gravitationsbrunnen",
+                "description": "Platziere Sterne in Astraler Form (Ult-Taste).\n\nAKTIVIERE einen Stern, um ihn in einen Gravitationsbrunnen zu verwandeln. Spieler innerhalb des Gebietes werden zum Zentrum gezogen, bevor es explodiert und alle darin gefangenen Gegner verwundbar macht.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Astrale Form/Spaltung",
+                "description": "AKTIVIERE, um in die Astrale Form zu wechseln, in der du mit FEUERN Sterne platzieren kannst. Sterne können später reaktiviert und in einen Nova-Impuls, einen Sternnebel oder einen Gravitationsbrunnen verwandelt werden.\n\nWenn „Astrale Spaltung“ aufgeladen ist, kannst du in der Astralen Form mit ALT. FEUERMODUS zielen und FEUERN, um einen zweiten Ort auswählen. Eine unendliche Astrale Spaltung verbindet die ausgewählten Punkte. „Astrale Spaltung“ blockt Kugeln und Geräusche.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Astralform",
+                "description": "AKTIVIERE deine Ult, um in die Astrale Form zu wechseln und PRIMÄRFEUER, um Sterne zu platzieren. Nimm Sterne mit deinem Nova-Impuls, dem Sternnebel oder dem Gravitationsbrunnen ins Visier, um die jeweilige Fähigkeit einzusetzen.",
+                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "displayName": "Brimstone",
+        "description": "Brimstone kommt aus den USA und sein orbitales Arsenal sorgt dafür, dass sein Team stets einen klaren Vorteil hat. Er sorgt präzise und sicher für Unterstützung, was ihn zu einem perfekten Kommandanten macht.",
+        "developerName": "Sarge",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Sichtkontrolle",
+            "Bereichsschaden"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "backgroundGradientColors": [
+            "eb953fff",
+            "892c1bff",
+            "211d21ff",
+            "282b38ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sarge/Sarge_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Taktiker",
+            "description": "Taktiker analysieren das Schlachtfeld und finden so für ihr Team den besten Weg zum Ziel.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Stim-Pack",
+                "description": "Wirf SOFORT ein Stim-Pack auf den Boden. Beim Aufprall erzeugt das Stim-Pack ein Feld, das Spielern Kampf-Stim und einen Geschwindigkeitsboost verleiht.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Brandbeschuss",
+                "description": "RÜSTE einen Brandgranatenwerfer AUS. FEUERE, um eine Granate abzuschießen, die explodiert sobald sie auf dem Boden liegen bleibt und einen temporären Flammenteppich hinterlässt, der Spielern in diesem Bereich Schaden zufügt.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Rauch am Himmel",
+                "description": "RÜSTE eine taktische Karte AUS. FEUERE, um festzulegen, an welchen Positionen die Rauchwolken von Brimstone einschlagen sollen. ALT. FEUERMODUS, um die Positionen zu bestätigen und langanhaltende Rauchwolken abzufeuern, die die Sicht im gewählten Bereich blockieren.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Luftschlag",
+                "description": "ÖFFNE eine taktische Karte. FEUERE, um einen temporären Laser-Luftschlag am Zielort anzufordern, der bei Spielern am Zielort hohen Schaden über Zeit verursacht.",
+                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+        "displayName": "Iso",
+        "description": "Der chinesische Problemlöser Iso kommt in einen Flow und nimmt so seine Gegner auseinander. Er wandelt Umgebungsenergie in kugelsichere Panzerung um und sucht zielstrebig nach seinem nächsten Duell auf Leben und Tod.",
+        "developerName": "Sequoia",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "backgroundGradientColors": [
+            "c4a1ffff",
+            "3d0fd4ff",
+            "20155dff",
+            "ac52ffff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sequoia/Sequoia_BasePrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": false,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+            "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2023-10-31T13:00:00Z",
+            "endDate": "2023-11-29T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Molekularblitz",
+                "description": "RÜSTE einen Molekularblitz AUS. FEUERE, um ihn nach vorn zu werfen. Alle Spieler, die von ihm berührt werden, werden kurzzeitig verwundbar und unterdrückt. Der Blitz kann feste Objekte, einschließlich Wände, durchdringen.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Auftragsmord",
+                "description": "RÜSTE eine interdimensionale Arena AUS. FEUERE, um eine Energiesäule loszuschicken. Diese zieht dich und den ersten getroffenen Gegner in die Arena und heilt euch. In der Arena müsst ihr bis zum Tod kämpfen.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Dublette",
+                "description": "Fokussiere deine Konzentration SOFORT! Bei vollständiger Konzentration: Erhalte einen Panzer, der eine Schadensinstanz von jeder Quelle absorbiert, und du lädst schneller nach. Du kommst auch in einen Flow. Zu Boden gegangene Gegner, die du im Flow-Zustand tötest oder verletzt, erzeugen eine Energiekugel. Schieße die Kugel ab, um deinen Flow-Zustand und deinen bestehenden Panzer zurückzusetzen, oder um dir einen neuen zu gewähren.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Vorsichtsmaßnahme",
+                "description": "AUSRÜSTEN, um prismatische Energie zu formen. FEUERE, um eine unzerstörbare Energiewand, die Kugeln abwehrt, nach vorn zu schicken. ALT. FEUERMODUS zum Aufbauen einer langsameren Version der Mauer.",
+                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "displayName": "Clove",
+        "description": "Clove aus Schottland ist gut darin, Gegner sowohl in der Hitze des Gefechts als auch angesichts der Kälte des Todes auf Trab zu halten. Clove ist unsterblich und kann selbst aus dem Grab heraus viel Unheil stiften und Gegner im Unklaren über die nächsten Schritte lassen.",
+        "developerName": "Smonk",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "backgroundGradientColors": [
+            "f17cadff",
+            "062261ff",
+            "c347c7ff",
+            "f1db6fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Smonk/Smonk_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Taktiker",
+            "description": "Taktiker analysieren das Schlachtfeld und finden so für ihr Team den besten Weg zum Ziel.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "1064ba88-4cd9-8d5b-cbe5-d784b3568820",
+            "milestoneId": "ac3d5972-4ad9-003f-3da8-5881db5a19ec",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2024-03-25T13:00:00Z",
+            "endDate": "2024-04-24T22:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Stärkungsmittel",
+                "description": "AKTIVIERE, um die Lebenskraft von Gegnern zu absorbieren, die durch Clove getötet oder Schaden erfahren haben. Gewährt Tempo und vorübergehendes Leben.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Täuschung",
+                "description": "LEGE eine Schlachtfeldansicht AN. FEUERE, um festzulegen, an welchen Positionen die Rauchwolken von Clove entstehen soll. ALT. FEUERMODUS, um die Positionen zu bestätigen und Rauchwolken abzufeuern, die die Sicht im gewählten Bereich blockieren. Clove kann die Fähigkeit nach dem Tod einsetzen.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Noch nicht tot",
+                "description": "Nach dem Tod AKTIVIEREN zum Wiederbeleben. Nach der Wiederbelebung muss Clove innerhalb einer bestimmten Zeit einen Kill oder eine Schadensunterstützung erzielen, oder der Tod tritt erneut ein. REAKTIVIERE zum vorzeitigen Abbrechen.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Rumpfuschen",
+                "description": "LEGE ein Fragment der Unsterblichkeitsessenz AN. FEUERE, um das Fragment zu werfen. Nach dem Auftreffen auf dem Boden explodiert es nach einer kurzen Verzögerung und belegt sämtliche Ziele im Wirkungsradius mit „Verfall“.",
+                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "displayName": "Neon",
+        "description": "Die philippinische Agentin Neon prescht blitzschnell nach vorn und entlädt Blitze aus bioelektrischer Strahlung, die ihr Körper mit einer ebensolchen Geschwindigkeit erzeugt. Sie stürmt vorwärts, um unvorbereitete Gegner zu überraschen und erledigt sie dann mit Lichtgeschwindigkeit.",
+        "developerName": "Sprinter",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "backgroundGradientColors": [
+            "ba89ffff",
+            "6241ccff",
+            "38328eff",
+            "2c4799ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Sprinter/Sprinter_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Hochtourig",
+                "description": "Kanalisiere SOFORT Neons Macht für erhöhte Geschwindigkeit. Wenn aufgeladen, löse mit ALT. FEUER einen elektrisierten Rutschen-Sprint aus. Die Rutschaufladung setzt sich alle zwei Kills zurück. Treibstoff lädt sich mit Kills wieder auf. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Relaisblitz",
+                "description": "Schleudere SOFORT einen Energieblitz, der einmal abprallt. Wenn der Blitz auf eine Oberfläche trifft, elektrisiert er die Fläche unter dem Aufschlagspunkt mit einer erschütternden Explosion.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Überholspur",
+                "description": "FEUERE zwei Energieströme auf den Boden, die sich ein kurzes Stück nach vorn bewegen oder bis sie auf ein Hindernis treffen. Die Ströme erheben sich zu Wänden aus statischer Elektrizität, die die Sicht blockieren.",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Spannungsspitze",
+                "description": "Entfessle für kurze Zeit Neons volle Macht und Geschwindigkeit, womit sie ihren gesamten Treibstoff und eine Rutschenaufladung zurückerhält. FEUERE, um diese Macht in einen tödlichen Laserstrahl mit hoher Bewegungsgenauigkeit zu kanalisieren. Kills setzen die Effektdauer zurück. ",
+                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "displayName": "Yoru",
+        "description": "Der Japaner Yoru reißt Löcher in die Realität, um unbeobachtet hinter die feindlichen Linien zu gelangen. Er setzt gleichermaßen auf Irreführung und Aggression und ist seinen Gegnern bereits einen Schritt voraus, bevor sie wissen, wie ihnen geschieht.",
+        "developerName": "Stealth",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "backgroundGradientColors": [
+            "66a8ffff",
+            "3b37a7ff",
+            "261e4fff",
+            "101042ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Stealth/Stealth_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Grenade",
+                "displayName": "Finte",
+                "description": "RÜSTE ein Echo AUS, das sich bei Aktivierung in ein Spiegelbild von Yoru verwandelt. Im FEUERMODUS aktivierst du das Echo sofort und sendest es nach vorn. Im ALT. FEUERMODUS platzierst du ein inaktives Echo. VERWENDE es, um das inaktive Echo in ein Spiegelbild zu verwandeln und es nach vorn zu senden. Spiegelbilder erzeugen eine blendende Explosion, wenn sie durch Gegner zerstört werden.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Überrumpeln",
+                "description": "AUSRÜSTEN, um ein instabiles Dimensionsfragment aus der Realität zu reißen. FEUERN, um das Fragment zu werfen. Dabei wird nach Abprallen von einer harten Oberfläche ein Blitz aufgeladen und aktiviert.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Überraschungsbesuch",
+                "description": "RÜSTE einen Riss-Anker AUS. Im FEUERMODUS schickst du den Anker nach vorn. ALT. FEUERMODUS, um den Anker zu platzieren. AKTIVIERE ihn, um dich an die Position des Ankers zu teleportieren. VERWENDE ihn, um einen Teleport vorzutäuschen. „Überraschungsbesuch“ lädt eine Aufladung nach zwei Kills auf.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Dimensionsdrift",
+                "description": "LEGE deine Maske AN, um zwischen die Dimensionen zu blicken. FEUERN, um in Yorus Dimension zu driften. Deine Gegner können dich von außen weder sehen noch dir etwas anhaben. REAKTIVIEREN, um Yorus Dimension vorzeitig zu verlassen.",
+                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "df1cb487-4902-002e-5c17-d28e83e78588",
+        "displayName": "Waylay",
+        "description": "Die prismatisch strahlende Waylay aus Thailand verwandelt sich in Licht, wenn sie über das Schlachtfeld flitzt und ihre Ziele mit Lichtsplittern niederschlägt, bevor sie sich blitzschnell in Sicherheit bringt.",
+        "developerName": "Terra",
+        "releaseDate": "2025-03-04T22:00:00Z",
+        "characterTags": null,
+        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
+        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "backgroundGradientColors": [
+            "affb9bff",
+            "ac53acff",
+            "5b477eff",
+            "298786ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Terra/Terra_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": {
+            "counterId": "df1cb487-4902-002e-5c17-d28e83e78588",
+            "milestoneId": "e74c294c-4b69-4fa4-2b50-31ae6e93f242",
+            "milestoneThreshold": 200000,
+            "useLevelVpCostOverride": false,
+            "levelVpCostOverride": 0,
+            "startDate": "2025-03-05T22:00:00Z",
+            "endDate": "2025-04-02T21:00:00Z"
+        },
+        "abilities": [
+            {
+                "slot": "Ability2",
+                "displayName": "Refraktion",
+                "description": "Erschaffe SOFORT ein Leuchtfeuer auf dem Boden. REAKTIVIERE, um als Partikel reinen Lichts zu deinem Leuchtfeuer zurückzukehren. Auf deiner Reise bist du unverwundbar. „Refraktion“ lädt eine Aufladung alle zwei Kills auf.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Sättigung",
+                "description": "Wirf SOFORT eine Lichtgranate, die beim Aufprall auf dem Boden explodiert und Spieler in der Nähe mit einer effektiven Bewegungs- und Waffenverlangsamung hemmt.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ability1",
+                "displayName": "Licht-\r\ngeschwindigkeit",
+                "description": "AUSRÜSTEN, um dich auf einen Geschwindigkeitsschub vorzubereiten. FEUERE, um zweimal vorwärts zu sprinten. Mit ALT. FEUERMODUS sprintest du nur einmal. Nur dein erster Sprint kann dich nach oben bringen.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Konvergierende Pfade",
+                "description": "AUSRÜSTEN, um deine prismatische Macht zu fokussieren. FEUERE, um ein Nachbild von dir zu erschaffen, das Lichtstrahlen aussendet. Nach einer kurzen Verzögerung erhältst du einen effektiven Geschwindigkeitsschub und der Strahl vergrößert sich, wodurch Spieler im Bereich gehemmt werden.",
+                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "569fdd95-4d10-43ab-ca70-79becc718b46",
+        "displayName": "Sage",
+        "description": "Die chinesische Wächterin Sage garantiert Sicherheit für sich und ihr Team, wohin auch immer sie geht. Dank ihrer einzigartigen Fähigkeit, gefallene Verbündete wiederzuerwecken und Angriffe abzuwehren, ist sie auf dem Schlachtfeld das Auge des Sturms.",
+        "developerName": "Thorne",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Erholung",
+            "Hinhalten"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "backgroundGradientColors": [
+            "7bfedeff",
+            "41819aff",
+            "102d23ff",
+            "226071ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Thorne/Thorne_PrimaryAsset",
+        "isFullPortraitRightFacing": true,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
+            "displayName": "Wächter",
+            "description": "Wächter sind Verteidigungsexperten, die sowohl in Angriffs- als auch in Verteidigungsrunden Bereiche absperren und Flanken bewachen können.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Verlangsamungs-\r\nsphäre",
+                "description": "RÜSTE eine Verlangsamungskugel AUS. FEUERE, um eine Verlangsamungskugel nach vorn zu schleudern. Sie explodiert beim Aufprall und hinterlässt ein temporäres Feld, das die darin gefangenen Spieler verlangsamt und deren Sprintgeschwindigkeit verringert.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Heilsphäre",
+                "description": "RÜSTE eine Heilungskugel AUS. FEUERE, während sich dein Fadenkreuz über einem verwundeten Verbündeten befindet, um ihm einen Heileffekt über Zeit zu verleihen. FEUERE IM ALTERNATIVEN MODUS, wenn Sage verwundet ist, um dir selbst einen Heileffekt über Zeit zu verleihen.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Barrierensphäre",
+                "description": "RÜSTE eine Barrierensphäre AUS. FEUERE, um innerhalb weniger Sekunden eine Mauer zu errichten. Feuere im ALT. FEUERMODUS, um die Wand zu drehen.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Wiederbelebung",
+                "description": "RÜSTE deine Wiederbelebungsfähigkeit AUS. FEUERE, während sich dein Fadenkreuz über einem toten Verbündeten befindet, um ihn wiederzubeleben. Nach einer kurzen Kanalisierung wird der Verbündete mit vollem Leben wiederbelebt.",
+                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+        "displayName": "Reyna",
+        "description": "Reyna wurde im Herzen Mexikos geschmiedet und dominiert den Einzelkampf, indem sie mit jedem Kill, den sie erzielt, auftrumpft. Allein ihr eigenes Können setzt ihren Fähigkeiten Grenzen, weshalb sie extrem abhängig von ihrer Leistung ist. ",
+        "developerName": "Vampire",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Ausweichen",
+            "Selbstheilung"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "backgroundGradientColors": [
+            "e46e77ff",
+            "c44d9fff",
+            "2f2664ff",
+            "2f203fff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Vampire/Vampire_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Verzehren",
+                "description": "Seelenernte: Tötet Reyna Gegner oder sterben sie binnen 3 Sekunden, nachdem sie von Reyna Schaden erlitten haben, lassen sie für 3 Sekunden Seelenkugeln zurück.\n\nVerzehren: Verbraucht SOFORT eine Seelenkugel in der Nähe, wodurch sie sich schnell heilt. Ist „KAISERIN“ aktiv, wird die Fähigkeit automatisch gewirkt und verbraucht keine Seelenkugel.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Eliminieren",
+                "description": "Verzehrt SOFORT eine nahe Seelenkugel und verleiht für kurze Zeit Unberührbarkeit. Wenn KAISERIN aktiv ist, wird Reyna zudem unsichtbar.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Starren",
+                "description": "RÜSTE ein ätherisches, zerstörbares Auge AUS. AKTIVIEREN, um das Auge eine kurze Strecke nach vorne zu werfen. Das Auge schränkt die Sicht von Gegnern, die es ansehen, ein.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Kaiserin",
+                "description": "Geht SOFORT in einen Kampfrausch über und erhält damit Kampf-Stim, die ihre Feuerrate, Ausrüstungs- und Nachladengeschwindigkeit enorm steigert. Erhält unendliche Ladungen der Seelenernte-Fähigkeiten.",
+                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+        "displayName": "Omen",
+        "description": "Omen ist das Phantom einer Erinnerung und jagt in den Schatten. Er kann Gegnern die Sicht nehmen und sich über die Karte teleportieren. Wenn die Gegner dann in Panik geraten und sein nächstes Ziel herausfinden wollen, schlägt er zu.",
+        "developerName": "Wraith",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Beweglichkeit",
+            "Sichtkontrolle"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "backgroundGradientColors": [
+            "2fdddeff",
+            "4f53afff",
+            "344673ff",
+            "193b3dff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wraith/Wraith_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": false,
+        "role": {
+            "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
+            "displayName": "Taktiker",
+            "description": "Taktiker analysieren das Schlachtfeld und finden so für ihr Team den besten Weg zum Ziel.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Paranoia",
+                "description": "RÜSTE eine Blendungskugel AUS. FEUERE, um sie nach vorn zu werfen. Alle Spieler, die sie berührt, haben kurzzeitig eingeschränkte Sicht und werden taub. Das Geschoss kann Mauern durchdringen.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Finsterer Schleier",
+                "description": "RÜSTE eine Schattenkugel AUS, um eine Dimension zum Platzieren und Anvisieren der Kugel zu betreten. DRÜCKE die Fähigkeitstaste, um die Kugel zum Zielort zu schleudern, wo eine langanhaltende, sichtblockierende Sphäre entsteht. HALTE FEUERN GEDRÜCKT, um die Markierung von dir zu entfernen. HALTE ALT. FEUERN GEDRÜCKT, um die Markierung zu dir zu bewegen. DRÜCKE NACHLADEN für den normalen Zielmodus.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Vernebelte Schritte",
+                "description": "RÜSTE die Vernebelte-Schritte-Fähigkeit AUS und sieh dir ihre Reichweite an. FEUERE, um kurz zu kanalisieren und dich dann an die markierte Position zu teleportieren.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Aus den Schatten",
+                "description": "ÖFFNE eine taktische Karte. FEUERE, um deine Teleportation an den Zielort zu beginnen. Während der Teleportation erscheint Omen als Schatten, der von Gegnern zerstört werden kann, um die Teleportation abzubrechen. DRÜCKE AUSRÜSTEN, um die Teleportation abzubrechen.",
+                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    },
+    {
+        "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "displayName": "Jett",
+        "description": "Jett repräsentiert ihre Heimat Südkorea. Sie kämpft agil und weicht geschickt aus, weshalb sie Risiken eingehen kann wie niemand sonst. Sie umrundet Gefechte mit Leichtigkeit und schlitzt Gegner auf, bevor diese wissen, wie ihnen geschieht.",
+        "developerName": "Wushu",
+        "releaseDate": "1970-01-01T00:00:00Z",
+        "characterTags": [
+            "Ausweichen",
+            "Beweglichkeit"
+        ],
+        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
+        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "homeScreenPromoTileImage": null,
+        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "backgroundGradientColors": [
+            "90e3fdff",
+            "557f8cff",
+            "2b4e7cff",
+            "1e3344ff"
+        ],
+        "assetPath": "ShooterGame/Content/Characters/Wushu/Wushu_PrimaryAsset",
+        "isFullPortraitRightFacing": false,
+        "isPlayableCharacter": true,
+        "isAvailableForTest": true,
+        "isBaseContent": true,
+        "role": {
+            "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
+            "displayName": "Duellant",
+            "description": "Duellanten sind unabhängige Fragger, die durch ihre Fähigkeiten und Fertigkeiten die ersten in ihrem Team sind, die auf Konfrontationskurs gehen und ordentlich austeilen.",
+            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
+        },
+        "recruitmentData": null,
+        "abilities": [
+            {
+                "slot": "Ability1",
+                "displayName": "Aufwind",
+                "description": "Katapultiere Jett SOFORT hoch in die Luft.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+            },
+            {
+                "slot": "Ability2",
+                "displayName": "Rückenwind",
+                "description": "AKTIVIEREN, um kurzzeitig eine Windböe vorzubereiten. ERNEUT VERWENDEN, um Jett in die Richtung sprinten zu lassen, in die sie sich bewegt. Falls Jett stillsteht, sprintet sie nach vorn. Die Ladung von „Rückenwind“ setzt sich alle zwei Kills zurück.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+            },
+            {
+                "slot": "Grenade",
+                "displayName": "Wolkenbruch",
+                "description": "Schleudere SOFORT ein Projektil, das sich beim Aufprall auf einer Oberfläche zu einer Wolke ausdehnt, die kurz die Sicht versperrt. HALTE die Fähigkeiten-Taste gedrückt, um den Rauch in Richtung deines Fadenkreuzes zu biegen.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+            },
+            {
+                "slot": "Ultimate",
+                "displayName": "Klingensturm",
+                "description": "RÜSTE einige hochpräzise Wurfmesser AUS. FEUERE, um ein einziges Messer auf dein Ziel zu werfen. Bei einem Kill erhältst du alle Messer zurück. ALT. FEUERMODUS, um alle verbleibenden Klingen auf dein Ziel zu werfen. Bei einem Kill erhältst du keine Messer zurück.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+            },
+            {
+                "slot": "Passive",
+                "displayName": "Gleiten",
+                "description": "Halte die Sprungtaste gedrückt, damit du beim Fallen durch die Luft gleitest.",
+                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+            }
+        ],
+        "voiceLine": null
+    }
+]

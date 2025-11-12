@@ -5,7 +5,8 @@ const express = require("express");
 const app = express();
 const PORT = 1234;
 const agentsRouter = require("./routes/agents");
-const mapsRouter = require('./routes/maps')
+const mapsRouter = require('./routes/maps');
+const weaponsRouter = require('./routes/weapons');
 // const en_US = [USAgents];
 // const zh_TW = [CNAgents];
 // const vi_VN = [VNAgents];
@@ -69,6 +70,7 @@ app.use(languageSelect);
 
 app.use("/api/v1", agentsRouter);
 app.use('/api/v1', mapsRouter);
+app.use('/api/v1', weaponsRouter);
 
 // app.get("/api/v1/agents/:agent", (req, res) => {});
 

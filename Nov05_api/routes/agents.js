@@ -43,7 +43,7 @@ router.route("/agents").get((req, res) => {
   const { role } = req.query;
 
   //   const agents = req.agents;
-  console.log(role);
+  // console.log(role);
 
   if (!role) {
     return res.json(agentsData);

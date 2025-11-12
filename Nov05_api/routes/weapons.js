@@ -7,7 +7,7 @@ const langs = langOpts.split(' / ');
 const langData = {};
 
 for ( const lang of langs ) {
-  const fileContent = fs.readFileSync(`./data/maps/maps_${lang}.json`, 'utf8');
+  const fileContent = fs.readFileSync(`./data/weapons/weapons_${lang}.json`, 'utf8');
   // console.log('>file:', fileContent);
   
   const data = JSON.parse(fileContent);
@@ -30,34 +30,34 @@ for ( const lang of langs ) {
 //   "vi-VN": VNMaps,
 // };
 
-router.route("/maps").get((req, res) => {
-  const mapsData = langData[req.selectedLanguage];
+router.route("/weapons").get((req, res) => {
+  const weaponsData = langData[req.selectedLanguage];
 
-  if (!mapsData) {
+  if (!weaponsData) {
     return res.status(404).send("Invalid language!!");
   }
 
-  return res.json(mapsData);
+  return res.json(weaponsData);
 });
 
-router.get("/maps/:map", (req, res) => {
-  const mapsData = langData[req.selectedLanguage];
+router.get("/weapons/:weapon", (req, res) => {
+  const weaponsData = langData[req.selectedLanguage];
 
-  if (!mapsData) {
+  if (!weaponsData) {
     return res.status(404).send("Invalid language!!");
   }
 
-  const { map } = req.params;
+  const { weapon } = req.params;
 
-  for (const mapData of mapsData) {
+  for (const weaponData of weaponsData) {
     if (
-      mapData.uuid === map ||
-      mapData.displayName.toLowerCase() === map.toLowerCase()
+      weaponData.uuid === weapon ||
+      weaponData.displayName.toLowerCase() === weapon.toLowerCase()
     ) {
-      return res.json(mapData);
+      return res.json(weaponData);
     }
   }
-  return res.status(404).send("Invalid map");
+  return res.status(404).send("Invalid weapn");
 });
 
 module.exports = router;

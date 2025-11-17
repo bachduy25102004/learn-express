@@ -2,17 +2,21 @@ const Router = require("express").Router;
 const router = Router();
 const fs = require("fs");
 
-const langOpts = 'ar-AE / de-DE / en-US / es-ES / es-MX / fr-FR / id-ID / it-IT / ja-JP / ko-KR / pl-PL / pt-BR / ru-RU / th-TH / tr-TR / vi-VN / zh-CN / zh-TW';
-const langs = langOpts.split(' / ');
+const langOpts =
+  "ar-AE / de-DE / en-US / es-ES / es-MX / fr-FR / id-ID / it-IT / ja-JP / ko-KR / pl-PL / pt-BR / ru-RU / th-TH / tr-TR / vi-VN / zh-CN / zh-TW";
+const langs = langOpts.split(" / ");
 const langData = {};
 
-for ( const lang of langs ) {
-  const fileContent = fs.readFileSync(`./data/weapons/weapons_${lang}.json`, 'utf8');
+for (const lang of langs) {
+  const fileContent = fs.readFileSync(
+    `./data/weapons/weapons_${lang}.json`,
+    "utf8"
+  );
   // console.log('>file:', fileContent);
-  
+
   const data = JSON.parse(fileContent);
   // console.log('>data: ', data);
-  
+
   // langData = {...langData, lang: data};
   langData[lang] = data;
 }
@@ -57,7 +61,10 @@ router.get("/weapons/:weapon", (req, res) => {
       return res.json(weaponData);
     }
   }
-  return res.status(404).send("Invalid weapn");
+  return res.status(404).send("Invalid weapon");
 });
 
-module.exports = router;
+module.exports = {
+    router,
+    langData
+}

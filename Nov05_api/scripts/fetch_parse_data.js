@@ -57,7 +57,10 @@ async function parse() {
   }
 }
 
-parse();
+// for ( const lang of langs ) {
+//     fetchData('weapons/skins', lang);
+// }
+// parse();
 
 // for (const lang of langs) {
 //   axios.get("https://valorant-api.com/v1/weapons?language=" + lang).then((res) => {

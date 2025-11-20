@@ -1,4 +1,10 @@
 const express = require("express");
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger.json');
+const YAML = require('yamljs');
+const swaggerDocumentYAML = YAML.load('./swagger.yaml');
+
+
 // const session = require("express-session");
 // const cookieParser = require("cookie-parser");
 
@@ -76,6 +82,10 @@ app.use('/api/v1', mapsRouter);
 app.use('/api/v1', skinsRouter);
 app.use('/api/v1', weaponsRouter);
 
+// app.use('/', swaggerUi.serve);
+// app.get('/', swaggerUi.setup(swaggerDocument));
+
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocumentYAML));
 // app.get("/api/v1/agents/:agent", (req, res) => {});
 
 app.listen(PORT, () => {

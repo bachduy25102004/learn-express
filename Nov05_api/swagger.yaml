@@ -1,0 +1,194 @@
+openapi: 3.0.0
+info:
+  title: Valorant API
+  version: Beta 1.0.0
+
+paths:
+  /api/v1/agents:
+    get:
+      summary: Returns a list of agents
+      responses:
+        "200":
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    uuid:
+                      type: string
+                    displayName:
+                      type: string
+                    description:
+                      type: string
+                    developerName:
+                      type: string
+                    releaseDate:
+                      type: string
+                    characterTags:
+                      type: object
+                      properties:
+                    displayIcon:
+                      type: string
+                    displayIconSmall:
+                      type: string
+                    bustPortrait:
+                      type: string
+                    fullPortrait:
+                      type: string
+                    fullPortraitV2:
+                      type: string
+                    killfeedPortrait:
+                      type: string
+                    minimapPortrait:
+                      type: string
+                    homeScreenPromoTileImage:
+                      type: object
+                      properties:
+                    background:
+                      type: string
+                    backgroundGradientColors:
+                      type: array
+                      items:
+                        type: string
+                    assetPath:
+                      type: string
+                    isFullPortraitRightFacing:
+                      type: boolean
+                    isPlayableCharacter:
+                      type: boolean
+                    isAvailableForTest:
+                      type: boolean
+                    isBaseContent:
+                      type: boolean
+                    role:
+                      type: object
+                      properties:
+                        uuid:
+                          type: string
+                        displayName:
+                          type: string
+                        description:
+                          type: string
+                        displayIcon:
+                          type: string
+                        assetPath:
+                          type: string
+                    recruitmentData:
+                      type: object
+                      properties:
+                    abilities:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          slot:
+                            type: string
+                          displayName:
+                            type: string
+                          description:
+                            type: string
+                          displayIcon:
+                            type: string
+                    voiceLine:
+                      type: object
+                      properties:
+
+  /api/v1/agents/{agent}:
+    get:
+      summary: Returns a specific agent using id or name
+      parameters:
+        - in: path
+          name: agent
+          required: true
+          schema:
+            type: string
+
+          description: agent's ID or name
+      responses:
+        "200":
+          description: success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  uuid:
+                    type: string
+                  displayName:
+                    type: string
+                  description:
+                    type: string
+                  developerName:
+                    type: string
+                  releaseDate:
+                    type: string
+                  characterTags:
+                    type: object
+                    properties:
+                  displayIcon:
+                    type: string
+                  displayIconSmall:
+                    type: string
+                  bustPortrait:
+                    type: string
+                  fullPortrait:
+                    type: string
+                  fullPortraitV2:
+                    type: string
+                  killfeedPortrait:
+                    type: string
+                  minimapPortrait:
+                    type: string
+                  homeScreenPromoTileImage:
+                    type: object
+                    properties:
+                  background:
+                    type: string
+                  backgroundGradientColors:
+                    type: array
+                    items:
+                      type: string
+                  assetPath:
+                    type: string
+                  isFullPortraitRightFacing:
+                    type: boolean
+                  isPlayableCharacter:
+                    type: boolean
+                  isAvailableForTest:
+                    type: boolean
+                  isBaseContent:
+                    type: boolean
+                  role:
+                    type: object
+                    properties:
+                      uuid:
+                        type: string
+                      displayName:
+                        type: string
+                      description:
+                        type: string
+                      displayIcon:
+                        type: string
+                      assetPath:
+                        type: string
+                  recruitmentData:
+                    type: object
+                    properties:
+                  abilities:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        slot:
+                          type: string
+                        displayName:
+                          type: string
+                        description:
+                          type: string
+                        displayIcon:
+                          type: string
+                  voiceLine:
+                    type: object

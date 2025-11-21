@@ -18,6 +18,12 @@ for (const agent of agentsData) {
   //   console.log(">>>", agent);
 }
 
+// TODO: update new image URL to localhost URL
+
+function updateData(agent, key, newValue) {
+
+}
+
 async function fetchImage(imageUrl, filename, uuid, type) {
   const res = await fetch(imageUrl); // => []
 
@@ -26,7 +32,7 @@ async function fetchImage(imageUrl, filename, uuid, type) {
 
   const imageBuffer = Buffer.from(arrayBuffer);
 
-  const outputPath = path.join(__dirname, "images", uuid, type);
+  const outputPath = path.join(__dirname, '..', 'static', "images", uuid, type);
 
   if (!fs.existsSync(outputPath)) {
     fs.mkdirSync(outputPath, { recursive: true });

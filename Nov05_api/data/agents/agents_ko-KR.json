@@ -6,15 +6,15 @@
         "developerName": "Aggrobot",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "background": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/background.png",
         "backgroundGradientColors": [
             "c7f458ff",
             "d56324ff",
@@ -30,7 +30,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -39,25 +39,25 @@
                 "slot": "Ability1",
                 "displayName": "지원봇",
                 "description": "지원봇을 장착합니다. 발사하면 지원봇을 앞으로 보내 적을 찾습니다. 지원봇은 처음 본 적에게 뇌진탕을 유발합니다. 스파이크 지점이나 설치된 스파이크를 겨눈 상태에서 보조 공격 시 지원봇에게 스파이크 설치나 해체를 명령할 수 있습니다. 설치하려면 게코가 스파이크를 소지하고 있어야 합니다. 지원봇은 지속시간이 끝나면 작은 구체로 되돌아갑니다. 상호작용하면 구체를 회수하며, 짧은 재사용 대기시간 이후 지원봇을 다시 사용할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "기절봇",
                 "description": "기절봇을 장착합니다. 발사하면 기절봇이 공중으로 솟아오릅니다. 기절봇은 충전한 뒤 시야에 들어온 적을 향해 플라즈마 폭발을 일으킵니다. 플라즈마에 맞은 적은 실명합니다. 기절봇은 지속시간이 끝나면 작은 구체로 되돌아갑니다. 상호작용하면 구체를 회수하며, 짧은 재사용 대기시간 이후 기절봇을 다시 사용할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "폭파봇 지옥",
                 "description": "폭파봇을 장착합니다. 발사하면 폭파봇을 수류탄처럼 투척합니다. 보조 공격 시 가깝게 투척합니다. 폭파봇은 땅에 닿으면 넓은 구역에 복제되며 소규모의 피해량을 시간에 걸쳐 입힌 뒤 잠시 후 폭발합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "요동봇",
                 "description": "요동봇을 장착합니다. 발사하면 요동봇의 정신과 연결되어 요동봇을 적 진영으로 조종합니다. 활성화하면 앞으로 돌진해 폭발하며 좁은 범위 안에 있는 플레이어를 모두 구속합니다. 요동봇은 지속시간이 끝나면 작은 구체로 되돌아갑니다. 상호작용하면 구체를 회수하며, 짧은 재사용 대기시간 이후 요동봇을 다시 사용할 수 있습니다. 요동봇은 한 번만 회수할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -69,15 +69,15 @@
         "developerName": "BountyHunter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "background": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/background.png",
         "backgroundGradientColors": [
             "b1414cff",
             "5589bdff",
@@ -93,7 +93,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -102,25 +102,25 @@
                 "slot": "Ability1",
                 "displayName": "포박",
                 "description": "공포의 매듭을 장착합니다. 발사하면 던집니다. 매듭은 일정 시간이 지난 후 땅에 떨어집니다. 다시 사용하면 매듭을 일찍 떨어뜨립니다. 매듭이 땅에 닿으면 폭발해 주변의 적을 그 자리에 붙잡습니다. 붙잡힌 적의 청력을 약화시키고 부패 효과를 적용합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "귀체",
                 "description": "감시귀를 장착합니다. 발사하면 던집니다. 감시귀는 일정 시간이 지난 후 땅에 떨어집니다. 다시 사용하면 감시귀를 일찍 떨어뜨립니다. 감시귀는 땅에 닿으면 시야에 들어온 적의 위치를 드러내고 공포의 흔적을 남깁니다. 적은 감시귀를 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "추적귀",
                 "description": "추적귀를 장착합니다. 발사하면 전방으로 추적귀를 내보냅니다. 발사 버튼을 길게 누르면 추적귀를 조준점 방향으로 움직일 수 있습니다. 추적귀는 처음으로 본 적이나 공포의 흔적을 추적하며, 닿으면 적의 시야를 제한합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "황혼",
                 "description": "악몽의 힘을 장착합니다. 발사하면 멈출 수 없는 악몽의 에너지 파동을 보냅니다. 파동이 적에게 닿으면 공포의 흔적을 남기며 청력을 약화시키고 부패 효과를 적용합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -132,15 +132,15 @@
         "developerName": "Breach",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "background": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/background.png",
         "backgroundGradientColors": [
             "ff9c33ff",
             "b04621ff",
@@ -156,7 +156,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -165,25 +165,25 @@
                 "slot": "Ability1",
                 "displayName": "섬광 폭발",
                 "description": "실명탄을 장착합니다. 발사하면 벽을 통과하고 빠르게 효과가 발생하는 폭발을 일으켜 섬광을 본 모든 플레이어를 실명시킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "균열",
                 "description": "지진파를 장착합니다. 발사를 길게 누르면 사거리가 늘어납니다. 버튼을 떼면 지진파를 날려 경로상에 있는 적과 대상 범위 내의 모든 적에게 뇌진탕을 일으킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "여진",
                 "description": "융합 에너지탄을 장착합니다. 발사하면 벽을 통과하고 느리게 효과가 발생하는 폭발을 일으켜 대상 범위 내의 모든 적에게 큰 피해를 입힙니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "지진 강타",
                 "description": "지진탄을 장착합니다. 발사하면 모든 지형을 통과하는 지진 파동을 날려 경로상에 있는 모든 적에게 뇌진탕을 일으키고 공중으로 띄웁니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -195,15 +195,15 @@
         "developerName": "Cable",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "background": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/background.png",
         "backgroundGradientColors": [
             "bcc2ffff",
             "4d64c4ff",
@@ -219,7 +219,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -236,25 +236,25 @@
                 "slot": "Ability1",
                 "displayName": "음향 센서",
                 "description": "음향 센서를 장착합니다. 발사하면 음향 센서를 설치합니다. 센서는 지역에서 적이 내는 소리를 탐지합니다. 발걸음 소리, 사격음, 큰 소음이 탐지되면 지역에 뇌진탕을 일으킵니다. 이 스킬은 회수하여 다시 설치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "장벽망",
                 "description": "장벽망 디스크를 장착합니다. 발사하면 디스크를 앞으로 던집니다. 디스크가 지면에 닿으면 해당 지점에서 장벽이 생성되어 캐릭터가 움직이지 못하도록 억제합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "중력그물",
                 "description": "중력그물 수류탄을 장착합니다. 발사하면 수류탄을 투척합니다. 보조 공격 시 가깝게 투척합니다. 중력그물 수류탄은 지면에 닿으면 폭발해 범위 내에 있는 모든 캐릭터를 앉아서 천천히 움직이게 합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "소멸",
                 "description": "나노와이어 가속기를 장착합니다. 발사하면 처음 적중한 적을 생포하는 나노와이어 펄스를 발사합니다. 생포된 적은 나노와이어의 경로를 따라 끌려가며, 풀려나지 않으면 사망합니다. 나노와이어 고치는 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -266,15 +266,15 @@
         "developerName": "Cashew",
         "releaseDate": "2025-01-08T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "background": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/background.png",
         "backgroundGradientColors": [
             "ffb573ff",
             "c4611fff",
@@ -290,7 +290,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -307,25 +307,25 @@
                 "slot": "Ability2",
                 "displayName": "유도 일제 사격",
                 "description": "AR 표적 조준 시스템을 장착합니다. 발사하면 맵에서 위치를 최대 2곳 지정합니다. 보조 공격 시 지정 위치로 자율 비행해 여러 차례 폭발하는 미사일을 발사합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "특별 배송",
                 "description": "점착 유탄을 장착합니다. 발사하면 쏩니다. 유탄은 처음 적중한 표면에 붙어 폭발하며, 폭발 반경 내의 모든 대상에게 뇌진탕을 일으킵니다. 보조 공격 시 한 번 튕기는 유탄을 쏩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "아마겟돈",
                 "description": "전술 타격 위치 지도를 장착합니다. 발사하면 공습의 첫 지점을 선택합니다. 다시 발사하면 끝 지점을 정하고 공격을 시작하여 공습 경로를 따라 일련의 치명적인 피해를 입히는 폭발을 일으킵니다. 위치 지정 중 보조 공격 시 첫 지점을 취소합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "잠입 드론",
                 "description": "잠입 드론을 장착합니다. 발사하면 드론을 앞으로 던져 움직임을 제어합니다. 다시 발사하면 적중한 적을 모두 제압하고 위치를 드러내는 파동을 발동합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -339,15 +339,15 @@
         "characterTags": [
             "범위 피해 전문가"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "background": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/background.png",
         "backgroundGradientColors": [
             "feac45ff",
             "d64f35ff",
@@ -363,7 +363,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -372,25 +372,25 @@
                 "slot": "Ability1",
                 "displayName": "폭발 팩",
                 "description": "표면에 부착되는 폭발 팩을 던집니다. 부착 후 다시 사용하면 팩이 폭발하며 적중한 대상에게 피해를 입히고 밀어냅니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "페인트탄",
                 "description": "집속탄을 장착합니다. 발사하면 집속탄을 던집니다. 집속탄은 피해를 입히고 여러 개의 자탄을 퍼뜨립니다. 자탄은 각각의 범위 내에 있는 모든 대상에게 피해를 입힙니다. 보조 공격 시 높이 던집니다. 페인트탄 충전량은 2킬마다 초기화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "폭발 봇",
                 "description": "폭발 봇을 장착합니다. 발사하면 폭발 봇이 지면에서 일직선으로 이동하며 벽을 만나면 튕겨 나옵니다. 폭발 봇의 정면 원뿔형 시야 안에 적이 포착되면 해당 적에게 돌진하며 폭발해 치명적인 피해를 입힙니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "대미 장식",
                 "description": "로켓 발사기를 장착합니다. 발사하면 충돌 시 대량의 범위 피해를 입히는 로켓을 발사합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -402,15 +402,15 @@
         "developerName": "Deadeye",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "background": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/background.png",
         "backgroundGradientColors": [
             "ffce6fff",
             "7b4d21ff",
@@ -426,7 +426,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -435,25 +435,25 @@
                 "slot": "Ability2",
                 "displayName": "랑데부",
                 "description": "순간이동 앵커를 장착합니다. 발사하면 지면에 설치합니다. 지면에서 앵커 범위 내에 있을 때 다시 활성화하면 해당 앵커로 빠르게 순간이동합니다. 앵커는 회수하여 재배치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "트레이드마크",
                 "description": "적을 스캔하는 함정을 장착합니다. 발사하면 지면에 설치합니다. 시야에 보이는 적이 사거리 안에 들어오면 함정이 카운트다운 후 주변 지형을 불안정하게 만들고 일정 시간 유지되는 둔화 영역을 생성하여 영역에 있는 플레이어의 속도를 늦춥니다. 함정은 회수하여 재배치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "헤드헌터",
                 "description": "활성화하면 헤비 피스톨을 장착합니다. 장착한 피스톨로 보조 공격하면 조준 사격합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "역작",
                 "description": "활성화하면 상체 직격 시 적을 처치할 수 있는 강력한 커스텀 저격총을 소환합니다. 보조 공격 시 조준합니다. 적을 처치하면 일정 시간 유지되는 둔화 영역을 생성하여 영역에 있는 플레이어의 속도를 늦춥니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -465,15 +465,15 @@
         "developerName": "Grenadier",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "background": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/background.png",
         "backgroundGradientColors": [
             "4afaffff",
             "4da6e1ff",
@@ -489,7 +489,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -498,25 +498,25 @@
                 "slot": "Grenade",
                 "displayName": "파편/탄",
                 "description": "폭발하는 파편탄을 장착합니다. 발사하면 투척합니다. 보조 공격 시 높이 던집니다. 파편탄은 바닥에 붙어 여러 차례 폭발하며, 폭발할 때마다 중심부에 있는 적에게 치명적인 피해를 입힙니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "플래시/드라이브",
                 "description": "섬광탄을 장착합니다. 발사하면 멀리 투척합니다. 보조 공격 시 더 일찍 폭발하는 약한 섬광탄을 투척합니다. 섬광탄은 잠시 후 폭발하며 모습이 보이는 대상을 실명시킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "제로/포인트",
                 "description": "제압용 검을 장착합니다. 발사하면 투척합니다. 검은 처음 적중한 표면에 꽂혀 잠시 후 폭발하며, 범위 내에 있는 대상을 모두 제압합니다. 적이 검을 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "무력화/명령",
                 "description": "케이/오가 즉시 양극화된 레디어나이트 에너지를 과충전하여 넓은 범위에 파동을 방출합니다. 이 파동에 맞은 적은 짧은 시간 동안 제압됩니다. 케이/오는 과충전된 동안 전투 자극제 효과를 얻으며, 쓰러져도 다시 안정화할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -528,15 +528,15 @@
         "developerName": "Guide",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "background": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/background.png",
         "backgroundGradientColors": [
             "94e789ff",
             "aa8a49ff",
@@ -552,7 +552,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -561,25 +561,25 @@
                 "slot": "Ability1",
                 "displayName": "정찰자",
                 "description": "태즈매니아 호랑이 장신구를 장착합니다. 발사하면 호랑이를 보내 조종합니다. 조종 중에 발사하면 전방으로 뛰어올라 충돌 시 폭발하며 뇌진탕을 일으키고 직접 타격한 적에게 피해를 입힙니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "인도하는 빛",
                 "description": "매 장신구를 장착합니다. 발사하면 매를 전방으로 날립니다. 발사를 길게 누르면 조준점 방향으로 매를 유도합니다. 비행 중에 다시 사용하면 매가 섬광으로 변합니다. 섬광은 매가 날아가고 잠시 후 가장 강력해집니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "재생",
                 "description": "회복 장신구를 장착합니다. 발사를 길게 누르면 정신 집중하며 범위 내에서 모습이 보이는 아군들을 회복시킵니다. 회복 에너지가 바닥날 때까지 재사용할 수 있습니다. 스카이 자신이 회복할 수는 없습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "추적자",
                 "description": "추적자 장신구를 장착합니다. 발사하면 추적자 셋을 보내 가장 가까운 적 셋을 쫓습니다. 추적자가 표적에 다다르면 해당 적의 시야를 제한합니다. 적이 추적자를 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -594,15 +594,15 @@
             "탐지",
             "수비적 봉쇄"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "background": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/background.png",
         "backgroundGradientColors": [
             "db9b75ff",
             "4268b3ff",
@@ -618,7 +618,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -627,25 +627,25 @@
                 "slot": "Ability1",
                 "displayName": "사이버 감옥",
                 "description": "사이버 감옥을 장착합니다. 발사하면 사이퍼 앞에 사이버 감옥을 던집니다. 활성화하면 시야를 차단하는 구역이 생성되어 적이 지나갈 때 신호음이 울립니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "스파이캠",
                 "description": "스파이캠을 장착합니다. 발사하면 지정 위치에 스파이캠을 설치합니다. 스킬을 재사용하면 카메라를 조작할 수 있습니다. 조작하는 동안 발사를 누르면 표식용 다트가 발사되며 다트에 맞은 플레이어는 위치가 드러납니다. 이 스킬은 회수하여 다시 설치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "함정",
                 "description": "함정을 장착합니다. 발사하면 지정 위치에 파괴 가능한 위장 함정을 설치하여 설치 위치와 반대쪽 벽 사이를 연결하는 선을 생성합니다. 함정을 넘어가는 적 플레이어는 제때 장치를 파괴하지 않으면 잠시 후 둔화되고 위치가 드러납니다. 이 스킬은 회수하여 다시 설치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "신경 절도",
                 "description": "즉시 대상으로 지정된 사망한 적 플레이어에게 사용해 적 팀의 정보를 다운로드합니다. 잠시 후 생존한 모든 적 플레이어의 위치가 두 번 드러납니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -660,15 +660,15 @@
             "탐지",
             "범위 피해"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "background": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/background.png",
         "backgroundGradientColors": [
             "f7c7a5ff",
             "392931ff",
@@ -684,7 +684,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "척후대",
             "description": "척후대는 팀이 전투 지역에 침입할 수 있도록 다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -693,25 +693,25 @@
                 "slot": "Ability1",
                 "displayName": "충격 화살",
                 "description": "충격 화살과 활을 장착합니다. 발사하면 충돌 시 폭발해 주변 플레이어에게 피해를 입히는 화살을 전방에 쏩니다. 발사를 길게 누르면 화살의 사거리가 늘어납니다. 보조 공격 시 화살이 최대 두 번 더 튕깁니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "정찰용 화살",
                 "description": "정찰 화살과 활을 장착합니다. 발사하면 정찰 화살을 전방에 쏘아 화살이 꽂힌 곳을 기준으로 모습이 드러난 주변 적의 위치를 표시합니다. 적이 이 화살을 파괴할 수 있습니다. 발사를 길게 누르면 화살의 사거리가 늘어납니다. 보조 공격 시 화살이 최대 두 번 더 튕깁니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "올빼미 드론",
                 "description": "올빼미 드론을 장착합니다. 발사하면 드론을 날려 조종합니다. 드론을 조종하는 동안 발사를 누르면 표식용 다트가 발사됩니다. 다트에 맞은 플레이어는 위치가 드러납니다. 적이 올빼미 드론을 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "사냥꾼의 분노",
                 "description": "벽을 관통하는 에너지 3개를 장거리로 발사하는 활을 장착합니다. 발사하면 전방에 일직선상으로 에너지를 날려 닿은 적에게 피해를 입히고 위치를 드러냅니다. 스킬 지속시간이 활성화된 상태에서 최대 두 번 더 다시 사용할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -732,15 +732,15 @@
             "수비적 봉쇄",
             "범위 피해"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "background": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/background.png",
         "backgroundGradientColors": [
             "ffc300ff",
             "b87b00ff",
@@ -756,7 +756,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -765,25 +765,25 @@
                 "slot": "Grenade",
                 "displayName": "나노스웜",
                 "description": "나노스웜 수류탄을 장착합니다. 발사하면 수류탄을 투척합니다. 수류탄은 지면에 닿으면 잠복 상태가 됩니다. 보조 공격 시 높이 던집니다. 나노스웜을 활성화하면 적에게 피해를 입히는 나노스웜을 발사합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "알람봇",
                 "description": "잠복 알람봇을 장착합니다. 발사하면 범위 내에 들어온 적을 추적하는 봇을 배치합니다. 대상에 도달하면 봇은 폭발하여 해당 지역 내에 있는 적을 취약 상태로 만듭니다. 장착을 길게 누르면 배치된 봇을 회수합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "포탑",
                 "description": "포탑을 장착합니다. 발사하면 100도 범위에 있는 적을 공격하는 포탑을 배치합니다. 보조 공격 시 포탑의 방향을 바꿉니다. 장착을 길게 누르면 배치된 포탑을 회수합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "봉쇄",
                 "description": "봉쇄 장치를 장착합니다. 발사하면 장치를 배치합니다. 대기시간 이후 범위 내 탐지된 모든 적을 구속합니다. 봉쇄 장치는 적에 의해 파괴될 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -795,15 +795,15 @@
         "developerName": "Mage",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "background": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/background.png",
         "backgroundGradientColors": [
             "f2d6a3ff",
             "136c6bff",
@@ -819,7 +819,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "전략가",
             "description": "전략가들은 위험 지역을 분석하여 팀을 승리로 이끄는 데 탁월합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -828,25 +828,25 @@
                 "slot": "Ability1",
                 "displayName": "해만",
                 "description": "방어용 물 구체를 장착합니다. 발사하면 투척합니다. 보조 공격 시 가깝게 투척합니다. 땅에 닿으면 탄환을 막는 파괴 가능한 물의 보호막이 생성됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "폭포",
                 "description": "물의 파동을 장착합니다. 발사하면 벽을 통과하는 파동을 앞으로 보냅니다. 다시 사용하면 파동이 멈춥니다. 맞은 플레이어는 둔화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "만조",
                 "description": "물의 장벽을 장착합니다. 발사하면 지면을 따라 물을 앞으로 보냅니다. 발사를 길게 누르면 조준점 방향으로 물을 유도합니다. 물은 지형을 통과하며 지나가는 길에 장벽을 생성합니다. 유도 중 보조 공격 시 물이 일찍 멈춥니다. 맞은 플레이어는 둔화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "심판",
                 "description": "유물의 모든 힘을 장착합니다. 발사하면 지면에 간헐천을 소환합니다. 해당 지역 내에 있는 적 플레이어는 잇따른 간헐천 분출의 표적이 됩니다. 분출에 맞은 플레이어에게 뇌진탕을 일으킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -858,15 +858,15 @@
         "developerName": "Nox",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "background": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/background.png",
         "backgroundGradientColors": [
             "f147ffff",
             "823697ff",
@@ -882,7 +882,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -899,25 +899,25 @@
                 "slot": "Ability1",
                 "displayName": "가지치기",
                 "description": "액체 금속 필라멘트를 장착합니다. 발사하면 숨겨진 장벽 함정을 설치합니다. 적이 지나가면 지면에서 파괴할 수 없는 벽이 폭발하며 솟아오릅니다. 벽은 잠시 유지되다가 사라집니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "아크 장미",
                 "description": "아크 장미를 장착합니다. 표면을 겨냥해 발사하면 숨겨진 아크 장미를 배치하거나, 보조 공격 시 그 너머에 아크 장미를 배치합니다. 다시 사용 시 아크 장미를 바라보는 모든 플레이어가 실명합니다. 이 스킬은 회수하여 다시 설치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "면도날 덩굴",
                 "description": "액체 금속 둥지를 장착합니다. 발사하면 날립니다. 둥지는 지면에 닿으면 보이지 않게 됩니다. 활성화하면 거대한 면도날 덩굴 둥지가 펼쳐지며, 이를 통과하는 모든 플레이어의 속도를 늦추고 피해를 입힙니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "강철 정원",
                 "description": "액체 금속 가시를 장착합니다. 발사하면 뿜어져 나온 금속이 가시가 되어 날아가고, 짧은 대기시간 이후 적의 주 무기를 사용 불가 상태로 만듭니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -931,15 +931,15 @@
         "characterTags": [
             "시야 장악 전문가"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "background": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/background.png",
         "backgroundGradientColors": [
             "89f476ff",
             "347334ff",
@@ -955,7 +955,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "전략가",
             "description": "전략가들은 위험 지역을 분석하여 팀을 승리로 이끄는 데 탁월합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -964,25 +964,25 @@
                 "slot": "Ability1",
                 "displayName": "독성 연기",
                 "description": "가스 방사기를 장착합니다. 발사 시 라운드 내내 유지되는 방사기를 던집니다. 보조 공격 시 가깝게 던집니다. 스킬을 재사용하면 연료를 소모해 적을 부패시키는 독성 가스 구름을 만듭니다. 라운드 시작 전에 주운 후 재배치할 수 있으며 라운드 중 한 번 이상 재사용이 가능합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "독성 장막",
                 "description": "지형지물을 관통하는 가스 방사기 발사기를 장착합니다. 발사하면 여러 개의 가스 방사기를 일렬로 길게 배치합니다. 스킬을 다시 사용하면 연료를 소모해 가로지르는 적을 부패시키는 높은 독성 연기 장벽을 생성합니다. 이 스킬은 여러 번 재사용이 가능합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "뱀 이빨",
                 "description": "화학 물질 발사기를 장착합니다. 발사하면 바닥에 떨어졌을 때 폭발하는 통을 날립니다. 통은 폭발하며 적에게 취약을 적용하고 피해를 입히는 화학 물질 지역을 일정 시간 동안 생성합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "독사의 구덩이",
                 "description": "화학 물질 분사기를 장착합니다. 발사하면 사방으로 화학 물질 연기를 분사해 안에 있는 플레이어의 시야를 제한하고 적의 체력을 부패시키는 거대 연기를 생성합니다. 스킬 키를 길게 누르면 연기가 일찍 사라집니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1003,15 +1003,15 @@
             "유연성",
             "자급자족"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "background": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/background.png",
         "backgroundGradientColors": [
             "f7bf60ff",
             "ea6d4eff",
@@ -1027,7 +1027,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1036,25 +1036,25 @@
                 "slot": "Grenade",
                 "displayName": "불길",
                 "description": "화염 장벽을 장착합니다. 발사하면 앞으로 이동하는 여러 개의 화염을 일렬로 생성합니다. 화염은 지형을 통과하며 시야를 차단하고 통과하는 플레이어에게 피해를 입히는 화염 장벽을 생성합니다. 피닉스가 화염 구역에 들어가면 체력을 회복합니다. 발사를 길게 누르면 조준점 방향으로 장벽 궤적을 바꿉니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "뜨거운 손",
                 "description": "화염구를 장착합니다. 발사하면 일정 시간이 지나거나 땅에 닿은 후 폭발하는 화염구를 던집니다. 폭발 지점에는 일정 시간 유지되는 화염 구역이 생성되어 적에게 피해를 입힙니다. 피닉스가 화염 구역에 들어가면 체력을 회복합니다. 보조 공격 시 가깝게 투척합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "커브볼",
                 "description": "던지면 휘어져 날아간 후 곧 폭발하는 섬광 구슬을 장착합니다. 발사 시 섬광 구슬이 왼쪽으로 휘어지며 폭발하고 이때 구슬을 바라보는 플레이어는 전부 실명합니다. 보조 공격 시 섬광 구슬이 오른쪽으로 휘어집니다. 커브볼 충전량은 2킬마다 하나 초기화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "역습",
                 "description": "즉시 피닉스의 위치에 표식을 놓습니다. 스킬 사용 도중 죽거나 지속시간이 끝나면 해당 위치에서 최대 체력과 스킬 사용 시점의 방어구를 가지고 부활합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1072,15 +1072,15 @@
         "developerName": "Pine",
         "releaseDate": "2025-10-07T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/background.png",
         "backgroundGradientColors": [
             "1f6178ff",
             "0e2c41ff",
@@ -1096,7 +1096,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1113,25 +1113,25 @@
                 "slot": "Ability2",
                 "displayName": "요격기",
                 "description": "요격기를 장착합니다. 발사하면 예상 위치에 요격기를 설치합니다. 설치 후 다시 사용하면 활성화됩니다. 활성화되면 플레이어에게서 튕겨 나오거나 사격으로 파괴할 수 있는 모든 장치를 파괴합니다. 적이 요격기를 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "지름길",
                 "description": "소용돌이를 장착합니다. 발사하면 지면에 설치합니다. 범위 내에서 소용돌이를 바라볼 때 활성화하면 해당 소용돌이로 순간이동합니다. 구매 단계에서 소용돌이를 회수하여 재배치할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "진화",
                 "description": "즉시 완전하게 변이하여 전투 자극제, 체력 회복 효과를 얻고 모든 형태의 해로운 효과에 면역 상태가 됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "목조르기",
                 "description": "변이의 점성 조각을 장착합니다. 발사하면 던집니다. 조각은 땅에 닿으면 적을 그 자리에 속박하는 함정을 생성합니다. 속박된 적은 청력이 약화되고 부패 효과를 받습니다. 적은 함정이 활성화되기 전에 함정을 파괴할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1143,15 +1143,15 @@
         "developerName": "Rift",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "background": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/background.png",
         "backgroundGradientColors": [
             "f47dc9ff",
             "a54498ff",
@@ -1167,7 +1167,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "전략가",
             "description": "전략가들은 위험 지역을 분석하여 팀을 승리로 이끄는 데 탁월합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1176,31 +1176,31 @@
                 "slot": "Ability1",
                 "displayName": "신성 파동",
                 "description": "천상계 형상에서 별을 설치합니다. (궁극기 키)\n\n활성화 시 별 하나를 폭파해 신성 파동을 만들어 냅니다. 신성 파동은 짧은 충전 시간 이후 범위 내 모든 플레이어에게 뇌진탕을 일으킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "성운 / 소멸",
                 "description": "천상계 형상에서 별을 설치합니다. (궁극기 키)\n활성화 시 별 하나를 성운(연막)으로 변형합니다.\n별은 사용 시 소멸하며, 잠시 후 다른 곳에 설치할 수 있게 됩니다.\n별이 소멸하면 그 자리에 잠시 가짜 성운이 생성됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "중력의 샘",
                 "description": "천상계 형상에서 별을 설치합니다. (궁극기 키)\n\n활성화 시 별 하나를 중력의 샘으로 변형합니다. 중력의 샘은 범위 내 플레이어들을 끌어당기다가 폭발하며, 폭발에 닿은 플레이어들은 취약 상태가 됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "천상계 형상 / 우주 장벽",
                 "description": "활성화 시 공격으로 별을 설치할 수 있는 천상계 형상으로 변신합니다. 이후에 별을 다시 활성화하여 신성 파동, 성운, 중력의 샘으로 바꿀 수 있습니다.\n\n우주 장벽이 준비되면 천상계 형상에서 보조 공격을 눌러 조준하고, 공격으로 두 지점을 선택합니다. 우주 장벽은 선택한 두 지점을 이으며 탄환을 막고 소리를 흡수합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "천상계 형상",
                 "description": "궁극기 활성화 시 천상계 형상으로 변신하며, 주 공격으로 별을 설치할 수 있습니다. 별을 조준하면 신성 파동, 성운, 중력의 샘 스킬을 사용할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1215,15 +1215,15 @@
             "시야 장악",
             "범위 피해"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "background": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/background.png",
         "backgroundGradientColors": [
             "eb953fff",
             "892c1bff",
@@ -1239,7 +1239,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "전략가",
             "description": "전략가들은 위험 지역을 분석하여 팀을 승리로 이끄는 데 탁월합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1248,25 +1248,25 @@
                 "slot": "Grenade",
                 "displayName": "자극제 신호기",
                 "description": "즉시 자극제 신호기를 던집니다. 신호기가 떨어진 곳에는 플레이어에게 전투 자극제와 속도 상승 효과를 부여하는 영역이 생성됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "소이탄",
                 "description": "소이탄 발사기를 장착합니다. 발사하면 바닥에 떨어졌을 때 폭발하는 소이탄을 날려 적에게 피해를 입히는 화염 구역을 생성합니다. 생성된 구역은 일정 시간 유지됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "공중 연막",
                 "description": "전술 지도를 장착합니다. 발사하면 브림스톤의 연막을 퍼뜨릴 위치를 설정합니다. 보조 공격 시 위치 확정 후 연막을 날려 한동안 선택한 지역의 시야를 차단합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "궤도 일격",
                 "description": "전술 지도를 장착합니다. 발사하면 선택한 위치에 궤도 일격 레이저를 쏘아 해당 영역에 있는 플레이어에게 큰 지속 피해를 입힙니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1278,15 +1278,15 @@
         "developerName": "Sequoia",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "background": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/background.png",
         "backgroundGradientColors": [
             "c4a1ffff",
             "3d0fd4ff",
@@ -1302,7 +1302,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1319,25 +1319,25 @@
                 "slot": "Ability1",
                 "displayName": "약화",
                 "description": "분자 탄환을 장착합니다. 발사하면 탄환을 전방으로 날려 적중한 모든 플레이어를 잠시 취약 상태로 만들고 제압합니다. 탄환은 벽을 포함해 단단한 물체를 관통할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "청부 계약",
                 "description": "장착하면 차원의 결투장을 준비합니다. 발사하면 전장에 에너지파를 날려 처음으로 적중한 적과 자신의 체력을 회복시키고 함께 결투장으로 이동합니다. 결투장으로 끌려온 적과 쓰러질 때까지 결투합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "구슬 보호막",
                 "description": "즉시 집중을 시작합니다. 집중하면 모든 유형의 피해를 한 번 흡수하는 보호막을 얻고, 재장전이 빨라지며, 이 상태에서 적을 처치하거나 피해를 입힌 적이 쓰러지면 에너지 구슬이 생성됩니다. 구슬을 쏘면 집중 상태와 현재 보호막이 초기화되거나 보호막을 다시 얻습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "대비책",
                 "description": "장착하면 프리즘 에너지를 모읍니다. 발사하면 탄환을 막는 에너지 장벽을 앞으로 날립니다. 장벽은 파괴할 수 없습니다. 보조 공격 시 장벽을 느리게 날립니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1349,15 +1349,15 @@
         "developerName": "Smonk",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "background": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/background.png",
         "backgroundGradientColors": [
             "f17cadff",
             "062261ff",
@@ -1373,7 +1373,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "전략가",
             "description": "전략가들은 위험 지역을 분석하여 팀을 승리로 이끄는 데 탁월합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1390,25 +1390,25 @@
                 "slot": "Grenade",
                 "displayName": "활력 회복",
                 "description": "활성화 시 피해를 입히거나 처치한 적의 생명력을 흡수하여 이동 속도 증가와 일시적인 체력 증가 효과를 얻습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "계략",
                 "description": "전장 시야를 장착합니다. 발사하면 연기가 발생할 위치를 지정합니다. 보조 공격 시 위치 확정 후 지정한 지역의 시야를 차단하는 연기를 보냅니다. 클로브는 사망 후에도 이 스킬을 사용할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "아직 안 죽었어",
                 "description": "사망 후 활성화 시 부활합니다. 부활 후 일정 시간 내에 킬 또는 어시스트를 달성하지 않으면 사망합니다. 다시 활성화하면 일찍 취소합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "간섭",
                 "description": "불멸의 정수 파편을 장착합니다. 발사하면 파편을 던집니다. 파편은 바닥에 닿으면 잠시 후 폭발하여 내부에 있는 모든 대상을 일시적으로 부패시킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1420,15 +1420,15 @@
         "developerName": "Sprinter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "background": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/background.png",
         "backgroundGradientColors": [
             "ba89ffff",
             "6241ccff",
@@ -1444,7 +1444,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1453,25 +1453,25 @@
                 "slot": "Ability2",
                 "displayName": "고속 기어",
                 "description": "네온의 힘을 즉시 집중해 속도를 높입니다. 충전되면 보조 공격 시 전기 슬라이드를 발동합니다. 슬라이드 충전량은 2킬마다 초기화됩니다. 적 처치 시 배터리 게이지가 재충전됩니다. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "릴레이 볼트",
                 "description": "한 번 튕기는 에너지 볼트를 즉시 투척합니다. 볼트는 표면에 맞을 때마다 지면에 전류를 흘려보내 뇌진탕을 일으킵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "추월 차선",
                 "description": "전방의 지면에 에너지로 이루어진 선 두 개를 발사합니다. 선은 짧게 뻗어나가거나 표면에 적중하면 멈춥니다. 선은 솟아나 정전기 벽이 되어 시야를 차단합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "오버드라이브",
                 "description": "짧은 시간 동안 네온의 모든 힘과 속도를 해방하고, 배터리 게이지가 완전히 충전되고 슬라이드 충전을 1개 얻습니다. 발사하면 힘을 집중해 이동 정확도가 높은 치명적인 번개 광선을 만들어냅니다. 적을 처치하면 지속시간이 초기화됩니다. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1483,15 +1483,15 @@
         "developerName": "Stealth",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "background": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/background.png",
         "backgroundGradientColors": [
             "66a8ffff",
             "3b37a7ff",
@@ -1507,7 +1507,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1516,25 +1516,25 @@
                 "slot": "Grenade",
                 "displayName": "기만",
                 "description": "메아리를 장착합니다. 메아리를 활성화하면 요루의 거울 형상으로 변합니다. 발사하면 거울 형상을 활성화하고 전방으로 보냅니다. 보조 공격 시 비활성화된 메아리를 배치합니다. 사용하면 비활성화된 메아리를 거울 형상으로 바꿔 전방으로 보냅니다. 적이 거울 형상을 파괴하면 섬광과 함께 폭발합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "기습",
                 "description": "장착하면 현실에서 불안정한 차원의 조각을 떼어냅니다. 발사하면 차원의 조각을 던집니다. 조각은 섬광을 방출하며 섬광은 단단한 표면에 닿으면 꺼집니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "관문 충돌",
                 "description": "균열 결속을 장착합니다. 발사하면 전방으로 결속을 날립니다. 보조 공격 시 정지 상태의 결속을 배치합니다. 활성화 시 해당 결속의 위치로 순간이동합니다. 사용 시 순간이동 흉내를 냅니다. 관문 충돌 충전량은 2킬마다 하나 초기화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "차원 표류",
                 "description": "차원 사이를 볼 수 있는 마스크를 장착합니다. 발사하면 요루의 차원을 표류합니다. 외부의 적에게 발각되거나 영향을 받지 않습니다. 다시 활성화하면 요루의 차원에서 일찍 빠져나옵니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1546,15 +1546,15 @@
         "developerName": "Terra",
         "releaseDate": "2025-03-04T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/background.png",
         "backgroundGradientColors": [
             "affb9bff",
             "ac53acff",
@@ -1570,7 +1570,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1587,25 +1587,25 @@
                 "slot": "Ability2",
                 "displayName": "굴절",
                 "description": "즉시 바닥에 빛의 신호기를 생성합니다. 다시 활성화하면 순수한 빛의 입자가 되어 신호기로 돌아갑니다. 이동 중에는 무적 상태가 됩니다. 굴절 충전량은 2킬마다 하나 초기화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "포화",
                 "description": "지면에 닿으면 폭발하는 빛의 덩어리를 즉시 던져 이동 속도와 무기를 둔화하는 강력한 효과로 주변 플레이어를 방해합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "광속",
                 "description": "장착하면 속도를 올릴 준비를 합니다. 발사하면 앞으로 두 번 돌진합니다. 보조 공격 시 한 번 돌진합니다. 첫 돌진으로만 공중으로 뜰 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "초점 교차",
                 "description": "장착하면 프리즘의 힘을 집중합니다. 발사하면 빛줄기를 비추는 자신의 잔상을 만듭니다. 잠시 후 강력한 속도 상승 효과를 얻고 광선이 넓어져 해당 지역의 다른 플레이어를 방해합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1620,15 +1620,15 @@
             "회복",
             "지연"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "background": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/background.png",
         "backgroundGradientColors": [
             "7bfedeff",
             "41819aff",
@@ -1644,7 +1644,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "감시자",
             "description": "감시자들은 공격팀이나 수비팀에 상관없이 지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1653,25 +1653,25 @@
                 "slot": "Ability1",
                 "displayName": "둔화 구슬",
                 "description": "둔화 구슬을 장착합니다. 발사하면 땅에 닿은 후 폭발하여 일정 시간 동안 둔화 영역을 생성하는 구슬을 던집니다. 둔화 영역에 있는 플레이어는 속도가 느려지고 돌진 속도가 감소합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "회복 구슬",
                 "description": "회복 구슬을 장착합니다. 피해를 입은 아군을 조준한 후 발사하면 해당 아군이 서서히 체력을 회복합니다. 세이지가 피해를 입었을 때 보조 공격 시 자신의 체력을 서서히 회복합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "장벽 구슬",
                 "description": "장벽 구슬을 장착합니다. 발사하면 잠시 후 강화되는 장벽을 설치합니다. 보조 공격 시 장벽이 회전합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "부활",
                 "description": "부활 스킬을 장착합니다. 죽은 아군을 조준한 후 발사하면 해당 아군이 부활하기 시작합니다. 짧은 정신 집중이 끝나면 아군이 최대 체력으로 되살아납니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1686,15 +1686,15 @@
             "회피",
             "자급자족"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "background": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/background.png",
         "backgroundGradientColors": [
             "e46e77ff",
             "c44d9fff",
@@ -1710,7 +1710,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1719,25 +1719,25 @@
                 "slot": "Ability1",
                 "displayName": "포식",
                 "description": "영혼 수확: 레이나가 처치하거나 레이나에게 피해를 입고 3초 이내에 죽은 적은 3초 동안 유지되는 영혼 구슬을 남깁니다.\r\n포식: 즉시 근처에 있는 영혼 구슬을 흡수하여 순식간에 체력을 회복합니다. 여제 활성화 시 이 스킬이 자동으로 사용되며 영혼 구슬을 흡수하지 않습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "무시",
                 "description": "즉시 근처에 있는 영혼 구슬을 흡수하여 짧은 시간 동안 무형 상태가 됩니다. 여제 활성화 시 추가로 투명 상태가 됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "눈총",
                 "description": "파괴 가능한 천상의 눈을 장착합니다. 활성화하면 눈을 짧게 앞으로 던집니다. 눈을 본 적은 모두 시야가 제한됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "여제",
                 "description": "즉시 광란 상태가 되어 사격, 장착, 재장전 속도가 크게 증가하는 전투 자극제 효과를 얻습니다. 영혼 수확의 충전량을 무제한으로 얻습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1752,15 +1752,15 @@
             "기동력",
             "시야 장악"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "background": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/background.png",
         "backgroundGradientColors": [
             "2fdddeff",
             "4f53afff",
@@ -1776,7 +1776,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "전략가",
             "description": "전략가들은 위험 지역을 분석하여 팀을 승리로 이끄는 데 탁월합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1785,25 +1785,25 @@
                 "slot": "Ability1",
                 "displayName": "피해망상",
                 "description": "실명 구슬을 장착합니다. 발사하면 앞으로 던져 구슬에 닿은 모든 플레이어의 시야와 청력을 약화시킵니다. 이 투사체는 벽을 통과할 수 있습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "어둠의 장막",
                 "description": "그림자 구슬을 장착하고 다른 차원의 세계로 들어가 구슬을 조준합니다. 스킬 키를 누르면 표시한 위치에 그림자 구슬을 던져 한동안 시야를 차단하는 그림자 영역을 생성합니다. 발사를 길게 누르면 표시 위치를 더 멀리 옮깁니다. 보조 공격을 길게 누르면 표시 위치를 더 가까이 옮깁니다. 재장전을 누르면 기본 조준점을 끄고 켭니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "어둠의 발자국",
                 "description": "어둠의 발자국 스킬을 장착하고 사거리를 표시합니다. 발사하면 짧은 정신 집중 후 표시한 위치로 순간이동합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "그림자 습격",
                 "description": "전술 지도를 장착합니다. 발사하면 선택한 위치로 순간이동을 시작합니다. 순간이동 중에는 오멘이 그림자로 나타나며 이때 적이 그림자를 파괴하면 순간이동이 취소됩니다. 장착을 누르면 오멘이 순간이동을 취소합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1818,15 +1818,15 @@
             "회피",
             "기동력"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "background": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/background.png",
         "backgroundGradientColors": [
             "90e3fdff",
             "557f8cff",
@@ -1842,7 +1842,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "타격대",
             "description": "타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. 스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1851,31 +1851,31 @@
                 "slot": "Ability1",
                 "displayName": "상승 기류",
                 "description": "제트가 즉시 높이 날아오릅니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "순풍",
                 "description": "활성화 시 일정 시간 동안 돌풍을 준비합니다. 돌풍을 다시 사용하면 제트가 이동 방향으로 빠르게 이동합니다. 제트가 가만히 서 있을 경우에는 앞으로 빠르게 이동합니다. 순풍 충전량은 2킬마다 초기화됩니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "연막 폭발",
                 "description": "표면에 닿아 충격을 받으면 구름으로 팽창해 잠시 시야를 가리는 투사체를 즉시 던집니다. 스킬 키를 길게 누르면 연기가 조준점 방향으로 휘어집니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "칼날 폭풍",
                 "description": "명중률이 높은 투척용 단검을 장착합니다. 발사하면 단검 하나를 던지며, 처치 시 단검을 충전합니다. 보조 공격 시 남은 단검을 전부 던집니다. 이 경우 처치 시 단검이 충전되지 않습니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "표류",
                 "description": "낙하 시 점프 버튼을 길게 누르면 활공합니다.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null

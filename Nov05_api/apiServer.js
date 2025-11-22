@@ -3,6 +3,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 const YAML = require('yamljs');
 const swaggerDocumentYAML = YAML.load('./swagger.yaml');
+const path = require('path');
 
 
 // const session = require("express-session");
@@ -76,6 +77,7 @@ app.use(languageSelect);
 // app.get("/api/v1/agents", (req, res) => {
 
 // });
+app.use(express.static(path.join(__dirname, 'static')));
 
 app.use("/api/v1", agentsRouter);
 app.use('/api/v1', mapsRouter);

@@ -6,15 +6,15 @@
         "developerName": "Aggrobot",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "background": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/background.png",
         "backgroundGradientColors": [
             "c7f458ff",
             "d56324ff",
@@ -30,7 +30,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -39,25 +39,25 @@
                 "slot": "Ability1",
                 "displayName": "Altego",
                 "description": "ÉQUIPEZ-vous d'Altego. TIREZ pour l'envoyer chercher des ennemis. Il provoque une explosion désorientante en direction du premier ennemi qu'il voit. En visant un site de pose du spike ou un spike posé, utilisez le TIR SECONDAIRE pour l'envoyer poser ou désamorcer le spike. Pour poser le spike, Gekko doit l'avoir dans son inventaire. Quand Altego arrive à expiration, il redevient un globule dormant. INTERAGISSEZ avec lui pour récupérer le globule et, après un court délai, pouvoir le réutiliser.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Verti",
                 "description": "ÉQUIPEZ-vous de Verti. TIREZ pour envoyer Verti dans les airs. Verti charge son attaque, puis tire des projectiles de plasma sur les ennemis dans son champ de vision. Les ennemis touchés par le plasma sont aveuglés. Quand Verti arrive à expiration, elle redevient un globule dormant. INTERAGISSEZ avec elle pour récupérer le globule et, après un court délai, pouvoir réutiliser Verti.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Pogo",
                 "description": "ÉQUIPEZ-vous de Pogo. TIREZ pour lancer Pogo comme une grenade. Utilisez le TIR SECONDAIRE pour le lancer en cloche. À l'atterrissage, Pogo se multiplie dans une large zone qui inflige des dégâts mineurs sur la durée, puis il explose après un court délai.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Mordicus",
                 "description": "ÉQUIPEZ-vous de Mordicus. TIREZ pour vous lier mentalement avec Mordicus et la diriger en territoire ennemi. ACTIVEZ pour bondir vers l'avant et exploser, ce qui retient tous les ennemis dans un petit rayon. Quand Mordicus arrive à expiration, elle redevient un globule dormant. INTERAGISSEZ avec elle pour récupérer le globule et, après un court délai, pouvoir réutiliser Mordicus. Mordicus peut être récupérée une fois.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -69,15 +69,15 @@
         "developerName": "BountyHunter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "background": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/background.png",
         "backgroundGradientColors": [
             "b1414cff",
             "5589bdff",
@@ -93,7 +93,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -102,25 +102,25 @@
                 "slot": "Ability1",
                 "displayName": "Capture",
                 "description": "ÉQUIPEZ-vous d'un nœud de peur brute. TIREZ pour le lancer. Le nœud tombe au bout d'un certain temps. RÉUTILISEZ la compétence pour faire tomber le nœud plus tôt. À l'impact, le nœud éclate et retient les ennemis proches. Les ennemis retenus sont assourdis et leurs PV se désagrègent.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Hanteur",
                 "description": "ÉQUIPEZ-vous d'un observateur terrifiant. TIREZ pour le lancer. L'observateur tombe au bout d'un certain temps. RÉUTILISEZ la compétence pour faire tomber l'observateur plus tôt. L'observateur se déchaîne à l'impact, révélant les ennemis dans son champ de vision et créant des pistes de terreur qui mènent à eux. Les ennemis peuvent détruire l'observateur.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Rôdeur",
                 "description": "ÉQUIPEZ-vous d'un rôdeur. TIREZ pour lancer le rôdeur devant vous. MAINTENEZ LE TIR pour guider le rôdeur dans la direction de votre réticule. Le rôdeur pourchasse le premier ennemi ou suit la première piste de terreur qu'il voit. S'il atteint un ennemi, il le rend myope.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Nuit tombante",
                 "description": "ÉQUIPEZ-vous du pouvoir du Cauchemar. TIREZ pour envoyer une vague d'énergie cauchemardesque inarrêtable. Les ennemis pris dans la vague laissent une piste de terreur derrière eux, sont assourdis et leurs PV se désagrègent.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -132,15 +132,15 @@
         "developerName": "Breach",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "background": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/background.png",
         "backgroundGradientColors": [
             "ff9c33ff",
             "b04621ff",
@@ -156,7 +156,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -165,25 +165,25 @@
                 "slot": "Ability1",
                 "displayName": "Point d'ignition",
                 "description": "ÉQUIPEZ-vous d'une charge aveuglante. TIREZ pour provoquer une explosion rapide à travers le mur. La charge explose en aveuglant tous les joueurs qui la regardent.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Ligne de fracture",
                 "description": "ÉQUIPEZ-vous d'un explosif sismique. MAINTENEZ LE TIR pour augmenter la distance. RELÂCHEZ pour provoquer un séisme qui désoriente tous les joueurs dans la zone et sur une ligne menant à la zone.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Réplique",
                 "description": "ÉQUIPEZ-vous d'une charge à fusion. TIREZ pour provoquer une explosion lente à travers le mur. L'explosion inflige d'importants dégâts à tous ceux dans la zone.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Onde sismique",
                 "description": "ÉQUIPEZ-vous d'une charge sismique. TIREZ pour envoyer un séisme déferlant à travers tous les obstacles dans une large zone. Le séisme désoriente et projette en l'air tous ceux qu'il touche.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -195,15 +195,15 @@
         "developerName": "Cable",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "background": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/background.png",
         "backgroundGradientColors": [
             "bcc2ffff",
             "4d64c4ff",
@@ -219,7 +219,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -236,25 +236,25 @@
                 "slot": "Ability1",
                 "displayName": "Radar ultrason",
                 "description": "ÉQUIPEZ-vous du Radar ultrason. TIREZ pour le déployer. Le radar détecte tous les sons générés par les ennemis dans une zone. Il inflige une désorientation dans cette zone dès qu'il repère des bruits de pas, de tir ou tout autre son remarquable. Le radar peut être ramassé pour être REDÉPLOYÉ.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Disque barrière",
                 "description": "ÉQUIPEZ-vous du Disque barrière. TIREZ pour le lancer vers l'avant. À l'atterrissage, le disque déploie à partir du point d'origine une barrière bloquant l'avancée des agents.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "GravNet",
                 "description": "ÉQUIPEZ-vous d'une grenade GravNet. TIREZ pour la lancer. Utilisez le TIR SECONDAIRE pour la lancer en cloche. La GravNet explose à l'atterrissage, forçant tous les personnages dans son rayon d'action à s'accroupir et à se déplacer au ralenti.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Annihilation",
                 "description": "ÉQUIPEZ-vous de l'Accélérateur de nanocâbles. TIREZ pour envoyer une salve de nanocâbles qui captureront le premier ennemi touché. L'ennemi ainsi emmailloté sera attiré en ligne droite et mourra à moins d'être libéré. Le cocon de nanocâbles est destructible.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -266,15 +266,15 @@
         "developerName": "Cashew",
         "releaseDate": "2025-01-08T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "background": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/background.png",
         "backgroundGradientColors": [
             "ffb573ff",
             "c4611fff",
@@ -290,7 +290,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -307,25 +307,25 @@
                 "slot": "Ability2",
                 "displayName": "Salve autoguidée",
                 "description": "ÉQUIPEZ-vous d'un système de ciblage en réalité augmentée. TIREZ pour cibler jusqu'à deux positions sur la carte. Utilisez le TIR SECONDAIRE pour lancer des missiles autonomes qui iront jusqu'aux positions ciblées et exploseront de manière répétée pour infliger des dégâts à l'arrivée.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Livraison spéciale",
                 "description": "ÉQUIPEZ-vous d'une grenade adhésive. TIREZ pour la lancer. La grenade se colle à la première surface touchée et explose, désorientant les cibles touchées. Le TIR SECONDAIRE permet de lancer la grenade en la faisant rebondir une fois.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Apocalypse",
                 "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour sélectionner le point d'origine de la frappe. TIREZ à nouveau pour définir le point d'arrivée et lancer l'attaque, ce qui provoque une série d'explosions aux dégâts mortels sur la ligne ainsi tracée. Utilisez le TIR SECONDAIRE pendant le ciblage pour annuler le point d'origine.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Drone furtif",
                 "description": "ÉQUIPEZ-vous d'un drone furtif. TIREZ pour lancer le drone vers l'avant et en prendre le contrôle. TIREZ à nouveau pour déclencher une impulsion qui neutralise et révèle les ennemis touchés.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -339,15 +339,15 @@
         "characterTags": [
             "Spécialiste des dégâts de zone"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "background": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/background.png",
         "backgroundGradientColors": [
             "feac45ff",
             "d64f35ff",
@@ -363,7 +363,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -372,25 +372,25 @@
                 "slot": "Ability1",
                 "displayName": "Pack explosif",
                 "description": "Lancez INSTANTANÉMENT un pack explosif qui se colle aux surfaces. RÉUTILISEZ la compétence pour déclencher l'explosion, ce qui blesse et déplace tous ceux pris dans le souffle.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Grenade gigogne",
                 "description": "ÉQUIPEZ-vous d'une grenade à sous-munitions. TIREZ pour lancer la grenade. Elle inflige des dégâts et crée des sous-munitions qui blessent tous ceux qui sont à leur portée. Utilisez le TIR SECONDAIRE pour la lancer en cloche. Vous regagnez une charge de Grenade gigogne toutes les deux éliminations.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Boum Bot",
                 "description": "ÉQUIPEZ-vous d'un Boum Bot. TIREZ pour déployer le bot, ce qui le propulse en ligne droite sur le sol. Il rebondit contre les murs. Les Boum Bots se verrouillent sur les ennemis situés dans un cône face à eux et les chassent, explosant quand ils les atteignent en infligeant de lourds dégâts.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Bouquet final",
                 "description": "ÉQUIPEZ-vous d'un lance-roquettes. TIREZ pour lancer une roquette qui inflige de lourds dégâts de zone au premier contact.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -402,15 +402,15 @@
         "developerName": "Deadeye",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "background": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/background.png",
         "backgroundGradientColors": [
             "ffce6fff",
             "7b4d21ff",
@@ -426,7 +426,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -435,25 +435,25 @@
                 "slot": "Ability2",
                 "displayName": "Rendez-vous",
                 "description": "ÉQUIPEZ-vous d'une balise de téléportation. TIREZ pour la poser sur le sol. Quand vous vous trouvez sur le sol à portée de la balise, RÉACTIVEZ pour vous y téléporter rapidement. La balise peut être ramassée pour être REDÉPLOYÉE.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Guet-apens",
                 "description": "ÉQUIPEZ-vous d'un piège qui détecte les ennemis. TIREZ pour le poser sur le sol. Quand un ennemi visible est à portée, le piège déclenche un compte à rebours avant d'ébranler le terrain autour de lui, créant un champ persistant qui ralentit les joueurs qui s'y trouvent. Le piège peut être ramassé pour être REDÉPLOYÉ.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Chasseur de têtes",
                 "description": "ACTIVEZ pour vous équiper d'un gros calibre. Utilisez le TIR SECONDAIRE avec le pistolet équipé pour viser.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Tour de force",
                 "description": "ACTIVEZ pour matérialiser un puissant fusil de sniper personnalisé qui tue l'ennemi en un coup s'il est touché au corps. Utilisez le TIR SECONDAIRE pour viser. Tuer un ennemi crée un champ persistant qui ralentit les joueurs qui s'y trouvent.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -465,15 +465,15 @@
         "developerName": "Grenadier",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "background": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/background.png",
         "backgroundGradientColors": [
             "4afaffff",
             "4da6e1ff",
@@ -489,7 +489,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -498,25 +498,25 @@
                 "slot": "Grenade",
                 "displayName": "FRAG/ment",
                 "description": "ÉQUIPEZ-vous d'un fragment explosif. TIREZ pour le lancer. Utilisez le TIR SECONDAIRE pour le lancer en cloche. Le fragment se colle au sol et explose à plusieurs reprises, infligeant des dégâts quasi mortels au centre de chaque explosion.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "MÉMOIRE/flash",
                 "description": "ÉQUIPEZ-vous d'une grenade aveuglante. TIREZ pour faire un lancer tendu. Utilisez le TIR SECONDAIRE pour la lancer en cloche (plus faible, mais explose plus rapidement). La grenade explose après un court instant et aveugle tous ceux qui voient l'explosion.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "POINT/zéro",
                 "description": "ÉQUIPEZ-vous d'une lame neutralisante. TIREZ pour la lancer. La lame se colle à la première surface touchée. Après un délai, elle neutralise tous ceux dans le rayon de l'explosion. Les ennemis peuvent détruire cette lame.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "CMD/null",
                 "description": "Entrez INSTANTANÉMENT en surcharge, ce qui permet à KAY/O d'émettre des vagues d'énergie radianite polarisée dans un très large rayon. Les ennemis touchés par ces vagues sont neutralisés pendant un court instant. Pendant la surcharge, KAY/O gagne l'effet Stimulant de combat et peut être restabilisé s'il est mis à terre.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -528,15 +528,15 @@
         "developerName": "Guide",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "background": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/background.png",
         "backgroundGradientColors": [
             "94e789ff",
             "aa8a49ff",
@@ -552,7 +552,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -561,25 +561,25 @@
                 "slot": "Ability1",
                 "displayName": "Éclaireur",
                 "description": "ÉQUIPEZ-vous d'une breloque Tigre de Tasmanie. TIREZ pour lancer et prendre le contrôle du prédateur. Lorsque vous le contrôlez, TIREZ pour bondir en avant, ce qui provoque une explosion désorientante à l'impact et blesse les ennemis directement touchés.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Guide éclatant",
                 "description": "ÉQUIPEZ-vous d'une breloque Faucon. TIREZ pour lancer l'oiseau devant vous. MAINTENEZ LE TIR pour guider le faucon dans la direction de votre réticule. RÉUTILISEZ la compétence pendant que le faucon est dans les airs pour le transformer en lumière. La lumière atteint son intensité maximale après une courte durée de vol.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Revitalisation",
                 "description": "ÉQUIPEZ-vous d'une breloque de soin. MAINTENEZ LE TIR pour effectuer une canalisation qui soigne les alliés à portée et dans la ligne de mire. Peut être réutilisé jusqu'à épuisement de la capacité de soin. Skye ne peut pas se soigner.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Traqueurs",
                 "description": "ÉQUIPEZ-vous d'une breloque Traqueurs. TIREZ pour lancer trois traqueurs qui pourchasseront les trois ennemis les plus proches. Si un traqueur atteint sa cible, il réduit le champ de vision de celle-ci. Les ennemis peuvent détruire les traqueurs.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -594,15 +594,15 @@
             "Détection",
             "Confinement défensif"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "background": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/background.png",
         "backgroundGradientColors": [
             "db9b75ff",
             "4268b3ff",
@@ -618,7 +618,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -627,25 +627,25 @@
                 "slot": "Ability1",
                 "displayName": "Cybercage",
                 "description": "Lancez INSTANTANÉMENT la cybercage devant Cypher. ACTIVEZ pour créer une zone qui bloque la vision et qui émet un signal sonore quand des ennemis la traversent.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Caméra espionne",
                 "description": "ÉQUIPEZ-vous d'une caméra espionne. TIREZ pour placer la caméra espionne à l'endroit ciblé. RÉUTILISEZ cette compétence pour prendre le contrôle de la caméra. Quand vous contrôlez la caméra, TIREZ pour envoyer une fléchette de marquage. Cette fléchette révélera la position de tout joueur qu'elle a touché. La caméra peut être ramassée pour être REDÉPLOYÉE.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Fil de détente",
                 "description": "ÉQUIPEZ-vous d'un fil de détente. TIREZ pour placer un fil de détente dissimulé et destructible, créant une ligne qui va du point de placement au mur opposé. Les joueurs ennemis qui franchissent le fil de détente seront ralentis et révélés après un court instant s'ils ne détruisent pas le dispositif dans les temps. Le fil peut être ramassé pour être REDÉPLOYÉ.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Vol neural",
                 "description": "Utilisez cette compétence INSTANTANÉMENT sur le cadavre ennemi ciblé pour télécharger des informations sur son équipe. Après un bref délai, la position de tous les joueurs ennemis en vie est révélée deux fois.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -660,15 +660,15 @@
             "Détection",
             "Dégâts de zone"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "background": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/background.png",
         "backgroundGradientColors": [
             "f7c7a5ff",
             "392931ff",
@@ -684,7 +684,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Initiateur",
             "description": "Les initiateurs sont là pour aider leur équipe à entrer dans des zones contestées et à repousser les défenseurs.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -693,25 +693,25 @@
                 "slot": "Ability1",
                 "displayName": "Électroflèche",
                 "description": "ÉQUIPEZ-vous d'un arc et d'une flèche électrique. TIREZ pour décocher la flèche, qui explose à l'impact et blesse les joueurs proches. MAINTENEZ LE TIR pour augmenter la portée du projectile. Utilisez le TIR SECONDAIRE pour ajouter jusqu'à deux rebonds à cette flèche.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Flèche de reconnaissance",
                 "description": "ÉQUIPEZ-vous d'un arc et d'une flèche de reconnaissance. TIREZ pour décocher la flèche, qui s'active à l'impact et révèle la position des ennemis proches se trouvant dans sa ligne de vue. Les ennemis peuvent détruire cette flèche. MAINTENEZ LE TIR pour augmenter la portée du projectile. Utilisez le TIR SECONDAIRE pour ajouter jusqu'à deux rebonds à cette flèche. ",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Drone rapace",
                 "description": "ÉQUIPEZ-vous d'un drone rapace. TIREZ pour déployer et prendre le contrôle du drone. Quand vous contrôlez le drone, TIREZ pour envoyer une fléchette de marquage. Cette fléchette révélera la position de tout joueur qu'elle a touché. Les ennemis peuvent détruire le drone rapace.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Fureur du chasseur",
                 "description": "ÉQUIPEZ-vous d'un arc et de trois projectiles d'énergie à longue portée capables de traverser les murs. TIREZ pour décocher un projectile d'énergie en ligne droite, qui inflige des dégâts et révèle la position des ennemis touchés. Cette compétence peut être RÉUTILISÉE jusqu'à deux fois de plus tant que la compétence est active.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -732,15 +732,15 @@
             "Confinement défensif",
             "Dégâts de zone"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "background": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/background.png",
         "backgroundGradientColors": [
             "ffc300ff",
             "b87b00ff",
@@ -756,7 +756,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -765,25 +765,25 @@
                 "slot": "Grenade",
                 "displayName": "Essaim de nanites",
                 "description": "ÉQUIPEZ-vous d'une grenade à essaim de nanites. TIREZ pour lancer la grenade. À l'atterrissage, la grenade se camoufle. Utilisez le TIR SECONDAIRE pour la lancer en cloche. ACTIVEZ la grenade pour déployer un essaim de nanites.  ",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Bot-alarme",
                 "description": "ÉQUIPEZ-vous d'un robot d'alarme camouflé. TIREZ pour déployer un robot qui traque les ennemis à sa portée.  Quand il atteint sa cible, le robot explose et inflige l'altération d'état Vulnérable aux ennemis dans la zone. MAINTENEZ LA TOUCHE D'ÉQUIPEMENT pour rappeler un robot déployé.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Tourelle",
                 "description": "ÉQUIPEZ-vous d'une tourelle. TIREZ pour déployer une tourelle qui tire sur les ennemis dans un cône de 100 degrés. Utilisez le TIR SECONDAIRE pour changer l'orientation de la tourelle. MAINTENEZ LA TOUCHE D'ÉQUIPEMENT pour rappeler la tourelle déployée. ",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Confinement",
                 "description": "ÉQUIPEZ-vous d'un dispositif de confinement. TIREZ pour déployer le dispositif. Après un long délai d'activation, le dispositif retient tous les ennemis pris dans sa zone d'effet. Le dispositif peut être détruit par les ennemis.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -795,15 +795,15 @@
         "developerName": "Mage",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "background": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/background.png",
         "backgroundGradientColors": [
             "f2d6a3ff",
             "136c6bff",
@@ -819,7 +819,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Contrôleur",
             "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -828,25 +828,25 @@
                 "slot": "Ability1",
                 "displayName": "Dôme aqueux",
                 "description": "ÉQUIPEZ-vous d'une boule d'eau. TIREZ pour la lancer. Utilisez le TIR SECONDAIRE pour la lancer en cloche. Au contact du sol, la boule crée un bouclier aqueux destructible capable d'arrêter les balles.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Cascade",
                 "description": "ÉQUIPEZ-vous d'une vague. TIREZ pour la lancer devant vous à travers les murs. RÉUTILISEZ la compétence pour arrêter la vague. Les joueurs touchés sont ralentis.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Marée haute",
                 "description": "ÉQUIPEZ-vous d'un mur d'eau. TIREZ pour lancer l'eau vers l'avant. MAINTENEZ LE TIR pour la guider dans la direction du réticule. L'eau traverse le décor et fait apparaître un mur liquide sur son passage. Utilisez le TIR SECONDAIRE tout en guidant l'eau pour arrêter la compétence prématurément. Les joueurs touchés sont ralentis.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Geysers diluviens",
                 "description": "ÉQUIPEZ-vous de toute la puissance de votre relique. TIREZ pour invoquer une flaque bouillonnante sur le sol. Les ennemis dans la zone sont frappés par des geysers successifs. Les joueurs touchés sont désorientés.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -858,15 +858,15 @@
         "developerName": "Nox",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "background": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/background.png",
         "backgroundGradientColors": [
             "f147ffff",
             "823697ff",
@@ -882,7 +882,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -899,25 +899,25 @@
                 "slot": "Ability1",
                 "displayName": "Cisaille",
                 "description": "ÉQUIPEZ-vous de filaments de métal liquide. TIREZ pour placer un piège invisible sur un mur. Lorsqu'un ennemi passe devant, un mur indestructible jaillit du sol derrière lui. Le mur ne dure qu'un bref instant avant de disparaître.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Rose métallique",
                 "description": "ÉQUIPEZ-vous d'une rose métallique. Visez une surface et TIREZ pour placer une rose métallique furtive, ou utilisez le TIR SECONDAIRE pour placer la rose métallique à travers la surface. RÉUTILISEZ pour aveugler tous les joueurs qui la regardent. La rose peut être ramassée pour être REDÉPLOYÉE.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Ronces barbelées",
                 "description": "ÉQUIPEZ-vous d'un nid de métal liquide. TIREZ pour le lancer. En retombant, le nid devient invisible. Une fois ACTIVÉ, il s'étend en un large nid de ronces barbelées qui ralentit et blesse tous les joueurs qui le traversent.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Jardin d'acier",
                 "description": "ÉQUIPEZ-vous d'une ronce de métal liquide. TIREZ pour faire éclater le métal autour de vous en un torrent de ronces métalliques, ce qui ENRAYE les armes principales des adversaires après un bref délai.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -931,15 +931,15 @@
         "characterTags": [
             "Spécialiste du contrôle de la vision"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "background": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/background.png",
         "backgroundGradientColors": [
             "89f476ff",
             "347334ff",
@@ -955,7 +955,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Contrôleur",
             "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -964,25 +964,25 @@
                 "slot": "Ability1",
                 "displayName": "Nuage de poison",
                 "description": "ÉQUIPEZ-vous d'un diffuseur de gaz. TIREZ pour lancer le diffuseur, qui reste présent jusqu'à la fin de la manche. Utilisez le TIR SECONDAIRE pour le lancer en cloche. RÉUTILISEZ la compétence pour créer un nuage de fumée toxique qui désagrège les adversaires à l'intérieur en consommant du carburant. Cette compétence peut être ramassée et REDÉPLOYÉE avant le début de la manche et RÉUTILISÉE plus d'une fois pendant la manche.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Écran toxique",
                 "description": "ÉQUIPEZ-vous d'un lance-diffuseurs de gaz qui traverse les obstacles. TIREZ pour déployer une longue ligne de diffuseurs de gaz. RÉUTILISEZ la compétence pour créer un mur de gaz toxique qui désagrège les adversaires qui le franchissent en consommant du carburant. Cette compétence peut être RÉUTILISÉE plus d'une fois.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Morsure du serpent",
                 "description": "ÉQUIPEZ-vous d'un lance-grenades chimiques. TIREZ pour lancer une grenade qui se brise en touchant le sol, créant une zone chimique persistante qui inflige des dégâts et l'altération d'état Vulnérable.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Nid de vipères",
                 "description": "ÉQUIPEZ-vous d'un vaporisateur chimique. TIREZ pour vaporiser un nuage chimique tout autour de Viper, créant un large nuage qui rend myopes les joueurs et désagrège les PV des ennemis qui se trouvent dedans. MAINTENEZ la touche de la compétence pour dissiper le nuage prématurément.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1003,15 +1003,15 @@
             "Polyvalence",
             "Auto-subsistance"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "background": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/background.png",
         "backgroundGradientColors": [
             "f7bf60ff",
             "ea6d4eff",
@@ -1027,7 +1027,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1036,25 +1036,25 @@
                 "slot": "Grenade",
                 "displayName": "Brasier",
                 "description": "ÉQUIPEZ-vous d'un mur de feu. TIREZ pour créer une ligne de feu qui se déplace vers l'avant et à travers les obstacles, créant un mur de feu qui bloque la vision et blesse les joueurs qui le traversent. Le mur de feu soigne Phoenix au lieu de lui infliger des dégâts. MAINTENEZ LE TIR pour courber le mur dans la direction de votre réticule.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Mains brûlantes",
                 "description": "ÉQUIPEZ-vous d'une boule de feu. TIREZ pour lancer une boule de feu qui explose après un certain temps ou en touchant le sol, créant une zone enflammée persistante qui blesse les ennemis. La zone enflammée soigne Phoenix au lieu de lui infliger des dégâts. Utilisez le TIR SECONDAIRE pour la lancer en cloche.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Balle courbe",
                 "description": "ÉQUIPEZ-vous d'un orbe flamboyant qui explose peu après avoir été lancé, aveuglant tous les joueurs qui le regardent. TIREZ pour courber la trajectoire de l'orbe vers la gauche. Utilisez le TIR SECONDAIRE pour courber la trajectoire de l'orbe vers la droite. Vous regagnez une charge de Balle courbe toutes les deux éliminations.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Revanche",
                 "description": "Placez INSTANTANÉMENT un marqueur sur votre position. Tant que cette compétence est active, mourir vous renvoie à cette position avec les PV et l'armure dont vous disposiez avant l'utilisation de la compétence (même chose si elle expire).",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1072,15 +1072,15 @@
         "developerName": "Pine",
         "releaseDate": "2025-10-07T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/background.png",
         "backgroundGradientColors": [
             "1f6178ff",
             "0e2c41ff",
@@ -1096,7 +1096,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1113,25 +1113,25 @@
                 "slot": "Ability2",
                 "displayName": "Intercepteur",
                 "description": "ÉQUIPEZ-vous de l'intercepteur. TIREZ pour placer l'intercepteur à l'emplacement prévu. Une fois placé, RÉUTILISEZ cette compétence pour activer. Une fois activé, il détruira les utilitaires qui peuvent REBONDIR sur un joueur et/ou être détruits par des tirs. Les ennemis peuvent détruire l'intercepteur.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Vortex",
                 "description": "ÉQUIPEZ-vous d'un vortex. TIREZ pour le poser sur le sol. Lorsque vous êtes à portée et que vous regardez le vortex, ACTIVEZ pour vous téléporter jusqu'au vortex. Pendant la PHASE D'ACHATS, le vortex peut être récupéré pour être REDÉPLOYÉ.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Évolution",
                 "description": "Vous commencez INSTANTANÉMENT à muter complètement, vous gagnez un stimulant de combat, de la régénération et vous êtes IMMUNISÉ contre toutes les formes de malus.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Étranglement",
                 "description": "ÉQUIPEZ-vous d'un fragment visqueux de votre mutation. TIREZ pour le lancer. Le fragment se déploie lorsqu'il touche le sol, créant un piège qui immobilise les ennemis. Les ennemis retenus sont assourdis et leurs PV se désagrègent. Les ennemis peuvent détruire le piège avant qu'il ne s'active.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1143,15 +1143,15 @@
         "developerName": "Rift",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "background": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/background.png",
         "backgroundGradientColors": [
             "f47dc9ff",
             "a54498ff",
@@ -1167,7 +1167,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Contrôleur",
             "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1176,31 +1176,31 @@
                 "slot": "Ability1",
                 "displayName": "Impulsion nova",
                 "description": "Placez des étoiles sous sa forme astrale (touche d'ultime).\n\nACTIVEZ une étoile pour faire exploser une impulsion nova. L'impulsion nova se charge brièvement avant d'exploser, désorientant tous les joueurs dans son rayon d'effet.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Nébuleuse / Dissipation",
                 "description": "Placez des étoiles sous sa forme astrale (touche d'ultime). \n\nACTIVEZ une étoile pour la transformer en nébuleuse (fumigène). UTILISEZ une étoile pour la dissiper, ce qui vous permettra d'en placer une autre à un autre endroit après un délai. La dissipation forme brièvement une fausse nébuleuse à l'emplacement de l'étoile.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Puits de gravité",
                 "description": "Placez des étoiles sous sa forme astrale (touche d'ultime).\n\nACTIVEZ une étoile pour former un puits de gravité. Les joueurs dans la zone sont attirés vers le centre avant qu'il n'explose. L'explosion applique l'altération d'état Vulnérable aux joueurs piégés.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Forme astrale / Division\ncosmique",
                 "description": "ACTIVEZ pour entrer en forme astrale, ce qui vous permet de placer des étoiles en TIRANT. Vous pouvez ensuite réactiver ces étoiles pour les transformer en impulsion nova, nébuleuse ou puits de gravité.\n\nLorsque Division cosmique est chargée, utilisez le TIR SECONDAIRE en forme astrale pour viser, puis TIREZ pour sélectionner deux emplacements. Une division cosmique infinie connectera les deux points sélectionnés. Division cosmique bloque les balles et les sons.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "Forme astrale",
                 "description": "ACTIVEZ votre ultime pour entrer en forme astrale et TIREZ pour placer des étoiles. Visez ces étoiles avec Impulsion nova, Nébuleuse ou Puits de gravité pour utiliser ces compétences.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1215,15 +1215,15 @@
             "Contrôle de la vision",
             "Dégâts de zone"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "background": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/background.png",
         "backgroundGradientColors": [
             "eb953fff",
             "892c1bff",
@@ -1239,7 +1239,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Contrôleur",
             "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1248,25 +1248,25 @@
                 "slot": "Grenade",
                 "displayName": "Balise stimulante",
                 "description": "Lancez INSTANTANÉMENT une balise stimulante. Lorsqu'elle touche le sol, la balise crée un champ qui octroie l'effet Stimulant de combat et un bonus de vitesse aux joueurs.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Bombe incendiaire",
                 "description": "ÉQUIPEZ-vous d'un lance-grenades incendiaires. TIREZ pour lancer une grenade qui explose lorsqu'elle s'arrête au sol, créant une zone enflammée persistante qui blesse les joueurs.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Frappe fumigène",
                 "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour définir les endroits où les nuages de fumée de Brimstone atterriront. Utilisez le TIR SECONDAIRE pour confirmer, ce qui lance des nuages de fumée durables qui bloquent la vision dans la zone sélectionnée.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Rayon orbital",
                 "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour ordonner une frappe orbitale persistante à l'endroit sélectionné, ce qui inflige d'importants dégâts sur la durée aux joueurs pris dans la zone.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1278,15 +1278,15 @@
         "developerName": "Sequoia",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "background": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/background.png",
         "backgroundGradientColors": [
             "c4a1ffff",
             "3d0fd4ff",
@@ -1302,7 +1302,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1319,25 +1319,25 @@
                 "slot": "Ability1",
                 "displayName": "Sape",
                 "description": "ÉQUIPEZ-vous d'un carreau moléculaire. TIREZ pour le lancer vers l'avant, ce qui rend brièvement vulnérables et neutralise tous les joueurs touchés. Le carreau peut traverser les objets solides, murs y compris.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Duel à huis clos",
                 "description": "ÉQUIPEZ-vous d'une arène interdimensionnelle. Utilisez le TIR PRINCIPAL pour produire une colonne d'énergie sur le terrain, vous soignant vous et le premier ennemi touché et l'attirant  avec vous dans l'arène et pour un duel à mort.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Tir couplé",
                 "description": "Vous commencez INSTANTANÉMENT à vous concentrer. Une fois concentré : vous gagnez un bouclier absorbant une salve de dégâts de n'importe quelle source, vous rechargez plus vite et vous entrez dans un état fluide pendant lequel les ennemis que vous avez tués ou blessés génèrent un orbe d'énergie. Tirez sur cet orbe pour actualiser votre état fluide et votre bouclier existant, ou pour gagner un nouveau bouclier.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Contingence",
                 "description": "PRÉPAREZ une concentration d'énergie prismatique. Utilisez le TIR PRINCIPAL pour projeter un mur d'énergie indestructible qui bloque les balles. Utilisez le TIR SECONDAIRE pour projeter un mur plus lent.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1349,15 +1349,15 @@
         "developerName": "Smonk",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "background": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/background.png",
         "backgroundGradientColors": [
             "f17cadff",
             "062261ff",
@@ -1373,7 +1373,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Contrôleur",
             "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1390,25 +1390,25 @@
                 "slot": "Grenade",
                 "displayName": "Coup de boost",
                 "description": "ACTIVEZ pour absorber la force vitale d'un ennemi tombé au combat que Clove a blessé ou tué, ce qui vous accélère et vous fait gagner des PV temporaires.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Ruse",
                 "description": "ÉQUIPEZ-vous d'une vue du champ de bataille. TIREZ pour définir les endroits où poser les nuages de Clove. Utilisez le TIR SECONDAIRE pour confirmer, ce qui lance des nuages qui bloquent la vision dans les zones sélectionnées. Clove peut utiliser cette compétence après sa mort.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Toujours debout",
                 "description": "Après votre mort, ACTIVEZ pour revenir à la vie. De retour parmi les vivants, vous avez un certain temps pour réussir une élimination ou une assistance blessante, sans quoi vous mourez. RÉACTIVEZ pour annuler prématurément.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Trouble-fête",
                 "description": "ÉQUIPEZ-vous d'un fragment d'essence d'immortalité. TIREZ pour lancer le fragment, lequel explose après un court délai en atterrissant au sol et désagrège temporairement toutes les cibles touchées.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1420,15 +1420,15 @@
         "developerName": "Sprinter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "background": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/background.png",
         "backgroundGradientColors": [
             "ba89ffff",
             "6241ccff",
@@ -1444,7 +1444,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1453,25 +1453,25 @@
                 "slot": "Ability2",
                 "displayName": "Vitesse supérieure",
                 "description": "Chargez INSTANTANÉMENT le pouvoir de Neon pour décupler sa vitesse. À la fin du chargement, utilisez le TIR SECONDAIRE pour faire une glissade électrique (considérée comme une ruée). Vous regagnez une charge de glissade toutes les deux éliminations. Le carburant se recharge en cas d'élimination. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Éclair relais",
                 "description": "Lancez INSTANTANÉMENT un éclair d'énergie qui rebondit une fois. Chaque fois qu'il rencontre une surface, l'éclair électrifie le sol en dessous avec une explosion désorientante.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Voie rapide",
                 "description": "TIREZ deux lignes d'énergie dans le sol devant vous. Après avoir parcouru une courte distance ou touché une surface, elles créent des murs d'électricité statique qui bloquent la vision.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Ultra-vitesse",
                 "description": "Libérez toute la puissance et la vitesse de Neon pendant un court instant, ce qui lui rend tout son carburant et une charge de glissade. TIREZ pour canaliser son pouvoir en un rayon électrique mortel dont la précision reste élevée même en mouvement. Les éliminations réinitialisent la durée de cet effet. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1483,15 +1483,15 @@
         "developerName": "Stealth",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "background": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/background.png",
         "backgroundGradientColors": [
             "66a8ffff",
             "3b37a7ff",
@@ -1507,7 +1507,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1516,25 +1516,25 @@
                 "slot": "Grenade",
                 "displayName": "Feinte",
                 "description": "ÉQUIPEZ-vous d'un écho qui se transforme en double de Yoru une fois activé. TIREZ pour activer instantanément le double et l'envoyer vers l'avant. Utilisez le TIR SECONDAIRE pour poser un écho inactif devant vous. UTILISEZ un écho inactif pour le transformer en double et l'envoyer vers l'avant. Le double explose en émettant une lumière aveuglante quand les ennemis le détruisent.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Angle mort",
                 "description": "ÉQUIPEZ-vous d'un fragment dimensionnel instable arraché à la réalité. TIREZ pour lancer le fragment, qui provoquera un éclat aveuglant peu après avoir touché une surface dure.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Visite surprise",
                 "description": "ÉQUIPEZ-vous d'une balise dimensionnelle. TIREZ pour envoyer la balise vers l'avant. Utilisez le TIR SECONDAIRE pour poser une balise stationnaire devant vous. ACTIVEZ la balise pour vous y téléporter. UTILISEZ la balise pour feindre la téléportation. Vous regagnez une charge de Visite surprise toutes les deux éliminations.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Transfert dimensionnel",
                 "description": "ÉQUIPEZ-vous d'un masque qui permet de voir entre les dimensions. TIREZ pour passer dans la dimension de Yoru. Les ennemis hors de la zone ne peuvent ni vous voir ni vous affecter. RÉACTIVEZ pour quitter la dimension de Yoru prématurément.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1546,15 +1546,15 @@
         "developerName": "Terra",
         "releaseDate": "2025-03-04T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/background.png",
         "backgroundGradientColors": [
             "affb9bff",
             "ac53acff",
@@ -1570,7 +1570,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1587,25 +1587,25 @@
                 "slot": "Ability2",
                 "displayName": "Réfraction",
                 "description": "Produisez INSTANTANÉMENT une balise lumineuse au sol. RÉACTIVEZ pour revenir rapidement à votre balise sous forme d'une particule de lumière pure. Vous êtes invulnérable pendant ce déplacement. Vous regagnez une charge de Réfraction toutes les deux éliminations.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Saturation",
                 "description": "Lance INSTANTANÉMENT une masse de lumière qui explose au contact du sol, ce qui entrave les joueurs proches avec un puissant ralentissement de déplacement et d'arme.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Vitesse lumière",
                 "description": "ÉQUIPEZ-vous pour préparer un pic de vitesse. Utilisez le TIR PRINCIPAL pour vous ruer en avant deux fois. Utilisez le TIR SECONDAIRE pour vous ruer une seule fois. Seule la première ruée peut vous faire monter en l'air.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Croisée des chemins",
                 "description": "ÉQUIPEZ pour concentrer votre pouvoir prismatique. TIREZ pour créer une image rémanente de vous-même qui projette un rayon de lumière. Après un court délai, vous gagnez une accélération puissante et le rayon s'élargit, ce qui entrave les autres joueurs dans la zone.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1620,15 +1620,15 @@
             "Récupération",
             "Temporisation"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "background": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/background.png",
         "backgroundGradientColors": [
             "7bfedeff",
             "41819aff",
@@ -1644,7 +1644,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinelle",
             "description": "Les sentinelles sont des experts de la défense qui verrouillent l'accès aux zones et surveillent les flancs, tant en attaque qu'en défense.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1653,25 +1653,25 @@
                 "slot": "Ability1",
                 "displayName": "Orbe de lenteur",
                 "description": "ÉQUIPEZ-vous d'un orbe ralentissant. TIREZ pour lancer l'orbe devant vous. Lorsqu'il touche le sol, l'orbe explose et crée un champ persistant qui ralentit les joueurs qui s'y trouvent et qui réduit la vitesse de leurs ruées.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Orbe de soin",
                 "description": "ÉQUIPEZ-vous d'un orbe de soin. TIREZ en visant un allié blessé pour lui rendre des PV sur la durée. Si vous avez subi des dégâts, utilisez le TIR SECONDAIRE pour récupérer des PV sur la durée.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Orbe barrière",
                 "description": "ÉQUIPEZ-vous d'un orbe barrière. TIRER permet de placer un mur qui se renforce après quelques secondes. Le TIR SECONDAIRE fait pivoter le cibleur.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Résurrection",
                 "description": "ÉQUIPEZ-vous d'une compétence de résurrection. TIREZ en visant un allié mort pour le ramener à la vie. Après une courte canalisation, votre allié est ramené à la vie avec tous ses PV.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1686,15 +1686,15 @@
             "Esquive",
             "Auto-subsistance"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "background": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/background.png",
         "backgroundGradientColors": [
             "e46e77ff",
             "c44d9fff",
@@ -1710,7 +1710,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1719,25 +1719,25 @@
                 "slot": "Ability1",
                 "displayName": "Dévoration",
                 "description": "Récolte des âmes : les ennemis tués par Reyna ou qui meurent dans les 3 sec après qu'elle les a blessés laissent des orbes d'âme qui durent 3 sec.\n\nDévoration : vous consommez INSTANTANÉMENT un orbe d'âme proche pour rapidement regagner des PV. Si IMPÉRATRICE est active, cette compétence se lancera automatiquement et ne consommera pas d'orbe d'âme.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Rebuffade",
                 "description": "Vous consommez INSTANTANÉMENT un orbe d'âme proche et devenez intangible pendant un court instant. Si IMPÉRATRICE est active, vous devenez également invisible.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Œillade",
                 "description": "ÉQUIPEZ-vous d'un œil éthéré destructible. ACTIVEZ pour lancer l'œil vers l'avant sur une courte distance. L'œil rend myopes tous les ennemis qui le regardent.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Impératrice",
                 "description": "Entrez INSTANTANÉMENT en furie et gagnez l'effet Stimulant de combat, ce qui augmente considérablement vos vitesses de tir, de changement d'arme et de rechargement. Vous gagnez une infinité de charges pour les compétences se servant de Récolte des âmes.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1752,15 +1752,15 @@
             "Mobilité",
             "Contrôle de la vision"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "background": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/background.png",
         "backgroundGradientColors": [
             "2fdddeff",
             "4f53afff",
@@ -1776,7 +1776,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Contrôleur",
             "description": "Les contrôleurs excellent à diviser les zones dangereuses pour permettre à leur équipe de remporter la victoire.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1785,25 +1785,25 @@
                 "slot": "Ability1",
                 "displayName": "Paranoïa",
                 "description": "ÉQUIPEZ-vous d'un orbe aveuglant. TIREZ pour le lancer vers l'avant, ce qui rend myopes et assourdit brièvement tous les joueurs touchés. Ce projectile peut traverser les murs.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Voile sombre",
                 "description": "ÉQUIPEZ-vous d'un orbe d'ombre et entrez dans un monde déphasé afin d'y lancer des orbes. APPUYEZ sur la touche de la compétence pour lancer l'orbe à l'endroit marqué, ce qui crée une sphère d'ombre durable qui bloque la vision. MAINTENEZ LE TIR tout en visant pour éloigner le marqueur. MAINTENEZ LE TIR SECONDAIRE tout en visant pour rapprocher le marqueur. APPUYEZ sur RECHARGER pour repasser en visée normale.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Voie des ombres",
                 "description": "ÉQUIPEZ-vous d'une compétence de marche dans les ombres accompagnée d'un indicateur de portée. TIREZ pour commencer une courte canalisation avant de vous téléporter vers l'endroit marqué.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Depuis les ombres",
                 "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour commencer à vous téléporter vers l'endroit sélectionné. Pendant la téléportation, vous apparaissez sous forme d'ombre. Les ennemis peuvent détruire cette ombre pour annuler votre téléportation. APPUYEZ sur ÉQUIPER pour annuler votre téléportation.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1818,15 +1818,15 @@
             "Esquive",
             "Mobilité"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "background": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/background.png",
         "backgroundGradientColors": [
             "90e3fdff",
             "557f8cff",
@@ -1842,7 +1842,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelliste",
             "description": "Les duellistes sont des combattants indépendants. Leur équipe compte sur eux pour tuer un maximum d'adversaires et provoquer des combats.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1851,31 +1851,31 @@
                 "slot": "Ability1",
                 "displayName": "Courant ascendant",
                 "description": "Vous vous propulsez INSTANTANÉMENT dans les airs.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Vent arrière",
                 "description": "ACTIVEZ pour préparer une rafale de vent pendant une durée limitée. RÉUTILISEZ la compétence pour vous propulser dans la direction vers laquelle vous vous dirigez. Si vous êtes immobile, vous vous propulsez vers l'avant. Vous regagnez une charge de Vent arrière toutes les deux éliminations.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Averse",
                 "description": "Lancez INSTANTANÉMENT un projectile. Lorsqu'il touche une surface, il libère un nuage qui bloque la vision pendant un court instant. MAINTENEZ la touche de la compétence pour courber la fumée dans la direction de votre réticule.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Tempête de lames",
                 "description": "ÉQUIPEZ-vous d'un ensemble de couteaux de lancer extrêmement précis. TIREZ pour lancer un seul couteau (se recharge en cas d'élimination). Utilisez le TIR SECONDAIRE pour lancer tous les couteaux restants (ne se recharge pas).",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "Vol",
                 "description": "Maintenir la touche de saut tout en tombant vous permet de planer.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null

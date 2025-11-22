@@ -6,15 +6,15 @@
         "developerName": "Aggrobot",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "background": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/background.png",
         "backgroundGradientColors": [
             "c7f458ff",
             "d56324ff",
@@ -30,7 +30,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -39,25 +39,25 @@
                 "slot": "Ability1",
                 "displayName": "Wingman",
                 "description": "EQUIPE Wingman. DISPARE para enviá-lo para encontrar inimigos. Wingman lança uma forte explosão na direção do primeiro inimigo que vê. Use o DISPARO ALTERNATIVO na direção de um ponto ou Spike plantada para que Wingman plante ou desarme a Spike. Para plantar, Gekko deve estar com a Spike no inventário. Quando Wingman expira, ele se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Wingman após um curto período.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Dizzy",
                 "description": "EQUIPE Dizzy. DISPARE para enviá-la voando pelo ar. Dizzy avança e solta explosões de plasma nos inimigos em sua linha de visão. Os inimigos atingidos pelo plasma ficam Cegos. Ao expirar, Dizzy se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Dizzy após um curto período.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Mosh Pit",
                 "description": "EQUIPE Mosh. DISPARE para lançá-lo como uma granada. Use o DISPARO ALTERNATIVO para arremessar a curta distância. Ao atingir uma superfície, Mosh se duplica em uma grande área, o que causa uma pequena quantidade de dano ao longo do tempo e, depois de uns instantes, explode.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Thrash",
                 "description": "EQUIPE Thrash. DISPARE para se conectar à mente dela e guiá-la pelo território inimigo. ATIVE para avançar e explodir, Detendo qualquer jogador em um pequeno raio. Ao expirar, Thrash se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Thrash após um curto período. Thrash pode ser recuperada uma vez.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -69,15 +69,15 @@
         "developerName": "BountyHunter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "background": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/background.png",
         "backgroundGradientColors": [
             "b1414cff",
             "5589bdff",
@@ -93,7 +93,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -102,25 +102,25 @@
                 "slot": "Ability1",
                 "displayName": "Clausura",
                 "description": "EQUIPE um nódulo de puro temor. DISPARE para arremessá-lo. O nódulo cairá depois de um determinado tempo. REPITA a habilidade para soltá-lo antecipadamente. Esse nódulo se rompe ao impacto, enclausurando inimigos próximos. Inimigos enclausurados sofrem Surdez e Deterioração.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Assombrar",
                 "description": "EQUIPE uma assombração. DISPARE para arremessá-la. Ela cairá depois de um determinado tempo. REPITA a habilidade para soltá-la antecipadamente. Essa assombração ataca ao contato, Revelando inimigos em sua linha de visão e criando rastros sinistros até eles. Ela pode ser destruída pelos inimigos.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Espreitador",
                 "description": "EQUIPE um Espreitador. DISPARE para enviá-lo à frente. SEGURE O DISPARO para mover o Espreitador na direção da sua retícula. Ele perseguirá o primeiro rastro sinistro ou inimigo que encontrar e afetará o alvo com Visão Turva ao alcançá-lo.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Véu da Noite",
                 "description": "EQUIPE o poder dos pesadelos. DISPARE para liberar uma onda implacável de energia aterrorizante. Inimigos atingidos pela onda são Marcados por rastros sinistros e sofrem Surdez e Deterioração.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -132,15 +132,15 @@
         "developerName": "Breach",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "background": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/background.png",
         "backgroundGradientColors": [
             "ff9c33ff",
             "b04621ff",
@@ -156,7 +156,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -165,25 +165,25 @@
                 "slot": "Ability1",
                 "displayName": "Estopim",
                 "description": "EQUIPE uma carga Cegante. DISPARE a carga para armar um jato de ação rápida pela parede. A carga é detonada, Cegando todos os jogadores que estiverem olhando para ela.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Falha Tectônica",
                 "description": "EQUIPE um impacto sísmico. SEGURE O DISPARO para aumentar a distância. SOLTE para iniciar o terremoto, causando Concussão em todos os jogadores na zona e numa linha reta até a zona.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Pós-choque",
                 "description": "EQUIPE uma carga de fusão. DISPARE a carga para armar um jato de ação lenta pela parede, que causa alto dano a todos que estiverem na área de efeito.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Onda Trovejante",
                 "description": "EQUIPE uma Carga Sísmica. DISPARE para lançar um terremoto em cascata por todo o terreno numa grande área. O terremoto causa Concussão e lança ao ar quem estiver na área de efeito.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -195,15 +195,15 @@
         "developerName": "Cable",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "background": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/background.png",
         "backgroundGradientColors": [
             "bcc2ffff",
             "4d64c4ff",
@@ -219,7 +219,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -236,25 +236,25 @@
                 "slot": "Ability1",
                 "displayName": "Sensor Sônico",
                 "description": "EQUIPE um Sensor Sônico. DISPARE para posicionar. O sensor monitora os sons dos inimigos em uma área. Causa Concussão na área se sons de passos, disparos ou qualquer barulho significativo forem detectados. O sensor pode ser recuperado e REPOSICIONADO.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Barreira de Contenção",
                 "description": "EQUIPE um disco de Barreira de Contenção. DISPARE para lançar à frente. Ao atingir o chão, o disco gera barreiras a partir do ponto de origem que bloqueiam a movimentação de personagens.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "GravNet",
                 "description": "EQUIPE uma granada GravNet. DISPARE para lançar. Use o DISPARO ALTERNATIVO para arremessar a curta distância. A GravNet detona ao atingir o chão, o que força personagens pegos por ela a agacharem e moverem-se lentamente.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Aniquilação",
                 "description": "EQUIPE um Acelerador de Nanofios. DISPARE para liberar um pulso de nanofios que captura o primeiro inimigo que encontrar. O inimigo encasulado é puxado por uma trilha de nanofios e abatido a não ser que seja libertado. O casulo de nanofios é destrutível.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -266,15 +266,15 @@
         "developerName": "Cashew",
         "releaseDate": "2025-01-08T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "background": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/background.png",
         "backgroundGradientColors": [
             "ffb573ff",
             "c4611fff",
@@ -290,7 +290,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -307,25 +307,25 @@
                 "slot": "Ability2",
                 "displayName": "Rajada Guiada",
                 "description": "EQUIPE um mapa tático. DISPARE para selecionar até dois locais-alvo no mapa. Use o DISPARO ALTERNATIVO para lançar projéteis que viajam de forma autônoma até os locais-alvo e detonam repetidamente e causam dano.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Entrega Especial",
                 "description": "EQUIPE uma granada adesiva. DISPARE para lançar. A granada gruda na primeira superfície atingida e explode, causando Concussão a qualquer alvo atingido pela explosão. Use o DISPARO ALTERNATIVO para lançar a granada com um ricochete.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Armagedom",
                 "description": "EQUIPE um mapa tático para selecionar o alvo do ataque. DISPARE para selecionar o ponto de origem do ataque. DISPARE novamente para definir o ponto final e lançar o ataque, que libera uma onda de explosões letais ao longo do trecho determinado. Use o DISPARO ALTERNATIVO durante o mapeamento para cancelar o ponto de origem.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Drone Furtivo",
                 "description": "EQUIPE um drone furtivo. DISPARE para lançar o drone e assumir o controle dos movimentos dele. DISPARE novamente para acionar um pulso que causa Supressão e Revela os inimigos atingidos.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -339,15 +339,15 @@
         "characterTags": [
             "Especialista em dano em área"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "background": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/background.png",
         "backgroundGradientColors": [
             "feac45ff",
             "d64f35ff",
@@ -363,7 +363,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -372,25 +372,25 @@
                 "slot": "Ability1",
                 "displayName": "Carga de Explosivos",
                 "description": "INSTANTANEAMENTE joga uma carga de explosivos que gruda em superfícies. REPITA a habilidade depois de instalar para detonar, causando dano e movendo tudo que for atingido.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Cartuchos de Tinta",
                 "description": "EQUIPE uma granada múltipla. DISPARE para jogar a granada, que causa dano e cria submunições, cada uma causando dano a qualquer um que estiver no alcance. Use o DISPARO ALTERNATIVO para arremessar a curta distância. A carga dos Cartuchos de Tinta é redefinida a cada dois abates.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Bumba",
                 "description": "EQUIPE um Bumba. DISPARE para lançar o robô, que avança em linha reta no chão, ricocheteando nas paredes. O Bumba trava ao detectar inimigos no cone frontal e os persegue, explodindo e causando dano pesado se alcançá-los.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Estraga-prazeres",
                 "description": "EQUIPE um lança-mísseis. DISPARE um foguete que causa dano devastador em área ao fazer contato com qualquer coisa.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -402,15 +402,15 @@
         "developerName": "Deadeye",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "background": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/background.png",
         "backgroundGradientColors": [
             "ffce6fff",
             "7b4d21ff",
@@ -426,7 +426,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -435,25 +435,25 @@
                 "slot": "Ability2",
                 "displayName": "Rendezvous",
                 "description": "EQUIPE uma âncora de teleporte. DISPARE para posicioná-la no chão. Enquanto estiver no chão e dentro do alcance da âncora, REATIVE para teleportar rapidamente até a âncora. A âncora pode ser recuperada para ser REPOSICIONADA.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Marca Registrada",
                 "description": "EQUIPE uma armadilha que busca por inimigos. DISPARE para posicioná-la no chão. Quando um inimigo visível entrar no alcance, a armadilha inicia uma contagem regressiva e desestabiliza o terreno ao redor, criando um campo duradouro que Desacelera os jogadores dentro dele. A armadilha pode ser recuperada para ser REPOSICIONADA.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Caçador de Cabeças",
                 "description": "ATIVE para equipar uma pistola pesada. Use o DISPARO ALTERNATIVO com a pistola equipada para mirar.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Tour de Force",
                 "description": "ATIVE para invocar um poderoso fuzil de precisão personalizado que abate um inimigo com qualquer acerto na parte superior do corpo. Use o DISPARO ALTERNATIVO para mirar. Abater um inimigo cria um campo duradouro que Desacelera os jogadores dentro dele.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -465,15 +465,15 @@
         "developerName": "Grenadier",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "background": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/background.png",
         "backgroundGradientColors": [
             "4afaffff",
             "4da6e1ff",
@@ -489,7 +489,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -498,25 +498,25 @@
                 "slot": "Grenade",
                 "displayName": "FRAG/mento",
                 "description": "EQUIPE um fragmento explosivo. DISPARE para lançar. Use o DISPARO ALTERNATIVO para arremessar a curta distância. O fragmento se fixa ao chão e explode várias vezes, causando dano quase letal no centro de cada explosão.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "GRANADA/clarão",
                 "description": "EQUIPE uma granada de clarão. DISPARE para jogá-la por cima. Use o DISPARO ALTERNATIVO para arremessar a curta distância uma versão mais fraca que explode mais rápido. A granada de clarão explode após um curto período, Cegando qualquer um que estiver na linha de visão.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "PONTO/zero",
                 "description": "EQUIPE uma lâmina de supressão. DISPARE para lançar. A lâmina se fixa à primeira superfície que atingir e explode, Suprimindo qualquer um que estiver dentro do raio da explosão. Inimigos podem destruir a lâmina.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "ANULAR/cmd",
                 "description": "INSTANTANEAMENTE sobrecarrega com energia de Radianita polarizada que emite grandes pulsos energéticos em um raio enorme a partir de onde KAY/O estiver. Inimigos atingidos pelos pulsos são Suprimidos por um curto período. Enquanto estiver sobrecarregado, KAY/O recebe Estimulante de Combate e pode ser reestabilizado se for abatido.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -528,15 +528,15 @@
         "developerName": "Guide",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "background": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/background.png",
         "backgroundGradientColors": [
             "94e789ff",
             "aa8a49ff",
@@ -552,7 +552,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -561,25 +561,25 @@
                 "slot": "Ability1",
                 "displayName": "Predador Explosivo",
                 "description": "EQUIPE um amuleto de lobo-da-tasmânia. DISPARE para enviá-lo e controlar esse predador. Enquanto estiver no controle, DISPARE para saltar para a frente. O lobo gera uma explosão Concussiva no impacto e causa dano aos inimigos diretamente atingidos.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Luz Desbravadora",
                 "description": "EQUIPE um amuleto de falcão. DISPARE para enviá-lo. SEGURE O DISPARO para guiar o falcão na direção da sua mira. REPITA a habilidade enquanto ele estiver voando para transformá-lo em um clarão que alcança a potência máxima depois de um curto período durante o voo.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Reflorescer",
                 "description": "EQUIPE um amuleto de cura. SEGURE O DISPARO para canalizar, curando aliados dentro do alcance e na sua linha de visão. Esta habilidade pode ser REPETIDA até a reserva de cura ser esgotada. Skye não pode curar a si mesma.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Rastreadores",
                 "description": "EQUIPE um amuleto de Rastreador. DISPARE para enviar três Rastreadores que localizarão os três inimigos mais próximos. Se um Rastreador alcançar um alvo, ele causará Visão Turva a esse inimigo. Inimigos podem destruir os Rastreadores.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -594,15 +594,15 @@
             "Detecção",
             "Confinamento Defensivo"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "background": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/background.png",
         "backgroundGradientColors": [
             "db9b75ff",
             "4268b3ff",
@@ -618,7 +618,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -627,25 +627,25 @@
                 "slot": "Ability1",
                 "displayName": "Jaula Cibernética",
                 "description": "INSTANTANEAMENTE joga a jaula cibernética diante de Cypher. ATIVE para criar uma Zona que bloqueia a visão e reproduz um sinal de áudio quando inimigos passam por ela.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Câmera de Vigilância",
                 "description": "EQUIPE uma Câmera de Vigilância. DISPARE para colocar a câmera no local-alvo. REPITA a habilidade para controlar a visão da câmera. Enquanto controla a câmera, DISPARE para lançar um dardo marcador. O dardo revelará a localização de qualquer jogador atingido. A câmera pode ser recuperada e REPOSICIONADA.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Fio-armadilha",
                 "description": "EQUIPE um fio-armadilha. DISPARE para instalar um fio-armadilha oculto e destrutível no local-alvo, criando uma linha entre o local e a parede oposta. Jogadores inimigos que passarem pelo fio sofrerão Lentidão e ficarão Revelados depois de um curto período se não destruírem o dispositivo a tempo. A habilidade pode ser recolhida e REPOSICIONADA.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Assalto Neural",
                 "description": "Use INSTANTANEAMENTE num jogador inimigo morto alvejado para baixar informações sobre a equipe dele. Depois de um breve intervalo, a localização de todos os jogadores inimigos ainda vivos será Revelada duas vezes.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -660,15 +660,15 @@
             "Detecção",
             "Dano em Área"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "background": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/background.png",
         "backgroundGradientColors": [
             "f7c7a5ff",
             "392931ff",
@@ -684,7 +684,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Iniciador",
             "description": "Iniciadores desafiam situações arriscadas, preparando a equipe para entrar em terreno contestado e rechaçar defensores.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -693,25 +693,25 @@
                 "slot": "Ability1",
                 "displayName": "Flecha de Choque",
                 "description": "EQUIPE um arco com uma flecha de choque. DISPARE para lançar a flecha, que explode ao impacto, causando dano aos jogadores próximos. SEGURE O DISPARO para estender o alcance do projétil. Use o DISPARO ALTERNATIVO para adicionar até dois ricochetes à flecha.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Flecha Rastreadora",
                 "description": "EQUIPE um arco com uma flecha de reconhecimento. DISPARE para lançar a flecha, que é ativada mediante impacto e Revela a localização de quaisquer inimigos próximos da linha de visão. Inimigos podem destruí-la. SEGURE O DISPARO para estender o alcance do projétil. Use o DISPARO ALTERNATIVO para adicionar até dois ricochetes à flecha. ",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Drone Coruja",
                 "description": "EQUIPE um drone coruja. DISPARE para acionar e pilotar o drone. Enquanto pilota o drone, DISPARE para atirar um dardo marcador. O dardo revelará a localização de qualquer jogador atingido. Inimigos podem destruir o Drone Coruja.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Fúria do Caçador",
                 "description": "EQUIPE um arco com três disparos de longo alcance que perfuram paredes. DISPARE para atirar um raio de energia diante de Sova, causando dano e Revelando a localização dos inimigos que estiverem na linha. A habilidade pode ser REPETIDA até mais duas vezes enquanto o cronômetro de habilidade estiver ativo.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -732,15 +732,15 @@
             "Confinamento Defensivo",
             "Dano em Área"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "background": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/background.png",
         "backgroundGradientColors": [
             "ffc300ff",
             "b87b00ff",
@@ -756,7 +756,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -765,25 +765,25 @@
                 "slot": "Grenade",
                 "displayName": "Nanoenxame",
                 "description": "EQUIPE uma granada Nanoenxame. DISPARE para lançar a granada. Ao atingir uma superfície, a Nanoenxame fica oculta. Use o DISPARO ALTERNATIVO para arremessar a curta distância. ATIVE a Nanoenxame para acionar um enxame de nanorrobôs que causam dano.  ",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Robô de Alarme",
                 "description": "EQUIPE um Robô de Alarme oculto. DISPARE para ativar um robô que persegue os inimigos que entram no alcance. Ao se aproximar do alvo, o robô explode, aplicando Vulnerável aos inimigos na área. SEGURE EQUIPAR para retirar um robô ativado.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Torreta",
                 "description": "EQUIPE uma Torreta. DISPARE para ativar uma torreta que atira em inimigos em um cone de 100°. Use o DISPARO ALTERNATIVO para alterar a direção da torreta. SEGURE EQUIPAR para retirar a torreta ativada. ",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Confinamento",
                 "description": "EQUIPE o dispositivo de Confinamento. DISPARE para ativá-lo. Após um longo processo de ativação, o dispositivo detém todos os inimigos no raio de alcance. O dispositivo pode ser destruído pelos inimigos.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -795,15 +795,15 @@
         "developerName": "Mage",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "background": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/background.png",
         "backgroundGradientColors": [
             "f2d6a3ff",
             "136c6bff",
@@ -819,7 +819,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Controlador",
             "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -828,25 +828,25 @@
                 "slot": "Ability1",
                 "displayName": "Enseada",
                 "description": "EQUIPE uma esfera de água defensiva. DISPARE para jogá-la. Use o DISPARO ALTERNATIVO para arremessar a curta distância. Ao atingir o solo, invoque um escudo de água destrutível que bloqueia balas.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Cascata",
                 "description": "EQUIPE uma onda de água. DISPARE para enviar a onda para frente e através de paredes. REPITA para impedir a onda de seguir em frente. Jogadores atingidos sofrem Redução de Velocidade.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Maré Alta",
                 "description": "EQUIPE uma parede de água. DISPARE para enviar a água para frente junto ao chão. SEGURE O DISPARO para guiar a água na direção da sua retícula, atravessando o mundo e fazendo surgir uma parede ao longo do caminho. Use o DISPARO ALTERNATIVO enquanto curva para parar a água mais cedo. Jogadores atingidos sofrem Redução de Velocidade.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Acerto de Contas",
                 "description": "EQUIPE o poder total do seu Artefato. DISPARE para invocar um gêiser no solo. Os inimigos na área são repetidamente alvejados por ataques do gêiser. Jogadores capturados dentro de uma área do ataque sofrem Concussão.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -858,15 +858,15 @@
         "developerName": "Nox",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "background": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/background.png",
         "backgroundGradientColors": [
             "f147ffff",
             "823697ff",
@@ -882,7 +882,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -899,25 +899,25 @@
                 "slot": "Ability1",
                 "displayName": "Cerca-Viva",
                 "description": "EQUIPE filamentos de metal líquido. DISPARE para posicionar uma armadilha de parede oculta. Quando um inimigo passa por ela, uma parede indestrutível emerge do chão atrás dele. A parede dura um breve período antes de se dissipar.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Rosa Arcana",
                 "description": "EQUIPE uma Rosa Arcana. Mire em uma superfície e DISPARE para posicionar uma Rosa Arcana oculta, ou use o DISPARO ALTERNATIVO para posicionar a Rosa Arcana através da superfície. USE NOVAMENTE para cegar todos os jogadores que estiverem olhando para ela. A habilidade pode ser recuperada e REPOSICIONADA.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Espinheiro Cortante",
                 "description": "EQUIPE um emaranhado de metal líquido. DISPARE para lançar. Ao cair, o metal se torna invisível. Quando ATIVADO, ele se espalha e cria um grande espinheiro que causa Lentidão e dano a todos os jogadores que passam por ele.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Jardim de Aço",
                 "description": "EQUIPE um espinheiro de metal líquido. DISPARE para lançar metal como uma torrente de espinhos metálicos, BLOQUEANDO as armas primárias inimigas após um breve período.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -931,15 +931,15 @@
         "characterTags": [
             "Especialista em controle de visão"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "background": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/background.png",
         "backgroundGradientColors": [
             "89f476ff",
             "347334ff",
@@ -955,7 +955,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Controlador",
             "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -964,25 +964,25 @@
                 "slot": "Ability1",
                 "displayName": "Nuvem Venenosa",
                 "description": "EQUIPE um emissor de gás. DISPARE para jogar o emissor, que permanece até o fim da rodada. Use o DISPARO ALTERNATIVO para arremessar a curta distância. REPITA para criar uma nuvem de gás tóxico que consome combustível e causa Deterioração nos adversários dentro dela. A habilidade pode ser recolhida e REPOSICIONADA antes do início da rodada e pode ser REUTILIZADA mais de uma vez ao longo da rodada.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Cortina Tóxica",
                 "description": "EQUIPE um lançador de emissores de gás que atravessam terreno. DISPARE para lançar uma longa linha de emissores de gás. REPITA para criar uma parede alta de gás tóxico que consome combustível causa Deterioração nos adversários dentro dela. A habilidade pode ser REPETIDA mais de uma vez.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Veneno de Cobra",
                 "description": "EQUIPE um lançador químico. DISPARE para lançar um cilindro que se rompe ao atingir o chão, gerando uma zona química duradoura que causa dano aos inimigos e aplica Vulnerável a eles.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Poço Peçonhento",
                 "description": "EQUIPE um borrifador químico. DISPARE para borrifar uma nuvem química em todas as direções ao redor de Viper, criando uma grande nuvem que causa Visão Turva e Deteriora a Vida dos inimigos dentro dela. SEGURE a tecla de habilidade para dispersar a nuvem mais cedo.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1003,15 +1003,15 @@
             "Flexibilidade",
             "Autossustentação"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "background": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/background.png",
         "backgroundGradientColors": [
             "f7bf60ff",
             "ea6d4eff",
@@ -1027,7 +1027,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1036,25 +1036,25 @@
                 "slot": "Grenade",
                 "displayName": "Labareda",
                 "description": "EQUIPE uma parede de fogo. DISPARE para criar uma linha de chamas que avança, atravessa o ambiente e gera uma parede de fogo que bloqueia a visão e causa dano a jogadores que passarem por ela. A parede de fogo cura Phoenix em vez de causar dano a ele. SEGURE O DISPARO para curvá-la na direção da mira.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Mãos Quentes",
                 "description": "EQUIPE uma bola de fogo. DISPARE para jogar a bola de fogo, que explode após um intervalo ou ao atingir o chão e cria uma zona duradoura de fogo que causa dano aos inimigos. A zona de fogo cura Phoenix em vez de causar dano. Use o DISPARO ALTERNATIVO para arremessar a curta distância.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Bola Curva",
                 "description": "EQUIPE um orbe de chamas que avança em curva e detona pouco após o lançamento. DISPARE para curvá-lo para a esquerda, detonando e Cegando qualquer jogador que vir o orbe. Use o DISPARO ALTERNATIVO para curvá-lo para a direita. Uma carga de Bola Curva é restaurada a cada dois abates.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Renascimento",
                 "description": "INSTANTANEAMENTE coloca um marcador na localização de Phoenix. Com a habilidade ativa, morrer ou deixar o tempo acabar encerrarão a habilidade e trarão Phoenix de volta ao local marcado com Vida completa e a mesma quantidade de armadura que tinha ao ativa-la.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1072,15 +1072,15 @@
         "developerName": "Pine",
         "releaseDate": "2025-10-07T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/background.png",
         "backgroundGradientColors": [
             "1f6178ff",
             "0e2c41ff",
@@ -1096,7 +1096,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1113,25 +1113,25 @@
                 "slot": "Ability2",
                 "displayName": "Interceptador",
                 "description": "EQUIPE o Interceptador. DISPARE para posicionar o Interceptador no local determinado. Depois de posicionado, REPITA para ativar. Uma vez ativado, ele destruirá qualquer utilitário que REBATERIA em um jogador e/ou que seria destruído naturalmente por tiros. Inimigos podem destruir o Interceptador.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Travessia",
                 "description": "EQUIPE um vórtice. DISPARE para posicioná-lo no chão. Enquanto estiver dentro do alcance e olhando para o vórtice, ATIVE para se teleportar até ele. Durante a FASE DE COMPRA, o vórtice pode ser recolhido e REPOSICIONADO.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Evolução",
                 "description": "Inicia INSTANTANEAMENTE uma mutação completa, ganhando Estimulante de Combate e Regeneração, e se torna IMUNE a todas as formas de enfraquecimento.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Imobilidade",
                 "description": "EQUIPE um fragmento viscoso da sua mutação. DISPARE para lançar. O fragmento é acionado com o impacto no chão, criando uma armadilha que prende os inimigos no lugar. Inimigos presos sofrem Surdez e Deterioração. Inimigos podem destruir a armadilha antes da ativação.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1143,15 +1143,15 @@
         "developerName": "Rift",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "background": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/background.png",
         "backgroundGradientColors": [
             "f47dc9ff",
             "a54498ff",
@@ -1167,7 +1167,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Controlador",
             "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1176,31 +1176,31 @@
                 "slot": "Ability1",
                 "displayName": "Pulso Nova",
                 "description": "Posicione Estrelas na Forma Astral (tecla da Ultimate).\r\n\r\nATIVE uma Estrela para detonar um Pulso Nova. O Pulso Nova carrega brevemente e depois explode, causando Concussão a todos os jogadores na área.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Nebulosa / Dissipar",
                 "description": "Posicione Estrelas na Forma Astral (X). \n\nATIVE uma Estrela para transformá-la em uma Nebulosa (fumaça).\n\nUSE uma Estrela para dissipá-la, retornando a Estrela para ser posicionada em um novo local após um período.\n\nDissipar forma brevemente uma Nebulosa falsa na localização da Estrela antes de retornar.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Poço Gravitacional",
                 "description": "Posicione Estrelas na Forma Astral (tecla da Ultimate).\r\n\r\nATIVE uma Estrela para formar um Poço Gravitacional. Jogadores na área são puxados em direção ao centro antes de ele explodir, deixando Vulneráveis todos que ainda estão presos no centro.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Forma Astral / Divisa\nCósmica",
                 "description": "ATIVE para entrar na Forma Astral, em que você pode posicionar Estrelas com DISPARO. As Estrelas podem ser reativadas depois para serem transformadas em Pulso Nova, Nebulosa ou Poço Gravitacional.\n\nQuando Divisa Cósmica estiver carregada, use o DISPARO ALTERNATIVO na Forma Astral para começar a mirar e, depois, o DISPARO para escolher dois locais. Uma Divisa Cósmica infinita surge e conecta os pontos selecionados. A Divisa Cósmica bloqueia disparos e sons.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "Forma Astral",
                 "description": "ATIVE a Ultimate para entrar na Forma Astral e use DISPARO para posicionar Estrelas. Atinja as Estrelas com Pulso Nova, Nebulosa ou Poço Gravitacional para utilizar essas habilidades.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1215,15 +1215,15 @@
             "Controle de Visão",
             "Dano em Área"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "background": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/background.png",
         "backgroundGradientColors": [
             "eb953fff",
             "892c1bff",
@@ -1239,7 +1239,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Controlador",
             "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1248,25 +1248,25 @@
                 "slot": "Grenade",
                 "displayName": "Sinalizador Estimulante",
                 "description": "INSTANTANEAMENTE arremesse um sinalizador estimulante. Ao pousar, ele criará um campo que concede um Estimulante de Combate e um Impulso de Velocidade aos jogadores.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Incendiário",
                 "description": "EQUIPE um lançador de granadas incendiárias. DISPARE para lançar uma granada que detona no chão, gerando uma zona de fogo que causa dano aos jogadores dentro dela.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Fumaça Celeste",
                 "description": "EQUIPE um mapa tático. DISPARE para marcar os locais onde as nuvens de fumaça de Brimstone pousarão. Use o DISPARO ALTERNATIVO para confirmar, lançando nuvens de fumaça de longa duração que bloqueiam a visão na área selecionada.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Ataque Orbital",
                 "description": "EQUIPE um mapa tático. DISPARE para lançar um ataque prolongado de laser orbital no local selecionado, causando muito dano ao longo do tempo aos jogadores na área selecionada.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1278,15 +1278,15 @@
         "developerName": "Sequoia",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "background": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/background.png",
         "backgroundGradientColors": [
             "c4a1ffff",
             "3d0fd4ff",
@@ -1302,7 +1302,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1319,25 +1319,25 @@
                 "slot": "Ability1",
                 "displayName": "Centelha Debilitante",
                 "description": "EQUIPE um feixe molecular. DISPARE para lançá-lo à frente e aplicar Vulnerabilidade e Supressão por um curto período a todos os jogadores que tocar. O feixe pode atravessar objetos sólidos, inclusive paredes.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Contrato de Abate",
                 "description": "EQUIPE uma arena interdimensional. DISPARE para lançar uma coluna de energia pelo campo de batalha que puxa você e o primeiro inimigo atingido por ela para a arena para duelarem até a morte após curar vocês dois.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Fluxo Protetor",
                 "description": "Comece INSTANTANEAMENTE a canalizar seu foco. Com o foco ativado: receba um escudo que absorve uma instância de dano de qualquer fonte, recarregue mais rápido e entre em um estado de fluxo. Inimigos que você abate ou a quem causa dano durante esse tempo geram um orbe de energia. Atirar nesse orbe renova seu estado de fluxo e seu escudo existente ou concede outro.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Contingência",
                 "description": "EQUIPE para reunir energia prismática. DISPARE para enviar à frente uma parede de energia indestrutível que bloqueia balas. Use o DISPARO ALTERNATIVO para enviar uma versão mais lenta da parede.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1349,15 +1349,15 @@
         "developerName": "Smonk",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "background": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/background.png",
         "backgroundGradientColors": [
             "f17cadff",
             "062261ff",
@@ -1373,7 +1373,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Controlador",
             "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1390,25 +1390,25 @@
                 "slot": "Grenade",
                 "displayName": "Revitalizar",
                 "description": "ATIVE para absorver a energia vital de um inimigo caído que sofreu dano ou foi abatido por Clove e receba aceleração e Vida temporárias.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Artimanha",
                 "description": "EQUIPE uma imagem do campo de batalha. DISPARE para marcar os locais onde você quer posicionar as nuvens de Clove. Use o DISPARO ALTERNATIVO para confirmar e lançar nuvens que bloqueiam a visão nas áreas selecionadas. Clove pode usar essa habilidade depois de morrer.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Ainda Não Morri",
                 "description": "Depois de morrer, ATIVE para ressuscitar. Depois de ressuscitar, Clove precisa obter um abate ou uma assistência de dano em um determinado período ou morre de vez. REATIVE para cancelar mais cedo.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Desvitalização",
                 "description": "EQUIPE um fragmento de Essência da Imortalidade. DISPARE para lançá-lo. Ao chegar no chão, ele detona após um breve intervalo e aplica temporariamente Deterioração a todos os alvos atingidos.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1420,15 +1420,15 @@
         "developerName": "Sprinter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "background": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/background.png",
         "backgroundGradientColors": [
             "ba89ffff",
             "6241ccff",
@@ -1444,7 +1444,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1453,25 +1453,25 @@
                 "slot": "Ability2",
                 "displayName": "Equipamento Voltaico",
                 "description": "INSTANTANEAMENTE canaliza o poder da Neon para receber velocidade aumentada. Ao atingir a carga máxima, use o DISPARO ALTERNATIVO para acionar um deslize elétrico. A carga de deslizamento é redefinida a cada dois abates. Abates recarregam o combustível. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Ricochete Elétrico",
                 "description": "INSTANTANEAMENTE arremessa um raio de energia que ricocheteia uma vez. Ao atingir cada superfície, o raio eletrifica o chão abaixo dele com uma explosão Concussiva.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Via Expressa",
                 "description": "DISPARE duas linhas de energia no chão à frente. As linhas se estendem por uma curta distância ou até atingirem uma superfície. Elas se tornam paredes de eletricidade estática que bloqueiam a visão.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Sobrecarga",
                 "description": "Neon libera todo o seu poder e velocidade por um curto período, recuperando todo o combustível e uma carga de deslizamento. DISPARE para canalizar esse poder em um raio elétrico letal com alta precisão de movimento. Abates reiniciam a duração do efeito. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1483,15 +1483,15 @@
         "developerName": "Stealth",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "background": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/background.png",
         "backgroundGradientColors": [
             "66a8ffff",
             "3b37a7ff",
@@ -1507,7 +1507,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1516,25 +1516,25 @@
                 "slot": "Grenade",
                 "displayName": "Distração",
                 "description": "EQUIPE um eco dimensional que se transforma em uma cópia do Yoru quando ativado. DISPARE para ativar a cópia e fazê-la avançar. Use o DISPARO ALTERNATIVO para posicionar um eco inativo. USE para transformar o eco inativo em uma cópia e fazê-la avançar. As cópias explodem e Cegam os inimigos quando destruídas por eles.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Ponto Cego",
                 "description": "EQUIPE para arrancar um fragmento dimensional instável da realidade. DISPARE para lançar o fragmento, ativando um clarão que se dissipa ao atingir uma superfície sólida.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Passagem Dimensional",
                 "description": "EQUIPE um fluxo dimensional. DISPARE para lançá-lo à frente. Use o DISPARO ALTERNATIVO para posicionar um fluxo imóvel. ATIVE para se teleportar até ele. USE para acionar um teleporte falso. Uma carga de PASSAGEM DIMENSIONAL é restaurada a cada dois abates.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Espionagem Dimensional",
                 "description": "EQUIPE uma máscara para olhar por entre as dimensões. DISPARE para entrar na dimensão do Yoru, onde você não poderá ser afetado nem visto pelos inimigos lá fora. REATIVE para sair da dimensão do Yoru mais cedo.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1546,15 +1546,15 @@
         "developerName": "Terra",
         "releaseDate": "2025-03-04T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/background.png",
         "backgroundGradientColors": [
             "affb9bff",
             "ac53acff",
@@ -1570,7 +1570,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1587,25 +1587,25 @@
                 "slot": "Ability2",
                 "displayName": "Refração",
                 "description": "Cria INSTANTANEAMENTE um feixe de luz no chão. REATIVE para voltar rapidamente ao feixe como uma partícula de luz pura. Você fica invulnerável durante o deslocamento. Uma carga de Refração é restaurada a cada dois abates.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Saturação",
                 "description": "Lança INSTANTANEAMENTE um aglomerado de luz que explode ao tocar no chão e Retém jogadores próximos com uma poderosa desaceleração de movimento e armas.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "Velocidade da Luz",
                 "description": "EQUIPE para se preparar para um impulso de velocidade. DISPARE para avançar duas vezes. Use o DISPARO ALTERNATIVO para avançar uma vez. Só o primeiro avanço faz você subir.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Caminhos Convergentes",
                 "description": "EQUIPE para focar seu poder prismático. DISPARE para criar uma imagem residual de si mesma que projeta um feixe de luz. Após um breve intervalo, você recebe um poderoso impulso de velocidade, e o feixe se expande e Retém outros jogadores na área.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1620,15 +1620,15 @@
             "Recuperação",
             "Impedimento"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "background": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/background.png",
         "backgroundGradientColors": [
             "7bfedeff",
             "41819aff",
@@ -1644,7 +1644,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Sentinela",
             "description": "Sentinelas são especialistas em defesa que podem bloquear áreas e vigiar flancos, tanto nas rodadas de ataque, quanto nas de defesa.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1653,25 +1653,25 @@
                 "slot": "Ability1",
                 "displayName": "Orbe de Lentidão",
                 "description": "EQUIPE um orbe de lentidão. DISPARE para lançá-lo. O orbe detona ao pousar, criando um campo duradouro que Desacelera os jogadores dentro dele e reduz a velocidade de avanço.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Orbe Curativo",
                 "description": "EQUIPE um orbe curativo. DISPARE com a mira sobre um aliado ferido para ativar uma Cura ao Longo do Tempo. Use o DISPARO ALTERNATIVO enquanto Sage estiver ferida para ativar uma Autocura ao Longo do Tempo.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Orbe de Barreira",
                 "description": "EQUIPE um orbe de barreira. DISPARE para posicionar uma parede que é fortificada após alguns segundos. DISPARO ALTERNATIVO gira o marcador de alvo.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Ressurreição",
                 "description": "EQUIPE uma habilidade de ressurreição. DISPARE com a mira sobre um aliado morto para começar a revivê-lo. Depois de uma breve canalização, o aliado voltará com a Vida completa.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1686,15 +1686,15 @@
             "Evasão",
             "Autossustentação"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "background": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/background.png",
         "backgroundGradientColors": [
             "e46e77ff",
             "c44d9fff",
@@ -1710,7 +1710,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1719,25 +1719,25 @@
                 "slot": "Ability1",
                 "displayName": "Devorar",
                 "description": "Colheita de Almas: inimigos abatidos por Reyna ou abatidos até 3 segundos após sofrerem dano da Reyna deixam Orbes de Alma que duram 3s.\n\nDevorar: INSTANTANEAMENTE consome um Orbe de Alma próximo, curando-se de forma rápida. Se IMPERATRIZ estiver ativa, esta habilidade será conjurada automaticamente e não consumirá o Orbe de Alma.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Dispensar",
                 "description": "INSTANTANEAMENTE consome um Orbe de Alma próximo, ficando Inatingível por um curto período. Também se torna Invisível se a habilidade IMPERATRIZ estiver ativa.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Olhar Voraz",
                 "description": "EQUIPE um olho etéreo e destrutível. ATIVE para lançá-lo adiante a uma curta distância. O olho deixará com visão turva todos os inimigos que olharem para ele.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Imperatriz",
                 "description": "INSTANTANEAMENTE entra em estado de frenesi e recebe um Estimulante de Combate que aumenta drasticamente as velocidades de disparo, equipagem e recarga de munição. Ganha cargas infinitas das habilidades de Colheita de Almas.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1752,15 +1752,15 @@
             "Mobilidade",
             "Controle de Visão"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "background": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/background.png",
         "backgroundGradientColors": [
             "2fdddeff",
             "4f53afff",
@@ -1776,7 +1776,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Controlador",
             "description": "Controladores se dedicam a dissecar territórios perigosos e pavimentar o caminho do sucesso para a equipe.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1785,25 +1785,25 @@
                 "slot": "Ability1",
                 "displayName": "Paranoia",
                 "description": "EQUIPE um orbe cegante. DISPARE para lançá-lo, causando Surdez e Visão Turva brevemente em todos os jogadores atingidos. O projétil atravessa paredes.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Manto Sombrio",
                 "description": "EQUIPE um orbe sombrio e entre em um universo distorcido para posicionar os orbes. PRESSIONE o botão de habilidade para lançar o orbe no local marcado, criando uma esfera de sombra duradoura que bloqueia a visão. SEGURE O DISPARO enquanto mira para afastar o marcador. SEGURE O DISPARO ALTERNATIVO enquanto mira para aproximar o marcador. PRESSIONE RECARREGAR para alternar para a visão de mira normal.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Passos Tenebrosos",
                 "description": "EQUIPE uma habilidade de Passos Tenebrosos para ver o indicador de alcance. DISPARE para começar uma breve canalização e, então, teleporte-se para o local marcado.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Salto das Sombras",
                 "description": "EQUIPE um mapa tático. DISPARE para começar a se teleportar ao local selecionado. Enquanto se teleporta, Omen aparecerá como um Vulto que pode ser destruído por qualquer inimigo para cancelar o teleporte, ou PRESSIONE EQUIPAR para cancelá-lo.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1818,15 +1818,15 @@
             "Evasão",
             "Mobilidade"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "background": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/background.png",
         "backgroundGradientColors": [
             "90e3fdff",
             "557f8cff",
@@ -1842,7 +1842,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Duelista",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1851,31 +1851,31 @@
                 "slot": "Ability1",
                 "displayName": "Corrente Ascendente",
                 "description": "INSTANTANEAMENTE lança Jett bem alto no ar.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "Brisa de Impulso",
                 "description": "ATIVE para preparar uma rajada de vento por tempo limitado. REPITA a habilidade para lançar Jett na direção do movimento atual dela. Se estiver parada, Jett será lançada para a frente. A carga de Brisa de Impulso é redefinida a cada dois abates.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "Erupção das Brumas",
                 "description": "INSTANTANEAMENTE lança um projétil que se expande numa breve nuvem que obscurece a visão ao bater numa superfície. SEGURE o botão da habilidade para curvar a fumaça na direção da sua mira.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "Tormenta de Aço",
                 "description": "EQUIPE um conjunto de facas de arremesso altamente precisas. DISPARE para lançar uma única faca contra o alvo. As facas são recarregadas ao matar um oponente. Use o DISPARO ALTERNATIVO para jogar todas as facas restantes contra o alvo, porém elas não são recarregadas ao matar um oponente.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "Deriva",
                 "description": "Segurar o botão de pulo durante uma queda permite que você plane no ar.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null

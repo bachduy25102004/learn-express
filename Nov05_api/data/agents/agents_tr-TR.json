@@ -6,15 +6,15 @@
         "developerName": "Aggrobot",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png",
+        "background": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/agent_image/background.png",
         "backgroundGradientColors": [
             "c7f458ff",
             "d56324ff",
@@ -30,7 +30,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -39,25 +39,25 @@
                 "slot": "Ability1",
                 "displayName": "KANKUŞ",
                 "description": "Kankuş'u KUŞAN. Kankuş'u düşman aramaya göndermek için ATEŞ ET. Kankuş gördüğü ilk düşmana doğru Sersemletici bir patlama oluşturur. Kankuş'un Spike'ı yerleştirmesi veya imha etmesi için Spike bölgesine veya yerleştirilmiş Spike'a nişan al ve ALT. ATIŞ kullan. Yerleştirmek için Spike Gekko'da olmalıdır. Kankuş süresi dolduğunda pasif bir küreye dönüşür. Onu geri almak ve kısa bir bekleme süresinin ardından bir Kankuş yükü daha edinmek için küreyle ETKİLEŞİME GİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "ŞAŞKIN",
                 "description": "Şaşkın'ı KUŞAN. Şaşkın'ı havada süzülecek şekilde fırlatmak için ATEŞ ET. Şaşkın enerji topladıktan sonra görüşüne giren düşmanlara plazma atar. Plazmanın isabet ettiği düşmanlar Kör olur. Şaşkın süresi dolduğunda pasif bir küreye dönüşür. Onu geri almak ve kısa bir bekleme süresinin ardından bir Şaşkın yükü daha edinmek için küreyle ETKİLEŞİME GİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "POFUDUK TARLASI",
                 "description": "Pofu'yu KUŞAN. Pofu'yu bomba gibi fırlatmak için ATEŞ ET. Yavaşça fırlatmak için ALT. ATIŞ kullan. Pofu indiği yerde büyük bir alana yayılır, bu alandaki düşmanlara her saniye düşük miktarda hasar verir ve kısa bir gecikmenin ardından patlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "ZORBA",
                 "description": "Zorba'yı KUŞAN. Zorba'nın zihnine girerek onunla düşman bölgesinde gezinmek için ATEŞ ET. Zorba'nın ileri atılıp patlayarak küçük bir alandaki tüm oyuncuları Alıkoyması için ETKİNLEŞTİR. Zorba süresi dolduğunda pasif bir küreye dönüşür. Onu geri almak ve kısa bir bekleme süresinin ardından bir Zorba yükü daha edinmek için küreyle ETKİLEŞİME GİR. Zorba yalnızca bir kere geri alınabilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/e370fa57-4757-3604-3648-499e1f642d3f/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -69,15 +69,15 @@
         "developerName": "BountyHunter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png",
+        "background": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/agent_image/background.png",
         "backgroundGradientColors": [
             "b1414cff",
             "5589bdff",
@@ -93,7 +93,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -102,25 +102,25 @@
                 "slot": "Ability1",
                 "displayName": "MIHLA",
                 "description": "Bir saf korku yumağı KUŞAN. Fırlatmak için ATEŞ ET. Yumak belli bir süre sonra yere iner. Yumağı yere erken indirmek için TEKRAR KULLAN. Yumak yere indiğinde açılarak yakındaki düşmanları olduğu yere sabitler. Sabitlenmiş düşmanlar Sağır olur ve Çürüme hasarı almaya başlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "MUSALLAT",
                 "description": "Musallat olan bir gözcü KUŞAN. Fırlatmak için ATEŞ ET. Gözcü belli bir süre sonra yere iner. Gözcüyü yere erken indirmek için TEKRAR KULLAN. Gözcü yere indiğinde etkinleşerek görüş menzili içinde kalan düşmanları Açığa Çıkarır ve hepsine dehşet izi uygular. Düşmanlar gözcüyü yok edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "ECEL",
                 "description": "Bir Ecel KUŞAN. Ecel'i ileri göndermek için ATEŞ ET. Ecel'i nişangâhının baktığı tarafa doğru yönlendirmek için ATEŞ DÜĞMESİNİ BASILI TUT. Ecel gördüğü ilk düşmanın veya dehşet izinin peşine takılır ve yakaladığı düşmanın Görüşünü Kısıtlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "GECE KARANLIĞI",
                 "description": "Kâbusun gücünü KUŞAN. Durdurulamaz bir kâbus enerjisi göndermek için ATEŞ ET. Dalgaya maruz kalan düşmanlar dehşet izleriyle İşaretlenir, Sağır olur ve Çürüme hasarı almaya başlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -132,15 +132,15 @@
         "developerName": "Breach",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/background.png",
+        "background": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/agent_image/background.png",
         "backgroundGradientColors": [
             "ff9c33ff",
             "b04621ff",
@@ -156,7 +156,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -165,25 +165,25 @@
                 "slot": "Ability1",
                 "displayName": "GÖZ KAMAŞTIRAN",
                 "description": "Kör Edici bir yük KUŞAN. Duvarın içinden geçtikten sonra art arda hızla gerçekleşen patlamalar oluşturmak için ATEŞ ET. Patlayan yük, ona bakan herkesi Kör eder.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "FAY HATTI",
                 "description": "Sismik bir darbe KUŞAN. Darbenin etkili olacağı mesafeyi arttırmak için BASILI TUT. Bir sarsıntı oluşturarak etki alanında ve alan hattı üzerinde kalan tüm oyuncuları Sersemletmek için SERBEST BIRAK.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "ARTÇI SARSINTI",
                 "description": "Termonükleer bir yük KUŞAN. Duvarın içinden geçtikten sonra zamanla gerçekleşen patlamalar için ATEŞ ET. Patlayan yük, etki alanında kalan herkese ağır hasar verir.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "ZELZELE",
                 "description": "Sismik bir yük KUŞAN. Geniş bir alanın içinde kalan zemini dalga dalga etkileyen bir deprem tetiklemek için ATEŞ ET. Depreme yakalanan herkes Sersemler ve havaya savrulur.",
-                "displayIcon": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -195,15 +195,15 @@
         "developerName": "Cable",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/background.png",
+        "background": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/agent_image/background.png",
         "backgroundGradientColors": [
             "bcc2ffff",
             "4d64c4ff",
@@ -219,7 +219,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -236,25 +236,25 @@
                 "slot": "Ability1",
                 "displayName": "SONİK SENSÖR",
                 "description": "Bir Sonik Sensör KUŞAN. Sensörü yerleştirmek için ATEŞ ET. Sensör, düşman seslerini algılamak üzere bölgeyi tarar. Eğer taradığı bölgede ayak sesi, silah sesi veya yüksek ses tespit ederse bölgeye sersemletme uygular. Bu yeteneği TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "BARİYER AĞI",
                 "description": "Bir Bariyer Ağı diski KUŞAN. Diski ileri fırlatmak için ATEŞ ET. Diskin indiği noktada yanlara doğru açılan ve karakterlerin hareketini engelleyen bariyerler oluşur.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "NANOÇEKİM",
                 "description": "Bir NanoÇekim bombası KUŞAN. Fırlatmak için ATEŞ ET. Yavaşça fırlatmak için ALT. ATIŞ kullan. NanoÇekim bombası yere temas ettiğinde patlayarak etki alanında kalanların çömelmelerine neden olur ve onları yavaşlatır.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "KISKIVRAK",
                 "description": "Bir Nanobağ Hızlandırıcı KUŞAN. Yakaladığı ilk düşmanı sarıp kıskıvrak yakalayan bir nanobağ dalgası göndermek için ATEŞ ET. Kozaya yakalanan düşman, oluşan nanobağ yolu boyunca çekilir. Düşman, nanobağ kozasından kurtarılmazsa ölür. Nanobağ kozası yok edilebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -266,15 +266,15 @@
         "developerName": "Cashew",
         "releaseDate": "2025-01-08T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/background.png",
+        "background": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/agent_image/background.png",
         "backgroundGradientColors": [
             "ffb573ff",
             "c4611fff",
@@ -290,7 +290,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -307,25 +307,25 @@
                 "slot": "Ability2",
                 "displayName": "GÜDÜMLÜ SALVO",
                 "description": "Sanal bir hedefleme sistemi KUŞAN. Harita üzerinden en fazla iki hedef konum seçmek için ATEŞ ET. Otomatik olarak hedef konumlara doğru güdümlenen ve hedefe ulaştığında art arda patlayarak hasar veren füzeler atmak için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "ÖZEL TESLİMAT",
                 "description": "Bir yapışkan bomba KUŞAN. Fırlatmak için ATEŞ ET. Bomba değdiği ilk yüzeye yapışır ve patlar. Patlamadan etkilenen tüm hedefler Sersemler. Bombayı bir kere sekecek şekilde fırlatmak için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "KIYAMET",
                 "description": "Bir taktiksel saldırı hedefleme haritası KUŞAN. Saldırının başlangıç noktasını seçmek için ATEŞ ET. Saldırının biteceği noktayı da seçip saldırıyı başlatmak için tekrar ATEŞ ET ve seçilen rota boyunca ilerleyerek ölümcül hasar veren patlama dalgaları gönder. Harita hedeflemesi esnasında başlangıç noktasını iptal etmek için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "GİZLİ DRON",
                 "description": "Gizli bir dron KUŞAN. Dronu ileri doğru fırlatıp hareketlerini kontrol etmeye başlamak için ATEŞ ET. İsabet alan düşmanları Sindiren ve Açığa Çıkaran bir dalga göndermek için tekrar ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/b444168c-4e35-8076-db47-ef9bf368f384/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -339,15 +339,15 @@
         "characterTags": [
             "Alan Hasarı Uzmanı"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/background.png",
+        "background": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/agent_image/background.png",
         "backgroundGradientColors": [
             "feac45ff",
             "d64f35ff",
@@ -363,7 +363,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -372,25 +372,25 @@
                 "slot": "Ability1",
                 "displayName": "PATLAYICI ÇANTA",
                 "description": "Zemine yapışan bir Patlayıcı Çanta'yı ANINDA fırlat. Elinden çıkan çantayı patlatmak için yeteneği TEKRAR KULLAN. Çanta isabet ettiği her şeye hasar verir ve onları yerinden oynatır.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "RENK TESİRLİ BOMBA",
                 "description": "Bir parça tesirli el bombası KUŞAN. Fırlatmak için ATEŞ ET. Bomba patlayıp hasar verdikten sonra her biri menzilindeki herkese hasar veren bombacıklar oluşturur. Yavaşça fırlatmak için ALT. ATIŞ kullan. Renk Tesirli Bomba'nın yükü her iki skorda bir dolar.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "BOMBOT",
                 "description": "Bir Bombot KUŞAN. Göndermek için ATEŞ ET; bot yerde düz bir hat halinde ilerler ve duvarlardan seker. Bombot önündeki koni şeklindeki alana giren tüm düşmanlara kilitlenir ve onları kovalar. Yakalayabilirse, ağır hasar vererek patlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "NEFES KESEN",
                 "description": "Bir roketatar KUŞAN. Herhangi bir şeye temas ettiğinde patlayıp muazzam alan hasarı veren bir roket fırlatmak için ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/f94c3b30-42be-e959-889c-5aa313dba261/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -402,15 +402,15 @@
         "developerName": "Deadeye",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
+        "background": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/agent_image/background.png",
         "backgroundGradientColors": [
             "ffce6fff",
             "7b4d21ff",
@@ -426,7 +426,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -435,25 +435,25 @@
                 "slot": "Ability2",
                 "displayName": "BULUŞMA",
                 "description": "Bir ışınlayıcı KUŞAN. Işınlayıcıyı zemine yerleştirmek için ATEŞ ET. Işınlayıcının menzilinde ve yerde dururken hızlıca ışınlayıcıya ışınlanmak için TEKRAR ETKİNLEŞTİR. Işınlayıcıyı TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "KARTVİZİT",
                 "description": "Düşmanlar için etrafı tarayan bir tuzak KUŞAN. Tuzağı zemine yerleştirmek için ATEŞ ET. Görünen düşmanlar tuzağın menzili içine girdiğinde, tuzak geri sayıma başlar. Tuzak devreye girdiğinde etki alanını stabil olmayan bir hale getirerek içinde bulunan düşmanları Yavaşlatır. Tuzağı TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "KELLE AVCISI",
                 "description": "Ağır bir tabanca kuşanmak için ETKİNLEŞTİR. Tabancanın ALT. ATIŞI nişan almanı sağlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "KESKİN TARZ",
                 "description": "Gövdeye doğrudan isabet ettiği düşmanları anında öldüren güçlü ve özel bir keskin nişancı tüfeği kuşanmak için ETKİNLEŞTİR. Nişan almak için ALT. ATIŞ kullan. Düşmanı öldürdüğün yerde, içine giren düşmanları Yavaşlatan bir etki alanı oluşur.",
-                "displayIcon": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -465,15 +465,15 @@
         "developerName": "Grenadier",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/background.png",
+        "background": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/agent_image/background.png",
         "backgroundGradientColors": [
             "4afaffff",
             "4da6e1ff",
@@ -489,7 +489,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -498,25 +498,25 @@
                 "slot": "Grenade",
                 "displayName": "PARÇA/Tesirli",
                 "description": "Patlayıcı bir şarapnel KUŞAN. Fırlatmak için ATEŞ ET. Yavaşça fırlatmak için ALT. ATIŞ kullan. Şarapnel yere yapışır, sonrasında birden fazla kez patlar ve tam merkezinde bulunanlara neredeyse ölümcül hasar verir.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "FLAŞ/Bellek",
                 "description": "Bir Kör Edici bomba KUŞAN. Yüksekten fırlatmak için ATEŞ ET. Daha zayıf ama hızlı patlayan bir Kör Edici bomba atmak için ALT. ATIŞ kullan. Kör Edici bomba kısa bir süre sonra patlayarak görüş menzili içinde bulunan herkesi Kör eder.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "SIFIR/Noktası",
                 "description": "Düşmanları Sindirmeni sağlayan bir bıçak KUŞAN. Fırlatmak için ATEŞ ET. Bıçak isabet ettiği ilk yüzeye saplanır ve kısa bir süre sonra patlayarak menzili içindeki düşmanları Sindirir. Düşmanlar bu bıçağı yok edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "İPTAL/Komut",
                 "description": "KAY/O, kutuplaşmış radyanit enerjisiyle ANINDA aşırı yüklenir ve bulunduğu konumdan devasa bir etki alanına sahip enerji dalgaları yayar. Enerji dalgalarının isabet ettiği düşmanlar kısa bir süreliğine Sindirilir. Aşırı yükleme durumundayken KAY/O Kuvvetli Savaş kazanır ve çöktüğünde yeniden stabil hale getirilebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -528,15 +528,15 @@
         "developerName": "Guide",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/background.png",
+        "background": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/agent_image/background.png",
         "backgroundGradientColors": [
             "94e789ff",
             "aa8a49ff",
@@ -552,7 +552,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -561,25 +561,25 @@
                 "slot": "Ability1",
                 "displayName": "AV PEŞİNDE",
                 "description": "Bir Tazmanya kaplanı figürü KUŞAN. Avcıyı gönderip onu kontrol etmek için ATEŞ ET. Hayvanı kontrol ederken birden ileri atılarak çarpma halinde Sersemletici bir patlamaya sebep olmak ve doğrudan isabet alan düşmanlara hasar vermek için ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "KILAVUZ IŞIK",
                 "description": "Bir şahin figürü KUŞAN. Şahini ileri göndermek için ATEŞ ET. Şahini nişangâhının baktığı tarafa yöneltmek için ATEŞ KOMUTUNU BASILI TUT. Şahini havada uçarken kör edici bir bombaya çevirmek için yeteneği TEKRAR KULLAN. Şahinin uçuşu başladıktan kısa bir süre sonra Kör etme maksimum potansiyeline ulaşır.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "DOĞANIN ŞİFASI",
                 "description": "İyileştiren bir figür KUŞAN. Şifa gücünü odaklayarak menzil içinde ve görüş hattındaki takım arkadaşlarını İyileştirmek için ATEŞ KOMUTUNU BASILI TUT. Bu yetenek, şifa gücü tamamen tükenene kadar birden fazla kez kullanılabilir. Skye kendini iyileştiremez.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "İZSÜRENLER",
                 "description": "Bir İzsüren figürü KUŞAN. En yakındaki üç düşmanın peşine düşecek üç tane İzsüren göndermek için ATEŞ ET. Bir İzsüren hedefine ulaştığında, hedefin Görüşünü Kısıtlar. Düşmanlar İzsürenleri yok edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -594,15 +594,15 @@
             "Tespit",
             "Savunma Tecriti"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/background.png",
+        "background": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/agent_image/background.png",
         "backgroundGradientColors": [
             "db9b75ff",
             "4268b3ff",
@@ -618,7 +618,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -627,25 +627,25 @@
                 "slot": "Ability1",
                 "displayName": "SİBER KAFES",
                 "description": "Siber kafesi ANINDA Cypher'ın önüne fırlat. Düşmanlar içinden geçtiğinde ses çıkaran ve görüşü engelleyen bir alan oluşturmak için ETKİNLEŞTİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "GİZLİ KAMERA",
                 "description": "Bir gizli kamera KUŞAN. Gizli kamerayı hedef konuma yerleştirmek için ATEŞ ET. Kamera görüşünü kontrol etmek için bu yeteneği TEKRAR KULLAN. Kamera kontrolü sendeyken düşmanları işaretleyen bir iğne fırlatmak için ATEŞ ET. Bu iğne, isabet ettiği herhangi bir düşmanın konumunu Açığa Çıkarır. Bu yeteneği TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "BUBİ TUZAĞI",
                 "description": "Bir bubi tuzağı KUŞAN. Hedef konuma yok edilebilir, gizli bir bubi tuzağı yerleştirmek için ATEŞ ET. Yerleştirilen konum ile karşısındaki duvar arasına bir hat çekilir. Bubi tuzağına yakalanan düşmanlar cihazı zamanında yok edemedikleri takdirde kısa süre içinde Yavaşlatılır ve Açığa Çıkar. Bu yeteneği TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "NÖRON HIRSIZI",
                 "description": "Ölü bir düşman üzerinde ANINDA kullan ve takımı hakkında bilgi indir. Kısa bir gecikmenin ardından hayatta olan diğer düşmanların konumu iki kere Açığa Çıkar.",
-                "displayIcon": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -660,15 +660,15 @@
             "Tespit",
             "Alan Hasarı"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/background.png",
+        "background": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/agent_image/background.png",
         "backgroundGradientColors": [
             "f7c7a5ff",
             "392931ff",
@@ -684,7 +684,7 @@
             "uuid": "1b47567f-8f7b-444b-aae3-b0c634622d10",
             "displayName": "Öncü",
             "description": "Öncüler, ilerlemesi tehlikeli köşeleri aşabilmeleri için takımlarına olanaklar yaratır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Breaker_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -693,25 +693,25 @@
                 "slot": "Ability1",
                 "displayName": "ŞOK OKU",
                 "description": "Şok okuna sahip bir yay KUŞAN. Patlayıcı oku ileri yollamak için ATEŞ ET. Ok çarpışma anında infilak eder ve yakındaki oyunculara hasar verir. Atış mesafesini uzatmak için ATEŞ DÜĞMESİNİ BASILI TUT. Oku iki kereye kadar sektirmek için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "KEŞİF OKU",
                 "description": "Keşif okuna sahip bir yay KUŞAN. Keşif okunu ileri yollamak için ATEŞ ET. Ok çarpışma anında etkinleşir ve görüş hattı yakınında kalan düşmanların konumunu Açığa Çıkarır. Düşmanlar bu oku yok edebilir. Atış mesafesini uzatmak için ATEŞ DÜĞMESİNİ BASILI TUT. Oku iki kereye kadar sektirmek için ALT. ATIŞ kullan. ",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "BAYKUŞ DRON",
                 "description": "Bir Baykuş Dron KUŞAN. Dronu göndermek ve hareketlerini kontrol etmek için ATEŞ ET. Dronun kontrolü sendeyken düşmanları işaretleyen bir iğne fırlatmak için ATEŞ ET. Bu iğne, isabet ettiği herhangi bir düşmanın konumunu Açığa Çıkarır. Düşmanlar Baykuş Dron'u yok edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "AVCININ HİDDETİ",
                 "description": "Üç taneye kadar duvar delici enerji patlaması ateşleyebilen bir yay KUŞAN. Sova'nın önündeki bir hat üzerinde enerji patlamaları oluşturmak ve isabet alan düşmanlara hasar verip konumlarını Açığa Çıkarmak için ATEŞ ET. Bu yetenek, yetenek sayacı etkinken iki kez daha YENİDEN KULLANILABİLİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -732,15 +732,15 @@
             "Savunma Tecriti",
             "Alan Hasarı"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/background.png",
+        "background": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/agent_image/background.png",
         "backgroundGradientColors": [
             "ffc300ff",
             "b87b00ff",
@@ -756,7 +756,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -765,25 +765,25 @@
                 "slot": "Grenade",
                 "displayName": "NANOSÜRÜ",
                 "description": "Nanosürü bombası KUŞAN. Bombayı fırlatmak için ATEŞ ET. Nanosürü bir yere isabet ettiği anda gizlenir. Yavaşça fırlatmak için ALT. ATIŞ kullan. Hasar veren nano robot sürüsünü salmak için Nanosürü'yü ETKİNLEŞTİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "ALARM BOTU",
                 "description": "Gizli bir Alarm Botu KUŞAN. Menzili içine giren düşmanların peşine düşen bir robot göndermek için ATEŞ ET. Robot hedefine ulaştığında patlayarak bölge içindeki düşmanları Savunmasız hale getirir. Gönderdiğin botu geri çağırmak için KUŞANMA DÜĞMESİNİ BASILI TUT.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "TARET",
                 "description": "Bir taret KUŞAN. 100 derecelik bir koni içindeki düşmanlara ateş eden bir taret yerleştirmek için ATEŞ ET. Taretin yönünü değiştirmek için ALT ATIŞ kullan. Yerleştirdiğin tareti kaldırmak için KUŞANMA DÜĞMESİNİ BASILI TUT. ",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "TECRİT",
                 "description": "Tecrit cihazını KUŞAN. Cihazı yerleştirmek için ATEŞ ET. Uzun bir hazırlık süresinin ardından cihazın etki alanında kalan düşmanların hepsi Alıkoyulur. Bu cihaz düşmanlar tarafından yok edilebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -795,15 +795,15 @@
         "developerName": "Mage",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/background.png",
+        "background": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/agent_image/background.png",
         "backgroundGradientColors": [
             "f2d6a3ff",
             "136c6bff",
@@ -819,7 +819,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Kontrol Uzmanı",
             "description": "Kontrol uzmanları takımlarını başarıya götürmek için tehlikeli bölgeleri ayrıştırmakta uzmandır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -828,25 +828,25 @@
                 "slot": "Ability1",
                 "displayName": "DALGAKIRAN",
                 "description": "Kalkan görevi gören bir su küresi KUŞAN. Fırlatmak için ATEŞ ET. Yavaşça fırlatmak için ALT. ATIŞ kullan. Küre yere temas edince mermileri engelleyen ve yok edilebilen bir su kalkanı ortaya çıkar.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "ÇAĞLAYAN",
                 "description": "Bir su dalgası KUŞAN. Dalganın duvarların içinden geçerek düz bir şekilde ilerlemesi için ATEŞ ET. Dalgayı durdurmak için TEKRAR KULLAN. Dalganın isabet ettiği oyuncular Yavaşlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "TAŞKIN",
                 "description": "Bir su duvarı KUŞAN. Suyu zemin boyunca hareket ettirmek için ATEŞ ET. Suyu haritanın içinden geçecek şekilde nişangâhının baktığı tarafa yöneltmek ve güzergâhı boyunca bir duvar oluşturmak için ATEŞ DÜĞMESİNİ BASILI TUT. Suyu erkenden durdurmak için ALT. ATIŞ kullan. Dalganın isabet ettiği oyuncular Yavaşlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "KAYNAMA NOKTASI",
                 "description": "Yadigârının gerçek gücünü KUŞAN. Yerde bir gayzer oluşturmak için ATEŞ ET. Alanın içindeki düşmanlar art arda gerçekleşen gayzer patlamalarının hedefi olur. Patlamalar isabet ettikleri oyuncuları Sersemletir.",
-                "displayIcon": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -858,15 +858,15 @@
         "developerName": "Nox",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/background.png",
+        "background": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/agent_image/background.png",
         "backgroundGradientColors": [
             "f147ffff",
             "823697ff",
@@ -882,7 +882,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -899,25 +899,25 @@
                 "slot": "Ability1",
                 "displayName": "DİKENLİ ÇİT",
                 "description": "Bir miktar sıvı metal KUŞAN. Gizli bir duvar tuzağı yerleştirmek için ATEŞ ET. Bir düşman tuzaktan geçtiğinde arkasında yok edilemeyen bir duvar oluşur. Duvar kısa bir süre sonra ortadan kalkar.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "ARK GÜLÜ",
                 "description": "Bir Ark Gülü KUŞAN. Gizli bir Ark Gülü yerleştirmek için bir yüzeye hedef al ve ATEŞ ET. Ark Gülü'nü duvarın arkasına yerleştirmek için ALT. ATIŞ kullan. Ark Gülü'ne bakan tüm oyuncuları kör etmek için yeteneği TEKRAR KULLAN. Bu yeteneği TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "KESKİN SARMAŞIK",
                 "description": "Bir miktar sıvı metal KUŞAN. Fırlatmak için ATEŞ ET. Sıvı metal indiği konumda görünmez olur. Keskin sarmaşıklardan oluşan ve içerisindeki tüm oyuncuları yavaşlatıp onlara hasar veren geniş bir alan oluşturmak için ETKİNLEŞTİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "ÇELİK BAHÇESİ",
                 "description": "Dikenli bir sıvı metal KUŞAN. Metal dikenlerden oluşan bir akım gönderip kısa bir süre sonra düşmanların birincil silahlarına TUTUKLUK YAPTIRMAK için ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/efba5359-4016-a1e5-7626-b1ae76895940/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -931,15 +931,15 @@
         "characterTags": [
             "Görüş Kontrol Uzmanı"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/background.png",
+        "background": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/agent_image/background.png",
         "backgroundGradientColors": [
             "89f476ff",
             "347334ff",
@@ -955,7 +955,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Kontrol Uzmanı",
             "description": "Kontrol uzmanları takımlarını başarıya götürmek için tehlikeli bölgeleri ayrıştırmakta uzmandır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -964,25 +964,25 @@
                 "slot": "Ability1",
                 "displayName": "ZEHİR BULUTU",
                 "description": "Bir gaz salgılayıcı KUŞAN. Tur boyunca devamlı yerde kalacak salgılayıcıyı fırlatmak için ATEŞ ET. Yavaşça fırlatmak için ALT. ATIŞ kullan. Yakıt harcayarak içindeki rakiplere Çürüme uygulayan zehirli bir duman bulutu oluşturmak için yeteneği TEKRAR KULLAN. Bu yeteneği tur başlamadan önce TEKRAR YERLEŞTİRMEK üzere bıraktığın yerden alabilirsin ve tur boyunca birden fazla kez TEKRAR KULLANABİLİRSİN.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "ZEHİR PERDESİ",
                 "description": "Yüzeyleri delip geçen bir gaz salgılayıcı fırlatıcısı KUŞAN. Gaz salgılayıcılardan uzun bir hat oluşturmak için ATEŞ ET. Yeteneği TEKRAR KULLAN ve içinden geçen rakiplere Çürüme uygulayan yüksek bir zehir duvarı yakıt karşılığında oluştur. Bu yetenek birden fazla kez TEKRAR KULLANILABİLİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "ASİT HAVUZU",
                 "description": "Bir kimyasal fırlatıcı KUŞAN. Yere çarptığında parçalanan bir kapsül fırlatmak için ATEŞ ET. Oluşturduğu uzun süreli kimyasal alanda kalan düşmanlar hasar alır ve Savunmasız hale gelir.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "VIPER'IN İNİ",
                 "description": "Bir kimyasal püskürtücü KUŞAN. Viper'ın etrafında her yöne yayılan kimyasal bir bulut oluşturmak için ATEŞ ET. Oluşan geniş bulut, içinde kalan oyuncuların Görüşünü Kısıtlar ve düşmanların canlarını Çürütür. Bulutu erken dağıtmak için yetenek düğmesini BASILI TUT.",
-                "displayIcon": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/707eab51-4836-f488-046a-cda6bf494859/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1003,15 +1003,15 @@
             "Esneklik",
             "Kendine Yetme"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
+        "background": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/agent_image/background.png",
         "backgroundGradientColors": [
             "f7bf60ff",
             "ea6d4eff",
@@ -1027,7 +1027,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1036,25 +1036,25 @@
                 "slot": "Grenade",
                 "displayName": "ATEŞTEN DUVAR",
                 "description": "Bir ateş duvarı KUŞAN. Haritanın içinde ilerleyen, görüş engelleyen ve içinden geçenlere hasar veren ateş duvarını göndermek için ATEŞ ET. Ateş duvarı Phoenix'e hasar vermek yerine onu iyileştirir. Ateş duvarını nişangâhın yönünde bükmek için BASILI TUTARAK ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "YAKAR TOP",
                 "description": "Bir alev topu KUŞAN. Yere temas ettiğinde ya da bir gecikmenin ardından patlayan alev topunu fırlatmak için ATEŞ ET. Yerde bir süre kalan alev bölgesi düşmanlara hasar verir. Alev bölgesi Phoenix'e hasar vermek yerine onu iyileştirir. Yavaşça fırlatmak için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "FALSO",
                 "description": "Kavisli giden ve fırlatıldıktan kısa bir süre sonra patlayan bir işaret küresi KUŞAN. İşaret küresine sola doğru yön vermek için ATEŞ ET. Küre patladığında onu gören tüm oyuncular Kör olur. Küreyi sağa doğru göndermek için ALT. ATIŞ kullan. Falso'nun yükü her iki skorda bir dolar.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "YAKARDÖNER",
                 "description": "Phoenix'in bulunduğu konumu ANINDA işaretle. Yetenek etkinken ölmek veya süresinin dolması yeteneği sonlandırır ve Phoenix'i işaretlenen konumda dolu canla ve yeteneği kullandığı esnadaki zırh miktarıyla hayata döndürür.",
-                "displayIcon": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
@@ -1072,15 +1072,15 @@
         "developerName": "Pine",
         "releaseDate": "2025-10-07T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/agent_image/background.png",
         "backgroundGradientColors": [
             "1f6178ff",
             "0e2c41ff",
@@ -1096,7 +1096,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1113,25 +1113,25 @@
                 "slot": "Ability2",
                 "displayName": "TEHDİTSAVAR",
                 "description": "Tehditsavar'ı KUŞAN. Tehditsavar'ı belirlenen konuma yerleştirmek için ATEŞ ET. Yerleştirdikten sonra etkinleştirmek için TEKRAR KULLAN. Etkin hâldeki Tehditsavar bir oyuncudan SEKEBİLEN veya silahla yok edilebilen bütün yetenekleri yok eder. Düşmanlar Tehditsavar'ı yok edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "GERİ SAR",
                 "description": "Bir burgaç KUŞAN. Zemine yerleştirmek için ATEŞ ET. Burgaca ışınlanmak için menzilindeyken ve burgaca bakarken ETKİNLEŞTİR. SATIN ALMA EVRESİ sırasında burgacı TEKRAR YERLEŞTİRMEK üzere geri alabilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "EVRİM",
                 "description": "ANINDA tamamen mutasyona uğramaya başlayarak kuvvetli savaş ile can yenilemesi ve bütün zayıflatma etkilerine karşı BAĞIŞIKLIK kazanırsın.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "DARBOĞAZ",
                 "description": "Mutasyonundan yapışkan bir parçacık KUŞAN. Fırlatmak için ATEŞ ET. Parçacık yere değdiğinde açılır ve düşmanları yerine sabitleyen bir tuzak oluşturur. Sabitlenmiş düşmanlar Sağır olur ve Çürüme hasarı almaya başlar. Düşmanlar etkinleşmeden önce tuzağı yok edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1143,15 +1143,15 @@
         "developerName": "Rift",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/background.png",
+        "background": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/agent_image/background.png",
         "backgroundGradientColors": [
             "f47dc9ff",
             "a54498ff",
@@ -1167,7 +1167,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Kontrol Uzmanı",
             "description": "Kontrol uzmanları takımlarını başarıya götürmek için tehlikeli bölgeleri ayrıştırmakta uzmandır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1176,31 +1176,31 @@
                 "slot": "Ability1",
                 "displayName": "NOVA DARBESİ",
                 "description": "Astral Yolcu halindeyken yıldız yerleştir (ulti düğmesi).\n\nPatlayarak Nova Darbesi oluşturması için bir yıldızı ETKİNLEŞTİR. Nova Darbesi kısa bir süre güç topladıktan sonra patlayarak etki alanı içindeki tüm oyuncuları Sersemletir.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "YILDIZ BULUTU / KOZMİK ÇÖZÜNÜM",
                 "description": "Astral Yolcu halindeyken yıldız yerleştir (ulti düğmesi). \nDönüşerek Yıldız Bulutu (duman) oluşturması için bir yıldızı ETKİNLEŞTİR.\nBir yıldızı Kozmik Çözünüm'le geri almak için KULLAN. Geri alınan yıldızı belli bir süre sonra tekrar yerleştirebilirsin.\nKozmik Çözünüm, dönmeden önce yıldızın yerinde kısa süreliğine sahte bir Yıldız Bulutu oluşturur.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "ÇEKİM ALANI",
                 "description": "Astral Yolcu halindeyken yıldız yerleştir (ulti düğmesi).\n\nÇekim Alanı oluşturmak için bir yıldızı ETKİNLEŞTİR. Etki alanı içindeki oyuncular merkeze çekilir ve ardından merkez patlayarak içerideki oyuncuları Savunmasız hale getirir.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "ASTRAL YOLCU / \nKOZMİK AYRIM",
                 "description": "ATIŞ düğmesiyle yıldız yerleştirebileceğin Astral Yolcu haline geçmek için ETKİNLEŞTİR. Yerleştirilen yıldızlar daha sonra etkinleştirilerek Nova Darbesi, Yıldız Bulutu ve Çekim Alanı'na dönüştürülebilir.\n\nKozmik Ayrım yeteneği hazır olduğunda Astral Yolcu halindeyken ALT. ATIŞ kullanarak hedef al ve ATIŞ düğmesine basarak iki konum seç. Bu iki konum arasında sonsuz bir Kozmik Ayrım bağlantısı oluşur. Kozmik Ayrım mermileri ve sesleri engeller.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "ASTRAL YOLCU",
                 "description": "Astral Yolcu haline geçmek için ultiyi ETKİNLEŞTİR ve TEMEL ATIŞ düğmesiyle yıldız yerleştir. Yeteneklerini kullanmak için yıldızları Nova Darbesi, Yıldız Bulutu veya Çekim Alanı'yla hedef al.",
-                "displayIcon": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1215,15 +1215,15 @@
             "Görüş Kontrolü",
             "Alan Hasarı"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/background.png",
+        "background": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/agent_image/background.png",
         "backgroundGradientColors": [
             "eb953fff",
             "892c1bff",
@@ -1239,7 +1239,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Kontrol Uzmanı",
             "description": "Kontrol uzmanları takımlarını başarıya götürmek için tehlikeli bölgeleri ayrıştırmakta uzmandır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1248,25 +1248,25 @@
                 "slot": "Grenade",
                 "displayName": "KUVVET İŞARETİ",
                 "description": "ANINDA bir Kuvvet İşareti at. Yere inen Kuvvet İşareti oyunculara Kuvvetli Savaş ve Hız Takviyesi sağlayan bir alan oluşturur.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "YAKICI",
                 "description": "Bir yangın bombası atar KUŞAN. Yerde durduğu anda infilak eden bir bomba fırlatmak için ATEŞ ET. Yerde bir süre kalan alev bölgesi, içindeki oyunculara hasar verir.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "DUMANLI HAVA SAHASI",
                 "description": "Bir taktik harita KUŞAN. Brimstone'un duman bulutlarının ineceği konumları belirlemek için ATEŞ ET. Seçili alanda görüş engelleyen uzun süreli duman bulutları oluşturmak için ALT. ATIŞ ile onayla.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "UYDU SALDIRISI",
                 "description": "Bir taktik harita KUŞAN. Seçili konuma bir süre yerde kalan bir uydu saldırısı lazeri fırlatmak için ATEŞ ET. Seçili alanda kalan oyuncular zaman içinde yüksek hasar alır.",
-                "displayIcon": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1278,15 +1278,15 @@
         "developerName": "Sequoia",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/background.png",
+        "background": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/agent_image/background.png",
         "backgroundGradientColors": [
             "c4a1ffff",
             "3d0fd4ff",
@@ -1302,7 +1302,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1319,25 +1319,25 @@
                 "slot": "Ability1",
                 "displayName": "GAREZ",
                 "description": "Bir moleküler dalga KUŞAN. Dalgayı ileri fırlatarak temas ettiği bütün oyunculara Savunmasız ve Sindirme etkileri uygulamak için ATEŞ ET. Bu dalga duvarlar dahil olmak üzere sert cisimlerin içinden geçebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "KİRALIK KATİL",
                 "description": "Bir boyutlararası arena KUŞAN. Seni ve temas ettiği ilk düşmanı iyileştirip ölümüne bir düelloya gireceğiniz arenaya çekecek bir enerji dalgasını savaş meydanına göndermek için ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "ÇELİK İRADE",
                 "description": "ANINDA odaklanmaya başla. Odaklanma tamamlandığında herhangi bir kaynaktan gelecek ilk hasarı engelleyen bir kalkan kazanırsın, silahını daha hızlı doldurursun ve öldürdüğün veya ölmeden önce senden hasar alan düşmanların enerji küresi düşürdüğü bir akış haline girersin. Bu küreye ateş ettiğinde akış halini ve var olan kalkanını yenilersin veya yeni bir kalkan kazanırsın.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "B PLANI",
                 "description": "Prizmatik enerji biriktirmek için KUŞAN. Yok edilemeyen ve mermileri engelleyen bir enerji duvarını ileri doğru göndermek için ATEŞ ET. Duvarı ileri doğru daha yavaş göndermek için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/Grenade/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1349,15 +1349,15 @@
         "developerName": "Smonk",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/background.png",
+        "background": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/agent_image/background.png",
         "backgroundGradientColors": [
             "f17cadff",
             "062261ff",
@@ -1373,7 +1373,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Kontrol Uzmanı",
             "description": "Kontrol uzmanları takımlarını başarıya götürmek için tehlikeli bölgeleri ayrıştırmakta uzmandır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1390,25 +1390,25 @@
                 "slot": "Grenade",
                 "displayName": "DİNÇLEŞTİRİCİ ÖZÜT",
                 "description": "Clove'un öldürdüğü veya hasar vererek asist aldığı düşmanlardan yaşam enerjisi çekerek hız ve geçici can kazanmak için ETKİNLEŞTİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "KATAKULLİ",
                 "description": "Savaş meydanının haritasını KUŞAN. Clove'un duman bulutlarının düşeceği konumları belirlemek için ATEŞ ET. Seçili alanlarda görüş engelleyen duman bulutları oluşturmak için ALT. ATIŞ ile onayla. Clove bu yeteneği öldükten sonra da kullanabilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "DAHA ÖLMEDİK",
                 "description": "Öldükten sonra hayata dönmek için ETKİNLEŞTİR. Clove hayata döndükten sonra belirli bir süre içerisinde bir skor veya hasar yoluyla asist almazsa ölür. Yeteneği erkenden iptal etmek için TEKRAR ETKİNLEŞTİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "İŞGÜZAR",
                 "description": "Bir ölümsüzlük özü parçası KUŞAN. Parçayı fırlatmak için ATEŞ ET. Fırlattığın parça yere değdikten sonra kısa bir gecikmenin ardından patlayarak etki alanında kalan tüm hedeflere geçici Çürüme uygular.",
-                "displayIcon": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/Ability1/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1420,15 +1420,15 @@
         "developerName": "Sprinter",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/background.png",
+        "background": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/agent_image/background.png",
         "backgroundGradientColors": [
             "ba89ffff",
             "6241ccff",
@@ -1444,7 +1444,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1453,25 +1453,25 @@
                 "slot": "Ability2",
                 "displayName": "YÜKSEK DEVİR",
                 "description": "Neon'u Hızlandırmak için ANINDA gücünü odakla. Yükü dolduğunda atılmak için ALT. ATIŞ'la elektrikli kayma hareketini etkinleştir. Her iki skorda bir kayma hareketinin yükü dolar. Skor aldığında yakıt yeniden dolar. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "ELEKTRO OK",
                 "description": "ANINDA bir enerji oku fırlat. Ok bir kere seker. Ok bir yüzeye çarptığında Sersemletici bir patlamayla altındaki zemine elektrik akımı verir.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "HIZ ŞERİDİ",
                 "description": "Önüne doğru, kısa bir mesafe veya bir yüzeye çarpana kadar ilerleyen iki enerji hattı çıkarmak için ATEŞ ET. Bu enerji hatları, görüş engelleyen statik elektrik duvarlarına dönüşür.",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "ENERJİ PATLAMASI",
                 "description": "Neon'un tüm gücünü ve hızını kısa bir süreliğine etkinleştirerek tüm yakıtını yenile ve bir kayma yükü kazan. Gücünü, hareket ederken isabetliliği yüksek olan ölümcül bir ışın saldırısına dönüştürmek için ATEŞ ET. Skor almak bu etkinin süresini yeniler. ",
-                "displayIcon": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1483,15 +1483,15 @@
         "developerName": "Stealth",
         "releaseDate": "1970-01-01T00:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/background.png",
+        "background": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/agent_image/background.png",
         "backgroundGradientColors": [
             "66a8ffff",
             "3b37a7ff",
@@ -1507,7 +1507,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1516,25 +1516,25 @@
                 "slot": "Grenade",
                 "displayName": "FAKE AT",
                 "description": "Etkinleştirildiğinde Yoru'nun birebir kopyası biçiminde bir yanılsama KUŞAN. Yanılsamayı etkinleştirerek ileri göndermek için ATEŞ ET. Hareketsiz bir yanılsama yerleştirmek için ALT. ATIŞ'a bas. Yerleştirilmiş hareketsiz yanılsamanın ileri yürümesi için KULLAN'a bas. Yanılsamalar düşmanlar tarafından yok edildiğinde Kör Edici bir flaşla patlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "KÖR NOKTA",
                 "description": "Kararsız bir boyut parçacığını gerçeklikten koparıp almak için KUŞAN. Parçacığı fırlatmak için ATEŞ ET. Fırlattığın parçacık sert bir yüzeye çarptığında Kör Edici bir ışık saçar.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "ÇATKAPI",
                 "description": "Bir boyut geçidi küresi KUŞAN. Küreyi ilerletmek için ATEŞ ET. Küreyi sabit bir yere yerleştirmek için ALT. ATIŞ kullan. Kürenin bulunduğu konuma ışınlanmak için küreyi ETKİNLEŞTİR. Sahte bir ışınlanma görüntüsü vermek için KULLAN. ÇATKAPI'nın yükü her iki skorda bir dolar.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "BOYUTLARARASI GEÇİŞ",
                 "description": "Boyutlararasını görebilen bir maske KUŞAN. Yoru'nun boyutuna geçmek için ATEŞ ET. Yoru'nun boyutundayken dışarıdaki düşmanlar tarafından görülemez ve onlardan etkilenmezsin. Yoru'nun boyutundan erken ayrılmak için TEKRAR ETKİNLEŞTİR.",
-                "displayIcon": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1546,15 +1546,15 @@
         "developerName": "Terra",
         "releaseDate": "2025-03-04T22:00:00Z",
         "characterTags": null,
-        "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
-        "homeScreenPromoTileImage": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/homescreenpromotileimage.png",
-        "background": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/background.png",
+        "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/minimapportrait.png",
+        "homeScreenPromoTileImage": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/homescreenpromotileimage.png",
+        "background": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/agent_image/background.png",
         "backgroundGradientColors": [
             "affb9bff",
             "ac53acff",
@@ -1570,7 +1570,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": {
@@ -1587,25 +1587,25 @@
                 "slot": "Ability2",
                 "displayName": "KIRILMA",
                 "description": "ANINDA yere bir ışık huzmesi yerleştir. Saf ışığa dönüşüp hızlı bir şekilde ışık huzmesinin konumuna dönmek için TEKRAR ETKİNLEŞTİR. Saf ışığa dönüştüğünde hasar görmez olursun. Kırılma'nın yükü her iki skorda bir dolar.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "TUTULMA",
                 "description": "ANINDA yere değer değmez patlayan bir ışık kümesi fırlat. Işık kümesi yakındaki oyunculara Ağırlaştırma uygulayarak onları güçlü bir hareket ve silah yavaşlatmasına maruz bırakır.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ability1",
                 "displayName": "IŞIK HIZI",
                 "description": "Hızla atılmaya hazırlanmak için KUŞAN. İki kere ileri atılmak için ATEŞ ET. Bir kere ileri atılmak için ALT. ATIŞ kullan. İlk atılmada yukarı yönlü hareket edebilirsin.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "YAKINSAYAN IŞINLAR",
                 "description": "Prizmatik gücünü odaklamak için KUŞAN. Işın demeti saçan bir kopyanı oluşturmak için ATEŞ ET. Kısa bir gecikmenin ardından büyük oranda hızlanırsın ve ışın demeti genişleyerek bölgedeki diğer oyunculara Ağırlaştırma uygular.",
-                "displayIcon": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/df1cb487-4902-002e-5c17-d28e83e78588/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1620,15 +1620,15 @@
             "İyileşme",
             "Oyalama"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/background.png",
+        "background": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/agent_image/background.png",
         "backgroundGradientColors": [
             "7bfedeff",
             "41819aff",
@@ -1644,7 +1644,7 @@
             "uuid": "5fc02f99-4091-4486-a531-98459a3e95e9",
             "displayName": "Gözcü",
             "description": "Gözcüler hem saldıran hem savunan turlarında bölgeleri kapatabilen ve kanatları kolaçan eden savunma uzmanlarıdır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Sentinel_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1653,25 +1653,25 @@
                 "slot": "Ability1",
                 "displayName": "YAVAŞLATAN KÜRE",
                 "description": "Bir yavaşlatma küresi KUŞAN. Yere temas ettiğinde patlayarak bir süre yerde kalan ve oluşturduğu alanda kalan oyuncuları ve oyuncuların atılma hızlarını Yavaşlatan bir yavaşlatma küresi göndermek için ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "CAN KÜRESİ",
                 "description": "Bir iyileştirme küresi KUŞAN. Nişangâhını hasar almış bir silah arkadaşına doğrult ve onu Zaman İçinde İyileştirmek için ATEŞ ET. Sage hasar aldıysa, kendini Zaman İçinde İyileştirmek için ALT. ATIŞ kullan.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "BARİYER KÜRESİ",
                 "description": "Bir Bariyer Küresi KUŞAN. Birkaç saniye sonra güçlenen bir duvar yerleştirmek için ATEŞ ET. ALT. ATIŞ, hedefleyiciyi döndürür.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "DİRİLİŞ",
                 "description": "Bir diriltme yeteneği KUŞAN. Nişangâhını dost bir cesede doğrult ve onu hayata döndürmek için ATEŞ ET. Silah arkadaşın kısa bir sürenin ardından tamamen iyileşmiş olarak hayata döner.",
-                "displayIcon": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1686,15 +1686,15 @@
             "Kaçınma",
             "Kendine Yetme"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/background.png",
+        "background": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/agent_image/background.png",
         "backgroundGradientColors": [
             "e46e77ff",
             "c44d9fff",
@@ -1710,7 +1710,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1719,25 +1719,25 @@
                 "slot": "Ability1",
                 "displayName": "SÖMÜR",
                 "description": "Ruh Hasadı: Reyna'nın öldürdüğü veya Reyna'dan hasar aldıktan sonra 3 saniye içinde ölen düşmanlar, arkalarında 3 saniyeliğine Ruh Küreleri bırakır.\n\nSömür: ANINDA yakınlardaki bir Ruh Küresi'ni tüket ve hızla İyileş. İMPARATORİÇE etkinse yetenek otomatik olarak kullanılır ve Ruh Küresi harcamaz.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "AZLET",
                 "description": "Yakınlardaki bir Ruh Küresi'ni ANINDA tüketerek kısa süreliğine Saydamlaş. İMPARATORİÇE etkinse, aynı zamanda Görünmez olursun.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "KEM GÖZ",
                 "description": "Yok edilebilir, ruhtan bir göz KUŞAN. Gözü yakın mesafede ileri doğru kullanmak için ETKİNLEŞTİR. Göz, ona bakan tüm düşmanların Görüşünü Kısıtlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "İMPARATORİÇE",
                 "description": "ANINDA bir coşku haline geçerek atış, kuşanma ve doldurma hızını ciddi şekilde arttıran bir Kuvvetli Savaş edin. Ruh Hasadı yetenekleri için sonsuz yük kazanırsın.",
-                "displayIcon": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1752,15 +1752,15 @@
             "Hareketlilik",
             "Görüş Kontrolü"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/background.png",
+        "background": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/agent_image/background.png",
         "backgroundGradientColors": [
             "2fdddeff",
             "4f53afff",
@@ -1776,7 +1776,7 @@
             "uuid": "4ee40330-ecdd-4f2f-98a8-eb1243428373",
             "displayName": "Kontrol Uzmanı",
             "description": "Kontrol uzmanları takımlarını başarıya götürmek için tehlikeli bölgeleri ayrıştırmakta uzmandır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Strategist_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1785,25 +1785,25 @@
                 "slot": "Ability1",
                 "displayName": "PARANOYA",
                 "description": "Kör edici bir küre KUŞAN. İleri fırlatmak için ATEŞ ET. Küre kısa süreliğine, dokunduğu düşmanların Görüşünü Kısıtlar ve onları Sağır eder. Bu yetenek doğrudan duvarlardan geçebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "KARANLIK ÖRTÜ",
                 "description": "Bir gölge küresi KUŞAN, küreleri yerleştirmek ve hedef almak için soyut bir dünyaya adım at. Küreyi işaretlenen konuma fırlatarak görüş engelleyen uzun süreli bir gölge küresi oluşturmak için yetenek düğmesine BAS. Hedef alma esnasında işaretçiyi daha uzağa götürmek için ATEŞ DÜĞMESİNİ BASILI TUT. İşaretçiyi daha yakına getirmek için ALT. ATIŞ DÜĞMESİNİ BASILI TUT. Normal hedef almaya geçmek için DOLDURMA DÜĞMESİNE BAS.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "GİZLİ ADIM",
                 "description": "Bir gizli adım yeteneği KUŞAN ve menzil göstergesini görüntüle. Kısa bir beklemenin ardından işaretli konuma ışınlanmak için ATEŞ ET.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "GÖLGELERİN İÇİNDEN",
                 "description": "Bir taktik harita KUŞAN. Seçili konuma ışınlanmaya başlamak için ATEŞ ET. Omen, ışınlanma esnasında Gölge suretine bürünür ve düşmanları onu yok ederek ışınlanmayı iptal edebilir ya da Omen KUŞANMAYA BASARAK ışınlanmasını kendisi iptal edebilir.",
-                "displayIcon": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/8e253930-4c05-31dd-1b6c-968525494517/abilities/Ultimate/displayicon.png"
             }
         ],
         "voiceLine": null
@@ -1818,15 +1818,15 @@
             "Kaçınma",
             "Hareketlilik"
         ],
-        "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "displayIconSmall": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
-        "bustPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "fullPortraitV2": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
-        "killfeedPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/killfeedportrait.png",
-        "minimapPortrait": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+        "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "displayIconSmall": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/displayicon.png",
+        "bustPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "fullPortraitV2": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/fullportrait.png",
+        "killfeedPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/killfeedportrait.png",
+        "minimapPortrait": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/minimapportrait.png",
         "homeScreenPromoTileImage": null,
-        "background": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/background.png",
+        "background": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/agent_image/background.png",
         "backgroundGradientColors": [
             "90e3fdff",
             "557f8cff",
@@ -1842,7 +1842,7 @@
             "uuid": "dbe8757e-9e92-4ed4-b39f-9dfc589691d4",
             "displayName": "Düellocu",
             "description": "Düellocular yetenek ve becerilerini kullanarak takımları için rakibe hasar yağdıran ve çatışma başlatan, kendi kendilerine yeten, etkili savaşçılardır.",
-            "displayIcon": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png",
+            "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/role/displayicon.png",
             "assetPath": "ShooterGame/Content/Characters/_Core/Roles/Assault_PrimaryDataAsset"
         },
         "recruitmentData": null,
@@ -1851,31 +1851,31 @@
                 "slot": "Ability1",
                 "displayName": "HAFİFLE",
                 "description": "Jett'i ANINDA havaya doğru fırlat.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability1/displayicon.png"
             },
             {
                 "slot": "Ability2",
                 "displayName": "RÜZGÂR GİBİ",
                 "description": "Kısa süreliğine sert bir rüzgâr estirmeye hazırlanmak için ETKİNLEŞTİR. Jett'i hareket ettiği yönde fırlatmak için TEKRAR KULLAN. Jett hareketsiz durursa ileriye doğru atılır. Rüzgâr Gibi'nin yükü her iki skorda bir dolar.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ability2/displayicon.png"
             },
             {
                 "slot": "Grenade",
                 "displayName": "DUMAN BULUTU",
                 "description": "ANINDA yaptığın atış, yüzeye çarptığında patlayarak kısa süreliğine görüş engelleyen bir sis bulutuna dönüşür. Duman bulutuna nişangâhın yönünde falso vermek için yetenek düğmesini BASILI TUT.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Grenade/displayicon.png"
             },
             {
                 "slot": "Ultimate",
                 "displayName": "KESKİN FIRTINA",
                 "description": "Oldukça isabetli fırlatma bıçakları KUŞAN. Hedefine tek bir bıçak fırlatmak için ATEŞ ET. Düşmanı öldürdüğünde yükü dolacak. Kalan tüm hançerleri hedefine fırlatmak için ALT. ATIŞ kullan. Bu saldırı düşmanı öldürdüğünde yük doldurmaz.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Ultimate/displayicon.png"
             },
             {
                 "slot": "Passive",
                 "displayName": "SÜZÜL",
                 "description": "Düşerken zıplama düğmesini basılı tutmak, havada süzülmeni sağlar.",
-                "displayIcon": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png"
+                "displayIcon": "http://localhost:1234/agents/images/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/Passive/displayicon.png"
             }
         ],
         "voiceLine": null
